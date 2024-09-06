@@ -6,3 +6,5 @@ Para activar el mod:
 2. Asegúrate de que el mod está activado en el juego y es el primero en la lista.
 3. Selecciona el idioma español.
 4. Reinicia el juego.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3325247275
