@@ -319,7 +319,7 @@
 	  </Record>
 	  <Record>
 		<Key>Clear</Key>
-		<Value>Limpiar</Value>
+		<Value>Quitar</Value>
 	  </Record>
 	  <Record>
 		<Key>Collect</Key>
@@ -1180,45 +1180,45 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterCarbonDioxide</Key>
-  <Value>Botella (CO2)</Value>
+  <Value>Bombona (CO2)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterPollutants</Key>
-  <Value>Botella (Contaminantes)</Value>
+  <Value>Bombona (Contaminantes)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterEmpty</Key>
-  <Value>Botella</Value>
+  <Value>Bombona</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterFuel</Key>
-  <Value>Botella (Combustible)</Value>
+  <Value>Bombona (Combustible)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterVolatiles</Key>
-  <Value>Botella (Volátiles)</Value>
+  <Value>Bombona (Volátiles)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterNitrogen</Key>
-  <Value>Botella (Nitrógeno)</Value>
+  <Value>Bombona (Nitrógeno)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterOxygen</Key>
-  <Value>Botella (Oxígeno)</Value>
+  <Value>Bombona (Oxígeno)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterWater</Key>
-  <Value>Botella de Líquido (Agua)</Value>
+  <Value>Bombona de Líquido (Agua)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemLiquidCanisterEmpty</Key>
-  <Value>Botella de Líquido</Value>
+  <Value>Bombona de Líquido</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -1253,12 +1253,12 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemGasTankStorage</Key>
-  <Value>Kit (Almacenamiento de Botellas)</Value>
+  <Value>Kit (Almacenamiento de Bombonas)</Value>
   <Description>Este kit produce un {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemLiquidTankStorage</Key>
-  <Value>Kit (Almacenamiento de Botellas de Líquido)</Value>
+  <Value>Kit (Almacenamiento de Bombonas de Líquido)</Value>
   <Description>Este kit produce un {THING:ItemLiquidTankStorage} para rellenar una {THING:ItemLiquidCanisterEmpty}.</Description>
 </RecordThing>
 <RecordThing>
@@ -1274,7 +1274,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemCopperOre</Key>
   <Value>Mineral (Cobre)</Value>
-  <Description>El cobre es un elemento químico con el símbolo "Cu". Este material común y altamente conductor se encuentra en la mayoría de los cuerpos astronómicos y se utiliza en una variedad de procesos de manufactura, incluidos componentes electrónicos, aleaciones y cables.</Description>
+  <Description>El cobre es un elemento químico con el símbolo "Cu". Este material común y altamente conductor se encuentra en la mayoría de los cuerpos astronómicos y se utiliza en una variedad de procesos de construcción, incluidos componentes electrónicos, aleaciones y cables.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemGoldIngot</Key>
@@ -1649,8 +1649,8 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemSpacepack</Key>
-  <Value>Espacio</Value>
-  <Description>El básico {LINK:CHAC;CHAC} spacepack no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el spacepack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez compartimentos de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemJetpackBasic} o {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el spacepack flote cuando se alcanza una determinada altura. USA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
+  <Value>Mochila Espacial</Value>
+  <Description>La básica mochila espacial {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez compartimentos de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemJetpackBasic} o {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack flote cuando se alcanza una determinada altura. USA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanBlack</Key>
@@ -1799,7 +1799,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>MotherboardManufacturing</Key>
-  <Value>Placa Base de Manufactura</Value>
+  <Value>Placa Base de Construcción</Value>
   <Description>Obsoleto.</Description>
 </RecordThing>
 <RecordThing>
@@ -2901,7 +2901,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 </RecordThing>
 <RecordThing>
   <Key>ItemKitLogicInputOutput</Key>
-  <Value>Kit (Lógica I/O)</Value>
+  <Value>Kit (E/S Lógico)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -3641,7 +3641,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterSmart</Key>
-  <Value>Botella de Gas (Inteligente)</Value>
+  <Value>Bombona de Gas (Inteligente)</Value>
 </RecordThing>
 <RecordThing>
   <Key>CartridgeConfiguration</Key>
@@ -4010,7 +4010,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterNitrousOxide</Key>
-  <Value>Botella de Gas (Durmiendo)</Value>
+  <Value>Bombona de Gas (Durmiendo)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemNVG</Key>
@@ -5705,8 +5705,8 @@ Un conjunto cuádruple de motores eléctricos montados en los cubos impulsa el m
 </RecordThing>
 <RecordThing>
   <Key>ItemCharcoal</Key>
-  <Value>Carbón</Value>
-  <Description>El carbón es un residuo de carbono negro y ligero producido al calentar {THING:ItemBiomass} en un {THING:StructureArcFurnace}. Contiene menos potencial energético que {THING:ItemCoalOre}, pero puede ser utilizado como fuente básica de combustible. El carbón también puede ser sustituido por el carbón en recetas de {LINK:IngotPage;alloy}.</Description>
+  <Value>Carbón vegetal</Value>
+  <Description>El carbón vegetal es un residuo de carbono negro y ligero producido al calentar {THING:ItemBiomass} en un {THING:StructureArcFurnace}. Contiene menos potencial energético que {THING:ItemCoalOre}, pero puede ser utilizado como fuente básica de combustible. El carbón también puede ser sustituido por el carbón en recetas de {LINK:IngotPage;alloy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitSolarPanelReinforced</Key>
@@ -5959,7 +5959,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemLiquidCanisterSmart</Key>
-  <Value>Tanque de Líquido (Inteligente)</Value>
+  <Value>Bombona de Líquido (Inteligente)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -7359,7 +7359,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemHighVolumeGasCanisterEmpty</Key>
-  <Value>Canister de Gas de Alto Volumen</Value>
+  <Value>Bombona de Gas de Alto Volumen</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -10175,7 +10175,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>MainMenuWorkshop</Key>
-  <Value>Taller</Value>
+  <Value>Workshop</Value>
 </Record>
 <Record>
   <Key>MainMenuSettings</Key>
@@ -11007,7 +11007,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>PromptUnsubscribeBody</Key>
-  <Value>¿Estás seguro de que quieres desuscribirte de este elemento de la WorkShop?</Value>
+  <Value>¿Estás seguro de que quieres desuscribirte de este elemento de la Workshop?</Value>
 </Record>
 <Record>
   <Key>PromptUnsubscribeConfirm</Key>
@@ -11556,7 +11556,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>ButtonClear</Key>
-  <Value>Limpiar</Value>
+  <Value>Quitar</Value>
 </Record>
 <Record>
   <Key>StatusWindowThrust</Key>
@@ -11664,35 +11664,35 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 		<Record>
 		  <Key>ConnectionPropellant</Key>
-		  <Value>Propellant</Value>
+		  <Value>Propelente</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsChunkRenderDistance</Key>
-		  <Value>Chunk Render Distance</Value>
+		  <Value>Distancia de Renderizado de Chunk</Value>
 		</Record>
 		<Record>
 		  <Key>ScenarioScoreboardBackToMenu</Key>
-		  <Value>Return to Main Menu</Value>
+		  <Value>Volver al Menú Principal</Value>
 		</Record>
 		<Record>
 		  <Key>ScenarioScoreboardReturnToGame</Key>
-		  <Value>Return to Game</Value>
+		  <Value>Volver al Juego</Value>
 		</Record>
 		<Record>
 		  <Key>ScenarioScoreboardHeading</Key>
-		  <Value>Scenario Complete</Value>
+		  <Value>Escenario Completo</Value>
 		</Record>
 		<Record>
 		  <Key>ButtonCopy</Key>
-		  <Value>Copy</Value>
+		  <Value>Copiar</Value>
 		</Record>
 		<Record>
 		  <Key>ButtonPaste</Key>
-		  <Value>Paste</Value>
+		  <Value>Pegar</Value>
 		</Record>
 		<Record>
 		  <Key>ButtonHelp</Key>
-		  <Value>Help</Value>
+		  <Value>Ayuda</Value>
 		</Record>
 		<Record>
 		  <Key>ButtonVariables</Key>
@@ -11704,15 +11704,15 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 		</Record>
 		<Record>
 		  <Key>HeadingHelp</Key>
-		  <Value>help</Value>
+		  <Value>ayuda</Value>
 		</Record>
 		<Record>
 		  <Key>ButtonLoad</Key>
-		  <Value>Load</Value>
+		  <Value>Cargar</Value>
 		</Record>
 		<Record>
 		  <Key>HeadingEdit</Key>
-		  <Value>Edit</Value>
+		  <Value>Editar</Value>
 		</Record>
 		<Record>
 		  <Key>ButtonFunctions</Key>
@@ -11720,1037 +11720,1037 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 		</Record>
 		<Record>
 		  <Key>ButtonLibrary</Key>
-		  <Value>Library</Value>
+		  <Value>Biblioteca</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsMenuAdvanced</Key>
-		  <Value>Advanced</Value>
+		  <Value>Avanzado</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsLegacyInventory</Key>
-		  <Value>Legacy Inventory</Value>
+		  <Value>Inventario Legado</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsDisableWaterVisualizer</Key>
-		  <Value>Disable Water Visualizer</Value>
+		  <Value>Desactivar Visualizador de Agua</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsInterface</Key>
-		  <Value>Interface</Value>
+		  <Value>Interfaz</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsUPNPEnabled</Key>
-		  <Value>Enable UPNP</Value>
+		  <Value>Habilitar UPNP</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsEnableClouds</Key>
-		  <Value>Enable Clouds</Value>
+		  <Value>Habilitar Nubes</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsClouds</Key>
-		  <Value>Enable Clouds</Value>
+		  <Value>Habilitar Nubes</Value>
 		</Record>
 		<Record>
 		  <Key>InvalidDegrees</Key>
-		  <Value>Nil</Value>
+		  <Value>Nulo</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsSoundFX</Key>
-		  <Value>Sound FX</Value>
+		  <Value>FX de Sonido</Value>
 		</Record>
 		<Record>
 		  <Key>WarningControlConflict</Key>
-		  <Value>Controls Conflict</Value>
+		  <Value>Conflicto de Controles</Value>
 		</Record>
 		<Record>
 		  <Key>WarningControlConflictDescription</Key>
-		  <Value>Please visit the control assignment window and clear conflicts</Value>
+		  <Value>Por favor, visita la ventana de asignación de controles y resuelve los conflictos</Value>
 		</Record>
 		<Record>
 		  <Key>NewWorldGameMode</Key>
-		  <Value>Game Mode</Value>
+		  <Value>Modo de Juego</Value>
 		</Record>
 		<Record>
 		  <Key>NewWorldGravity</Key>
-		  <Value>Gravity</Value>
+		  <Value>Gravedad</Value>
 		</Record>
 		<Record>
 		  <Key>NewWorldTemperature</Key>
-		  <Value>Temperature</Value>
+		  <Value>Temperatura</Value>
 		</Record>
 		<Record>
 		  <Key>NewWorldPressure</Key>
-		  <Value>Pressure</Value>
+		  <Value>Presión</Value>
 		</Record>
 		<Record>
 		  <Key>NewWorldSolarEnergy</Key>
-		  <Value>Solar Energy</Value>
+		  <Value>Energía Solar</Value>
 		</Record>
 		<Record>
 		  <Key>NewWorldSolarAngle</Key>
-		  <Value>Solar Angle</Value>
+		  <Value>Ángulo Solar</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsMenuAppearance</Key>
-		  <Value>Appearance</Value>
+		  <Value>Apariencia</Value>
 		</Record>
 		<Record>
 		  <Key>SettingsUserSpeakerMode</Key>
-		  <Value>Speaker Mode:</Value>
+		  <Value>Modo de Altavoz:</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeNone</Key>
-		  <Value>No description</Value>
+		  <Value>Sin descripción</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePower</Key>
-		  <Value>Can be read to return if the device is correctly powered or not, set via the power system, return 1 if powered and 0 if not</Value>
+		  <Value>Puede ser leído para devolver si el dispositivo está correctamente alimentado o no, configurado a través del sistema de energía, devuelve 1 si está alimentado y 0 si no</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeOpen</Key>
-		  <Value>1 if device is open, otherwise 0</Value>
+		  <Value>1 si el dispositivo está abierto, de lo contrario 0</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeMode</Key>
-		  <Value>Integer for mode state, different devices will have different mode states available to them</Value>
+		  <Value>Entero para el estado del modo, diferentes dispositivos tendrán diferentes estados de modo disponibles</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeError</Key>
-		  <Value>1 if device is in error state, otherwise 0</Value>
+		  <Value>1 si el dispositivo está en estado de error, de lo contrario 0</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeFlush</Key>
-		  <Value>Set to 1 to activate the flush function on the device</Value>
+		  <Value>Configúralo a 1 para activar la función de descarga en el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSoundAlert</Key>
-		  <Value>Plays a sound alert on the devices speaker</Value>
+		  <Value>Reproduce una alerta sonora en el altavoz del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeVolumeOfLiquid</Key>
-		  <Value>The total volume of all liquids in Liters in the atmosphere</Value>
+		  <Value>El volumen total de todos los líquidos en litros en la atmósfera</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeLock</Key>
-		  <Value>1 if device is locked, otherwise 0, can be set in most devices and prevents the user from access the values</Value>
+		  <Value>1 si el dispositivo está bloqueado, de lo contrario 0, puede ser configurado en la mayoría de los dispositivos y previene el acceso del usuario a los valores</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressure</Key>
-		  <Value>The current pressure reading of the device</Value>
+		  <Value>La lectura actual de presión del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeTemperature</Key>
-		  <Value>The current temperature reading of the device</Value>
+		  <Value>La lectura actual de temperatura del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressureInput</Key>
-		  <Value>The current pressure reading of the device's Input Network</Value>
+		  <Value>La lectura actual de presión de la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeTemperatureInput</Key>
-		  <Value>The current temperature reading of the device's Input Network</Value>
+		  <Value>La lectura actual de temperatura de la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressureInput2</Key>
-		  <Value>The current pressure reading of the device's Input2 Network</Value>
+		  <Value>La lectura actual de presión de la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeTemperatureInput2</Key>
-		  <Value>The current temperature reading of the device's Input2 Network</Value>
+		  <Value>La lectura actual de temperatura de la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressureOutput</Key>
-		  <Value>The current pressure reading of the device's Output Network</Value>
+		  <Value>La lectura actual de presión de la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeTargetPadIndex</Key>
-		  <Value>The index of the trader landing pad on this devices data network that it will try to call a trader in to land</Value>
+		  <Value>El índice de la plataforma de aterrizaje del comerciante en la red de datos de este dispositivo que intentará llamar a un comerciante para aterrizar</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeInterrogationProgress</Key>
-		  <Value>Progress of this sattellite dish's interrogation of its current target, as a ratio from 0-1</Value>
+		  <Value>Progreso de la interrogación de este plato satelital de su objetivo actual, como una relación de 0-1</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSizeX</Key>
-		  <Value>Size on the X (right) axis of the object in largeGrids (a largeGrid is 2meters)</Value>
+		  <Value>Tamaño en el eje X (derecha) del objeto en grandes rejillas (una gran rejilla es de 2 metros)</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSizeY</Key>
-		  <Value>Size on the Y(Up) axis of the object in largeGrids (a largeGrid is 2meters)</Value>
+		  <Value>Tamaño en el eje Y (arriba) del objeto en grandes rejillas (una gran rejilla es de 2 metros)</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSizeZ</Key>
-		  <Value>Size on the Z(Forward) axis of the object in largeGrids (a largeGrid is 2meters)</Value>
+		  <Value>Tamaño en el eje Z (adelante) del objeto en grandes rejillas (una gran rejilla es de 2 metros)</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeMinWattsToContact</Key>
-		  <Value>Minimum required amount of watts from the dish hitting the target trader contact to start interrogating the contact</Value>
+		  <Value>Cantidad mínima requerida de vatios del plato que golpean al comerciante objetivo para comenzar a interrogar el contacto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeWattsReachingContact</Key>
-		  <Value>The amount of watts actually hitting the contact. This is effected by the power of the dish and how far off-axis the dish is from the contact vector</Value>
+		  <Value>La cantidad de vatios que realmente están golpeando el contacto. Esto se ve afectado por la potencia del plato y cuán desviado está el plato del vector de contacto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeLineNumber</Key>
-		  <Value>The line number of current execution for an integrated circuit running on this device. While this number can be written, use with caution</Value>
+		  <Value>El número de línea de la ejecución actual de un circuito integrado que se ejecuta en este dispositivo. Si bien este número puede ser escrito, úsalo con precaución</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeTemperatureOutput</Key>
-		  <Value>The current temperature reading of the device's Output Network</Value>
+		  <Value>La lectura actual de temperatura de la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressureOutput2</Key>
-		  <Value>The current pressure reading of the device's Output2 Network</Value>
+		  <Value>La lectura actual de presión de la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeTemperatureOutput2</Key>
-		  <Value>The current temperature reading of the device's Output2 Network</Value>
+		  <Value>La lectura actual de temperatura de la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressureExternal</Key>
-		  <Value>Setting for external pressure safety, in KPa</Value>
+		  <Value>Configuración para la seguridad de presión externa, en KPa</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePressureInternal</Key>
-		  <Value>Setting for internal pressure safety, in KPa</Value>
+		  <Value>Configuración para la seguridad de presión interna, en KPa</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeActivate</Key>
-		  <Value>1 if device is activated (usually means running), otherwise 0</Value>
+		  <Value>1 si el dispositivo está activado (normalmente significa que está funcionando), de lo contrario 0</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCharge</Key>
-		  <Value>The current charge the device has</Value>
+		  <Value>La carga actual que tiene el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSetting</Key>
-		  <Value>A variable setting that can be read or written, depending on the device</Value>
+		  <Value>Una configuración variable que puede ser leída o escrita, dependiendo del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeReagents</Key>
-		  <Value>Total number of reagents recorded by the device</Value>
+		  <Value>Total de reactivos registrados por el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygen</Key>
-		  <Value>The ratio of oxygen in device atmosphere</Value>
+		  <Value>La relación de oxígeno en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxide</Key>
-		  <Value>The ratio of {GAS:CarbonDioxide} in device atmosphere</Value>
+		  <Value>La relación de {GAS:CarbonDioxide} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogen</Key>
-		  <Value>The ratio of nitrogen in device atmosphere</Value>
+		  <Value>La relación de nitrógeno en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutant</Key>
-		  <Value>The ratio of pollutant in device atmosphere</Value>
+		  <Value>La relación de contaminante en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioVolatiles</Key>
-		  <Value>The ratio of volatiles in device atmosphere</Value>
+		  <Value>La relación de volátiles en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWater</Key>
-		  <Value>The ratio of water in device atmosphere</Value>
+		  <Value>La relación de agua en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutedWater</Key>
-		  <Value>The ratio of polluted water in device atmosphere</Value>
+		  <Value>La relación de agua contaminada en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxide</Key>
-		  <Value>The ratio of {GAS:NitrousOxide} in device atmosphere</Value>
+		  <Value>La relación de {GAS:NitrousOxide} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogen</Key>
-		  <Value>The ratio of {GAS:LiquidNitrogen} in device atmosphere</Value>
+		  <Value>La relación de {GAS:LiquidNitrogen} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustion</Key>
-		  <Value>The assess atmosphere is on fire. Returns 1 if atmosphere is on fire, 0 if not.</Value>
+		  <Value>La atmósfera evaluada está en llamas. Devuelve 1 si la atmósfera está en llamas, 0 si no.</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenInput</Key>
-		  <Value>The ratio of oxygen in device's input network</Value>
+		  <Value>La relación de oxígeno en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideInput</Key>
-		  <Value>The ratio of {GAS:CarbonDioxide} in device's input network</Value>
+		  <Value>La relación de {GAS:CarbonDioxide} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenInput</Key>
-		  <Value>The ratio of nitrogen in device's input network</Value>
+		  <Value>La relación de nitrógeno en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantInput</Key>
-		  <Value>The ratio of pollutant in device's input network</Value>
+		  <Value>La relación de contaminante en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioVolatilesInput</Key>
-		  <Value>The ratio of volatiles in device's input network</Value>
+		  <Value>La relación de volátiles en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterInput</Key>
-		  <Value>The ratio of water in device's input network</Value>
+		  <Value>La relación de agua en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideInput</Key>
-		  <Value>The ratio of {GAS:NitrousOxide} in device's input network</Value>
+		  <Value>La relación de {GAS:NitrousOxide} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenInput</Key>
-		  <Value>The ratio of {GAS:LiquidNitrogen} in device's input network</Value>
+		  <Value>La relación de {GAS:LiquidNitrogen} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionInput</Key>
-		  <Value>The assess atmosphere is on fire. Returns 1 if device's input network is on fire, 0 if not.</Value>
+		  <Value>La atmósfera evaluada está en llamas. Devuelve 1 si la red de entrada del dispositivo está en llamas, 0 si no.</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenInput2</Key>
-		  <Value>The ratio of oxygen in device's Input2 network</Value>
+		  <Value>La relación de oxígeno en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideInput2</Key>
-		  <Value>The ratio of {GAS:CarbonDioxide} in device's Input2 network</Value>
+		  <Value>La relación de {GAS:CarbonDioxide} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenInput2</Key>
-		  <Value>The ratio of nitrogen in device's Input2 network</Value>
+		  <Value>La relación de nitrógeno en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantInput2</Key>
-		  <Value>The ratio of pollutant in device's Input2 network</Value>
+		  <Value>La relación de contaminante en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioVolatilesInput2</Key>
-		  <Value>The ratio of volatiles in device's Input2 network</Value>
+		  <Value>La relación de volátiles en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterInput2</Key>
-		  <Value>The ratio of water in device's Input2 network</Value>
+		  <Value>La relación de agua en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideInput2</Key>
-		  <Value>The ratio of {GAS:NitrousOxide} in device's Input2 network</Value>
+		  <Value>La relación de {GAS:NitrousOxide} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenInput2</Key>
-		  <Value>The ratio of {GAS:LiquidNitrogen} in device's Input2 network</Value>
+		  <Value>La relación de {GAS:LiquidNitrogen} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionInput2</Key>
-		  <Value>The assess atmosphere is on fire. Returns 1 if device's Input2 network is on fire, 0 if not.</Value>
+		  <Value>La atmósfera evaluada está en llamas. Devuelve 1 si la red Input2 del dispositivo está en llamas, 0 si no.</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenOutput</Key>
-		  <Value>The ratio of oxygen in device's Output network</Value>
+		  <Value>La relación de oxígeno en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideOutput</Key>
-		  <Value>The ratio of {GAS:CarbonDioxide} in device's Output network</Value>
+		  <Value>La relación de {GAS:CarbonDioxide} en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenOutput</Key>
-		  <Value>The ratio of nitrogen in device's Output network</Value>
+		  <Value>La relación de nitrógeno en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantOutput</Key>
-		  <Value>The ratio of pollutant in device's Output network</Value>
+		  <Value>La relación de contaminante en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioVolatilesOutput</Key>
-		  <Value>The ratio of volatiles in device's Output network</Value>
+		  <Value>La relación de volátiles en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterOutput</Key>
-		  <Value>The ratio of water in device's Output network</Value>
+		  <Value>La relación de agua en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideOutput</Key>
-		  <Value>The ratio of {GAS:NitrousOxide} in device's Output network</Value>
+		  <Value>La relación de {GAS:NitrousOxide} en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenOutput</Key>
-		  <Value>The ratio of {GAS:LiquidNitrogen} in device's Output network</Value>
+		  <Value>La relación de {GAS:LiquidNitrogen} en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionOutput</Key>
-		  <Value>The assess atmosphere is on fire. Returns 1 if device's Output network is on fire, 0 if not.</Value>
+		  <Value>La atmósfera evaluada está en llamas. Devuelve 1 si la red de salida del dispositivo está en llamas, 0 si no.</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenOutput2</Key>
-		  <Value>The ratio of oxygen in device's Output2 network</Value>
+		  <Value>La relación de oxígeno en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideOutput2</Key>
-		  <Value>The ratio of {GAS:CarbonDioxide} in device's Output2 network</Value>
+		  <Value>La relación de {GAS:CarbonDioxide} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenOutput2</Key>
-		  <Value>The ratio of nitrogen in device's Output2 network</Value>
+		  <Value>La relación de nitrógeno en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantOutput2</Key>
-		  <Value>The ratio of pollutant in device's Output2 network</Value>
+		  <Value>La relación de contaminante en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioVolatilesOutput2</Key>
-		  <Value>The ratio of volatiles in device's Output2 network</Value>
+		  <Value>La relación de volátiles en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterOutput2</Key>
-		  <Value>The ratio of water in device's Output2 network</Value>
+		  <Value>La relación de agua en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideOutput2</Key>
-		  <Value>The ratio of {GAS:NitrousOxide} in device's Output2 network</Value>
+		  <Value>La relación de {GAS:NitrousOxide} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenOutput2</Key>
-		  <Value>The ratio of {GAS:LiquidNitrogen} in device's Output2 network</Value>
+		  <Value>La relación de {GAS:LiquidNitrogen} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionOutput2</Key>
-		  <Value>The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not.</Value>
+		  <Value>La atmósfera evaluada está en llamas. Devuelve 1 si la red Output2 del dispositivo está en llamas, 0 si no.</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeHorizontal</Key>
-		  <Value>Horizontal setting of the device</Value>
+		  <Value>Configuración horizontal del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeVertical</Key>
-		  <Value>Vertical setting of the device</Value>
+		  <Value>Configuración vertical del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSolarAngle</Key>
-		  <Value>Solar angle of the device</Value>
+		  <Value>Ángulo solar del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSolarConstant</Key>
-		  <Value>Solar constant of the world</Value>
+		  <Value>Constante solar del mundo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeMaximum</Key>
-		  <Value>Maximum setting of the device</Value>
+		  <Value>Configuración máxima del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatio</Key>
-		  <Value>Context specific value depending on device, 0 to 1 based ratio</Value>
+		  <Value>Valor específico del contexto según el dispositivo, relación basada en 0 a 1</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePowerPotential</Key>
-		  <Value>How much energy the device or network potentially provides</Value>
+		  <Value>Cuánta energía proporciona potencialmente el dispositivo o red</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePowerActual</Key>
-		  <Value>How much energy the device or network is actually using</Value>
+		  <Value>Cuánta energía utiliza realmente el dispositivo o red</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeQuantity</Key>
-		  <Value>Total quantity on the device</Value>
+		  <Value>Cantidad total en el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeOn</Key>
-		  <Value>The current state of the device, 0 for off, 1 for on</Value>
+		  <Value>El estado actual del dispositivo, 0 para apagado, 1 para encendido</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeImportQuantity</Key>
-		  <Value>Total quantity of items imported by the device</Value>
+		  <Value>Cantidad total de artículos importados por el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeImportSlotOccupant</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeExportQuantity</Key>
-		  <Value>Total quantity of items exported by the device</Value>
+		  <Value>Cantidad total de artículos exportados por el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeExportSlotOccupant</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRequiredPower</Key>
-		  <Value>Idle operating power quantity, does not necessarily include extra demand power</Value>
+		  <Value>Cantidad de potencia de operación en reposo requerida, no necesariamente incluye la potencia de demanda adicional</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeHorizontalRatio</Key>
-		  <Value>Radio of horizontal setting for device</Value>
+		  <Value>Relación de configuración horizontal para el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeVerticalRatio</Key>
-		  <Value>Radio of vertical setting for device</Value>
+		  <Value>Relación de configuración vertical para el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePowerRequired</Key>
-		  <Value>Power requested from the device and/or network</Value>
+		  <Value>Poder solicitado del dispositivo y/o red</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeIdle</Key>
-		  <Value>Returns 1 if the device is currently idle, otherwise 0</Value>
+		  <Value>Devuelve 1 si el dispositivo está actualmente inactivo, de lo contrario 0</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeColor</Key>
 		  <Value>
-			Whether driven by concerns for clarity, safety or simple aesthetics, {LINK:Stationeers;Stationeers} have access to a small rainbow of colors for their constructions. These are the color setting for devices, represented as an integer.
+			Ya sea impulsado por preocupaciones por la claridad, la seguridad o la simple estética, {LINK:Stationeers;Stationeers} tiene acceso a un pequeño arcoíris de colores para sus construcciones. Estos son los ajustes de color para dispositivos, representados como un entero.
 
-	0: Blue
-	1: Grey
-	2: Green
-	3: Orange
-	4: Red
-	5: Yellow
-	6: White
-	7: Black
-	8: Brown
-	9: Khaki
-	10: Pink
-	11: Purple
+		0: Azul
+		1: Gris
+		2: Verde
+		3: Naranja
+		4: Rojo
+		5: Amarillo
+		6: Blanco
+		7: Negro
+		8: Marrón
+		9: Caqui
+		10: Rosa
+		11: Púrpura
 
-			It is an unwavering universal law that anything higher than 11 will be purple. The {LINK:ODA;ODA} is powerless to change this. Similarly, anything lower than 0 will be Blue.
+			Es una ley universal inquebrantable que cualquier cosa superior a 11 será púrpura. El {LINK:ODA;ODA} no tiene poder para cambiar esto. Del mismo modo, cualquier cosa inferior a 0 será azul.
 		  </Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeElevatorSpeed</Key>
-		  <Value>Current speed of the elevator</Value>
+		  <Value>Velocidad actual del elevador</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeElevatorLevel</Key>
-		  <Value>Level the elevator is currently at</Value>
+		  <Value>Nivel en el que se encuentra actualmente el elevador</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRecipeHash</Key>
-		  <Value>Current hash of the recipe the device is set to produce</Value>
+		  <Value>Hash actual de la receta que el dispositivo está configurado para producir</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeExportSlotHash</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeImportSlotHash</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHealth1</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHealth2</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHealth3</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHealth4</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantGrowth1</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantGrowth2</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantGrowth3</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantGrowth4</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantEfficiency1</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantEfficiency2</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantEfficiency3</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantEfficiency4</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHash1</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHash2</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHash3</Key>
-		  <Value>DEPRECATED</Value>
+		  <Value>Obsoleto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePlantHash4</Key>
-		  <Value>DEPRECATED</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRequestHash</Key>
-		  <Value>When set to the unique identifier, re quests an item of the provided type from the device</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeCompletionRatio</Key>
-		  <Value>How complete the current production is for this device, between 0 and 1</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeClearMemory</Key>
-		  <Value>When set to 1, clears the counter memory (e.g. ExportCount). Will set itself back to 0 when actioned</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeExportCount</Key>
-		  <Value>How many items exported since last ClearMemory</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeImportCount</Key>
-		  <Value>How many items imported since last ClearMemory</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePowerGeneration</Key>
-		  <Value>Returns how much power is being generated</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTotalMoles</Key>
-		  <Value>Returns the total moles of the device</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTotalMolesInput</Key>
-		  <Value>Returns the total moles of the device's Input Network</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTotalMolesInput2</Key>
-		  <Value>Returns the total moles of the device's Input2 Network</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTotalMolesOutput</Key>
-		  <Value>Returns the total moles of the device's Output Network</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTotalMolesOutput2</Key>
-		  <Value>Returns the total moles of the device's Output2 Network</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeVolume</Key>
-		  <Value>Returns the device atmosphere volume</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePlant</Key>
-		  <Value>Performs the planting action for any plant based machinery</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeHarvest</Key>
-		  <Value>Performs the harvesting action for any plant based machinery</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeOutput</Key>
-		  <Value>The output operation for a sort handling device, such as a stacker or sorter, when in logic mode the device will only action one repetition when set zero or above and then back to -1 and await further instructions</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePressureSetting</Key>
-		  <Value>The current setting for the internal pressure of the object (e.g. the Hardsuit Air release), in KPa</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTemperatureSetting</Key>
-		  <Value>The current setting for the internal temperature of the object (e.g. the Hardsuit A/C)</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTemperatureExternal</Key>
-		  <Value>The temperature of the outside of the device, usually the world atmosphere surrounding it</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeFiltration</Key>
-		  <Value>The current state of the filtration system, for example Filtration = 1 for a Hardsuit sets filtration to On</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeAirRelease</Key>
-		  <Value>The current state of the air release system, for example AirRelease = 1 for a Hardsuit sets Air Release to On</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePositionX</Key>
-		  <Value>The current position in X dimension in world coordinates</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePositionY</Key>
-		  <Value>The current position in Y dimension in world coordinates</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePositionZ</Key>
-		  <Value>The current position in Z dimension in world coordinates</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeVelocityMagnitude</Key>
-		  <Value>The current magnitude of the velocity vector</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeVelocityRelativeX</Key>
-		  <Value>The current velocity X relative to the forward vector of this</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeVelocityRelativeY</Key>
-		  <Value>The current velocity Y relative to the forward vector of this</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeVelocityRelativeZ</Key>
-		  <Value>The current velocity Z relative to the forward vector of this</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePrefabHash</Key>
-		  <Value>The hash of the structure</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeForceWrite</Key>
-		  <Value>Forces Logic Writer devices to rewrite value</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeSignalStrength</Key>
-		  <Value>Returns the degree offset of the strongest contact</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeSignalID</Key>
-		  <Value>Returns the contact ID of the strongest signal from this Satellite</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeOperationalTemperatureEfficiency</Key>
-		  <Value>How the input pipe's temperature effects the machines efficiency</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTemperatureDifferentialEfficiency</Key>
-		  <Value>How the difference between the input pipe and waste pipe temperatures effect the machines efficiency</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeCombustionLimiter</Key>
-		  <Value>Retards the rate of combustion inside the machine (range: 0-100), with 0 being the slowest rate of combustion and 100 being the fastest</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeThrottle</Key>
-		  <Value>Increases the rate at which the machine works (range: 0-100)</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRpm</Key>
-		  <Value>The number of revolutions per minute that the device's spinning mechanism is doing</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeStress</Key>
-		  <Value>Machines get stressed when working hard. When Stress reaches 100 the machine will automatically shut down</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePressureEfficiency</Key>
-		  <Value>How the pressure of the input pipe and waste pipe effect the machines efficiency</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeNone</Key>
-		  <Value>No description</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeOccupied</Key>
-		  <Value>returns 0 when slot is not occupied, 1 when it is</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeOccupantHash</Key>
-		  <Value>returns the hash of the current occupant, the unique identifier of the thing</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeQuantity</Key>
-		  <Value>returns the current quantity, such as stack size, of the item in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeDamage</Key>
-		  <Value>returns the damage state of the item in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeEfficiency</Key>
-		  <Value>returns the growth efficiency of the plant in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeMature</Key>
-		  <Value>returns 1 if the plant in this slot is mature, 0 when it isn't</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeSeeding</Key>
-		  <Value>Whether a plant is seeding (ready to harvest seeds from). Returns 1 if seeding or 0 if not.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeHealth</Key>
-		  <Value>returns the health of the plant in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeGrowth</Key>
-		  <Value>returns the current growth state of the plant in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypePressure</Key>
-		  <Value>returns pressure of the slot occupants internal atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeTemperature</Key>
-		  <Value>returns temperature of the slot occupants internal atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeCharge</Key>
-		  <Value>returns current energy charge the slot occupant is holding</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeChargeRatio</Key>
-		  <Value>returns current energy charge the slot occupant is holding as a ratio between 0 and 1 of its maximum</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeClass</Key>
-		  <Value>returns integer representing the class of object</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypePressureWaste</Key>
-		  <Value>returns pressure in the waste tank of the jetpack in this slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypePressureAir</Key>
-		  <Value>returns pressure in the air tank of the jetpack in this slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypeMaxQuantity</Key>
-		  <Value>returns the max stack size of the item in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>FuelInTankRemaining</Key>
-		  <Value>Gets the fuel remaining in your rocket's fuel tank.</Value>
-		</Record>
-		<Record>
-		  <Key>FuelReturnCost</Key>
-		  <Value>Gets the cost of fuel to return the rocket to your current world.</Value>
-		</Record>
-		<Record>
-		  <Key>RocketMode</Key>
-		  <Value>Deprecated</Value>
-		</Record>
-		<Record>
-		  <Key>CollectableGoods</Key>
-		  <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRequestHash</Key>
-		  <Value>When set to the unique identifier, requests an item of the provided type from the device</Value>
-		</Record>
-		<Record>
-		  <Key>LogicSlotTypePrefabHash</Key>
-		  <Value>returns the hash of the structure in the slot</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidOxygen</Key>
-		  <Value>The ratio of {GAS:LiquidOxygen} in device's Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidOxygenInput</Key>
-		  <Value>The ratio of {GAS:LiquidOxygen} in device's Input Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidOxygenInput2</Key>
-		  <Value>The ratio of {GAS:LiquidOxygen} in device's Input2 Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidOxygenOutput</Key>
-		  <Value>The ratio of {GAS:LiquidOxygen} in device's device's Output Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidOxygenOutput2</Key>
-		  <Value>The ratio of {GAS:LiquidOxygen} in device's Output2 Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidVolatiles</Key>
-		  <Value>The ratio of {GAS:LiquidVolatiles} in device's Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidVolatilesInput</Key>
-		  <Value>The ratio of {GAS:LiquidVolatiles} in device's Input Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidVolatilesInput2</Key>
-		  <Value>The ratio of {GAS:LiquidVolatiles} in device's Input2 Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidVolatilesOutput</Key>
-		  <Value>The ratio of {GAS:LiquidVolatiles} in device's device's Output Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidVolatilesOutput2</Key>
-		  <Value>The ratio of {GAS:LiquidVolatiles} in device's Output2 Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioSteam</Key>
-		  <Value>The ratio of {GAS:Steam} in device's Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioSteamInput</Key>
-		  <Value>The ratio of {GAS:Steam} in device's Input Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioSteamInput2</Key>
-		  <Value>The ratio of {GAS:Steam} in device's Input2 Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioSteamOutput</Key>
-		  <Value>The ratio of {GAS:Steam} in device's device's Output Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioSteamOutput2</Key>
-		  <Value>The ratio of {GAS:Steam} in device's Output2 Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidCarbonDioxide</Key>
-		  <Value>The ratio of {GAS:LiquidCarbonDioxide} in device's Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidCarbonDioxideInput</Key>
-		  <Value>The ratio of {GAS:LiquidCarbonDioxide} in device's Input Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidCarbonDioxideInput2</Key>
-		  <Value>The ratio of {GAS:LiquidCarbonDioxide} in device's Input2 Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidCarbonDioxideOutput</Key>
-		  <Value>The ratio of {GAS:LiquidCarbonDioxide} in device's device's Output Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidCarbonDioxideOutput2</Key>
-		  <Value>The ratio of {GAS:LiquidCarbonDioxide} in device's Output2 Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidPollutant</Key>
-		  <Value>The ratio of {GAS:LiquidPollutant} in device's Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidPollutantInput</Key>
-		  <Value>The ratio of {GAS:LiquidPollutant} in device's Input Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidPollutantInput2</Key>
-		  <Value>The ratio of {GAS:LiquidPollutant} in device's Input2 Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidPollutantOutput</Key>
-		  <Value>The ratio of {GAS:LiquidPollutant} in device's device's Output Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidPollutantOutput2</Key>
-		  <Value>The ratio of {GAS:LiquidPollutant} in device's Output2 Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidNitrousOxide</Key>
-		  <Value>The ratio of {GAS:LiquidNitrousOxide} in device's Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidNitrousOxideInput</Key>
-		  <Value>The ratio of {GAS:LiquidNitrousOxide} in device's Input Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidNitrousOxideInput2</Key>
-		  <Value>The ratio of {GAS:LiquidNitrousOxide} in device's Input2 Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidNitrousOxideOutput</Key>
-		  <Value>The ratio of {GAS:LiquidNitrousOxide} in device's device's Output Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidNitrousOxideOutput2</Key>
-		  <Value>The ratio of {GAS:LiquidNitrousOxide} in device's Output2 Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioHydrogen</Key>
-		  <Value>The ratio of {GAS:Hydrogen} in device's Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeRatioLiquidHydrogen</Key>
-		  <Value>The ratio of {GAS:LiquidHydrogen} in device's Atmopshere</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeContactTypeId</Key>
-		  <Value>The type id of the contact.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeBypass</Key>
-		  <Value>Bypasses some internal behavoiur of the atmospherics device.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeProgress</Key>
-		  <Value>Progress of the rocket to the next node on the map expressed as a value between 0-1.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeDestinationCode</Key>
-		  <Value>Unique identifier code for a destination on the space map.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeAcceleration</Key>
-		  <Value>Change in velocity. Rockets that are deccelerating when landing will show this as negative value.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeAutoShutOff</Key>
-		  <Value>Turns off all devices in the rocket upon reaching destination</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeThrust</Key>
-		  <Value>Total current thrust of all rocket engines on the rocket in Newtons.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeThrustToWeight</Key>
-		  <Value>Ratio of thrust to weight of rocket. Weight is effected by local body gravity. A rocket with a low thrust to weight will expend more fuel during launch and landing.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeWeight</Key>
-		  <Value>Weight of Rocket in Newtons (Including fuel and cargo). Weight is effected by local body gravity.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeOverShootTarget</Key>
-		  <Value>How far is the landing rocket going to overshoot its landing target at its current thrust. Expressed as a negative value in meters. ensure this is at zero by the time a rocket lands or risk total loss of rocket.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTimeToDestination</Key>
-		  <Value>Estimated time in seconds until rocket arrives at target destination.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeBurnTimeRemaining</Key>
-		  <Value>Estimated time in seconds until fuel is depleted. Calculated based on current fuel usage.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeAutoLand</Key>
-		  <Value>Engages the automatic landing algorithm. The rocket will automatically throttle and turn on and off its engines to achieve a smooth landing.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeDryMass</Key>
-		  <Value>The Mass in kilograms of the rocket excluding fuel. The more massive the rocket the more fuel will be required to move to a new location in space.</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeMass</Key>
-		  <Value>The total Mass of the rocket in kilograms including fuel and cargo. The more massive the rocket the more fuel will be required to move to a new location in space.</Value>
-		</Record>
-		<Record>
-		  <Key>AppearanceButtonRandomize</Key>
-		  <Value>Aleatorio</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsP2PHostEnabled</Key>
-		  <Value>Enable P2PHost</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsP2PHostNote</Key>
-		  <Value>If P2PHost is enabled, Stationeers will use steam's packet relay so that you can play with your friend under NAT or VPN. It's not compatible with TCP/IP and force not to advertise server.</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsSavePath</Key>
-		  <Value>Ruta</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonFolderBrowse</Key>
-		  <Value>...</Value>
-		</Record>
+		  <Value>Obsoleto</Value>
+		</Record>
+<Record>
+  <Key>LogicTypeRequestHash</Key>
+  <Value>Cuando se establece en el identificador único, solicita un artículo del tipo proporcionado del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeCompletionRatio</Key>
+  <Value>Qué tan completa está la producción actual para este dispositivo, entre 0 y 1</Value>
+</Record>
+<Record>
+  <Key>LogicTypeClearMemory</Key>
+  <Value>Cuando se establece en 1, borra la memoria del contador (por ejemplo, ExportCount). Se restablecerá a 0 cuando se ejecute la acción</Value>
+</Record>
+<Record>
+  <Key>LogicTypeExportCount</Key>
+  <Value>Cuántos artículos se han exportado desde el último ClearMemory</Value>
+</Record>
+<Record>
+  <Key>LogicTypeImportCount</Key>
+  <Value>Cuántos artículos se han importado desde el último ClearMemory</Value>
+</Record>
+<Record>
+  <Key>LogicTypePowerGeneration</Key>
+  <Value>Devuelve cuánta energía se está generando</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTotalMoles</Key>
+  <Value>Devuelve el total de moles del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTotalMolesInput</Key>
+  <Value>Devuelve el total de moles de la red de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTotalMolesInput2</Key>
+  <Value>Devuelve el total de moles de la red Input2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTotalMolesOutput</Key>
+  <Value>Devuelve el total de moles de la red de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTotalMolesOutput2</Key>
+  <Value>Devuelve el total de moles de la red Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeVolume</Key>
+  <Value>Devuelve el volumen de la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypePlant</Key>
+  <Value>Realiza la acción de plantar para cualquier maquinaria basada en plantas</Value>
+</Record>
+<Record>
+  <Key>LogicTypeHarvest</Key>
+  <Value>Realiza la acción de cosecha para cualquier maquinaria basada en plantas</Value>
+</Record>
+<Record>
+  <Key>LogicTypeOutput</Key>
+  <Value>La operación de salida para un dispositivo de manejo de tipos, como un apilador o clasificador, cuando está en modo lógico el dispositivo solo realizará una repetición cuando se establezca en cero o más y luego volverá a -1 y esperará más instrucciones</Value>
+</Record>
+<Record>
+  <Key>LogicTypePressureSetting</Key>
+  <Value>La configuración actual para la presión interna del objeto (por ejemplo, la liberación de aire del traje duro), en KPa</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTemperatureSetting</Key>
+  <Value>La configuración actual para la temperatura interna del objeto (por ejemplo, el A/C del traje duro)</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTemperatureExternal</Key>
+  <Value>La temperatura del exterior del dispositivo, generalmente la atmósfera mundial que lo rodea</Value>
+</Record>
+<Record>
+  <Key>LogicTypeFiltration</Key>
+  <Value>El estado actual del sistema de filtración, por ejemplo, Filtración = 1 para un traje duro activa la filtración</Value>
+</Record>
+<Record>
+  <Key>LogicTypeAirRelease</Key>
+  <Value>El estado actual del sistema de liberación de aire, por ejemplo, Liberación de aire = 1 para un traje duro activa la liberación de aire</Value>
+</Record>
+<Record>
+  <Key>LogicTypePositionX</Key>
+  <Value>La posición actual en la dimensión X en coordenadas del mundo</Value>
+</Record>
+<Record>
+  <Key>LogicTypePositionY</Key>
+  <Value>La posición actual en la dimensión Y en coordenadas del mundo</Value>
+</Record>
+<Record>
+  <Key>LogicTypePositionZ</Key>
+  <Value>La posición actual en la dimensión Z en coordenadas del mundo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeVelocityMagnitude</Key>
+  <Value>La magnitud actual del vector de velocidad</Value>
+</Record>
+<Record>
+  <Key>LogicTypeVelocityRelativeX</Key>
+  <Value>La velocidad actual en X relativa al vector hacia adelante de esto</Value>
+</Record>
+<Record>
+  <Key>LogicTypeVelocityRelativeY</Key>
+  <Value>La velocidad actual en Y relativa al vector hacia adelante de esto</Value>
+</Record>
+<Record>
+  <Key>LogicTypeVelocityRelativeZ</Key>
+  <Value>La velocidad actual en Z relativa al vector hacia adelante de esto</Value>
+</Record>
+<Record>
+  <Key>LogicTypePrefabHash</Key>
+  <Value>El hash de la estructura</Value>
+</Record>
+<Record>
+  <Key>LogicTypeForceWrite</Key>
+  <Value>Forza a los dispositivos de escritura lógica a reescribir el valor</Value>
+</Record>
+<Record>
+  <Key>LogicTypeSignalStrength</Key>
+  <Value>Devuelve el grado de desplazamiento de la señal más fuerte</Value>
+</Record>
+<Record>
+  <Key>LogicTypeSignalID</Key>
+  <Value>Devuelve el ID de contacto de la señal más fuerte de este satélite</Value>
+</Record>
+<Record>
+  <Key>LogicTypeOperationalTemperatureEfficiency</Key>
+  <Value>Cómo la temperatura de la tubería de entrada afecta la eficiencia de la máquina</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTemperatureDifferentialEfficiency</Key>
+  <Value>Cómo la diferencia entre las temperaturas de las tuberías de entrada y de desecho afecta la eficiencia de la máquina</Value>
+</Record>
+<Record>
+  <Key>LogicTypeCombustionLimiter</Key>
+  <Value>Retrasa la tasa de combustión dentro de la máquina (rango: 0-100), siendo 0 la tasa de combustión más lenta y 100 la más rápida</Value>
+</Record>
+<Record>
+  <Key>LogicTypeThrottle</Key>
+  <Value>Aumenta la tasa a la que funciona la máquina (rango: 0-100)</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRpm</Key>
+  <Value>El número de revoluciones por minuto que el mecanismo giratorio del dispositivo está realizando</Value>
+</Record>
+<Record>
+  <Key>LogicTypeStress</Key>
+  <Value>Las máquinas se estresan al trabajar duro. Cuando el estrés alcanza 100, la máquina se apagará automáticamente</Value>
+</Record>
+<Record>
+  <Key>LogicTypePressureEfficiency</Key>
+  <Value>Cómo la presión de la tubería de entrada y de desecho afecta la eficiencia de la máquina</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeNone</Key>
+  <Value>Sin descripción</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeOccupied</Key>
+  <Value>devuelve 0 cuando el slot no está ocupado, 1 cuando lo está</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeOccupantHash</Key>
+  <Value>devuelve el hash del ocupante actual, el identificador único de la cosa</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeQuantity</Key>
+  <Value>devuelve la cantidad actual, como el tamaño de pila, del artículo en el slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeDamage</Key>
+  <Value>devuelve el estado de daño del artículo en el slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeEfficiency</Key>
+  <Value>devuelve la eficiencia de crecimiento de la planta en el slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeMature</Key>
+  <Value>devuelve 1 si la planta en este slot está madura, 0 si no lo está</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeSeeding</Key>
+  <Value>Si una planta está sembrando (lista para cosechar semillas). Devuelve 1 si está sembrando o 0 si no.</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeHealth</Key>
+  <Value>devuelve la salud de la planta en el slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeGrowth</Key>
+  <Value>devuelve el estado de crecimiento actual de la planta en el slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypePressure</Key>
+  <Value>devuelve la presión de la atmósfera interna de los ocupantes del slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeTemperature</Key>
+  <Value>devuelve la temperatura de la atmósfera interna de los ocupantes del slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeCharge</Key>
+  <Value>devuelve la carga de energía actual que el ocupante del slot está sosteniendo</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeChargeRatio</Key>
+  <Value>devuelve la carga de energía actual que el ocupante del slot está sosteniendo como una relación entre 0 y 1 de su máximo</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeClass</Key>
+  <Value>devuelve un entero que representa la clase del objeto</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypePressureWaste</Key>
+  <Value>devuelve la presión en el tanque de desechos del jetpack en este slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypePressureAir</Key>
+  <Value>devuelve la presión en el tanque de aire del jetpack en este slot</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeMaxQuantity</Key>
+  <Value>devuelve el tamaño máximo de la pila del artículo en el slot</Value>
+</Record>
+<Record>
+  <Key>FuelInTankRemaining</Key>
+  <Value>Obtiene el combustible restante en el tanque de combustible de tu cohete.</Value>
+</Record>
+<Record>
+  <Key>FuelReturnCost</Key>
+  <Value>Obtiene el costo del combustible para regresar el cohete a tu mundo actual.</Value>
+</Record>
+<Record>
+  <Key>RocketMode</Key>
+  <Value>Obsoleto</Value>
+</Record>
+<Record>
+  <Key>CollectableGoods</Key>
+  <Value>Devuelve 0 o 1 según si el sistema de cohete actual tiene la capacidad de recolectar recursos en el planeta.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRequestHash</Key>
+  <Value>Cuando se establece en el identificador único, solicita un artículo del tipo proporcionado del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypePrefabHash</Key>
+  <Value>devuelve el hash de la estructura en el slot</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidOxygen</Key>
+  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidOxygenInput</Key>
+  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidOxygenInput2</Key>
+  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera de entrada2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidOxygenOutput</Key>
+  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidOxygenOutput2</Key>
+  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidVolatiles</Key>
+  <Value>La relación de {GAS:LiquidVolatiles} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidVolatilesInput</Key>
+  <Value>La relación de {GAS:LiquidVolatiles} en la atmósfera de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidVolatilesInput2</Key>
+  <Value>La relación de {GAS:LiquidVolatiles} en la atmósfera de entrada2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidVolatilesOutput</Key>
+  <Value>La relación de {GAS:LiquidVolatiles} en la atmósfera de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidVolatilesOutput2</Key>
+  <Value>La relación de {GAS:LiquidVolatiles} en la atmósfera Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioSteam</Key>
+  <Value>La relación de {GAS:Steam} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioSteamInput</Key>
+  <Value>La relación de {GAS:Steam} en la atmósfera de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioSteamInput2</Key>
+  <Value>La relación de {GAS:Steam} en la atmósfera de entrada2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioSteamOutput</Key>
+  <Value>La relación de {GAS:Steam} en la atmósfera de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioSteamOutput2</Key>
+  <Value>La relación de {GAS:Steam} en la atmósfera Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidCarbonDioxide</Key>
+  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidCarbonDioxideInput</Key>
+  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidCarbonDioxideInput2</Key>
+  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera de entrada2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidCarbonDioxideOutput</Key>
+  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidCarbonDioxideOutput2</Key>
+  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidPollutant</Key>
+  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidPollutantInput</Key>
+  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidPollutantInput2</Key>
+  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera de entrada2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidPollutantOutput</Key>
+  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidPollutantOutput2</Key>
+  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidNitrousOxide</Key>
+  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidNitrousOxideInput</Key>
+  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera de entrada del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidNitrousOxideInput2</Key>
+  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera de entrada2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidNitrousOxideOutput</Key>
+  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera de salida del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidNitrousOxideOutput2</Key>
+  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera Output2 del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioHydrogen</Key>
+  <Value>La relación de {GAS:Hydrogen} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeRatioLiquidHydrogen</Key>
+  <Value>La relación de {GAS:LiquidHydrogen} en la atmósfera del dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeContactTypeId</Key>
+  <Value>El tipo de ID del contacto.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeBypass</Key>
+  <Value>Evita algunos comportamientos internos del dispositivo atmosférico.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeProgress</Key>
+  <Value>Progreso del cohete hacia el siguiente nodo en el mapa expresado como un valor entre 0-1.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeDestinationCode</Key>
+  <Value>Código de identificador único para un destino en el mapa espacial.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeAcceleration</Key>
+  <Value>Cambio en la velocidad. Los cohetes que están desacelerando al aterrizar mostrarán esto como un valor negativo.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeAutoShutOff</Key>
+  <Value>Apaga todos los dispositivos en el cohete al alcanzar el destino</Value>
+</Record>
+<Record>
+  <Key>LogicTypeThrust</Key>
+  <Value>Empuje total actual de todos los motores del cohete en Newtons.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeThrustToWeight</Key>
+  <Value>Relación de empuje a peso del cohete. El peso se ve afectado por la gravedad corporal local. Un cohete con una baja relación de empuje a peso consumirá más combustible durante el lanzamiento y el aterrizaje.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeWeight</Key>
+  <Value>Peso del cohete en Newtons (incluyendo combustible y carga). El peso se ve afectado por la gravedad corporal local.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeOverShootTarget</Key>
+  <Value>Cuánto se va a sobrepasar el objetivo de aterrizaje del cohete con su empuje actual. Expresado como un valor negativo en metros. Asegúrate de que esto esté en cero para cuando un cohete aterrice o arriesgarás la pérdida total del cohete.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTimeToDestination</Key>
+  <Value>Tiempo estimado en segundos hasta que el cohete llegue al destino objetivo.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeBurnTimeRemaining</Key>
+  <Value>Tiempo estimado en segundos hasta que se agote el combustible. Calculado en función del uso actual del combustible.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeAutoLand</Key>
+  <Value>Activa el algoritmo de aterrizaje automático. El cohete ajustará automáticamente el empuje y encenderá y apagará sus motores para lograr un aterrizaje suave.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeDryMass</Key>
+  <Value>La masa en kilogramos del cohete excluyendo combustible. Cuanto más masivo sea el cohete, más combustible se requerirá para moverse a una nueva ubicación en el espacio.</Value>
+</Record>
+<Record>
+  <Key>LogicTypeMass</Key>
+  <Value>La masa total del cohete en kilogramos, incluyendo combustible y carga. Cuanto más masivo sea el cohete, más combustible se requerirá para moverse a una nueva ubicación en el espacio.</Value>
+</Record>
+<Record>
+  <Key>AppearanceButtonRandomize</Key>
+  <Value>Aleatorio</Value>
+</Record>
+<Record>
+  <Key>SettingsP2PHostEnabled</Key>
+  <Value>Habilitar P2PHost</Value>
+</Record>
+<Record>
+  <Key>SettingsP2PHostNote</Key>
+  <Value>Si P2PHost está habilitado, Stationeers usará el relé de paquetes de Steam para que puedas jugar con tu amigo bajo NAT o VPN. No es compatible con TCP/IP y fuerza a no anunciar el servidor.</Value>
+</Record>
+<Record>
+  <Key>SettingsSavePath</Key>
+  <Value>Ruta</Value>
+</Record>
+<Record>
+  <Key>ButtonFolderBrowse</Key>
+  <Value>...</Value>
+</Record>
 <Record>
   <Key>AppearanceTitleSpecies</Key>
   <Value>Especie</Value>
@@ -12787,1810 +12787,1730 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>Locked</Key>
   <Value>Bloqueado</Value>
 </Record>
-		<Record>
-		  <Key>ContactEventDefault</Key>
-		  <Value>There was no response.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactTradeRequest</Key>
-		  <Value>A trader has requested permission for landing.</Value>
-		</Record>
-		<Record>
-		  <Key>TraderInUse</Key>
-		  <Value>This contact is already interacting with someone, try again soon.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactNoResponse</Key>
-		  <Value>There was no response.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactTradeRequestFail</Key>
-		  <Value>Trader requesting safe landing. A powered landing pad is required to continue.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactTradeRequestFailInUse</Key>
-		  <Value>Somebody is already interacting with this Trader, try again soon.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactLandingRequestFailVendingMachine</Key>
-		  <Value>You need a powered Vending Machine on the network to interact with this trader.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactLandingRequestFailSatellite</Key>
-		  <Value>There is an issue with your satellite. Check it's connected to the network and powered.</Value>
-		</Record>
-		<Record>
-		  <Key>ContactLandingRequestFailStorm</Key>
-		  <Value>Trader is unable to travel in this storm.</Value>
-		</Record>
-		<Record>
-		  <Key>InputTextTradingTitle</Key>
-		  <Value>Trading Terminal</Value>
-		</Record>
-		<Record>
-		  <Key>PanelPlantGeneticsTitle</Key>
-		  <Value>Genetic Information</Value>
-		</Record>
-		<Record>
-		  <Key>TraderElectronics</Key>
-		  <Value>TechTree Electronics</Value>
-		</Record>
-		<Record>
-		  <Key>TraderOrganics</Key>
-		  <Value>Organicon</Value>
-		</Record>
-		<Record>
-		  <Key>TraderBasic</Key>
-		  <Value>Spes'mall Basics</Value>
-		</Record>
-		<Record>
-		  <Key>TraderHydraulic</Key>
-		  <Value>HydrauliKit</Value>
-		</Record>
-		<Record>
-		  <Key>TraderOre</Key>
-		  <Value>MineRiteOres</Value>
-		</Record>
-		<Record>
-		  <Key>TraderMicrowave</Key>
-		  <Value>Microwares</Value>
-		</Record>
-		<Record>
-		  <Key>TraderChemistry</Key>
-		  <Value>Chem Lab</Value>
-		</Record>
-		<Record>
-		  <Key>TraderExotics</Key>
-		  <Value>ExoTech</Value>
-		</Record>
-		<Record>
-		  <Key>TraderPaint</Key>
-		  <Value>Color Corp Paints</Value>
-		</Record>
-		<Record>
-		  <Key>TraderTool</Key>
-		  <Value>Tool Corp</Value>
-		</Record>
-		<Record>
-		  <Key>TraderSecurity</Key>
-		  <Value>Hall Corp Security</Value>
-		</Record>
-		<Record>
-		  <Key>TraderOther</Key>
-		  <Value>Kolders' Assorted Goods</Value>
-		</Record>
-		<Record>
-		  <Key>TraderGas</Key>
-		  <Value>GasTrade</Value>
-		</Record>
-		<Record>
-		  <Key>TraderCustom</Key>
-		  <Value>Spes'mall</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonContact</Key>
-		  <Value>Contact</Value>
-		</Record>
-		<Record>
-		  <Key>LoadBackupsTitle</Key>
-		  <Value>Load Backup</Value>
-		</Record>
-		<Record>
-		  <Key>BackupMenuFileListTitle</Key>
-		  <Value>Backups</Value>
-		</Record>
-		<Record>
-		  <Key>Experiments</Key>
-		  <Value>Experiments</Value>
-		</Record>
-		<Record>
-		  <Key>OcclusionTickSpeed</Key>
-		  <Value>Occlusion TickSpeed</Value>
-		</Record>
-		<Record>
-		  <Key>RoomControlTickSpeed</Key>
-		  <Value>RoomControl TickSpeed</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTargetX</Key>
-		  <Value>The target position in X dimension in world coordinates</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTargetY</Key>
-		  <Value>The target position in Y dimension in world coordinates</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTargetZ</Key>
-		  <Value>The target position in Z dimension in world coordinates</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeSettingInputHash</Key>
-		  <Value>The input setting for the device</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeSettingOutputHash</Key>
-		  <Value>The output setting for the device</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonDepart</Key>
-		  <Value>Depart</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonAbandonRocket</Key>
-		  <Value>Abandon</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsShowSlotTooltips</Key>
-		  <Value>Show Slot Tooltips</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsWorldOrigin</Key>
-		  <Value>World Origin Rebasing</Value>
-		</Record>
-		<Record>
-		  <Key>GameMenuButtonPause</Key>
-		  <Value>Pause</Value>
-		</Record>
-		<Record>
-		  <Key>PromptPauseTitle</Key>
-		  <Value>Pause</Value>
-		</Record>
-		<Record>
-		  <Key>PromptPauseBody</Key>
-		  <Value>Paused game play</Value>
-		</Record>
-		<Record>
-		  <Key>PromptButtonLeave</Key>
-		  <Value>Leave Session</Value>
-		</Record>
-		<Record>
-		  <Key>PromptResumeButton</Key>
-		  <Value>Resume</Value>
-		</Record>
-		<Record>
-		  <Key>BuildTimeMultiplier</Key>
-		  <Value>Build Time Mulitplier</Value>
-		</Record>
-		<Record>
-		  <Key>MaterialCostMultiplier</Key>
-		  <Value>Material Cost Multiplier</Value>
-		</Record>
-		<Record>
-		  <Key>EnergyCostMultiplier</Key>
-		  <Value>Energy Cost Multiplier</Value>
-		</Record>
-		<Record>
-		  <Key>CreationMultiplier</Key>
-		  <Value>Creation Multiplier</Value>
-		</Record>
-		<Record>
-		  <Key>TierThree</Key>
-		  <Value>Tier Three</Value>
-		</Record>
-		<Record>
-		  <Key>TierOne</Key>
-		  <Value>Tier One</Value>
-		</Record>
-		<Record>
-		  <Key>TierTwo</Key>
-		  <Value>Tier Two</Value>
-		</Record>
-		<Record>
-		  <Key>TravelMenuTitle</Key>
-		  <Value>Travel World</Value>
-		</Record>
-		<Record>
-		  <Key>TravelMenuListTitle</Key>
-		  <Value>Available Worlds</Value>
-		</Record>
-		<Record>
-		  <Key>TravelMenuButtonTravel</Key>
-		  <Value>Travel World</Value>
-		</Record>
-		<Record>
-		  <Key>GameMenuButtonTravel</Key>
-		  <Value>Travel World</Value>
-		</Record>
-		<Record>
-		  <Key>PromptTravelBody</Key>
-		  <Value>Are you sure you want to travel map?</Value>
-		</Record>
-		<Record>
-		  <Key>TravelMenuNamePlaceholder</Key>
-		  <Value>Travel world name</Value>
-		</Record>
-		<Record>
-		  <Key>PromptTravelConfirm</Key>
-		  <Value>Travel</Value>
-		</Record>
-		<Record>
-		  <Key>Loulan</Key>
-		  <Value>Loulan</Value>
-		</Record>
-		<Record>
-		  <Key>TravelMenuButtonTravelNew</Key>
-		  <Value>New World</Value>
-		</Record>
-		<Record>
-		  <Key>TravelMenuButtonTravelLoad</Key>
-		  <Value>Load World</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsDifficulty</Key>
-		  <Value>Difficulty Settings</Value>
-		</Record>
-		<Record>
-		  <Key>WorldCustomTerrainLabel</Key>
-		  <Value>Terrain Colour</Value>
-		</Record>
-		<Record>
-		  <Key>BlueField</Key>
-		  <Value>Blue:</Value>
-		</Record>
-		<Record>
-		  <Key>GreenField</Key>
-		  <Value>Green:</Value>
-		</Record>
-		<Record>
-		  <Key>RedField</Key>
-		  <Value>Red:</Value>
-		</Record>
-		<Record>
-		  <Key>HueField</Key>
-		  <Value>Hue:</Value>
-		</Record>
-		<Record>
-		  <Key>SaturationField</Key>
-		  <Value>Saturation:</Value>
-		</Record>
-		<Record>
-		  <Key>BrightnessField</Key>
-		  <Value>Brightness:</Value>
-		</Record>
-		<Record>
-		  <Key>RGBValues</Key>
-		  <Value>RGB Values</Value>
-		</Record>
-		<Record>
-		  <Key>HVSValues</Key>
-		  <Value>HVS Values</Value>
-		</Record>
-		<Record>
-		  <Key>ColourSelecter</Key>
-		  <Value>Colour Selecter:</Value>
-		</Record>
-		<Record>
-		  <Key>HasLavaField</Key>
-		  <Value>Has Lava</Value>
-		</Record>
-		<Record>
-		  <Key>Colour</Key>
-		  <Value>Colour</Value>
-		</Record>
-		<Record>
-		  <Key>Gravity</Key>
-		  <Value>Gravity</Value>
-		</Record>
-		<Record>
-		  <Key>AtmosphereScatteringField</Key>
-		  <Value>Atmosphere Scattering</Value>
-		</Record>
-		<Record>
-		  <Key>MineablesField</Key>
-		  <Value>Minables</Value>
-		</Record>
-		<Record>
-		  <Key>LevelLevelField</Key>
-		  <Value>Lava Level</Value>
-		</Record>
-		<Record>
-		  <Key>TerrainFeaturesField</Key>
-		  <Value>Terrain Features</Value>
-		</Record>
-		<Record>
-		  <Key>RespawnConditionsField</Key>
-		  <Value>Respawn Condition</Value>
-		</Record>
-		<Record>
-		  <Key>DifficultyField</Key>
-		  <Value>Difficulty</Value>
-		</Record>
-		<Record>
-		  <Key>HasLODField</Key>
-		  <Value>Has LOD</Value>
-		</Record>
-		<Record>
-		  <Key>SolarScaleField</Key>
-		  <Value>Solar Intensity Scale</Value>
-		</Record>
-		<Record>
-		  <Key>DawnTemperatureField</Key>
-		  <Value>Dawn Temperature</Value>
-		</Record>
-		<Record>
-		  <Key>NoonTemperatureField</Key>
-		  <Value>Noon Temperature</Value>
-		</Record>
-		<Record>
-		  <Key>DuskTemperatureField</Key>
-		  <Value>Dusk Temperature</Value>
-		</Record>
-		<Record>
-		  <Key>MidnightTemperatureField</Key>
-		  <Value>Midnight Temperature</Value>
-		</Record>
-		<Record>
-		  <Key>PreviewAtmosphereField</Key>
-		  <Value>Preview Atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>HasCustomTemperatureField</Key>
-		  <Value>Has Custom Temperature</Value>
-		</Record>
-		<Record>
-		  <Key>LavaLevelField</Key>
-		  <Value>Lava Level</Value>
-		</Record>
-		<Record>
-		  <Key>SolidTerrainColourField</Key>
-		  <Value>Solid Terrain Colour</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeTrackerTitle</Key>
-		  <Value>TRACKER</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeTrackerSelected</Key>
-		  <Value>Scroll to select target</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderSelected</Key>
-		  <Value>Steel frames</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeTrackerDistance</Key>
-		  <Value>Distance</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonCustomWorld</Key>
-		  <Value>Custom World</Value>
-		</Record>
-		<Record>
-		  <Key>GasItemGasSymbol</Key>
-		  <Value>H0C3</Value>
-		</Record>
-		<Record>
-		  <Key>GasItemGasAmount</Key>
-		  <Value>100%</Value>
-		</Record>
-		<Record>
-		  <Key>GasItemGasMole</Key>
-		  <Value>12.09 moles</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserPressureTitle</Key>
-		  <Value>PRESSURE</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserTemperatureTitle</Key>
-		  <Value>TEMP</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserConvectedTitle</Key>
-		  <Value>CONVECTED</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserLiquidTitle</Key>
-		  <Value>LIQUID</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserRadiatedTitle</Key>
-		  <Value>RADIATED</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserTitle</Key>
-		  <Value>ATMOSPHERE ANALYZER</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserCapacityTitle</Key>
-		  <Value>CAPACITY</Value>
-		</Record>
-		<Record>
-		  <Key>BigWarning</Key>
-		  <Value>WARNING</Value>
-		</Record>
-		<Record>
-		  <Key>DialogConfirmLastSaveIsAutoSave</Key>
-		  <Value>ARE YOU SURE? The last save you have is an autosave. You may lose your progress if you don't save now.</Value>
-		</Record>
-		<Record>
-		  <Key>GameMenuButtonCancel</Key>
-		  <Value>Cancel</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderRecipeTitle</Key>
-		  <Value>Recipe:</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderRecipeOrder</Key>
-		  <Value>1 of 2</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderAutoFlashTitle</Key>
-		  <Value>Flashpoint:</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderAutoITitle</Key>
-		  <Value>Autoignition:</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderAutoHashTitle</Key>
-		  <Value>Hash:</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderWeightSymbol</Key>
-		  <Value>g</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderIron</Key>
-		  <Value>Iron</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderIce</Key>
-		  <Value>Ice</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderOxite</Key>
-		  <Value>Oxite</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderNitrice</Key>
-		  <Value>Nitrice</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderVolatiles</Key>
-		  <Value>Volatiles</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderGold</Key>
-		  <Value>Gold</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderCoal</Key>
-		  <Value>Coal</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderCopper</Key>
-		  <Value>Copper</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderUranium</Key>
-		  <Value>Uranium</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSilver</Key>
-		  <Value>Silver</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderNickel</Key>
-		  <Value>Nickel</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderLead</Key>
-		  <Value>Lead</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSilicon</Key>
-		  <Value>Silicon</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderCobalt</Key>
-		  <Value>Cobalt</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderCarbon</Key>
-		  <Value>Carbon</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSteel</Key>
-		  <Value>Steel</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderUranium</Key>
-		  <Value>Uranium</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderHydrocarbon</Key>
-		  <Value>Hydrocarbon</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSilver</Key>
-		  <Value>Silver</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderNickel</Key>
-		  <Value>Nickel</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderLead</Key>
-		  <Value>Lead</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderElectrum</Key>
-		  <Value>Electrum</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderInvar</Key>
-		  <Value>Invar</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderConstantan</Key>
-		  <Value>Constantan</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSolder</Key>
-		  <Value>Solder</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSilicon</Key>
-		  <Value>Silicon</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSalicylicAcid</Key>
-		  <Value>SalicylicAcid</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderAlcohol</Key>
-		  <Value>Alcohol</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderOil</Key>
-		  <Value>Oil</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderFenoxitone</Key>
-		  <Value>Fenoxitone</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderColorRed</Key>
-		  <Value>Red Coloring</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderColorBlue</Key>
-		  <Value>Blue Coloring</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderColorYellow</Key>
-		  <Value>Yellow Coloring</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderColorOrange</Key>
-		  <Value>Orange Coloring</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderColorGreen</Key>
-		  <Value>Green Coloring</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderMilk</Key>
-		  <Value>Milk</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderFlour</Key>
-		  <Value>Flour</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderEgg</Key>
-		  <Value>Egg</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReadereggs</Key>
-		  <Value>eggs</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderLiquidMeasurement</Key>
-		  <Value>ml</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderTime</Key>
-		  <Value>Time</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderSeconds</Key>
-		  <Value>Seconds</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsRenderDistance</Key>
-		  <Value>Render Distance</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderEnergy</Key>
-		  <Value>Energy</Value>
-		</Record>
-		<Record>
-		  <Key>WattEnergyMeasurement</Key>
-		  <Value>W</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderTemperature</Key>
-		  <Value>Temperature</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderKelvinSymbol</Key>
-		  <Value>K</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderPressure</Key>
-		  <Value>Pressure</Value>
-		</Record>
-		<Record>
-		  <Key>ElectronicReaderPressureSym</Key>
-		  <Value>Pa</Value>
-		</Record>
-		<Record>
-		  <Key>NetworkAnalyserNetwork</Key>
-		  <Value>CABLE NETWORK</Value>
-		</Record>
-		<Record>
-		  <Key>NetworkAnalyserActual</Key>
-		  <Value>ACTUAL</Value>
-		</Record>
-		<Record>
-		  <Key>NetworkAnalyserPotential</Key>
-		  <Value>POTENTIAL</Value>
-		</Record>
-		<Record>
-		  <Key>NetworkAnalyserDevices</Key>
-		  <Value>DEVICES</Value>
-		</Record>
-		<Record>
-		  <Key>NetworkAnalyserRequired</Key>
-		  <Value>REQUIRED</Value>
-		</Record>
-		<Record>
-		  <Key>NetworkAnalyserTitle</Key>
-		  <Value>NETWORK ANALYZER</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeElectronicReaderTitle</Key>
-		  <Value>ENCYCLOPEDIA</Value>
-		</Record>
-		<Record>
-		  <Key>NotApplicableString</Key>
-		  <Value>N/A</Value>
-		</Record>
-		<Record>
-		  <Key>CustomWorld</Key>
-		  <Value>Custom World</Value>
-		</Record>
-		<Record>
-		  <Key>ScenariosTitle</Key>
-		  <Value>Scenarios</Value>
-		</Record>
-		<Record>
-		  <Key>ScenariosObjectiveTitle</Key>
-		  <Value>Objective</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialsTitle</Key>
-		  <Value>Tutorials</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialsObjectiveTitle</Key>
-		  <Value>Objective</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsTerrainClutter</Key>
-		  <Value>Terrain Clutter</Value>
-		</Record>
-		<Record>
-		  <Key>ResetInventoryTitle</Key>
-		  <Value>Reset Inventory Windows</Value>
-		</Record>
-		<Record>
-		  <Key>ResetInventoryDescription</Key>
-		  <Value>This will reset all undocked inventory windows.</Value>
-		</Record>
-		<Record>
-		  <Key>ConfirmReset</Key>
-		  <Value>Reset</Value>
-		</Record>
-		<Record>
-		  <Key>Construction Supplies 1</Key>
-		  <Value>Construction Supplies 1</Value>
-		</Record>
-		<Record>
-		  <Key>Construction Supplies 2</Key>
-		  <Value>Construction Supplies 2</Value>
-		</Record>
-		<Record>
-		  <Key>Organic Supplies</Key>
-		  <Value>Organic Supplies</Value>
-		</Record>
-		<Record>
-		  <Key>Organic Supplies 1</Key>
-		  <Value>Organic Supplies 1</Value>
-		</Record>
-		<Record>
-		  <Key>Organic Supplies 2</Key>
-		  <Value>Organic Supplies 2</Value>
-		</Record>
-		<Record>
-		  <Key>Consumables Supplies</Key>
-		  <Value>Consumables Supplies</Value>
-		</Record>
-		<Record>
-		  <Key>Portable Appliance Kits</Key>
-		  <Value>Portable Appliance Kits</Value>
-		</Record>
-		<Record>
-		  <Key>Misc Crate</Key>
-		  <Value>Misc Crate</Value>
-		</Record>
-		<Record>
-		  <Key>Communications Crate</Key>
-		  <Value>Communications Crate</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsTerrainClutterMultiplier</Key>
-		  <Value>Terrain Clutter Multiplier</Value>
-		</Record>
-		<Record>
-		  <Key>ActivateResearch</Key>
-		  <Value>Starts reserach process.</Value>
-		</Record>
-		<Record>
-		  <Key>ManualGetResearchPodsRequired</Key>
-		  <Value>Sets the pod type to search for a certain pod when breaking down a pods.</Value>
-		</Record>
-		<Record>
-		  <Key>CurrentResearchPodType</Key>
-		  <Value>Returns the pod type stored in the machine.</Value>
-		</Record>
-		<Record>
-		  <Key>MineablesInVicinity</Key>
-		  <Value>Returns the amount of potential mineables within an extended area around AIMEe.</Value>
-		</Record>
-		<Record>
-		  <Key>MineablesInQueue</Key>
-		  <Value>Returns the amount of mineables AIMEe has queued up to mine.</Value>
-		</Record>
-		<Record>
-		  <Key>NextWeatherEventTime</Key>
-		  <Value>Returns in seconds when the next weather event is inbound.</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchFilter</Key>
-		  <Value>Filter</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchTitle</Key>
-		  <Value>Research</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchConfirm</Key>
-		  <Value>Confirm</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchCancel</Key>
-		  <Value>Cancel</Value>
-		</Record>
-		<Record>
-		  <Key>ServerReadyString</Key>
-		  <Value>Server can now be started.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandL</Key>
-		  <Value>Loads device LogicType to register by housing index value.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLD</Key>
-		  <Value>Loads device LogicType to register by direct ID reference.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLB</Key>
-		  <Value>Loads LogicType from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLBN</Key>
-		  <Value>Loads LogicType from all output network devices with provided type and name hashes using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLBS</Key>
-		  <Value>Loads LogicSlotType from slotIndex from all output network devices with provided type hash using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLBNS</Key>
-		  <Value>Loads LogicSlotType from slotIndex from all output network devices with provided type and name hashes using the provide batch mode. Average (0), Sum (1), Minimum (2), Maximum (3). Can use either the word, or the number.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandS</Key>
-		  <Value>Stores register value to LogicType on device by housing index value.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSD</Key>
-		  <Value>Stores register value to LogicType on device by direct ID reference.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSS</Key>
-		  <Value>Stores register value to device stored in a slot LogicSlotType on device.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSBS</Key>
-		  <Value>Stores register value to LogicSlotType on all output network devices with provided type hash in the provided slot.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSB</Key>
-		  <Value>Stores register value to LogicType on all output network devices with provided type hash.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLS</Key>
-		  <Value>Loads slot LogicSlotType on device to register.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLR</Key>
-		  <Value>Loads reagent of device's ReagentMode where a hash of the reagent type to check for. ReagentMode can be either Contents (0), Required (1), Recipe (2). Can use either the word, or the number.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandAlias</Key>
-		  <Value>Labels register or device reference with name, device references also affect what shows on the screws on the IC base.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandDefine</Key>
-		  <Value>Creates a label that will be replaced throughout the program with the provided value.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandMove</Key>
-		  <Value>Register = provided num or register value.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandAdd</Key>
-		  <Value>Register = a + b.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSub</Key>
-		  <Value>Register = a - b.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSdse</Key>
-		  <Value>Register = 1 if device is set, otherwise 0.</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSdns</Key>
-		  <Value>Register = 1 if device is not set, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSlt</Key>
-		  <Value>Register = 1 if a &lt; b, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSgt</Key>
-		  <Value>Register = 1 if a &gt; b, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSle</Key>
-		  <Value>Register = 1 if a &lt;= b, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSge</Key>
-		  <Value>Register = 1 if a &gt;= b, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSeq</Key>
-		  <Value>Register = 1 if a == b, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSnan</Key>
-		  <Value>Register = 1 if a is NaN, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSnanz</Key>
-		  <Value>Register = 0 if a is NaN, otherwise 1</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSne</Key>
-		  <Value>Register = 1 if a != b, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSap</Key>
-		  <Value>Register = 1 if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSna</Key>
-		  <Value>Register = 1 if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSltz</Key>
-		  <Value>Register = 1 if a &lt; 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSgtz</Key>
-		  <Value>Register = 1 if a &gt; 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSlez</Key>
-		  <Value>Register = 1 if a &lt;= 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSgez</Key>
-		  <Value>Register = 1 if a &gt;= 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSeqz</Key>
-		  <Value>Register = 1 if a == 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSnez</Key>
-		  <Value>Register = 1 if a != 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSapz</Key>
-		  <Value>Register = 1 if |a| &lt;= float.epsilon * 8, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSnaz</Key>
-		  <Value>Register = 1 if |a| &gt; float.epsilon, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandAnd</Key>
-		  <Value>Register = 1 if a and b not zero, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandOr</Key>
-		  <Value>Register = 1 if a and/or b not 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandXor</Key>
-		  <Value>Register = 1 if either a or b not 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandNor</Key>
-		  <Value>Register = 1 if a and b are 0, otherwise 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandMul</Key>
-		  <Value>Register = a * b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandDiv</Key>
-		  <Value>Register = a / b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandMod</Key>
-		  <Value>Register = a mod b (note: NOT a % b)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandJ</Key>
-		  <Value>Jump execution to line a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBdse</Key>
-		  <Value>Branch to line a if device d is set</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBdns</Key>
-		  <Value>Branch to line a if device d isn't set</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBlt</Key>
-		  <Value>Branch to line c if a &lt; b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgt</Key>
-		  <Value>Branch to line c if a &gt; b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBle</Key>
-		  <Value>Branch to line c if a &lt;= b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBge</Key>
-		  <Value>Branch to line c if a &gt;= b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBeq</Key>
-		  <Value>Branch to line c if a == b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBnan</Key>
-		  <Value>Branch to line b if a is not a number (NaN)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrnan</Key>
-		  <Value>Relative branch to line b if a is not a number (NaN)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBne</Key>
-		  <Value>Branch to line c if a != b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBap</Key>
-		  <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBna</Key>
-		  <Value>Branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBltz</Key>
-		  <Value>Branch to line b if a &lt; 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgez</Key>
-		  <Value>Branch to line b if a &gt;= 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBlez</Key>
-		  <Value>Branch to line b if a &lt;= 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgtz</Key>
-		  <Value>Branch to line b if a &gt; 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBeqz</Key>
-		  <Value>Branch to line b if a == 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBnez</Key>
-		  <Value>branch to line b if a != 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBapz</Key>
-		  <Value>Branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBnaz</Key>
-		  <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandJr</Key>
-		  <Value>Relative jump to line a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandJr</Key>
-		  <Value>Relative jump to line a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrdse</Key>
-		  <Value>Relative jump to line a if device is set</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrdns</Key>
-		  <Value>Relative jump to line a if device is not set</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrlt</Key>
-		  <Value>Relative jump to line c if a &lt; b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrgt</Key>
-		  <Value>relative jump to line c if a &gt; b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrle</Key>
-		  <Value>Relative jump to line c if a &lt;= b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrge</Key>
-		  <Value>Relative jump to line c if a &gt;= b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBreq</Key>
-		  <Value>Relative branch to line c if a == b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrne</Key>
-		  <Value>Relative branch to line c if a != b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrap</Key>
-		  <Value>Relative branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrna</Key>
-		  <Value>Relative branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrltz</Key>
-		  <Value>Relative branch to line b if a &lt; 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrgez</Key>
-		  <Value>Relative branch to line b if a &gt;= 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrlez</Key>
-		  <Value>Relative branch to line b if a &lt;= 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrgtz</Key>
-		  <Value>Relative branch to line b if a &gt; 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBreqz</Key>
-		  <Value>Relative branch to line b if a == 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrnez</Key>
-		  <Value>Relative branch to line b if a != 0</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrapz</Key>
-		  <Value>Relative branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBrnaz</Key>
-		  <Value>Relative branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandJal</Key>
-		  <Value>Jump execution to line a and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBdseal</Key>
-		  <Value>Jump execution to line a and store next line number if device is set</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBdnsal</Key>
-		  <Value>Jump execution to line a and store next line number if device is not set</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBltal</Key>
-		  <Value>Branch to line c if a &lt; b and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgtal</Key>
-		  <Value>Branch to line c if a &gt; b and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBleal</Key>
-		  <Value>Branch to line c if a &lt;= b and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgeal</Key>
-		  <Value>Branch to line c if a &gt;= b and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBeqal</Key>
-		  <Value>Branch to line c if a == b and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBneal</Key>
-		  <Value>Branch to line c if a != b and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBapal</Key>
-		  <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBnaal</Key>
-		  <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBltzal</Key>
-		  <Value>Branch to line b if a &lt; 0 and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgezal</Key>
-		  <Value>Branch to line b if a &gt;= 0 and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBlezal</Key>
-		  <Value>Branch to line b if a &lt;= 0 and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBgtzal</Key>
-		  <Value>Branch to line b if a &gt; 0 and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBeqzal</Key>
-		  <Value>Branch to line b if a == 0 and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBnezal</Key>
-		  <Value>Branch to line b if a != 0 and store next line number in ra</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBapzal</Key>
-		  <Value>Branch to line c if abs(a) &lt;= float.epsilon * 8</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandBnazal</Key>
-		  <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSqrt</Key>
-		  <Value>Register = square root of a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandRound</Key>
-		  <Value>Register = a rounded to nearest integer</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandTrunc</Key>
-		  <Value>Register = a with fractional part removed</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandCeil</Key>
-		  <Value>Register = smallest integer greater than a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandFloor</Key>
-		  <Value>Register = largest integer less than a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandMax</Key>
-		  <Value>Register = max of a or b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandMin</Key>
-		  <Value>Register = min of a or b</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandAbs</Key>
-		  <Value>Register = the absolute value of a</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLog</Key>
-		  <Value>Register = log(a)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandExp</Key>
-		  <Value>Register = exp(a)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandRand</Key>
-		  <Value>Register = a random value x with 0 &lt;= x &lt; 1</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandYield</Key>
-		  <Value>Pauses execution for 1 tick</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandLabel</Key>
-		  <Value>DEPRECATED</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandPeek</Key>
-		  <Value>Register = the value at the top of the stack</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandPush</Key>
-		  <Value>Pushes the value of a to the stack at sp and increments sp</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandPop</Key>
-		  <Value>Register = the value at the top of the stack and decrements sp</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandHcf</Key>
-		  <Value>Halt and catch fire</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSelect</Key>
-		  <Value>Register = b if a is non-zero, otherwise c</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSleep</Key>
-		  <Value>Pauses execution on the IC for a seconds</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandSin</Key>
-		  <Value>Returns the sine of the specified angle (radians)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandCos</Key>
-		  <Value>Returns the cosine of the specified angle (radians)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandTan</Key>
-		  <Value>Returns the tan of the specified angle (radians) </Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandASin</Key>
-		  <Value>Returns the angle (radians) whos sine is the specified value</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandACos</Key>
-		  <Value>Returns the angle (radians) whos cosine is the specified value</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandATan</Key>
-		  <Value>Returns the angle (radians) whos tan is the specified value</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandATan2</Key>
-		  <Value>Returns the angle (radians) whose tangent is the quotient of two specified values: a (y) and b (x)</Value>
-		</Record>
-		<Record>
-		  <Key>ScriptCommandCommand</Key>
-		  <Value>command</Value>
-		</Record>
-		<Record>
-		  <Key>BluePodType</Key>
-		  <Value>Blue</Value>
-		</Record>
-		<Record>
-		  <Key>RedPodType</Key>
-		  <Value>Red</Value>
-		</Record>
-		<Record>
-		  <Key>GreenPodType</Key>
-		  <Value>Green</Value>
-		</Record>
-		<Record>
-		  <Key>YellowPodType</Key>
-		  <Value>Yellow</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsResearch</Key>
-		  <Value>Research Pool Selection</Value>
-		</Record>
-		<Record>
-		  <Key>DialogConfirmResearchUnlock</Key>
-		  <Value>Do you want to Unlock this Research?</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchRequirementTitle</Key>
-		  <Value>Requirements</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchUnlocksTitle</Key>
-		  <Value>Unlocks</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchMilitary</Key>
-		  <Value>Military</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchProduction</Key>
-		  <Value>Production</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchAutomation</Key>
-		  <Value>Automation</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchTools</Key>
-		  <Value>Tools</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchOrganics</Key>
-		  <Value>Organics</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchConstruction</Key>
-		  <Value>Construction</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchLogic</Key>
-		  <Value>Logic</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchVehicles</Key>
-		  <Value>Vehicles</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchShowLocked</Key>
-		  <Value>Show Locked</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchCantAfford</Key>
-		  <Value>You cannot afford to unlock this research.</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchRequirementNotMet</Key>
-		  <Value>You do not meet the requirements to unlock this research.</Value>
-		</Record>
-		<Record>
-		  <Key>ResearchUnlockConfirm</Key>
-		  <Value>Do you want to Unlock this Research?</Value>
-		</Record>
-		<Record>
-		  <Key>WarningSavePathNotWritableDescription</Key>
-		  <Value>Could not write to save path. It has been reset to default</Value>
-		</Record>
-		<Record>
-		  <Key>WarningSavePathNotWritable</Key>
-		  <Value>Save Path Not Writable</Value>
-		</Record>
-		<Record>
-		  <Key>FramerateLock</Key>
-		  <Value>Target Framerate</Value>
-		</Record>
-		<Record>
-		  <Key>SaveBeforeTravel</Key>
-		  <Value>You need to save your game before traveling to another world!</Value>
-		</Record>
-		<Record>
-		  <Key>LaunchRocketAlert</Key>
-		  <Value>Do you want to launch this rocket</Value>
-		</Record>
-		<Record>
-		  <Key>StatusWindowVitals</Key>
-		  <Value>Vitals</Value>
-		</Record>
-		<Record>
-		  <Key>StatusWindowJetpack</Key>
-		  <Value>Jetpack</Value>
-		</Record>
-		<Record>
-		  <Key>StatusWindowTarget</Key>
-		  <Value>Target</Value>
-		</Record>
-		<Record>
-		  <Key>CompletedKey</Key>
-		  <Value>Completed</Value>
-		</Record>
-		<Record>
-		  <Key>LockedKey</Key>
-		  <Value>Locked</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialScoreboardHeading</Key>
-		  <Value>Tutorial Complete</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialSelectKey</Key>
-		  <Value>Tutorial Select</Value>
-		</Record>
-		<Record>
-		  <Key>ScenarioSelectKey</Key>
-		  <Value>Scenario Select</Value>
-		</Record>
-		<Record>
-		  <Key>TankPressure</Key>
-		  <Value>Tank Pressure</Value>
-		</Record>
-		<Record>
-		  <Key>CrowbarToOpen</Key>
-		  <Value>Use a {THING:ItemCrowbar} to open this</Value>
-		</Record>
-		<Record>
-		  <Key>Display</Key>
-		  <Value>Display</Value>
-		</Record>
-		<Record>
-		  <Key>Player</Key>
-		  <Value>Player</Value>
-		</Record>
-		<Record>
-		  <Key>Deceased</Key>
-		  <Value>Deceased</Value>
-		</Record>
-		<Record>
-		  <Key>Unconscious</Key>
-		  <Value>Unconscious</Value>
-		</Record>
-		<Record>
-		  <Key>Contents</Key>
-		  <Value>Contents</Value>
-		</Record>
-		<Record>
-		  <Key>InputRight</Key>
-		  <Value>Input Right</Value>
-		</Record>
-		<Record>
-		  <Key>InputLeft</Key>
-		  <Value>Input Left</Value>
-		</Record>
-		<Record>
-		  <Key>Liquid</Key>
-		  <Value>Liquid</Value>
-		</Record>
-		<Record>
-		  <Key>Gas</Key>
-		  <Value>Gas</Value>
-		</Record>
-		<Record>
-		  <Key>Empty</Key>
-		  <Value>Empty</Value>
-		</Record>
-		<Record>
-		  <Key>Cycle</Key>
-		  <Value>Cycle</Value>
-		</Record>
-		<Record>
-		  <Key>BuildStateOfHash</Key>
-		  <Value>{0} of {1}</Value>
-		</Record>
-		<Record>
-		  <Key>Stage1Contains</Key>
-		  <Value>Contains {0} at {2}Stage {1}{3}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantWillCreate</Key>
-		  <Value>This will create {2}{0}{3} x {1}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantGrowing</Key>
-		  <Value>The {0} is {1}growing{2}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantDead</Key>
-		  <Value>The {0} is {1}dead{2}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantHydrate</Key>
-		  <Value>The {0} lacks {1}hydration{2}</Value>
-		</Record>
-		<Record>
-		  <Key>NoAtmos</Key>
-		  <Value>The {0} has no {1}atmosphere{2}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantTemperature</Key>
-		  <Value>The {0} is not at the right {1}temperature{2}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantNoSunlight</Key>
-		  <Value>The {0} does not have the required {1}sunlight{2}</Value>
-		</Record>
-		<Record>
-		  <Key>PlantToxic</Key>
-		  <Value>The {0} is being damaged due to high {1}pollutant{2} in the atmosphere</Value>
-		</Record>
-		<Record>
-		  <Key>holdhotkey</Key>
-		  <Value>(hold)</Value>
-		</Record>
-		<Record>
-		  <Key>Pipe</Key>
-		  <Value>Pipe</Value>
-		</Record>
-		<Record>
-		  <Key>PipeLiquid</Key>
-		  <Value>Pipe Liquid</Value>
-		</Record>
-		<Record>
-		  <Key>Power</Key>
-		  <Value>Power</Value>
-		</Record>
-		<Record>
-		  <Key>Data</Key>
-		  <Value>Data</Value>
-		</Record>
-		<Record>
-		  <Key>Chute</Key>
-		  <Value>Chute</Value>
-		</Record>
-		<Record>
-		  <Key>Elevator</Key>
-		  <Value>Elevator</Value>
-		</Record>
-		<Record>
-		  <Key>PowerAndData</Key>
-		  <Value>Power And Data</Value>
-		</Record>
-		<Record>
-		  <Key>All</Key>
-		  <Value>All</Value>
-		</Record>
-		<Record>
-		  <Key>DeconstructToolTipText</Key>
-		  <Value>{0} required to deconstruct</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsDoubleClickDelay</Key>
-		  <Value>Double Click Delay</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsServerAdminPassword</Key>
-		  <Value>Server Admin Password</Value>
-		</Record>
-		<Record>
-		  <Key>ScoreboardPlayer</Key>
-		  <Value>Player</Value>
-		</Record>
-		<Record>
-		  <Key>ScoreboardTime</Key>
-		  <Value>Play Time</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsFirstPersonHelmet</Key>
-		  <Value>First Person Helmet</Value>
-		</Record>
-		<Record>
-		  <Key>SiloDeconstruct</Key>
-		  <Value>Your Silo must be empty before deconstructing it.</Value>
-		</Record>
-		<Record>
-		  <Key>PressEnterToContinue</Key>
-		  <Value>Press Space to Continue</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialCompleteDateOfCompletion</Key>
-		  <Value>Date of Completion:</Value>
-		</Record>
-		<Record>
-		  <Key>BottleSlot</Key>
-		  <Value>Bottle Slot</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialCompleteDeanHall</Key>
-		  <Value>Dean Hall</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialCompleteTruly</Key>
-		  <Value>Commodore ODA</Value>
-		</Record>
-		<Record>
-		  <Key>TutorialCompleteNextTutorial</Key>
-		  <Value>Next Tutorial</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsMineableRenderDistance</Key>
-		  <Value>Mineable Render Distance</Value>
-		</Record>
-		<Record>
-		  <Key>SetSpawnMessage</Key>
-		  <Value>Use to set Spawn Point</Value>
-		</Record>
-		<Record>
-		  <Key>SetSpawnTitle</Key>
-		  <Value>Spawn Point</Value>
-		</Record>
-		<Record>
-		  <Key>ControlPrimaryClick</Key>
-		  <Value>{KEY:PrimaryAction}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlPrimaryClickDisc</Key>
-		  <Value>Interact</Value>
-		</Record>
-		<Record>
-		  <Key>ControlHoldPrimaryClick</Key>
-		  <Value>Hold {KEY:PrimaryAction}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlHoldPrimaryClickConstructDisc</Key>
-		  <Value>Construct</Value>
-		</Record>
-		<Record>
-		  <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
-		  <Value>Deconstruct</Value>
-		</Record>
-		<Record>
-		  <Key>ControlHoldPrimaryClickPlaceDisc</Key>
-		  <Value>Place</Value>
-		</Record>
-		<Record>
-		  <Key>ControlHoldPrimaryClickPlantDisc</Key>
-		  <Value>Plant</Value>
-		</Record>
-		<Record>
-		  <Key>ControlHoldPrimaryClickHarvestDisc</Key>
-		  <Value>Harvest</Value>
-		</Record>
-		<Record>
-		  <Key>ControlPlayerMovement</Key>
-		  <Value>{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlPlayerMovementDisc</Key>
-		  <Value>Movement</Value>
-		</Record>
-		<Record>
-		  <Key>ControlSwapHands</Key>
-		  <Value>{KEY:SwapHands}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlSwapHandsDisc</Key>
-		  <Value>Swap Hands</Value>
-		</Record>
-		<Record>
-		  <Key>ActivateExplosiveKey</Key>
-		  <Value>Activate countdown</Value>
-		</Record>
-		<Record>
-		  <Key>ActivateExplosiveTooltipKey1</Key>
-		  <Value>Activates a</Value>
-		</Record>
-		<Record>
-		  <Key>ActivateExplosiveTooltipKey2</Key>
-		  <Value>second timer. Caution is advised.</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSave</Key>
-		  <Value>Saves the game and names it as a given parameter. usage: "/save nameofsave"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandShutdown</Key>
-		  <Value>Shuts down the game server and returns player to the lobby can append a timer and message. usage: "/shutdown"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandNotice</Key>
-		  <Value>Send a message to the players of a server. usage: "/notice the message you want to send"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandStatus</Key>
-		  <Value>Displays the current status of the server and who's currently in the server: "/status"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandBan</Key>
-		  <Value>Ban a given steam ID from the server: "/ban 102039237390"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandUnBan</Key>
-		  <Value>Revoke a ban from a given steam ID from the server: "/unban 102039237390"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandKick</Key>
-		  <Value>Kicks a player from a given steam ID from the server: "/kick 102039237390"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandClearAll</Key>
-		  <Value>Clears all disconnect players from the server: "/clearall"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandThreadStatus</Key>
-		  <Value>Shows the current status of the game's threads.: "/threadstatus"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandResetThread</Key>
-		  <Value>Resets a given thread. : "/resetthread atmospherics"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSetHunger</Key>
-		  <Value>Sets the hunger rate. : "/hungerrate 0.25"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandPause</Key>
-		  <Value>Pauses the game for all connected players. : "/pause"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandResume</Key>
-		  <Value>Resumes the game for all connected players. : "/resume"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandToggleGod</Key>
-		  <Value>Toggles Player invincibility including suit. : "/tg"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandToggleInfinitePower</Key>
-		  <Value>Toggles Infinite power on a player or serverwide. : "/tgp"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandToggleGameMode</Key>
-		  <Value>Toggles Gamemode between Survival and Creative. : "/tgm"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSetTime</Key>
-		  <Value>Sets the sun offset effectively changing the time of day. : "/settime 0.25"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandToggleInstaGrow</Key>
-		  <Value>Toggles Instant plant growth on a server or game. : "/tgrow"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandStopWeather</Key>
-		  <Value>Stops a Storm Instantly. : "/stopweather"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandStartWeather</Key>
-		  <Value>Starts a new Storm Instantly. : "/startweather"</Value>
-		</Record>
+<Record>
+  <Key>ContactEventDefault</Key>
+  <Value>No hubo respuesta.</Value>
+</Record>
+<Record>
+  <Key>ContactTradeRequest</Key>
+  <Value>Un comerciante ha solicitado permiso para aterrizar.</Value>
+</Record>
+<Record>
+  <Key>TraderInUse</Key>
+  <Value>Este contacto ya está interactuando con alguien, intenta de nuevo pronto.</Value>
+</Record>
+<Record>
+  <Key>ContactNoResponse</Key>
+  <Value>No hubo respuesta.</Value>
+</Record>
+<Record>
+  <Key>ContactTradeRequestFail</Key>
+  <Value>Comerciante solicitando aterrizaje seguro. Se requiere una plataforma de aterrizaje con energía para continuar.</Value>
+</Record>
+<Record>
+  <Key>ContactTradeRequestFailInUse</Key>
+  <Value>Alguien ya está interactuando con este comerciante, intenta de nuevo pronto.</Value>
+</Record>
+<Record>
+  <Key>ContactLandingRequestFailVendingMachine</Key>
+  <Value>Necesitas una máquina expendedora alimentada en la red para interactuar con este comerciante.</Value>
+</Record>
+<Record>
+  <Key>ContactLandingRequestFailSatellite</Key>
+  <Value>Hay un problema con tu satélite. Verifica que esté conectado a la red y alimentado.</Value>
+</Record>
+<Record>
+  <Key>ContactLandingRequestFailStorm</Key>
+  <Value>El comerciante no puede viajar en esta tormenta.</Value>
+</Record>
+<Record>
+  <Key>InputTextTradingTitle</Key>
+  <Value>Terminal de Comercio</Value>
+</Record>
+<Record>
+  <Key>PanelPlantGeneticsTitle</Key>
+  <Value>Información Genética</Value>
+</Record>
+<Record>
+  <Key>TraderElectronics</Key>
+  <Value>Tecnología Electrónica de TechTree</Value>
+</Record>
+<Record>
+  <Key>TraderOrganics</Key>
+  <Value>Organicon</Value>
+</Record>
+<Record>
+  <Key>TraderBasic</Key>
+  <Value>Fundamentos de Spes'mall</Value>
+</Record>
+<Record>
+  <Key>TraderHydraulic</Key>
+  <Value>HydrauliKit</Value>
+</Record>
+<Record>
+  <Key>TraderOre</Key>
+  <Value>Minerales MineRite</Value>
+</Record>
+<Record>
+  <Key>TraderMicrowave</Key>
+  <Value>Microwares</Value>
+</Record>
+<Record>
+  <Key>TraderChemistry</Key>
+  <Value>Laboratorio Químico</Value>
+</Record>
+<Record>
+  <Key>TraderExotics</Key>
+  <Value>ExoTech</Value>
+</Record>
+<Record>
+  <Key>TraderPaint</Key>
+  <Value>Pinturas Color Corp</Value>
+</Record>
+<Record>
+  <Key>TraderTool</Key>
+  <Value>Tool Corp</Value>
+</Record>
+<Record>
+  <Key>TraderSecurity</Key>
+  <Value>Seguridad Hall Corp</Value>
+</Record>
+<Record>
+  <Key>TraderOther</Key>
+  <Value>Artículos Variados de Kolders</Value>
+</Record>
+<Record>
+  <Key>TraderGas</Key>
+  <Value>GasTrade</Value>
+</Record>
+<Record>
+  <Key>TraderCustom</Key>
+  <Value>Spes'mall</Value>
+</Record>
+<Record>
+  <Key>ButtonContact</Key>
+  <Value>Contactar</Value>
+</Record>
+<Record>
+  <Key>LoadBackupsTitle</Key>
+  <Value>Cargar Respaldo</Value>
+</Record>
+<Record>
+  <Key>BackupMenuFileListTitle</Key>
+  <Value>Respaldos</Value>
+</Record>
+<Record>
+  <Key>Experiments</Key>
+  <Value>Experimentos</Value>
+</Record>
+<Record>
+  <Key>OcclusionTickSpeed</Key>
+  <Value>Velocidad de Tick de Oclusión</Value>
+</Record>
+<Record>
+  <Key>RoomControlTickSpeed</Key>
+  <Value>Velocidad de Tick de Control de Sala</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTargetX</Key>
+  <Value>La posición objetivo en la dimensión X en coordenadas del mundo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTargetY</Key>
+  <Value>La posición objetivo en la dimensión Y en coordenadas del mundo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTargetZ</Key>
+  <Value>La posición objetivo en la dimensión Z en coordenadas del mundo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeSettingInputHash</Key>
+  <Value>La configuración de entrada para el dispositivo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeSettingOutputHash</Key>
+  <Value>La configuración de salida para el dispositivo</Value>
+</Record>
+<Record>
+  <Key>ButtonDepart</Key>
+  <Value>Partir</Value>
+</Record>
+<Record>
+  <Key>ButtonAbandonRocket</Key>
+  <Value>Abandonar</Value>
+</Record>
+<Record>
+  <Key>SettingsShowSlotTooltips</Key>
+  <Value>Mostrar Tooltips de Slots</Value>
+</Record>
+<Record>
+  <Key>SettingsWorldOrigin</Key>
+  <Value>Rebase del Origen del Mundo</Value>
+</Record>
+<Record>
+  <Key>GameMenuButtonPause</Key>
+  <Value>Pausar</Value>
+</Record>
+<Record>
+  <Key>PromptPauseTitle</Key>
+  <Value>Pausa</Value>
+</Record>
+<Record>
+  <Key>PromptPauseBody</Key>
+  <Value>Juego en pausa</Value>
+</Record>
+<Record>
+  <Key>PromptButtonLeave</Key>
+  <Value>Dejar Sesión</Value>
+</Record>
+<Record>
+  <Key>PromptResumeButton</Key>
+  <Value>Reanudar</Value>
+</Record>
+<Record>
+  <Key>BuildTimeMultiplier</Key>
+  <Value>Multiplicador de Tiempo de Construcción</Value>
+</Record>
+<Record>
+  <Key>MaterialCostMultiplier</Key>
+  <Value>Multiplicador de Costo de Material</Value>
+</Record>
+<Record>
+  <Key>EnergyCostMultiplier</Key>
+  <Value>Multiplicador de Costo de Energía</Value>
+</Record>
+<Record>
+  <Key>CreationMultiplier</Key>
+  <Value>Multiplicador de Creación</Value>
+</Record>
+<Record>
+  <Key>TierThree</Key>
+  <Value>Tier Tres</Value>
+</Record>
+<Record>
+  <Key>TierOne</Key>
+  <Value>Tier Uno</Value>
+</Record>
+<Record>
+  <Key>TierTwo</Key>
+  <Value>Tier Dos</Value>
+</Record>
+<Record>
+  <Key>TravelMenuTitle</Key>
+  <Value>Viajar al Mundo</Value>
+</Record>
+<Record>
+  <Key>TravelMenuListTitle</Key>
+  <Value>Mundos Disponibles</Value>
+</Record>
+<Record>
+  <Key>TravelMenuButtonTravel</Key>
+  <Value>Viajar al Mundo</Value>
+</Record>
+<Record>
+  <Key>GameMenuButtonTravel</Key>
+  <Value>Viajar al Mundo</Value>
+</Record>
+<Record>
+  <Key>PromptTravelBody</Key>
+  <Value>¿Estás seguro de que quieres viajar al mapa?</Value>
+</Record>
+<Record>
+  <Key>TravelMenuNamePlaceholder</Key>
+  <Value>Nombre del mundo de viaje</Value>
+</Record>
+<Record>
+  <Key>PromptTravelConfirm</Key>
+  <Value>Viajar</Value>
+</Record>
+<Record>
+  <Key>Loulan</Key>
+  <Value>Loulan</Value>
+</Record>
+<Record>
+  <Key>TravelMenuButtonTravelNew</Key>
+  <Value>Nuevo Mundo</Value>
+</Record>
+<Record>
+  <Key>TravelMenuButtonTravelLoad</Key>
+  <Value>Cargar Mundo</Value>
+</Record>
+<Record>
+  <Key>SettingsDifficulty</Key>
+  <Value>Ajustes de Dificultad</Value>
+</Record>
+<Record>
+  <Key>WorldCustomTerrainLabel</Key>
+  <Value>Color del Terreno</Value>
+</Record>
+<Record>
+  <Key>BlueField</Key>
+  <Value>Azul:</Value>
+</Record>
+<Record>
+  <Key>GreenField</Key>
+  <Value>Verde:</Value>
+</Record>
+<Record>
+  <Key>RedField</Key>
+  <Value>Rojo:</Value>
+</Record>
+<Record>
+  <Key>HueField</Key>
+  <Value>Matiz:</Value>
+</Record>
+<Record>
+  <Key>SaturationField</Key>
+  <Value>Saturación:</Value>
+</Record>
+<Record>
+  <Key>BrightnessField</Key>
+  <Value>Brillo:</Value>
+</Record>
+<Record>
+  <Key>RGBValues</Key>
+  <Value>Valores RGB</Value>
+</Record>
+<Record>
+  <Key>HVSValues</Key>
+  <Value>Valores HVS</Value>
+</Record>
+<Record>
+  <Key>ColourSelecter</Key>
+  <Value>Selector de Color:</Value>
+</Record>
+<Record>
+  <Key>HasLavaField</Key>
+  <Value>Tiene Lava</Value>
+</Record>
+<Record>
+  <Key>Colour</Key>
+  <Value>Color</Value>
+</Record>
+<Record>
+  <Key>Gravity</Key>
+  <Value>Gravedad</Value>
+</Record>
+<Record>
+  <Key>AtmosphereScatteringField</Key>
+  <Value>Dispersión Atmosférica</Value>
+</Record>
+<Record>
+  <Key>MineablesField</Key>
+  <Value>Minables</Value>
+</Record>
+<Record>
+  <Key>LevelLevelField</Key>
+  <Value>Nivel de Lava</Value>
+</Record>
+<Record>
+  <Key>TerrainFeaturesField</Key>
+  <Value>Características del Terreno</Value>
+</Record>
+<Record>
+  <Key>RespawnConditionsField</Key>
+  <Value>Condición de Respawn</Value>
+</Record>
+<Record>
+  <Key>DifficultyField</Key>
+  <Value>Dificultad</Value>
+</Record>
+<Record>
+  <Key>HasLODField</Key>
+  <Value>Tiene LOD</Value>
+</Record>
+<Record>
+  <Key>SolarScaleField</Key>
+  <Value>Escala de Intensidad Solar</Value>
+</Record>
+<Record>
+  <Key>DawnTemperatureField</Key>
+  <Value>Temperatura del Amanecer</Value>
+</Record>
+<Record>
+  <Key>NoonTemperatureField</Key>
+  <Value>Temperatura del Mediodía</Value>
+</Record>
+<Record>
+  <Key>DuskTemperatureField</Key>
+  <Value>Temperatura del Crepúsculo</Value>
+</Record>
+<Record>
+  <Key>MidnightTemperatureField</Key>
+  <Value>Temperatura de Medianoche</Value>
+</Record>
+<Record>
+  <Key>PreviewAtmosphereField</Key>
+  <Value>Previsualización de la Atmósfera</Value>
+</Record>
+<Record>
+  <Key>HasCustomTemperatureField</Key>
+  <Value>Tiene Temperatura Personalizada</Value>
+</Record>
+<Record>
+  <Key>LavaLevelField</Key>
+  <Value>Nivel de Lava</Value>
+</Record>
+<Record>
+  <Key>SolidTerrainColourField</Key>
+  <Value>Color del Terreno Sólido</Value>
+</Record>
+<Record>
+  <Key>CartridgeTrackerTitle</Key>
+  <Value>RASTREADOR</Value>
+</Record>
+<Record>
+  <Key>CartridgeTrackerSelected</Key>
+  <Value>Desplázate para seleccionar el objetivo</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderSelected</Key>
+  <Value>Marcos de acero</Value>
+</Record>
+<Record>
+  <Key>CartridgeTrackerDistance</Key>
+  <Value>Distancia</Value>
+</Record>
+<Record>
+  <Key>ButtonCustomWorld</Key>
+  <Value>Mundo Personalizado</Value>
+</Record>
+<Record>
+  <Key>GasItemGasSymbol</Key>
+  <Value>H0C3</Value>
+</Record>
+<Record>
+  <Key>GasItemGasAmount</Key>
+  <Value>100%</Value>
+</Record>
+<Record>
+  <Key>GasItemGasMole</Key>
+  <Value>12.09 moles</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserPressureTitle</Key>
+  <Value>PRESSIÓN</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserTemperatureTitle</Key>
+  <Value>TEMP</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserConvectedTitle</Key>
+  <Value>CONVECTADO</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserLiquidTitle</Key>
+  <Value>LIQUIDO</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserRadiatedTitle</Key>
+  <Value>RADIADO</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserTitle</Key>
+  <Value>ANALIZADOR DE ATMÓSFERA</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserCapacityTitle</Key>
+  <Value>CAPACIDAD</Value>
+</Record>
+<Record>
+  <Key>BigWarning</Key>
+  <Value>ADVERTENCIA</Value>
+</Record>
+<Record>
+  <Key>DialogConfirmLastSaveIsAutoSave</Key>
+  <Value>¿ESTÁS SEGURO? La última copia de seguridad que tienes es una copia de seguridad automática. Puedes perder tu progreso si no guardas ahora.</Value>
+</Record>
+<Record>
+  <Key>GameMenuButtonCancel</Key>
+  <Value>Cancelar</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderRecipeTitle</Key>
+  <Value>Receta:</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderRecipeOrder</Key>
+  <Value>1 de 2</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderAutoFlashTitle</Key>
+  <Value>Punto de Inflamación:</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderAutoITitle</Key>
+  <Value>Autoignición:</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderAutoHashTitle</Key>
+  <Value>Hash:</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderWeightSymbol</Key>
+  <Value>g</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderIron</Key>
+  <Value>Hierro</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderIce</Key>
+  <Value>Hielo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderOxite</Key>
+  <Value>Oxite</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderNitrice</Key>
+  <Value>Nitrice</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderVolatiles</Key>
+  <Value>Volátiles</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderGold</Key>
+  <Value>Oro</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderCoal</Key>
+  <Value>Carbón</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderCopper</Key>
+  <Value>Cobre</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderUranium</Key>
+  <Value>Uranio</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSilver</Key>
+  <Value>Plata</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderNickel</Key>
+  <Value>Níquel</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderLead</Key>
+  <Value>Plomo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSilicon</Key>
+  <Value>Silicio</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderCobalt</Key>
+  <Value>Cobalto</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderCarbon</Key>
+  <Value>Carbono</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSteel</Key>
+  <Value>Acero</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderUranium</Key>
+  <Value>Uranio</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderHydrocarbon</Key>
+  <Value>Hidrocarburo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSilver</Key>
+  <Value>Plata</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderNickel</Key>
+  <Value>Níquel</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderLead</Key>
+  <Value>Plomo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderElectrum</Key>
+  <Value>Electrum</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderInvar</Key>
+  <Value>Invar</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderConstantan</Key>
+  <Value>Constantan</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSolder</Key>
+  <Value>Soldadura</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSilicon</Key>
+  <Value>Silicio</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSalicylicAcid</Key>
+  <Value>Ácido Salicílico</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderAlcohol</Key>
+  <Value>Alcohol</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderOil</Key>
+  <Value>Aceite</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderFenoxitone</Key>
+  <Value>Fenoxitona</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderColorRed</Key>
+  <Value>Color Rojo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderColorBlue</Key>
+  <Value>Color Azul</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderColorYellow</Key>
+  <Value>Color Amarillo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderColorOrange</Key>
+  <Value>Color Naranja</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderColorGreen</Key>
+  <Value>Color Verde</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderMilk</Key>
+  <Value>Leche</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderFlour</Key>
+  <Value>Harina</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderEgg</Key>
+  <Value>Huevo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReadereggs</Key>
+  <Value>huevos</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderLiquidMeasurement</Key>
+  <Value>ml</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderTime</Key>
+  <Value>Tiempo</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderSeconds</Key>
+  <Value>Segundos</Value>
+</Record>
+<Record>
+  <Key>SettingsRenderDistance</Key>
+  <Value>Distancia de Renderizado</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderEnergy</Key>
+  <Value>Energía</Value>
+</Record>
+<Record>
+  <Key>WattEnergyMeasurement</Key>
+  <Value>W</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderTemperature</Key>
+  <Value>Temperatura</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderKelvinSymbol</Key>
+  <Value>K</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderPressure</Key>
+  <Value>Presión</Value>
+</Record>
+<Record>
+  <Key>ElectronicReaderPressureSym</Key>
+  <Value>Pa</Value>
+</Record>
+<Record>
+  <Key>NetworkAnalyserNetwork</Key>
+  <Value>RED DE CABLES</Value>
+</Record>
+<Record>
+  <Key>NetworkAnalyserActual</Key>
+  <Value>ACTUAL</Value>
+</Record>
+<Record>
+  <Key>NetworkAnalyserPotential</Key>
+  <Value>POTENCIAL</Value>
+</Record>
+<Record>
+  <Key>NetworkAnalyserDevices</Key>
+  <Value>DISPOSITIVOS</Value>
+</Record>
+<Record>
+  <Key>NetworkAnalyserRequired</Key>
+  <Value>REQUIERDO</Value>
+</Record>
+<Record>
+  <Key>NetworkAnalyserTitle</Key>
+  <Value>ANALIZADOR DE RED</Value>
+</Record>
+<Record>
+  <Key>CartridgeElectronicReaderTitle</Key>
+  <Value>ENCICLOPEDIA</Value>
+</Record>
+<Record>
+  <Key>NotApplicableString</Key>
+  <Value>N/A</Value>
+</Record>
+<Record>
+  <Key>CustomWorld</Key>
+  <Value>Mundo Personalizado</Value>
+</Record>
+<Record>
+  <Key>ScenariosTitle</Key>
+  <Value>Escenarios</Value>
+</Record>
+<Record>
+  <Key>ScenariosObjectiveTitle</Key>
+  <Value>Objetivo</Value>
+</Record>
+<Record>
+  <Key>TutorialsTitle</Key>
+  <Value>Tutoriales</Value>
+</Record>
+<Record>
+  <Key>TutorialsObjectiveTitle</Key>
+  <Value>Objetivo</Value>
+</Record>
+<Record>
+  <Key>SettingsTerrainClutter</Key>
+  <Value>Desorden del Terreno</Value>
+</Record>
+<Record>
+  <Key>ResetInventoryTitle</Key>
+  <Value>Restablecer Ventanas de Inventario</Value>
+</Record>
+<Record>
+  <Key>ResetInventoryDescription</Key>
+  <Value>Esto restablecerá todas las ventanas de inventario no acopladas.</Value>
+</Record>
+<Record>
+  <Key>ConfirmReset</Key>
+  <Value>Restablecer</Value>
+</Record>
+<Record>
+  <Key>Construction Supplies 1</Key>
+  <Value>Supplies de Construcción 1</Value>
+</Record>
+<Record>
+  <Key>Construction Supplies 2</Key>
+  <Value>Supplies de Construcción 2</Value>
+</Record>
+<Record>
+  <Key>Organic Supplies</Key>
+  <Value>Supplies Orgánicos</Value>
+</Record>
+<Record>
+  <Key>Organic Supplies 1</Key>
+  <Value>Supplies Orgánicos 1</Value>
+</Record>
+<Record>
+  <Key>Organic Supplies 2</Key>
+  <Value>Supplies Orgánicos 2</Value>
+</Record>
+<Record>
+  <Key>Consumables Supplies</Key>
+  <Value>Supplies Consumibles</Value>
+</Record>
+<Record>
+  <Key>Portable Appliance Kits</Key>
+  <Value>Kits de Electrodomésticos Portátiles</Value>
+</Record>
+<Record>
+  <Key>Misc Crate</Key>
+  <Value>Crate Variado</Value>
+</Record>
+<Record>
+  <Key>Communications Crate</Key>
+  <Value>Crate de Comunicaciones</Value>
+</Record>
+<Record>
+  <Key>SettingsTerrainClutterMultiplier</Key>
+  <Value>Multiplicador de Desorden del Terreno</Value>
+</Record>
+<Record>
+  <Key>ActivateResearch</Key>
+  <Value>Inicia el proceso de investigación.</Value>
+</Record>
+<Record>
+  <Key>ManualGetResearchPodsRequired</Key>
+  <Value>Establece el tipo de cápsula para buscar un cierto tipo al descomponer cápsulas.</Value>
+</Record>
+<Record>
+  <Key>CurrentResearchPodType</Key>
+  <Value>Devuelve el tipo de cápsula almacenada en la máquina.</Value>
+</Record>
+<Record>
+  <Key>MineablesInVicinity</Key>
+  <Value>Devuelve la cantidad de recursos minables potenciales dentro de un área extendida alrededor de AIMEe.</Value>
+</Record>
+<Record>
+  <Key>MineablesInQueue</Key>
+  <Value>Devuelve la cantidad de recursos minables que AIMEe ha programado para minar.</Value>
+</Record>
+<Record>
+  <Key>NextWeatherEventTime</Key>
+  <Value>Devuelve en segundos cuándo el próximo evento climático está en camino.</Value>
+</Record>
+<Record>
+  <Key>ResearchFilter</Key>
+  <Value>Filtro</Value>
+</Record>
+<Record>
+  <Key>ResearchTitle</Key>
+  <Value>Investigación</Value>
+</Record>
+<Record>
+  <Key>ResearchConfirm</Key>
+  <Value>Confirmar</Value>
+</Record>
+<Record>
+  <Key>ResearchCancel</Key>
+  <Value>Cancelar</Value>
+</Record>
+<Record>
+  <Key>ServerReadyString</Key>
+  <Value>El servidor ahora puede ser iniciado.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandL</Key>
+  <Value>Carga el LogicType del dispositivo en el registro mediante el valor del índice de la vivienda.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLD</Key>
+  <Value>Carga el LogicType del dispositivo en el registro mediante la referencia de ID directa.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLB</Key>
+  <Value>Carga el LogicType de todos los dispositivos de red de salida con el hash de tipo proporcionado usando el modo de lote proporcionado. Promedio (0), Suma (1), Mínimo (2), Máximo (3). Puede usar la palabra o el número.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLBN</Key>
+  <Value>Carga el LogicType de todos los dispositivos de red de salida con el hash de tipo y nombre proporcionados usando el modo de lote proporcionado. Promedio (0), Suma (1), Mínimo (2), Máximo (3). Puede usar la palabra o el número.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLBS</Key>
+  <Value>Carga el LogicSlotType del slotIndex de todos los dispositivos de red de salida con el hash de tipo proporcionado usando el modo de lote proporcionado. Promedio (0), Suma (1), Mínimo (2), Máximo (3). Puede usar la palabra o el número.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLBNS</Key>
+  <Value>Carga el LogicSlotType del slotIndex de todos los dispositivos de red de salida con los hashes de tipo y nombre proporcionados usando el modo de lote proporcionado. Promedio (0), Suma (1), Mínimo (2), Máximo (3). Puede usar la palabra o el número.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandS</Key>
+  <Value>Almacena el valor del registro en el LogicType del dispositivo mediante el valor del índice de vivienda.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSD</Key>
+  <Value>Almacena el valor del registro en el LogicType del dispositivo mediante la referencia de ID directa.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSS</Key>
+  <Value>Almacena el valor del registro en el LogicSlotType del dispositivo almacenado en un slot.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSBS</Key>
+  <Value>Almacena el valor del registro en el LogicSlotType de todos los dispositivos de red de salida con el hash de tipo proporcionado en el slot proporcionado.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSB</Key>
+  <Value>Almacena el valor del registro en el LogicType de todos los dispositivos de red de salida con el hash de tipo proporcionado.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLS</Key>
+  <Value>Carga el LogicSlotType del dispositivo en el registro.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLR</Key>
+  <Value>Carga el reactivo del modo ReagentMode del dispositivo donde un hash del tipo de reactivo a verificar. ReagentMode puede ser Contenido (0), Requerido (1), Receta (2). Puede usar la palabra o el número.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandAlias</Key>
+  <Value>Etiqueta el registro o la referencia del dispositivo con un nombre, las referencias del dispositivo también afectan lo que se muestra en los tornillos en la base del IC.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandDefine</Key>
+  <Value>Crea una etiqueta que será reemplazada en todo el programa con el valor proporcionado.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandMove</Key>
+  <Value>Registro = número proporcionado o valor del registro.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandAdd</Key>
+  <Value>Registro = a + b.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSub</Key>
+  <Value>Registro = a - b.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSdse</Key>
+  <Value>Registro = 1 si el dispositivo está configurado, de lo contrario 0.</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSdns</Key>
+  <Value>Registro = 1 si el dispositivo no está configurado, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSlt</Key>
+  <Value>Registro = 1 si a &lt; b, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSgt</Key>
+  <Value>Registro = 1 si a &gt; b, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSle</Key>
+  <Value>Registro = 1 si a &lt;= b, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSge</Key>
+  <Value>Registro = 1 si a &gt;= b, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSeq</Key>
+  <Value>Registro = 1 si a == b, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSnan</Key>
+  <Value>Registro = 1 si a es NaN, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSnanz</Key>
+  <Value>Registro = 0 si a es NaN, de lo contrario 1</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSne</Key>
+  <Value>Registro = 1 si a != b, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSap</Key>
+  <Value>Registro = 1 si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSna</Key>
+  <Value>Registro = 1 si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSltz</Key>
+  <Value>Registro = 1 si a &lt; 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSgtz</Key>
+  <Value>Registro = 1 si a &gt; 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSlez</Key>
+  <Value>Registro = 1 si a &lt;= 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSgez</Key>
+  <Value>Registro = 1 si a &gt;= 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSeqz</Key>
+  <Value>Registro = 1 si a == 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSnez</Key>
+  <Value>Registro = 1 si a != 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSapz</Key>
+  <Value>Registro = 1 si |a| &lt;= float.epsilon * 8, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSnaz</Key>
+  <Value>Registro = 1 si |a| &gt; float.epsilon, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandAnd</Key>
+  <Value>Registro = 1 si a y b no son cero, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandOr</Key>
+  <Value>Registro = 1 si a y/o b no son 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandXor</Key>
+  <Value>Registro = 1 si a o b no son 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandNor</Key>
+  <Value>Registro = 1 si a y b son 0, de lo contrario 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandMul</Key>
+  <Value>Registro = a * b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandDiv</Key>
+  <Value>Registro = a / b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandMod</Key>
+  <Value>Registro = a mod b (nota: NO a % b)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandJ</Key>
+  <Value>Saltar ejecución a la línea a</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBdse</Key>
+  <Value>Branch a la línea a si el dispositivo d está configurado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBdns</Key>
+  <Value>Branch a la línea a si el dispositivo d no está configurado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBlt</Key>
+  <Value>Branch a la línea c si a &lt; b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgt</Key>
+  <Value>Branch a la línea c si a &gt; b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBle</Key>
+  <Value>Branch a la línea c si a &lt;= b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBge</Key>
+  <Value>Branch a la línea c si a &gt;= b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBeq</Key>
+  <Value>Branch a la línea c si a == b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBnan</Key>
+  <Value>Branch a la línea b si a no es un número (NaN)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrnan</Key>
+  <Value>Branch relativo a la línea b si a no es un número (NaN)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBne</Key>
+  <Value>Branch a la línea c si a != b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBap</Key>
+  <Value>Branch a la línea d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBna</Key>
+  <Value>Branch a la línea d si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBltz</Key>
+  <Value>Branch a la línea b si a &lt; 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgez</Key>
+  <Value>Branch a la línea b si a &gt;= 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBlez</Key>
+  <Value>Branch a la línea b si a &lt;= 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgtz</Key>
+  <Value>Branch a la línea b si a &gt; 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBeqz</Key>
+  <Value>Branch a la línea b si a == 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBnez</Key>
+  <Value>Branch a la línea b si a != 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBapz</Key>
+  <Value>Branch a la línea c si abs(a) &lt;= float.epsilon * 8</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBnaz</Key>
+  <Value>Branch a la línea c si abs(a) &gt; float.epsilon * 8</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandJr</Key>
+  <Value>Saltar relativo a la línea a</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrdse</Key>
+  <Value>Saltar relativo a la línea a si el dispositivo está configurado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrdns</Key>
+  <Value>Saltar relativo a la línea a si el dispositivo no está configurado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrlt</Key>
+  <Value>Saltar relativo a la línea c si a &lt; b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrgt</Key>
+  <Value>Saltar relativo a la línea c si a &gt; b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrle</Key>
+  <Value>Saltar relativo a la línea c si a &lt;= b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrge</Key>
+  <Value>Saltar relativo a la línea c si a &gt;= b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBreq</Key>
+  <Value>Saltar relativo a la línea c si a == b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrne</Key>
+  <Value>Saltar relativo a la línea c si a != b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrap</Key>
+  <Value>Saltar relativo a la línea d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrna</Key>
+  <Value>Saltar relativo a la línea d si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrltz</Key>
+  <Value>Saltar relativo a la línea b si a &lt; 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrgez</Key>
+  <Value>Saltar relativo a la línea b si a &gt;= 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrlez</Key>
+  <Value>Saltar relativo a la línea b si a &lt;= 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrgtz</Key>
+  <Value>Saltar relativo a la línea b si a &gt; 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBeqz</Key>
+  <Value>Saltar relativo a la línea b si a == 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrnez</Key>
+  <Value>Saltar relativo a la línea b si a != 0</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBapz</Key>
+  <Value>Saltar relativo a la línea c si abs(a) &lt;= float.epsilon * 8</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBnaz</Key>
+  <Value>Saltar relativo a la línea c si abs(a) &gt; float.epsilon * 8</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSqrt</Key>
+  <Value>Registro = raíz cuadrada de a</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandRound</Key>
+  <Value>Registro = a redondeado al entero más cercano</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandTrunc</Key>
+  <Value>Registro = a con la parte fraccionaria eliminada</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandCeil</Key>
+  <Value>Registro = el entero más pequeño mayor que a</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandFloor</Key>
+  <Value>Registro = el entero más grande menor que a</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandMax</Key>
+  <Value>Registro = máximo de a o b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandMin</Key>
+  <Value>Registro = mínimo de a o b</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandAbs</Key>
+  <Value>Registro = el valor absoluto de a</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLog</Key>
+  <Value>Registro = log(a)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandExp</Key>
+  <Value>Registro = exp(a)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandRand</Key>
+  <Value>Registro = un valor aleatorio x con 0 &lt;= x &lt; 1</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandYield</Key>
+  <Value>Pauses ejecución durante 1 tick</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandLabel</Key>
+  <Value>Obsoleto</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandPeek</Key>
+  <Value>Registro = el valor en la parte superior de la pila</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandPush</Key>
+  <Value>Empuja el valor de a a la pila en sp e incrementa sp</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandPop</Key>
+  <Value>Registro = el valor en la parte superior de la pila y decrementa sp</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandHcf</Key>
+  <Value>Halt and catch fire</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSelect</Key>
+  <Value>Registro = b si a es no cero, de lo contrario c</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSleep</Key>
+  <Value>Pauses ejecución en el IC durante un segundo</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandSin</Key>
+  <Value>Devuelve el seno del ángulo especificado (radianes)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandCos</Key>
+  <Value>Devuelve el coseno del ángulo especificado (radianes)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandTan</Key>
+  <Value>Devuelve la tangente del ángulo especificado (radianes)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandASin</Key>
+  <Value>Devuelve el ángulo (radianes) cuyo seno es el valor especificado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandACos</Key>
+  <Value>Devuelve el ángulo (radianes) cuyo coseno es el valor especificado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandATan</Key>
+  <Value>Devuelve el ángulo (radianes) cuya tangente es el valor especificado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandATan2</Key>
+  <Value>Devuelve el ángulo (radianes) cuya tangente es el cociente de dos valores especificados: a (y) y b (x)</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandCommand</Key>
+  <Value>comando</Value>
+</Record>
+<Record>
+  <Key>BluePodType</Key>
+  <Value>Azul</Value>
+</Record>
+<Record>
+  <Key>RedPodType</Key>
+  <Value>Rojo</Value>
+</Record>
+<Record>
+  <Key>GreenPodType</Key>
+  <Value>Verde</Value>
+</Record>
+<Record>
+  <Key>YellowPodType</Key>
+  <Value>Amarillo</Value>
+</Record>
+<Record>
+  <Key>SettingsResearch</Key>
+  <Value>Selección de Pool de Investigación</Value>
+</Record>
+<Record>
+  <Key>DialogConfirmResearchUnlock</Key>
+  <Value>¿Quieres desbloquear esta investigación?</Value>
+</Record>
+<Record>
+  <Key>ResearchRequirementTitle</Key>
+  <Value>Requisitos</Value>
+</Record>
+<Record>
+  <Key>ResearchUnlocksTitle</Key>
+  <Value>Desbloqueos</Value>
+</Record>
+<Record>
+  <Key>ResearchMilitary</Key>
+  <Value>Militar</Value>
+</Record>
+<Record>
+  <Key>ResearchProduction</Key>
+  <Value>Producción</Value>
+</Record>
+<Record>
+  <Key>ResearchAutomation</Key>
+  <Value>Automatización</Value>
+</Record>
+<Record>
+  <Key>ResearchTools</Key>
+  <Value>Herramientas</Value>
+</Record>
+<Record>
+  <Key>ResearchOrganics</Key>
+  <Value>Orgánicos</Value>
+</Record>
+<Record>
+  <Key>ResearchConstruction</Key>
+  <Value>Construcción</Value>
+</Record>
+<Record>
+  <Key>ResearchLogic</Key>
+  <Value>Lógica</Value>
+</Record>
+<Record>
+  <Key>ResearchVehicles</Key>
+  <Value>Vehículos</Value>
+</Record>
+<Record>
+  <Key>ResearchShowLocked</Key>
+  <Value>Mostrar Bloqueados</Value>
+</Record>
+<Record>
+  <Key>ResearchCantAfford</Key>
+  <Value>No puedes permitirte desbloquear esta investigación.</Value>
+</Record>
+<Record>
+  <Key>ResearchRequirementNotMet</Key>
+  <Value>No cumples con los requisitos para desbloquear esta investigación.</Value>
+</Record>
+<Record>
+  <Key>ResearchUnlockConfirm</Key>
+  <Value>¿Quieres desbloquear esta investigación?</Value>
+</Record>
+<Record>
+  <Key>WarningSavePathNotWritableDescription</Key>
+  <Value>No se pudo escribir en la ruta de guardado. Se ha restablecido a la predeterminada</Value>
+</Record>
+<Record>
+  <Key>WarningSavePathNotWritable</Key>
+  <Value>Ruta de Guardado No Escritable</Value>
+</Record>
+<Record>
+  <Key>FramerateLock</Key>
+  <Value>Framerate Objetivo</Value>
+</Record>
+<Record>
+  <Key>SaveBeforeTravel</Key>
+  <Value>¡Debes guardar tu juego antes de viajar a otro mundo!</Value>
+</Record>
+<Record>
+  <Key>LaunchRocketAlert</Key>
+  <Value>¿Quieres lanzar este cohete?</Value>
+</Record>
+<Record>
+  <Key>StatusWindowVitals</Key>
+  <Value>Vitales</Value>
+</Record>
+<Record>
+  <Key>StatusWindowJetpack</Key>
+  <Value>Jetpack</Value>
+</Record>
+<Record>
+  <Key>StatusWindowTarget</Key>
+  <Value>Objetivo</Value>
+</Record>
+<Record>
+  <Key>CompletedKey</Key>
+  <Value>Completado</Value>
+</Record>
+<Record>
+  <Key>LockedKey</Key>
+  <Value>Bloqueado</Value>
+</Record>
+<Record>
+  <Key>TutorialScoreboardHeading</Key>
+  <Value>Tutorial Completo</Value>
+</Record>
+<Record>
+  <Key>TutorialSelectKey</Key>
+  <Value>Seleccionar Tutorial</Value>
+</Record>
+<Record>
+  <Key>ScenarioSelectKey</Key>
+  <Value>Seleccionar Escenario</Value>
+</Record>
+<Record>
+  <Key>TankPressure</Key>
+  <Value>Presión del Tanque</Value>
+</Record>
+<Record>
+  <Key>CrowbarToOpen</Key>
+  <Value>Usa un {THING:ItemCrowbar} para abrir esto</Value>
+</Record>
+<Record>
+  <Key>Display</Key>
+  <Value>Pantalla</Value>
+</Record>
+<Record>
+  <Key>Player</Key>
+  <Value>Jugador</Value>
+</Record>
+<Record>
+  <Key>Deceased</Key>
+  <Value>Fallecido</Value>
+</Record>
+<Record>
+  <Key>Unconscious</Key>
+  <Value>Inconsciente</Value>
+</Record>
+<Record>
+  <Key>Contents</Key>
+  <Value>Contenido</Value>
+</Record>
+<Record>
+  <Key>InputRight</Key>
+  <Value>Entrada Derecha</Value>
+</Record>
+<Record>
+  <Key>InputLeft</Key>
+  <Value>Entrada Izquierda</Value>
+</Record>
+<Record>
+  <Key>Liquid</Key>
+  <Value>Líquido</Value>
+</Record>
+<Record>
+  <Key>Gas</Key>
+  <Value>Gas</Value>
+</Record>
+<Record>
+  <Key>Empty</Key>
+  <Value>Vacío</Value>
+</Record>
+<Record>
+  <Key>Cycle</Key>
+  <Value>Ciclo</Value>
+</Record>
+<Record>
+  <Key>BuildStateOfHash</Key>
+  <Value>{0} de {1}</Value>
+</Record>
+<Record>
+  <Key>Stage1Contains</Key>
+  <Value>Contiene {0} en {2}Etapa {1}{3}</Value>
+</Record>
+<Record>
+  <Key>PlantWillCreate</Key>
+  <Value>Esto creará {2}{0}{3} x {1}</Value>
+</Record>
+<Record>
+  <Key>PlantGrowing</Key>
+  <Value>La {0} está {1}creciendo{2}</Value>
+</Record>
+<Record>
+  <Key>PlantDead</Key>
+  <Value>La {0} está {1}muerta{2}</Value>
+</Record>
+<Record>
+  <Key>PlantHydrate</Key>
+  <Value>La {0} carece de {1}hidratación{2}</Value>
+</Record>
+<Record>
+  <Key>NoAtmos</Key>
+  <Value>La {0} no tiene {1}atmósfera{2}</Value>
+</Record>
+<Record>
+  <Key>PlantTemperature</Key>
+  <Value>La {0} no está a la {1}temperatura{2} correcta</Value>
+</Record>
+<Record>
+  <Key>PlantNoSunlight</Key>
+  <Value>La {0} no tiene la {1}luz solar{2} requerida</Value>
+</Record>
+<Record>
+  <Key>PlantToxic</Key>
+  <Value>La {0} está siendo dañada debido a altos niveles de {1}contaminante{2} en la atmósfera</Value>
+</Record>
+<Record>
+  <Key>holdhotkey</Key>
+  <Value>(mantener)</Value>
+</Record>
+<Record>
+  <Key>Pipe</Key>
+  <Value>Tubería</Value>
+</Record>
+<Record>
+  <Key>PipeLiquid</Key>
+  <Value>Tubería Líquido</Value>
+</Record>
+<Record>
+  <Key>Power</Key>
+  <Value>Poder</Value>
+</Record>
+<Record>
+  <Key>Data</Key>
+  <Value>Datos</Value>
+</Record>
+<Record>
+  <Key>Chute</Key>
+  <Value>Canalón</Value>
+</Record>
+<Record>
+  <Key>Elevator</Key>
+  <Value>Elevador</Value>
+</Record>
+<Record>
+  <Key>PowerAndData</Key>
+  <Value>Poder Y Datos</Value>
+</Record>
+<Record>
+  <Key>All</Key>
+  <Value>Todo</Value>
+</Record>
+<Record>
+  <Key>DeconstructToolTipText</Key>
+  <Value>{0} requerido para deconstruir</Value>
+</Record>
+<Record>
+  <Key>SettingsDoubleClickDelay</Key>
+  <Value>Retraso de Doble Clic</Value>
+</Record>
+<Record>
+  <Key>SettingsServerAdminPassword</Key>
+  <Value>Contraseña de Administrador del Servidor</Value>
+</Record>
+<Record>
+  <Key>ScoreboardPlayer</Key>
+  <Value>Jugador</Value>
+</Record>
+<Record>
+  <Key>ScoreboardTime</Key>
+  <Value>Tiempo de Juego</Value>
+</Record>
+<Record>
+  <Key>SettingsFirstPersonHelmet</Key>
+  <Value>Casco en Primera Persona</Value>
+</Record>
+<Record>
+  <Key>SiloDeconstruct</Key>
+  <Value>Tu Silo debe estar vacío antes de deconstruirlo.</Value>
+</Record>
+<Record>
+  <Key>PressEnterToContinue</Key>
+  <Value>Presiona Espacio para Continuar</Value>
+</Record>
+<Record>
+  <Key>TutorialCompleteDateOfCompletion</Key>
+  <Value>Fecha de Finalización:</Value>
+</Record>
+<Record>
+  <Key>BottleSlot</Key>
+  <Value>Ranura para Botellas</Value>
+</Record>
+<Record>
+  <Key>TutorialCompleteDeanHall</Key>
+  <Value>Dean Hall</Value>
+</Record>
+<Record>
+  <Key>TutorialCompleteTruly</Key>
+  <Value>Commodore ODA</Value>
+</Record>
+<Record>
+  <Key>TutorialCompleteNextTutorial</Key>
+  <Value>Siguiente Tutorial</Value>
+</Record>
+<Record>
+  <Key>SettingsMineableRenderDistance</Key>
+  <Value>Distancia de Renderizado de Mineables</Value>
+</Record>
+<Record>
+  <Key>SetSpawnMessage</Key>
+  <Value>Usa para establecer el Punto de Generación</Value>
+</Record>
+<Record>
+  <Key>SetSpawnTitle</Key>
+  <Value>Punto de Generación</Value>
+</Record>
+<Record>
+  <Key>ControlPrimaryClick</Key>
+  <Value>{KEY:PrimaryAction}</Value>
+</Record>
+<Record>
+  <Key>ControlPrimaryClickDisc</Key>
+  <Value>Interactuar</Value>
+</Record>
+<Record>
+  <Key>ControlHoldPrimaryClick</Key>
+  <Value>Mantener {KEY:PrimaryAction}</Value>
+</Record>
+<Record>
+  <Key>ControlHoldPrimaryClickConstructDisc</Key>
+  <Value>Construir</Value>
+</Record>
+<Record>
+  <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
+  <Value>Deconstruir</Value>
+</Record>
+<Record>
+  <Key>ControlHoldPrimaryClickPlaceDisc</Key>
+  <Value>Colocar</Value>
+</Record>
+<Record>
+  <Key>ControlHoldPrimaryClickPlantDisc</Key>
+  <Value>Plantar</Value>
+</Record>
+<Record>
+  <Key>ControlHoldPrimaryClickHarvestDisc</Key>
+  <Value>Cosechar</Value>
+</Record>
+<Record>
+  <Key>ControlPlayerMovement</Key>
+  <Value>{KEY:Forward}{KEY:Left}{KEY:Backward}{KEY:Right}</Value>
+</Record>
+<Record>
+  <Key>ControlPlayerMovementDisc</Key>
+  <Value>Movimiento</Value>
+</Record>
+<Record>
+  <Key>ControlSwapHands</Key>
+  <Value>{KEY:SwapHands}</Value>
+</Record>
+<Record>
+  <Key>ControlSwapHandsDisc</Key>
+  <Value>Intercambiar Manos</Value>
+</Record>
+<Record>
+  <Key>ActivateExplosiveKey</Key>
+  <Value>Activar cuenta regresiva</Value>
+</Record>
+<Record>
+  <Key>ActivateExplosiveTooltipKey1</Key>
+  <Value>Activa un</Value>
+</Record>
+<Record>
+  <Key>ActivateExplosiveTooltipKey2</Key>
+  <Value>segundo temporizador. Se aconseja precaución.</Value>
+</Record>
+<Record>
+  <Key>CommandSave</Key>
+  <Value>Guarda el juego y lo nombra con el parámetro dado. uso: "/save nombredelsave"</Value>
+</Record>
+<Record>
+  <Key>CommandShutdown</Key>
+  <Value>Apaga el servidor del juego y devuelve al jugador al vestíbulo, puede añadir un temporizador y mensaje. uso: "/shutdown"</Value>
+</Record>
+<Record>
+  <Key>CommandNotice</Key>
+  <Value>Envía un mensaje a los jugadores de un servidor. uso: "/notice el mensaje que deseas enviar"</Value>
+</Record>
+<Record>
+  <Key>CommandStatus</Key>
+  <Value>Muestra el estado actual del servidor y quién está actualmente en el servidor: "/status"</Value>
+</Record>
+<Record>
+  <Key>CommandBan</Key>
+  <Value>Prohíbe un ID de steam dado del servidor: "/ban 102039237390"</Value>
+</Record>
+<Record>
+  <Key>CommandUnBan</Key>
+  <Value>Revoca una prohibición de un ID de steam dado del servidor: "/unban 102039237390"</Value>
+</Record>
+<Record>
+  <Key>CommandKick</Key>
+  <Value>Expulsa a un jugador de un ID de steam dado del servidor: "/kick 102039237390"</Value>
+</Record>
+<Record>
+  <Key>CommandClearAll</Key>
+  <Value>Elimina a todos los jugadores desconectados del servidor: "/clearall"</Value>
+</Record>
+<Record>
+  <Key>CommandThreadStatus</Key>
+  <Value>Muestra el estado actual de los hilos del juego.: "/threadstatus"</Value>
+</Record>
+<Record>
+  <Key>CommandResetThread</Key>
+  <Value>Reinicia un hilo dado. : "/resetthread atmospherics"</Value>
+</Record>
+<Record>
+  <Key>CommandSetHunger</Key>
+  <Value>Establece la tasa de hambre. : "/hungerrate 0.25"</Value>
+</Record>
+<Record>
+  <Key>CommandPause</Key>
+  <Value>Pausa el juego para todos los jugadores conectados. : "/pause"</Value>
+</Record>
+<Record>
+  <Key>CommandResume</Key>
+  <Value>Reanuda el juego para todos los jugadores conectados. : "/resume"</Value>
+</Record>
+<Record>
+  <Key>CommandToggleGod</Key>
+  <Value>Activa la invencibilidad del jugador, incluyendo el traje. : "/tg"</Value>
+</Record>
+<Record>
+  <Key>CommandToggleInfinitePower</Key>
+  <Value>Activa el poder infinito en un jugador o globalmente en el servidor. : "/tgp"</Value>
+</Record>
+<Record>
+  <Key>CommandToggleGameMode</Key>
+  <Value>Activa el modo de juego entre Supervivencia y Creativo. : "/tgm"</Value>
+</Record>
+<Record>
+  <Key>CommandSetTime</Key>
+  <Value>Establece el desplazamiento solar, cambiando efectivamente la hora del día. : "/settime 0.25"</Value>
+</Record>
+<Record>
+  <Key>CommandToggleInstaGrow</Key>
+  <Value>Activa el crecimiento instantáneo de plantas en un servidor o juego. : "/tgrow"</Value>
+</Record>
+<Record>
+  <Key>CommandStopWeather</Key>
+  <Value>Detiene una tormenta instantáneamente. : "/stopweather"</Value>
+</Record>
+<Record>
+  <Key>CommandStartWeather</Key>
+  <Value>Inicia una nueva tormenta instantáneamente. : "/startweather"</Value>
+</Record>
 		<Record>
 		  <Key>CommandToggleNoClip</Key>
 		  <Value>Toggles player collisions. : "/tnc"</Value>
