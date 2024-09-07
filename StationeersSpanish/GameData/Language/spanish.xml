@@ -20121,35 +20121,35 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>WorldInfoZeroGravity</Key>
-  <Value>Presenta &lt;color=red&gt;gravedad cero&lt;/color&gt;</Value>
+  <Value>&lt;color=red&gt;Gravedad cero&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>WorldInfoGravity</Key>
-  <Value>&lt;color=yellow&gt;Gravedad&lt;/color&gt; es {LOCAL:Gravity} de &lt;color=white&gt;la Tierra&lt;/color&gt;</Value>
+  <Value>La &lt;color=yellow&gt;Gravedad&lt;/color&gt; es {LOCAL:Gravity} de &lt;color=white&gt;la Tierra&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>WorldInfoRotationPeriod</Key>
-  <Value>{LOCAL:PrimaryBody} transita &lt;color=yellow&gt;por el cielo&lt;/color&gt; cada {LOCAL:RotationPeriod} a {LOCAL:SolarAngle}</Value>
+  <Value>El {LOCAL:PrimaryBody} pasa &lt;color=yellow&gt;por el cielo&lt;/color&gt; cada {LOCAL:RotationPeriod} a {LOCAL:SolarAngle}</Value>
 </Record>
 <Record>
   <Key>WorldInfoSiderealPeriod</Key>
-  <Value>Orbita {LOCAL:PrimaryBody} cada {LOCAL:SiderealPeriod}</Value>
+  <Value>Orbita el {LOCAL:PrimaryBody} cada {LOCAL:SiderealPeriod}</Value>
 </Record>
 <Record>
   <Key>WorldInfoSolarEnergy</Key>
-  <Value>{LOCAL:PrimaryBody} proporciona {LOCAL:Value}</Value>
+  <Value>El {LOCAL:PrimaryBody} proporciona {LOCAL:Value}</Value>
 </Record>
 <Record>
   <Key>WorldInfoSolarEnergyRange</Key>
-  <Value>{LOCAL:PrimaryBody} proporciona {LOCAL:LowValue} a {LOCAL:HighValue}</Value>
+  <Value>El {LOCAL:PrimaryBody} proporciona de {LOCAL:LowValue} a {LOCAL:HighValue}</Value>
 </Record>
 <Record>
   <Key>WorldInfoNoSolarEnergy</Key>
-  <Value>{LOCAL:PrimaryBody} proporciona &lt;color=red&gt;ninguna luz solar&lt;/color&gt;</Value>
+  <Value>La {LOCAL:PrimaryBody} proporciona de &lt;color=red&gt;ninguna luz solar&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>WorldInfoIsVacuum</Key>
-  <Value>Presenta &lt;color=red&gt;sin atmósfera&lt;/color&gt;</Value>
+  <Value>&lt;color=red&gt;Sin atmósfera&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>WorldInfoTemperatureRange</Key>
@@ -20165,11 +20165,11 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>WorldInfoPressure</Key>
-  <Value>&lt;color=yellow&gt;Presión&lt;/color&gt; es {LOCAL:Value}</Value>
+  <Value>La &lt;color=yellow&gt;Presión&lt;/color&gt; es de {LOCAL:Value}</Value>
 </Record>
 <Record>
   <Key>WorldInfoPlanetWeather</Key>
-  <Value>Experimentará eventos de {LOCAL:Weather}</Value>
+  <Value>Experimentaras eventos de {LOCAL:Weather}</Value>
 </Record>
 <Record>
   <Key>ThingDamageIsAt</Key>
