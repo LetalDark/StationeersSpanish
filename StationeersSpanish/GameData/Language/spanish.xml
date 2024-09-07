@@ -16280,11 +16280,11 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>Tutorial3Summary</Key>
-  <Value>Aprende cómo rellenar canisters y mover gas por el mundo</Value>
+  <Value>Aprende cómo rellenar tanques de gas y mover gas por el mundo</Value>
 </Record>
 <Record>
   <Key>Tutorial3RefillOxygenTankHeading</Key>
-  <Value>Rellena tu canister de aire del traje</Value>
+  <Value>Rellena tu tanque de aire del traje</Value>
 </Record>
 <Record>
   <Key>Tutorial3SuitInventory</Key>
@@ -16300,19 +16300,19 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>Tutorial3CanisterSlot</Key>
-  <Value>La ranura del canister {THING:DynamicGasCanisterEmpty} puede rellenar canisters.</Value>
+  <Value>La ranura del tanque de gas {THING:DynamicGasCanisterEmpty} puede rellenar tanques de gas.</Value>
 </Record>
 <Record>
   <Key>Tutorial3EmptyWasteHeading</Key>
-  <Value>Vaciar el canister de desechos del traje</Value>
+  <Value>Vaciar el tanque de desechos del traje</Value>
 </Record>
 <Record>
   <Key>Tutorial3WasteTankFillsUp</Key>
-  <Value>El canister de desechos amarillos {THING:ItemGasCanisterEmpty} en tu traje se llena con CO2 exhalado.</Value>
+  <Value>El tanque de desechos amarillos {THING:ItemGasCanisterEmpty} en tu traje se llena con CO2 exhalado.</Value>
 </Record>
 <Record>
   <Key>Tutorial3WasteTankNeedsEmptying</Key>
-  <Value>El canister de desechos {THING:ItemGasCanisterEmpty} debe vaciarse cuando esté lleno.</Value>
+  <Value>El tanque de desechos {THING:ItemGasCanisterEmpty} debe vaciarse cuando esté lleno.</Value>
 </Record>
 <Record>
   <Key>Tutorial3ClickToEmptyWaste</Key>
@@ -16376,7 +16376,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>Tutorial3FillCanisterHeading</Key>
-  <Value>Rellena un canister vacío</Value>
+  <Value>Rellena un tanque vacío</Value>
 </Record>
 <Record>
   <Key>Tutorial3InsertCanisterFromLocker</Key>
@@ -16388,7 +16388,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>Tutorial3AnalyzeCanisterHeading</Key>
-  <Value>Analiza el canister durante 5 segundos</Value>
+  <Value>Analiza el tanque durante 5 segundos</Value>
 </Record>
 <Record>
   <Key>Tutorial3AnalyzeCanisterInStorage</Key>
