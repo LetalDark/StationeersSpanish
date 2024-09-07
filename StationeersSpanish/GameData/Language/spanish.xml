@@ -1253,7 +1253,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemGasTankStorage</Key>
-  <Value>Kit (Almacenamiento de Bombonas)</Value>
+  <Value>Kit (Almacenamiento de Bombonas de Gas)</Value>
   <Description>Este kit produce un {THING:ItemGasTankStorage} para rellenar una {THING:ItemGasCanisterEmpty}.</Description>
 </RecordThing>
 <RecordThing>
@@ -16034,386 +16034,386 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>Tut1WallKitsInLocker</Key>
   <Value>Los pilas de {THING:ItemKitWallIron} se encuentran en el armario.</Value>
 </Record>
-		<Record>
-		  <Key>Tut1SwapHands</Key>
-		  <Value>You have two hand slots, press {KEY:SwapHands} to swap between them.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1DropItems</Key>
-		  <Value>{KEY:Drop} will drop items from your active hand.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1PlaceWall</Key>
-		  <Value>With walls in your active hand, use {KEY:SecondaryAction} to enter placement mode. Use &lt;color=#FBB03B&gt;Mouse Wheel&lt;/color&gt; to select {THING:StructureWallIron} and hold {KEY:PrimaryAction} to place. Use {KEY:QuantityModifier} to rotate.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1CompleteWallHeading</Key>
-		  <Value>Complete one wall</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1GrabIronSheets</Key>
-		  <Value>Iron walls are finished with {THING:ItemIronSheets}. The sheets are found in the locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1CompleteWall</Key>
-		  <Value>With {THING:ItemIronSheets} in your active hand, use them on the unfinished wall by holding {KEY:PrimaryAction}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1CompleteFrameHeading</Key>
-		  <Value>Place and finish one frame</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1IntroFrame</Key>
-		  <Value>An {THING:StructureFrameIron} will fully block a grid.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1PlaceFrame</Key>
-		  <Value>{THING:ItemIronFrames} stacks are found in the locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1CompleteFrame</Key>
-		  <Value>An {THING:StructureFrameIron} is finished by using a {THING:ItemWeldingTorch} in your active hand, and {THING:ItemIronSheets} in your other hand.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1UseWeldingTorch</Key>
-		  <Value>Equip the {THING:ItemWeldingTorch} in your tool belt, turn it on with {KEY:SecondaryAction} or by pressing {KEY:ToggleHandPower}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1PlaceDoorHeading</Key>
-		  <Value>Place a door between the laid cables</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1GetDoorKit</Key>
-		  <Value>Retrieve a {THING:ItemKitDoor} from the locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1PlaceDoor</Key>
-		  <Value>With the {THING:ItemKitDoor} in your active hand, use {KEY:SecondaryAction} to enter placement mode. Use &lt;color=#FBB03B&gt;Mouse Wheel&lt;/color&gt; to select {THING:StructureGlassDoor} and hold {KEY:PrimaryAction} to place. Use {KEY:QuantityModifier} to rotate.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1CompleteDoorHeading</Key>
-		  <Value>Finish building the door</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1MaterialRequirements</Key>
-		  <Value>Many devices have build states that require more than iron sheets.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1RequirementTooltips</Key>
-		  <Value>Look at a device with an incompatible tool to get a tooltip about which tool and material to use.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1FinishDoor</Key>
-		  <Value>Finish off the door using the correct materials and tools.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1FinishRoomHeading</Key>
-		  <Value>Finish the rest of the room</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1RoomCreation</Key>
-		  <Value>A space fully enclosed by walls, frames or doors will create a room.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1FinishRoom</Key>
-		  <Value>Build walls and frames in appropriate places to complete the room.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2Title</Key>
-		  <Value>Tutorial 2: Connections</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2Summary</Key>
-		  <Value>Learn the basics of survival and how to build gas and power networks.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2SuitUpHeading</Key>
-		  <Value>Equip the gear from the locker</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2NeedASuit</Key>
-		  <Value>A functioning suit and helmet provide you with a breathable atmosphere.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2SuitConfigured</Key>
-		  <Value>This suit is preconfigured for power, oxygen and air filtration.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2EatAndDrinkHeading</Key>
-		  <Value>Eat and drink</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2HungerUi</Key>
-		  <Value>Your hunger is at the bottom right of the screen.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2OpenHelmet</Key>
-		  <Value>With a closed helmet on, you cannot eat. Pressing {KEY:Internals} will open your helmet</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2EatFood</Key>
-		  <Value>Supplies are on the orange table. Hold {KEY:SecondaryAction} to consume food and water.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2CloseHelmetHeading</Key>
-		  <Value>Close your helmet</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2OutsideAtmospheres</Key>
-		  <Value>Outside atmospheres are not safely breathable.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2CloseHelmet</Key>
-		  <Value>Press {KEY:Internals} again to close your helmet.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2GoOutsideHeading</Key>
-		  <Value>Go outside</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2DoorsLeadOutside</Key>
-		  <Value>The glass doors lead outside.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2CloseDoors</Key>
-		  <Value>Close the doors behind you to keep the air in the room.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2ConnectGeneratorHeading</Key>
-		  <Value>Connect the green generator to the left side of the green area power control (apc)</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2CablesInLocker</Key>
-		  <Value>{THING:ItemCableCoil} stacks are found in the locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2PlaceCables</Key>
-		  <Value>Use {KEY:SecondaryAction} to enter placement mode, use {KEY:PrimaryAction} to place.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2CableVariants</Key>
-		  <Value>Use &lt;color=#FBB03B&gt;Mouse Wheel&lt;/color&gt; to select different cable variants and use {KEY:QuantityModifier} to rotate.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2RemovingCables</Key>
-		  <Value>The {THING:ItemWireCutters} in your tool belt can remove placed cables.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2ApcHeading</Key>
-		  <Value>Open apc, insert charged battery and turn on apc</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2PryOpenApc</Key>
-		  <Value>The {THING:ItemCrowbar} in your tool belt can pry open the {THING:StructureAreaPowerControl}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2ApcBattery</Key>
-		  <Value>The {THING:StructureAreaPowerControl} battery slot allows it to power devices.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2PlaceBatteryInApc</Key>
-		  <Value>Place a charged {THING:ItemBatteryCellLarge} from the locker in the {THING:StructureAreaPowerControl} and turn it on to let it power devices.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2ConnectApcToDoorHeading</Key>
-		  <Value>Connect the right side of the apc to the door</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2ConnectApcToDoor</Key>
-		  <Value>Build more cables to connect the {THING:StructureAreaPowerControl} and the {THING:StructureGlassDoor} in any direction.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2MergingCables</Key>
-		  <Value>Overlapping cables with {THING:ItemWireCutters} in your off hand will replace the existing cable with the combined variant.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2WrenchTankHeading</Key>
-		  <Value>Connect the water tank to the connector in the corner</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2DragTank</Key>
-		  <Value>Drag the {THING:DynamicLiquidCanisterEmpty} on top of the {THING:StructurePortablesConnector} using the side handles.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2DropTank</Key>
-		  <Value>Once in position, drop the tank with {KEY:Drop}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2WrenchTank</Key>
-		  <Value>Use {THING:ItemWrench} to connect the tank to the {THING:StructurePortablesConnector}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2ConnectPlantersHeading</Key>
-		  <Value>Connect the water tank to the hydroponics trays</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2PipesInLocker</Key>
-		  <Value>{THING:ItemKitPipeLiquid} stacks are found in the locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2PlacePipes</Key>
-		  <Value>Use {KEY:SecondaryAction} to enter placement mode, use {KEY:PrimaryAction} to place.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2PipeVariants</Key>
-		  <Value>Use &lt;color=#FBB03B&gt;Mouse Wheel&lt;/color&gt; to select different pipe variants and use {KEY:QuantityModifier} to rotate.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2RemovingPipes</Key>
-		  <Value>The {THING:ItemWrench} in your tool belt can remove placed pipes.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial2CoalPowerHeading</Key>
-		  <Value>Add coal to the generator to charge the apc's battery</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2GrabCoal</Key>
-		  <Value>{THING:ItemCoalOre} stacks are found in the small locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut2TurnOnGenerator</Key>
-		  <Value>Turn on the {THING:StructureSolidFuelGenerator} with the power switch.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3Title</Key>
-		  <Value>Tutorial 3: Atmospherics</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3Summary</Key>
-		  <Value>Learn how to refill canisters and move gas around the world</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3RefillOxygenTankHeading</Key>
-		  <Value>Refill your suit air canister</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3SuitInventory</Key>
-		  <Value>Your {THING:ItemEvaSuit} has an inventory just like a Backback or Toolbelt.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3OxygenTankLow</Key>
-		  <Value>Your Oxygen {THING:ItemGasCanisterEmpty} is low pressure.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3SuitWarning</Key>
-		  <Value>The {THING:ItemEvaSuit} will give a warning when the Oxygen {THING:ItemGasCanisterEmpty} is removed.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3CanisterSlot</Key>
-		  <Value>The {THING:DynamicGasCanisterEmpty} canister slot refills canisters.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3EmptyWasteHeading</Key>
-		  <Value>Empty suit waste canister</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3WasteTankFillsUp</Key>
-		  <Value>The yellow Waste {THING:ItemGasCanisterEmpty} in your suit fills with breathed out CO2.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3WasteTankNeedsEmptying</Key>
-		  <Value>The Waste {THING:ItemGasCanisterEmpty} must be emptied when full.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3ClickToEmptyWaste</Key>
-		  <Value>Clicking on the yellow {THING:ItemGasCanisterEmpty} will open its interaction window.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AnalyzeGasTankHeading</Key>
-		  <Value>Analyse the Portable Gas Tank with your tablet for 5 seconds</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3TabletInBackpack</Key>
-		  <Value>Your {THING:ItemHardBackpack} contains a {THING:ItemTablet}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3InsertCartridge</Key>
-		  <Value>The {THING:ItemTablet} has an inventory that accepts a {THING:CartridgeAtmosAnalyser}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AtmosAnalyserInfo</Key>
-		  <Value>Turn on {THING:ItemTablet} by clicking &lt;color=#FBB03B&gt;Right Mouse Button&lt;/color&gt;. The {THING:CartridgeAtmosAnalyser} will display gas pressure and temperature.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AtmosAnalyserInfo2</Key>
-		  <Value>The {THING:CartridgeAtmosAnalyser} shows the room's atmosphere or the gas inside the item you're looking at.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3FillPipeHeading</Key>
-		  <Value>Fill the pipe network with oxygen</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3DragCanister</Key>
-		  <Value>Drag a {THING:DynamicGasCanisterEmpty} on top of the {THING:StructurePortablesConnector} using the side handles.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3ConnectPortableTank</Key>
-		  <Value>Once in position, drop the tank with {KEY:Drop} and {THING:ItemWrench} it down to connect.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AnalyzePipeNetworkHeading</Key>
-		  <Value>Look at the white Pipe Meter</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3NoticePressure</Key>
-		  <Value>Like the {THING:CartridgeAtmosAnalyser}, the {THING:StructurePipeMeter} is another way to read gas pressure and temperature in a pipe.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AddGasTankStorageHeading</Key>
-		  <Value>Connect a gas tank storage</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3ConstructValveBluePipe</Key>
-		  <Value>Construct a {THING:StructureValve} to connect the blue pipe to the white pipe.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3ConstructGasTankStorage</Key>
-		  <Value>Construct a {THING:StructureGasTankStorage} attached to the blue pipe using the {THING:ItemKitPipeUtility} in the locker.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3ScrollToChangeBlueprint</Key>
-		  <Value>The {THING:ItemKitPipeUtility} can build multiple devices. Use the &lt;color=#FBB03B&gt;Mouse Scroll Wheel&lt;/color&gt; to select the {THING:StructureGasTankStorage} blueprint.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3FillCanisterHeading</Key>
-		  <Value>Fill up an empty canister</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3InsertCanisterFromLocker</Key>
-		  <Value>Take a white {THING:ItemGasCanisterEmpty} from the locker and insert it into the {THING:StructureGasTankStorage}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3OpenTheCanisterValve</Key>
-		  <Value>The {THING:StructureValve} allows mixing between two pipe networks, turn the handle to open the {THING:StructureValve}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AnalyzeCanisterHeading</Key>
-		  <Value>Analyze the Canister for 5 seconds</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3AnalyzeCanisterInStorage</Key>
-		  <Value>Analyse the {THING:ItemGasCanisterEmpty} in the {THING:StructureGasTankStorage} with your {THING:ItemTablet}.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3PassiveVents</Key>
-		  <Value>The {THING:StructurePassiveVent} allows gas to mix between the connected pipe and the world.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3ConstructOrangeValve</Key>
-		  <Value>Construct a {THING:StructureValve} in the space between the white and orange pipes.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3PressurizeRoomHeading</Key>
-		  <Value>Pressurize the room</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial3OpenTheRoomValve</Key>
-		  <Value>Open the {THING:StructureValve} to release Oxygen into the room.</Value>
-		</Record>
-		<Record>
-		  <Key>AutoExpandToggle</Key>
-		  <Value>Auto Expand</Value>
-		</Record>
+<Record>
+  <Key>Tut1SwapHands</Key>
+  <Value>Tienes dos ranuras para las manos, presiona {KEY:SwapHands} para intercambiarlas.</Value>
+</Record>
+<Record>
+  <Key>Tut1DropItems</Key>
+  <Value>{KEY:Drop} dejará caer elementos de tu mano activa.</Value>
+</Record>
+<Record>
+  <Key>Tut1PlaceWall</Key>
+  <Value>Con paredes en tu mano activa, usa {KEY:SecondaryAction} para entrar en modo de colocación. Usa &lt;color=#FBB03B&gt;Rueda del ratón&lt;/color&gt; para seleccionar {THING:StructureWallIron} y mantén {KEY:PrimaryAction} para colocar. Usa {KEY:QuantityModifier} para rotar.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1CompleteWallHeading</Key>
+  <Value>Completa una pared</Value>
+</Record>
+<Record>
+  <Key>Tut1GrabIronSheets</Key>
+  <Value>Las paredes de hierro se terminan con {THING:ItemIronSheets}. Las planchas se encuentran en el armario.</Value>
+</Record>
+<Record>
+  <Key>Tut1CompleteWall</Key>
+  <Value>Con {THING:ItemIronSheets} en tu mano activa, úsalas en la pared inacabada manteniendo {KEY:PrimaryAction}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1CompleteFrameHeading</Key>
+  <Value>Coloca y termina un marco</Value>
+</Record>
+<Record>
+  <Key>Tut1IntroFrame</Key>
+  <Value>Un {THING:StructureFrameIron} bloqueará completamente una cuadrícula.</Value>
+</Record>
+<Record>
+  <Key>Tut1PlaceFrame</Key>
+  <Value>{THING:ItemIronFrames} se encuentran en el armario.</Value>
+</Record>
+<Record>
+  <Key>Tut1CompleteFrame</Key>
+  <Value>Un {THING:StructureFrameIron} se termina usando un {THING:ItemWeldingTorch} en tu mano activa y {THING:ItemIronSheets} en la otra mano.</Value>
+</Record>
+<Record>
+  <Key>Tut1UseWeldingTorch</Key>
+  <Value>Equipa el {THING:ItemWeldingTorch} en tu cinturón de herramientas, enciéndelo con {KEY:SecondaryAction} o presionando {KEY:ToggleHandPower}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1PlaceDoorHeading</Key>
+  <Value>Coloca una puerta entre los cables tendidos</Value>
+</Record>
+<Record>
+  <Key>Tut1GetDoorKit</Key>
+  <Value>Recupera un {THING:ItemKitDoor} del armario.</Value>
+</Record>
+<Record>
+  <Key>Tut1PlaceDoor</Key>
+  <Value>Con el {THING:ItemKitDoor} en tu mano activa, usa {KEY:SecondaryAction} para entrar en modo de colocación. Usa &lt;color=#FBB03B&gt;Rueda del ratón&lt;/color&gt; para seleccionar {THING:StructureGlassDoor} y mantén {KEY:PrimaryAction} para colocar. Usa {KEY:QuantityModifier} para rotar.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1CompleteDoorHeading</Key>
+  <Value>Termina de construir la puerta</Value>
+</Record>
+<Record>
+  <Key>Tut1MaterialRequirements</Key>
+  <Value>Muchos dispositivos tienen estados de construcción que requieren más que solo planchas de hierro.</Value>
+</Record>
+<Record>
+  <Key>Tut1RequirementTooltips</Key>
+  <Value>Mira un dispositivo con una herramienta incompatible para obtener un tooltip sobre qué herramienta y material usar.</Value>
+</Record>
+<Record>
+  <Key>Tut1FinishDoor</Key>
+  <Value>Termina la puerta utilizando los materiales y herramientas correctos.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1FinishRoomHeading</Key>
+  <Value>Termina el resto de la habitación</Value>
+</Record>
+<Record>
+  <Key>Tut1RoomCreation</Key>
+  <Value>Un espacio completamente cerrado por paredes, marcos o puertas creará una habitación.</Value>
+</Record>
+<Record>
+  <Key>Tut1FinishRoom</Key>
+  <Value>Construye paredes y marcos en lugares apropiados para completar la habitación.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2Title</Key>
+  <Value>Tutorial 2: Conexiones</Value>
+</Record>
+<Record>
+  <Key>Tutorial2Summary</Key>
+  <Value>Aprende los conceptos básicos de supervivencia y cómo construir redes de gas y energía.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2SuitUpHeading</Key>
+  <Value>Equipa el equipo del armario</Value>
+</Record>
+<Record>
+  <Key>Tut2NeedASuit</Key>
+  <Value>Un traje y casco funcionales te proporcionan una atmósfera respirable.</Value>
+</Record>
+<Record>
+  <Key>Tut2SuitConfigured</Key>
+  <Value>Este traje está preconfigurado para energía, oxígeno y filtración de aire.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2EatAndDrinkHeading</Key>
+  <Value>Come y bebe</Value>
+</Record>
+<Record>
+  <Key>Tut2HungerUi</Key>
+  <Value>Tu hambre está en la esquina inferior derecha de la pantalla.</Value>
+</Record>
+<Record>
+  <Key>Tut2OpenHelmet</Key>
+  <Value>Con el casco cerrado, no puedes comer. Presionando {KEY:Internals} abrirás tu casco</Value>
+</Record>
+<Record>
+  <Key>Tut2EatFood</Key>
+  <Value>Los suministros están en la mesa naranja. Mantén {KEY:SecondaryAction} para consumir comida y agua.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2CloseHelmetHeading</Key>
+  <Value>Cierra tu casco</Value>
+</Record>
+<Record>
+  <Key>Tut2OutsideAtmospheres</Key>
+  <Value>Las atmósferas exteriores no son respirables de forma segura.</Value>
+</Record>
+<Record>
+  <Key>Tut2CloseHelmet</Key>
+  <Value>Presiona {KEY:Internals} nuevamente para cerrar tu casco.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2GoOutsideHeading</Key>
+  <Value>Sal afuera</Value>
+</Record>
+<Record>
+  <Key>Tut2DoorsLeadOutside</Key>
+  <Value>Las puertas de vidrio llevan afuera.</Value>
+</Record>
+<Record>
+  <Key>Tut2CloseDoors</Key>
+  <Value>Cierra las puertas detrás de ti para mantener el aire en la habitación.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2ConnectGeneratorHeading</Key>
+  <Value>Conecta el generador verde al lado izquierdo del control de energía del área (apc) verde</Value>
+</Record>
+<Record>
+  <Key>Tut2CablesInLocker</Key>
+  <Value>{THING:ItemCableCoil} se encuentra en el armario.</Value>
+</Record>
+<Record>
+  <Key>Tut2PlaceCables</Key>
+  <Value>Usa {KEY:SecondaryAction} para entrar en modo de colocación, usa {KEY:PrimaryAction} para colocar.</Value>
+</Record>
+<Record>
+  <Key>Tut2CableVariants</Key>
+  <Value>Usa &lt;color=#FBB03B&gt;Rueda del ratón&lt;/color&gt; para seleccionar diferentes variantes de cables y usa {KEY:QuantityModifier} para rotar.</Value>
+</Record>
+<Record>
+  <Key>Tut2RemovingCables</Key>
+  <Value>Los {THING:ItemWireCutters} en tu cinturón de herramientas pueden quitar cables colocados.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2ApcHeading</Key>
+  <Value>Abre el apc, inserta la batería cargada y enciende el apc</Value>
+</Record>
+<Record>
+  <Key>Tut2PryOpenApc</Key>
+  <Value>El {THING:ItemCrowbar} en tu cinturón de herramientas puede abrir a la fuerza el {THING:StructureAreaPowerControl}.</Value>
+</Record>
+<Record>
+  <Key>Tut2ApcBattery</Key>
+  <Value>La ranura de batería del {THING:StructureAreaPowerControl} permite alimentar dispositivos.</Value>
+</Record>
+<Record>
+  <Key>Tut2PlaceBatteryInApc</Key>
+  <Value>Coloca una {THING:ItemBatteryCellLarge} cargada del armario en el {THING:StructureAreaPowerControl} y enciéndelo para que alimente dispositivos.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2ConnectApcToDoorHeading</Key>
+  <Value>Conecta el lado derecho del apc a la puerta</Value>
+</Record>
+<Record>
+  <Key>Tut2ConnectApcToDoor</Key>
+  <Value>Construye más cables para conectar el {THING:StructureAreaPowerControl} y el {THING:StructureGlassDoor} en cualquier dirección.</Value>
+</Record>
+<Record>
+  <Key>Tut2MergingCables</Key>
+  <Value>Superponer cables con {THING:ItemWireCutters} en tu mano izquierda reemplazará el cable existente con la variante combinada.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2WrenchTankHeading</Key>
+  <Value>Conecta el tanque de agua al conector en la esquina</Value>
+</Record>
+<Record>
+  <Key>Tut2DragTank</Key>
+  <Value>Arrastra el {THING:DynamicLiquidCanisterEmpty} encima del {THING:StructurePortablesConnector} usando las manijas laterales.</Value>
+</Record>
+<Record>
+  <Key>Tut2DropTank</Key>
+  <Value>Una vez en posición, suelta el tanque con {KEY:Drop}.</Value>
+</Record>
+<Record>
+  <Key>Tut2WrenchTank</Key>
+  <Value>Usa {THING:ItemWrench} para conectar el tanque al {THING:StructurePortablesConnector}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2ConnectPlantersHeading</Key>
+  <Value>Conecta el tanque de agua a las bandejas hidropónicas</Value>
+</Record>
+<Record>
+  <Key>Tut2PipesInLocker</Key>
+  <Value>{THING:ItemKitPipeLiquid} se encuentra en el armario.</Value>
+</Record>
+<Record>
+  <Key>Tut2PlacePipes</Key>
+  <Value>Usa {KEY:SecondaryAction} para entrar en modo de colocación, usa {KEY:PrimaryAction} para colocar.</Value>
+</Record>
+<Record>
+  <Key>Tut2PipeVariants</Key>
+  <Value>Usa &lt;color=#FBB03B&gt;Rueda del ratón&lt;/color&gt; para seleccionar diferentes variantes de tuberías y usa {KEY:QuantityModifier} para rotar.</Value>
+</Record>
+<Record>
+  <Key>Tut2RemovingPipes</Key>
+  <Value>El {THING:ItemWrench} en tu cinturón de herramientas puede quitar tuberías colocadas.</Value>
+</Record>
+<Record>
+  <Key>Tutorial2CoalPowerHeading</Key>
+  <Value>Agrega carbón al generador para cargar la batería del apc</Value>
+</Record>
+<Record>
+  <Key>Tut2GrabCoal</Key>
+  <Value>{THING:ItemCoalOre} se encuentra en el pequeño armario.</Value>
+</Record>
+<Record>
+  <Key>Tut2TurnOnGenerator</Key>
+  <Value>Enciende el {THING:StructureSolidFuelGenerator} con el interruptor de energía.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3Title</Key>
+  <Value>Tutorial 3: Atmosféricos</Value>
+</Record>
+<Record>
+  <Key>Tutorial3Summary</Key>
+  <Value>Aprende cómo rellenar canisters y mover gas por el mundo</Value>
+</Record>
+<Record>
+  <Key>Tutorial3RefillOxygenTankHeading</Key>
+  <Value>Rellena tu canister de aire del traje</Value>
+</Record>
+<Record>
+  <Key>Tutorial3SuitInventory</Key>
+  <Value>Tu {THING:ItemEvaSuit} tiene un inventario como una mochila o cinturón de herramientas.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3OxygenTankLow</Key>
+  <Value>Tu {THING:ItemGasCanisterEmpty} de oxígeno está a baja presión.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3SuitWarning</Key>
+  <Value>El {THING:ItemEvaSuit} dará una advertencia cuando se retire el {THING:ItemGasCanisterEmpty} de oxígeno.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3CanisterSlot</Key>
+  <Value>La ranura del canister {THING:DynamicGasCanisterEmpty} puede rellenar canisters.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3EmptyWasteHeading</Key>
+  <Value>Vaciar el canister de desechos del traje</Value>
+</Record>
+<Record>
+  <Key>Tutorial3WasteTankFillsUp</Key>
+  <Value>El canister de desechos amarillos {THING:ItemGasCanisterEmpty} en tu traje se llena con CO2 exhalado.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3WasteTankNeedsEmptying</Key>
+  <Value>El canister de desechos {THING:ItemGasCanisterEmpty} debe vaciarse cuando esté lleno.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3ClickToEmptyWaste</Key>
+  <Value>Hacer clic en el amarillo {THING:ItemGasCanisterEmpty} abrirá su ventana de interacción.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AnalyzeGasTankHeading</Key>
+  <Value>Analiza el tanque de gas portátil con tu tablet durante 5 segundos</Value>
+</Record>
+<Record>
+  <Key>Tutorial3TabletInBackpack</Key>
+  <Value>Tu {THING:ItemHardBackpack} contiene una {THING:ItemTablet}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3InsertCartridge</Key>
+  <Value>La {THING:ItemTablet} tiene un inventario que acepta un {THING:CartridgeAtmosAnalyser}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AtmosAnalyserInfo</Key>
+  <Value>Enciende la {THING:ItemTablet} haciendo clic en &lt;color=#FBB03B&gt;Botón derecho del ratón&lt;/color&gt;. La {THING:CartridgeAtmosAnalyser} mostrará la presión y temperatura del gas.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AtmosAnalyserInfo2</Key>
+  <Value>La {THING:CartridgeAtmosAnalyser} muestra la atmósfera de la habitación o el gas dentro del objeto que estás mirando.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3FillPipeHeading</Key>
+  <Value>Rellena la red de tuberías con oxígeno</Value>
+</Record>
+<Record>
+  <Key>Tutorial3DragCanister</Key>
+  <Value>Arrastra un {THING:DynamicGasCanisterEmpty} encima del {THING:StructurePortablesConnector} usando las manijas laterales.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3ConnectPortableTank</Key>
+  <Value>Una vez en posición, suelta el tanque con {KEY:Drop} y usa {THING:ItemWrench} para conectarlo.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AnalyzePipeNetworkHeading</Key>
+  <Value>Mira el medidor de tubería blanco</Value>
+</Record>
+<Record>
+  <Key>Tutorial3NoticePressure</Key>
+  <Value>Como la {THING:CartridgeAtmosAnalyser}, el {THING:StructurePipeMeter} es otra forma de leer la presión y temperatura del gas en una tubería.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AddGasTankStorageHeading</Key>
+  <Value>Conecta un almacenamiento de tanque de gas</Value>
+</Record>
+<Record>
+  <Key>Tutorial3ConstructValveBluePipe</Key>
+  <Value>Construye un {THING:StructureValve} para conectar la tubería azul a la tubería blanca.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3ConstructGasTankStorage</Key>
+  <Value>Construye un {THING:StructureGasTankStorage} unido a la tubería azul usando el {THING:ItemKitPipeUtility} en el armario.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3ScrollToChangeBlueprint</Key>
+  <Value>El {THING:ItemKitPipeUtility} puede construir múltiples dispositivos. Usa la &lt;color=#FBB03B&gt;Rueda del ratón&lt;/color&gt; para seleccionar el plano de {THING:StructureGasTankStorage}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3FillCanisterHeading</Key>
+  <Value>Rellena un canister vacío</Value>
+</Record>
+<Record>
+  <Key>Tutorial3InsertCanisterFromLocker</Key>
+  <Value>Toma un {THING:ItemGasCanisterEmpty} blanco del armario e insértalo en el {THING:StructureGasTankStorage}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3OpenTheCanisterValve</Key>
+  <Value>El {THING:StructureValve} permite mezclar entre dos redes de tuberías, gira la manija para abrir el {THING:StructureValve}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AnalyzeCanisterHeading</Key>
+  <Value>Analiza el canister durante 5 segundos</Value>
+</Record>
+<Record>
+  <Key>Tutorial3AnalyzeCanisterInStorage</Key>
+  <Value>Analiza el {THING:ItemGasCanisterEmpty} en el {THING:StructureGasTankStorage} con tu {THING:ItemTablet}.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3PassiveVents</Key>
+  <Value>El {THING:StructurePassiveVent} permite que el gas se mezcle entre la tubería conectada y el mundo.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3ConstructOrangeValve</Key>
+  <Value>Construye un {THING:StructureValve} en el espacio entre las tuberías blancas y naranjas.</Value>
+</Record>
+<Record>
+  <Key>Tutorial3PressurizeRoomHeading</Key>
+  <Value>Presuriza la habitación</Value>
+</Record>
+<Record>
+  <Key>Tutorial3OpenTheRoomValve</Key>
+  <Value>Abre el {THING:StructureValve} para liberar oxígeno en la habitación.</Value>
+</Record>
+<Record>
+  <Key>AutoExpandToggle</Key>
+  <Value>Expandir automáticamente</Value>
+</Record>
 	  </Interface>
 	<Colors>
 		<Record>
