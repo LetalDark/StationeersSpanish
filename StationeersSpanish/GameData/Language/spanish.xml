@@ -1180,36 +1180,36 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterCarbonDioxide</Key>
-  <Value>Bombona (CO2)</Value>
+  <Value>Bombona de gas (CO2)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterPollutants</Key>
-  <Value>Bombona (Contaminantes)</Value>
+  <Value>Bombona de gas (Contaminantes)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterEmpty</Key>
-  <Value>Bombona</Value>
+  <Value>Bombona de gas</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterFuel</Key>
-  <Value>Bombona (Combustible)</Value>
+  <Value>Bombona de gas (Combustible)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterVolatiles</Key>
-  <Value>Bombona (Volátiles)</Value>
+  <Value>Bombona de gas (Volátiles)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterNitrogen</Key>
-  <Value>Bombona (Nitrógeno)</Value>
+  <Value>Bombona de gas (Nitrógeno)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterOxygen</Key>
-  <Value>Bombona (Oxígeno)</Value>
+  <Value>Bombona de gas (Oxígeno)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterWater</Key>
@@ -4010,7 +4010,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemGasCanisterNitrousOxide</Key>
-  <Value>Bombona de Gas (Durmiendo)</Value>
+  <Value>Bombona de Gas (Para dormir)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemNVG</Key>
