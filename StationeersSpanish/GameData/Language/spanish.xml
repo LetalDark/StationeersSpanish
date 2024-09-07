@@ -1774,8 +1774,8 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemWeldingTorch</Key>
-  <Value>Antorcha de Soldadura</Value>
-  <Description>Guardada en el estándar de equipo de {LINK:Stationeers;Stationeers} {THING:ItemToolBelt}, la antorcha de soldadura Arlite se utiliza para construir una variedad de estructuras esenciales. Una versión mejorada del modelo clásico 'Zairo' fabricado por {LINK:ExMin;ExMin} para la ensambladura de hábitats espaciales modulares, la Arlite se alimenta con un solo {THING:ItemGasCanisterFuel} y está diseñada para funcionar igualmente bien en el espacio profundo y en pozos de gravedad profunda.</Description>
+  <Value>Soldador</Value>
+  <Description>Guardado en el estándar de equipo de {LINK:Stationeers;Stationeers} {THING:ItemToolBelt}, el soldador Arlite se utiliza para construir una variedad de estructuras esenciales. Una versión mejorada del modelo clásico 'Zairo' fabricado por {LINK:ExMin;ExMin} para la ensambladura de hábitats espaciales modulares, el Arlite se alimenta con un solo {THING:ItemGasCanisterFuel} y está diseñado para funcionar igualmente bien en el espacio profundo y en pozos de gravedad profunda.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemWheat</Key>
@@ -1784,8 +1784,8 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemWireCutters</Key>
-  <Value>Cortadores de Cable</Value>
-  <Description>Los cortadores de cable te permiten deconstruir varias {LINK:StructurePage;structures}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de cable se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;tools}.</Description>
+  <Value>Cortador de Cables</Value>
+  <Description>Los cortadores de cables te permiten deconstruir varias {LINK:StructurePage;structures}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de cables se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;tools}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemWrench</Key>
@@ -4084,7 +4084,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemArcWelder</Key>
-  <Value>Soldador por Arco</Value>
+  <Value>Soldador de Arco</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemMiningDrillHeavy</Key>
@@ -4329,7 +4329,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>ItemEmergencyWireCutters</Key>
-  <Value>Cortadores de Cables de Emergencia</Value>
+  <Value>Cortador de Cables de Emergencia</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemEmergencyScrewdriver</Key>
@@ -14225,7 +14225,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>StatusWindowVitals</Key>
-  <Value>Vitales</Value>
+  <Value>Signos Vitales</Value>
 </Record>
 <Record>
   <Key>StatusWindowJetpack</Key>
