@@ -11027,11 +11027,11 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>PromptPublishTitle</Key>
-  <Value>Publicar en el Taller</Value>
+  <Value>Publicar en la Workshop</Value>
 </Record>
 <Record>
   <Key>PromptPublishBody</Key>
-  <Value>¿Estás seguro de que quieres publicar este mundo en el taller?</Value>
+  <Value>¿Estás seguro de que quieres publicar este mundo en la Workshop?</Value>
 </Record>
 <Record>
   <Key>PromptPublishConfirm</Key>
@@ -11283,7 +11283,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>WorkshopPageButton</Key>
-  <Value>Página del Taller</Value>
+  <Value>Página del Workshop</Value>
 </Record>
 <Record>
   <Key>WorkshopUnsubscribeButton</Key>
@@ -11291,7 +11291,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>OpenWorkshopButton</Key>
-  <Value>Abrir Taller</Value>
+  <Value>Abrir Workshop</Value>
 </Record>
 <Record>
   <Key>WorldPresetTitle</Key>
