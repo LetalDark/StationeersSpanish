@@ -1649,7 +1649,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemSpacepack</Key>
-  <Value>Mochila Espacial</Value>
+  <Value>Mochila Espacial (Jetpack)</Value>
   <Description>La básica mochila espacial {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez compartimentos de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemJetpackBasic} o {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack flote cuando se alcanza una determinada altura. USA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
 <RecordThing>
@@ -3925,7 +3925,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemHardJetpack</Key>
-  <Value>Jetpack de Hardsuit</Value>
+  <Value>Jetpack de Traje Endurecido</Value>
   <Description>El jetpack {LINK:Norsec;Norsec} no es 'técnicamente' un jetpack en absoluto, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack se mantenga en vuelo cuando se alcanza una altura determinada. El jetpack de hardsuit es capaz de velocidades mucho mayores que el {THING:ItemJetpackBasic} - hasta 15 m/s. Indispensable para la construcción, minería y movimiento general, tiene catorce espacios de almacenamiento. UTILIZA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
 <RecordThing>
