@@ -2214,7 +2214,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructurePipeAnalysizer</Key>
   <Value>Analizador de Tuberías</Value>
-  <Description>Alegadamente resultado de un proyecto de electrónica padre-hija durante el fin de semana por un ingeniero {{LINK:ExMin;ExMin} entusiasta, el analizador de tuberías es esencialmente una versión más avanzada del {THING:StructurePipeMeter}. Mostrando la presión interna de las redes de tuberías, también lee la temperatura y los contenidos de gas, y puede conectarse a un {THING:StructureConsole} o {THING:StructureComputer} a través de un sistema {{LINK:LogicPage;Logic}.</Description>
+  <Description>Alegadamente resultado de un proyecto de electrónica padre-hija durante el fin de semana por un ingeniero {LINK:ExMin;ExMin} entusiasta, el analizador de tuberías es esencialmente una versión más avanzada del {THING:StructurePipeMeter}. Mostrando la presión interna de las redes de tuberías, también lee la temperatura y los contenidos de gas, y puede conectarse a un {THING:StructureConsole} o {THING:StructureComputer} a través de un sistema {LINK:LogicPage;Logic}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructurePipeCorner</Key>
@@ -3712,7 +3712,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 </RecordThing>
 <RecordThing>
   <Key>ItemWearLamp</Key>
-  <Value>Linterna frontal</Value>
+  <Value>Linterna de cabeza</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureTurbineGenerator</Key>
@@ -3920,7 +3920,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemHardBackpack</Key>
-  <Value>Moño de Hardsuit</Value>
+  <Value>Mochila de Traje Endurecido</Value>
   <Description>Esta mochila puede ser útil cuando trabajas en el interior y no necesitas volar.</Description>
 </RecordThing>
 <RecordThing>
@@ -15103,944 +15103,937 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>StationpediaManufactures</Key>
   <Value>Manufacturas</Value>
 </Record>
-		<Record>
-		  <Key>StationpediaFoundIn</Key>
-		  <Value>Found In</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaConstructionOptions</Key>
-		  <Value>
-			Construction Options
-	</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaModeHeader</Key>
-		  <Value>Mode</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaLogicHeader</Key>
-		  <Value>Logic</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaLogicSlotHeader</Key>
-		  <Value>Logic Slots</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaTutorialListHeader</Key>
-		  <Value>Tutorials</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaNoResults</Key>
-		  <Value>No results found...</Value>
-		</Record>
-		<Record>
-		  <Key>HydrationSPDAKey</Key>
-		  <Value>Hydration</Value>
-		</Record>
-		<Record>
-		  <Key>EvaSPDAKey</Key>
-		  <Value>EVA</Value>
-		</Record>
-		<Record>
-		  <Key>NutritionSPDAKey</Key>
-		  <Value>Nutrition</Value>
-		</Record>
-		<Record>
-		  <Key>StatusIconHydrationDesc</Key>
-		  <Value>Hydration is running low</Value>
-		</Record>
-		<Record>
-		  <Key>StatusIconHydrationKey</Key>
-		  <Value>Hydration Low</Value>
-		</Record>
-		<Record>
-		  <Key>HydrationCaution</Key>
-		  <Value>Hydration Caution</Value>
-		</Record>
-		<Record>
-		  <Key>HydrationCritical</Key>
-		  <Value>Hydration Critical</Value>
-		</Record>
-		<Record>
-		  <Key>MoodLow</Key>
-		  <Value>Mood Low</Value>
-		</Record>
-		<Record>
-		  <Key>MoodCritical</Key>
-		  <Value>Mood Critical</Value>
-		</Record>
-		<Record>
-		  <Key>HygieneLow</Key>
-		  <Value>Hygiene Low</Value>
-		</Record>
-		<Record>
-		  <Key>HygieneCritical</Key>
-		  <Value>Hygiene Critical</Value>
-		</Record>
-		<Record>
-		  <Key>Guides</Key>
-		  <Value>Guides</Value>
-		</Record>
-		<Record>
-		  <Key>Lore</Key>
-		  <Value>Lore</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsLightShadowDistance</Key>
-		  <Value>Light Shadow Distance</Value>
-		</Record>
-		<Record>
-		  <Key>CrowbarToFlip</Key>
-		  <Value>Flip using crowbar</Value>
-		</Record>
-		<Record>
-		  <Key>TimerPanel</Key>
-		  <Value>Timer</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeChannel</Key>
-		  <Value>Channel on a cable network which should be considered volatile</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeUnknown</Key>
-		  <Value>No description available</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeTime</Key>
-		  <Value>Time</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeBpm</Key>
-		  <Value>Bpm</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeEnvironmentEfficiency</Key>
-		  <Value>The Environment Efficiency reported by the machine, as a float between 0 and 1</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypeWorkingGasEfficiency</Key>
-		  <Value>The Working Gas Efficiency reported by the machine, as a float between 0 and 1</Value>
-		</Record>
-		<Record>
-		  <Key>Pitch</Key>
-		  <Value>Pitch</Value>
-		</Record>
-		<Record>
-		  <Key>Volume</Key>
-		  <Value>Volume</Value>
-		</Record>
-		<Record>
-		  <Key>NoAudioReceiverDevices</Key>
-		  <Value>No Audio Receiver Devices</Value>
-		</Record>
-		<Record>
-		  <Key>Speed</Key>
-		  <Value>Speed</Value>
-		</Record>
-		<Record>
-		  <Key>Attack</Key>
-		  <Value>Attack</Value>
-		</Record>
-		<Record>
-		  <Key>Release</Key>
-		  <Value>Release</Value>
-		</Record>
-		<Record>
-		  <Key>CurrentInstrument</Key>
-		  <Value>Current Instrument</Value>
-		</Record>
-		<Record>
-		  <Key>NoSoundCartridge</Key>
-		  <Value>No Sound Cartridge</Value>
-		</Record>
-		<Record>
-		  <Key>NoNote</Key>
-		  <Value>No Note</Value>
-		</Record>
-		<Record>
-		  <Key>Intensity</Key>
-		  <Value>Intensity</Value>
-		</Record>
-		<Record>
-		  <Key>Waveform</Key>
-		  <Value>Waveform</Value>
-		</Record>
-		<Record>
-		  <Key>Radius</Key>
-		  <Value>Detection Radius</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaBasePowerUsage</Key>
-		  <Value>Base Power Usage:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMaxPressure</Key>
-		  <Value>Max Pressure:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaVolume</Key>
-		  <Value>Volume:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaNutrition</Key>
-		  <Value>Nutrition:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaNutritionQuality</Key>
-		  <Value>Quality:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMoodBonus</Key>
-		  <Value>Mood Bonus:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaGrowthTime</Key>
-		  <Value>Growth Time:</Value>
-		</Record>
-		<Record>
-		  <Key>MoleOxygenDescription</Key>
-		  <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleNitrogenDescription</Key>
-		  <Value>{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stabilize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System. You can Condense {GAS:Nitrogen} into {GAS:LiquidNitrogen} by lowering its temperature below its boiling point.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleCarbonDioxideDescription</Key>
-		  <Value>You breathe it out, {LINK:OrganicPage;plants} breath it in. They don't grow without it. You can use items placed in {SLOT:GasFilter} slots to remove this from the atmosphere.
-		  
-	{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the
-	{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleVolatilesDescription</Key>
-		  <Value>Volatiles is a combustible fuel. It is refined from {THING:ItemVolatiles}</Value>
-		</Record>
-		<Record>
-		  <Key>MolePollutantDescription</Key>
-		  <Value>Also known as 'X', {GAS:Pollutant} is created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere. Pollutant has a high specific heat, making it an excellent coolant. Unfortunately it is extremely bad for organic beings, and will severely damage the lungs of most {REAGENT:Carbon} based organisms.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleWaterDescription</Key>
-		  <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}. {GAS:Water} is critical for {LINK:OrganicPage;plants} to stay alive, and grow {LINK:NutritionPage;food}. 
-			It is also an exceptional coolant with a very high specific heat capacity. {GAS:Water} will evaporate into {GAS:Steam} if it's temperature is raised above its boiling point.</Value>
-		</Record>
-		<Record>
-		  <Key>MolePollutedWaterDescription</Key>
-		  <Value>Polluted water is a waste product from the use of {GAS:Water} in certain devices. It will freeze into {THING:ItemPureIcePollutedWater} but boil into {GAS:Steam}. 
-	A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleNitrousOxideDescription</Key>
-		  <Value>Nitrous oxide is a reactive gas that will knock players out if inhaled.  It acts as an oxidizer for combustion, and allows volatiles to burn significantly hotter, faster, and at a lower autoignition temperature. It can be produced in an energy intensive process inside of a {THING:StructureNitrolyzer}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidNitrogenDescription</Key>
-		  <Value>{GAS:Nitrogen} in its liquid form. It can be created by lowering the temperature of {GAS:Nitrogen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidNitrogen} introduced into the atmosphere will quickly evaporate back into {GAS:Nitrogen}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidOxygenDescription</Key>
-		  <Value>{GAS:Oxygen} in its liquid form. It can be created by lowering the temperature of {GAS:Oxygen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduced into the atmosphere will quickly evaporate back into {GAS:Oxygen}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidVolatilesDescription</Key>
-		  <Value>{GAS:Volatiles} in its liquid form. It can be created by lowering the temperature of {GAS:Volatiles} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduced into the atmosphere will quickly evaporate back into {GAS:Volatiles}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidCarbonDioxideDescription</Key>
-		  <Value>{GAS:CarbonDioxide} in its liquid form. It can be created by lowering the temperature of {GAS:CarbonDioxide} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidCarbonDioxide} introduced into the atmosphere will quickly evaporate back into {GAS:CarbonDioxide}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidPollutantDescription</Key>
-		  <Value>{GAS:Pollutant} in its liquid form. It can be created by lowering the temperature of {GAS:Pollutant} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidPollutant} introduced into the atmosphere will quickly evaporate back into {GAS:Pollutant}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidNitrousOxideDescription</Key>
-		  <Value>{GAS:NitrousOxide} in its liquid form. It can be created by lowering the temperature of {GAS:NitrousOxide} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidNitrousOxide} introduced into the atmosphere will quickly evaporate back into {GAS:NitrousOxide}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleLiquidHydrogenDescription</Key>
-		  <Value>{GAS:Hydrogen} in its liquid form. It can be created by lowering the temperature of {GAS:Hydrogen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidHydrogen} introduced into the atmosphere will quickly evaporate back into {GAS:Hydrogen}.</Value>
-		</Record>
-		<Record>
-		  <Key>MoleHydrogenDescription</Key>
-		  <Value />
-		</Record>
-		<Record>
-		  <Key>MoleSteamDescription</Key>
-		  <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Volatiles} and oxygen using the {THING:H2Combustor}</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsSmoothTerrain</Key>
-		  <Value>Smooth Terrain</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsVirtualizedRendering</Key>
-		  <Value>Virtualized Rendering
-	</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsStartLocalHost</Key>
-		  <Value>StartLocalHost</Value>
-		</Record>
-		<Record>
-		  <Key>MainMenuChangeAppearance</Key>
-		  <Value>Cambiar la apariencia</Value>
-		</Record>
-		<Record>
-		  <Key>CreateNewGame</Key>
-		  <Value>Seleccionar Mundo</Value>
-		</Record>
-		<Record>
-		  <Key>WorkshopModsTitle</Key>
-		  <Value>Workshop Mods</Value>
-		</Record>
-		<Record>
-		  <Key>GameMenuButtonSaveAs</Key>
-		  <Value>Save Game As...</Value>
-		</Record>
-		<Record>
-		  <Key>GameMenuPauseGameButton</Key>
-		  <Value>Pause Game</Value>
-		</Record>
-		<Record>
-		  <Key>WorldConfigurationDifficultyTitle</Key>
-		  <Value>Difficulty</Value>
-		</Record>
-		<Record>
-		  <Key>SelectWorldTitle</Key>
-		  <Value>Seleccionar Mundo</Value>
-		</Record>
-		<Record>
-		  <Key>SelectDifficultyTitle</Key>
-		  <Value>Select Difficulty</Value>
-		</Record>
-		<Record>
-		  <Key>SelectStartingConditionsTitle</Key>
-		  <Value>Select Start Conditions</Value>
-		</Record>
-		<Record>
-		  <Key>NewGameNextButton</Key>
-		  <Value>Next</Value>
-		</Record>
-		<Record>
-		  <Key>NewGameSaveName</Key>
-		  <Value>Save Name</Value>
-		</Record>
-		<Record>
-		  <Key>StartNewGameButton</Key>
-		  <Value>Start Game</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMinCoolantTemperature</Key>
-		  <Value>Min Coolant Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMaxCoolantTemperature</Key>
-		  <Value>Max Coolant Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaThermalConductivityConvection</Key>
-		  <Value>Thermal Convection:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaThermalConductivityRadiation</Key>
-		  <Value>Thermal Radiation:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMovementSpeedModifier</Key>
-		  <Value>Movement Speed:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaThermalSaturation</Key>
-		  <Value>Thermal Saturation:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMinSafeTemperature</Key>
-		  <Value>Min Safe Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMaxSafeTemperature</Key>
-		  <Value>Max Safe Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMinOperatingTemperature</Key>
-		  <Value>Min Operating Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMaxOperatingTemperature</Key>
-		  <Value>Max Operating Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>ScoreboardDaysLived</Key>
-		  <Value>Days Lived</Value>
-		</Record>
-		<Record>
-		  <Key>WorldInfoButtonDeleteBackup</Key>
-		  <Value>Delete Backup</Value>
-		</Record>
-		<Record>
-		  <Key>TradeErrorNoMotherboardInsertedTitle</Key>
-		  <Value>Unable to trade</Value>
-		</Record>
-		<Record>
-		  <Key>TradeErrorNoMotherboardInsertedMessage</Key>
-		  <Value>The connected computer requires a comms motherboard to be inserted in order to trade.</Value>
-		</Record>
-		<Record>
-		  <Key>TradeErrorPadError</Key>
-		  <Value>The Landing Pad is in an Error state. Restore landing pad to normal operation before trade can continue</Value>
-		</Record>
-		<Record>
-		  <Key>TradeErrorPadOff</Key>
-		  <Value>The Landing Pad is Unpowered. Restore landing pad to normal operation before trade can continue</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgePlantAnalyserTitle</Key>
-		  <Value>PLANT ANALYSER</Value>
-		</Record>
-		<Record>
-		  <Key>ContactItemLostContact</Key>
-		  <Value>Lost Contact</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonSell</Key>
-		  <Value>Sell</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonBuy</Key>
-		  <Value>Buy</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonClose</Key>
-		  <Value>Close</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonRocket</Key>
-		  <Value>Rocket</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonMap</Key>
-		  <Value>Map</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonReCenter</Key>
-		  <Value>Re-center Map</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsVoiceLanguage</Key>
-		  <Value>Voice Language</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonContacts</Key>
-		  <Value>Contacts</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonLog</Key>
-		  <Value>Log</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaConnectionsHeader</Key>
-		  <Value>Connections</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaTypeName</Key>
-		  <Value>Type Name:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaPrefabName</Key>
-		  <Value>Prefab Name:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaTypeHash</Key>
-		  <Value>Type Hash:</Value>
-		</Record>
-		<Record>
-		  <Key>PixelLightCount</Key>
-		  <Value>Pixel Light Count</Value>
-		</Record>
-		<Record>
-		  <Key>SaveVersionWarning</Key>
-		  <Value>WARNING. Old save version detected</Value>
-		</Record>
-		<Record>
-		  <Key>StateChangePopup</Key>
-		  <Value>State Change: Would you like Stationeers to attempt to modify the contents of atmospheric networks in the loaded game to prevent immediate explosions and overpressure events due to liquid-gas-solid state change?</Value>
-		</Record>
-		<Record>
-		  <Key>PipeVolumeChangePopup</Key>
-		  <Value>Pipe Volume Change: Would you like Stationeers to attempt to modify the contents of all pipe networks to prevent pipes bursting?</Value>
-		</Record>
-		<Record>
-		  <Key>AttemptToFix</Key>
-		  <Value>Attempt To Fix</Value>
-		</Record>
-		<Record>
-		  <Key>DoNothing</Key>
-		  <Value>Do Nothing</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserStressTitle</Key>
-		  <Value>STRESS</Value>
-		</Record>
-		<Record>
-		  <Key>CartridgeAtmosAnalyserLatentTitle</Key>
-		  <Value>LATENT</Value>
-		</Record>
-		<Record>
-		  <Key>PhaseChangeLogScale</Key>
-		  <Value>Log Scale</Value>
-		</Record>
-		<Record>
-		  <Key>PhaseDiagramTemperatureDisplay</Key>
-		  <Value>Temperature:
-	</Value>
-		</Record>
-		<Record>
-		  <Key>PhaseDiagramPressuredisplay</Key>
-		  <Value>Pressure:
-	</Value>
-		</Record>
-		<Record>
-		  <Key>PhaseChangeCelsius</Key>
-		  <Value>Use Celsius</Value>
-		</Record>
-		<Record>
-		  <Key>SetDestinationButton</Key>
-		  <Value>Set Destination</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonLocation</Key>
-		  <Value>Location</Value>
-		</Record>
-		<Record>
-		  <Key>LocationInfoButton</Key>
-		  <Value>Location Info</Value>
-		</Record>
-		<Record>
-		  <Key>TabResources</Key>
-		  <Value>Resources</Value>
-		</Record>
-		<Record>
-		  <Key>TabSiteDiscovery</Key>
-		  <Value>Site Discovery</Value>
-		</Record>
-		<Record>
-		  <Key>TabNavPoints</Key>
-		  <Value>Nav Points</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonMine</Key>
-		  <Value>Mine</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonDiscover</Key>
-		  <Value>Discover</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonChart</Key>
-		  <Value>Chart</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonSurvey</Key>
-		  <Value>Survey</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonIdle</Key>
-		  <Value>Idle</Value>
-		</Record>
-		<Record>
-		  <Key>ButtonMonitors</Key>
-		  <Value>Monitors</Value>
-		</Record>
-		<Record>
-		  <Key>SettingsDayLength</Key>
-		  <Value>Day Length (minutes)</Value>
-		</Record>
-		<Record>
-		  <Key>NewWorldParentBody</Key>
-		  <Value>Parent Body</Value>
-		</Record>
-		<Record>
-		  <Key>NewWorldDayLength</Key>
-		  <Value>Day Length</Value>
-		</Record>
-		<Record>
-		  <Key>NewWorldYearLength</Key>
-		  <Value>Sidereal Period</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaConstructableInRockets</Key>
-		  <Value>Constructable In Rockets:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaRocketMassContribution</Key>
-		  <Value>Rocket Mass Contribution:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaRocketMaxThrust</Key>
-		  <Value>Max Thrust:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaRocketEfficiency</Key>
-		  <Value>Efficiency:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaRocketExhaustVelocity</Key>
-		  <Value>Exhaust Velocity:</Value>
-		</Record>
-		<Record>
-		  <Key>NewWorldInformation</Key>
-		  <Value>Summary</Value>
-		</Record>
-		<Record>
-		  <Key>NewWorldDifficulty</Key>
-		  <Value>Modifiers</Value>
-		</Record>
-		<Record>
-		  <Key>NewWorldChallenge</Key>
-		  <Value>Challenge</Value>
-		</Record>
-		<Record>
-		  <Key>RemoveNodeButton</Key>
-		  <Value>Delete Location</Value>
-		</Record>
-		<Record>
-		  <Key>ClearDestinationButton</Key>
-		  <Value>Clear Destination</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaSpeedMultiplierTitle</Key>
-		  <Value>Speed:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaReagentYieldMultiplierTitle</Key>
-		  <Value>Ore Yield:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaPowerConsumptionMultiplierTitle</Key>
-		  <Value>Power Use:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaIceYieldMultiplierTitle</Key>
-		  <Value>Ice Yield:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaHealthMultiplierTitle</Key>
-		  <Value>Durability:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaNutritionQuality</Key>
-		  <Value>Quality:</Value>
-		</Record>
-		<Record>
-		  <Key>PhaseChangeCompareTo</Key>
-		  <Value>Compare to:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaLogicInstructions</Key>
-		  <Value>Instructions</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaInstructions</Key>
-		  <Value>Instructions</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaInternalMemory</Key>
-		  <Value>Internal Memory</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMemoryHeader</Key>
-		  <Value>Size:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMemoryAccessHeader</Key>
-		  <Value>Access:</Value>
-		</Record>
-		<Record>
-		  <Key>InventorySlotSuitBack</Key>
-		  <Value>Suit Back</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultStartCondition</Key>
-		  <Value>Standard Start</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultStartConditionDescription</Key>
-		  <Value>Everything you need to build your first base</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultScenarioStartCondition</Key>
-		  <Value>Only player kit</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultStartConditionVulcan</Key>
-		  <Value>Standard (Vulcan)</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultStartConditionEuropa</Key>
-		  <Value>Standard (Europa)</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultStartConditionMimas</Key>
-		  <Value>Standard (Mimas)</Value>
-		</Record>
-		<Record>
-		  <Key>DefaultStartConditionVenus</Key>
-		  <Value>Standard (Venus)</Value>
-		</Record>
-		<Record>
-		  <Key>BrutalStartCondition</Key>
-		  <Value>Brutal</Value>
-		</Record>
-		<Record>
-		  <Key>BrutalStartConditionEuropa</Key>
-		  <Value>Brutal (Europa)</Value>
-		</Record>
-		<Record>
-		  <Key>BrutalStartConditionMimas</Key>
-		  <Value>Brutal (Mimas)</Value>
-		</Record>
-		<Record>
-		  <Key>BrutalStartConditionVulcan</Key>
-		  <Value>Brutal (Hot Planet)</Value>
-		</Record>
-		<Record>
-		  <Key>BrutalStartConditionDescription</Key>
-		  <Value>The bare minimum to survive</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildPower</Key>
-		  <Value>Build a basic power setup</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildFramePlatform</Key>
-		  <Value>Build a 2x3 platform with frames</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuild6Frames</Key>
-		  <Value>Build a 2x3 platform with {THING:StructureFrameIron}. Frames provide a mounting point for most large devices.</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveWeldFrames</Key>
-		  <Value>An {THING:StructureFrameIron} is finished by using a {THING:ItemWeldingTorch} in your active hand, and {THING:ItemIronSheets} in your other hand.</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildArcFurnace</Key>
-		  <Value>Build and Power Auto-lathe and Arc-Furnace</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveSmeltIron</Key>
-		  <Value>Smelt Iron in Arc Furnace</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildPrinters</Key>
-		  <Value>Build more printers</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildStacker</Key>
-		  <Value>Build a Stacker</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveSmeltSteel</Key>
-		  <Value>Smelt some Steel</Value>
-		</Record>
-		<Record>
-		  <Key>SmeltSteelVulcanInfo</Key>
-		  <Value>The Vulcan air at midday is hot enough to smelt steel</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveVacuumRoom</Key>
-		  <Value>Vacuum out room</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveVacuumRoomInfo</Key>
-		  <Value>Vent all the gas from the room using a {THING:StructureActiveVent}</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCombustion</Key>
-		  <Value>Avoid fires</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCombustionInfo</Key>
-		  <Value>During the day any oxygen released into the Vulcan atmosphere will immediately combust</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveUpgradeElectronicsPrinter</Key>
-		  <Value>Upgrade ElectronicsPrinter</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveUpgradeManufacturing</Key>
-		  <Value>Upgrade Manufacturing</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildFurnace</Key>
-		  <Value>Build an Advanced Furnace</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildCentrifuge</Key>
-		  <Value>Build a Recycler and Centrifuge</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveDeepMiners</Key>
-		  <Value>Deep Miners and Rockets can mine resources for you</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildRoom</Key>
-		  <Value>Build a room with a door</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveFillOxygen</Key>
-		  <Value>Fill a room with Oxygen</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveGrowFood</Key>
-		  <Value>Grow plants for Oxygen and Food</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveRefillBottle</Key>
-		  <Value>Refill Water Bottle</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectivePlantsLight</Key>
-		  <Value>Plants need light to grow</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectivePlantsDarkness</Key>
-		  <Value>Plants need to rest in darkness to grow</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveSwitchOffYourGrowLight</Key>
-		  <Value>Switch off {THING:StructureGrowLight}</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCookPotato</Key>
-		  <Value>Cook a baked potato</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
-		  <Value>Dismiss to Acknowledge</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveOfflinePlayers</Key>
-		  <Value>Keep off-line players alive</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveFiltration</Key>
-		  <Value>Make your room atmosphere safe to breathe</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveManageTemperature</Key>
-		  <Value>Manage room temperature</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildPad</Key>
-		  <Value>Build and power a 3x3 trader landing pad</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveConnectPad</Key>
-		  <Value>Connect a Computer and Vending Machine to the Landing Pad</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveResolveContact</Key>
-		  <Value>Connect a Dish and Resolve a trading contact</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveContactLand</Key>
-		  <Value>Interrogate a Trader Contact and call them in to land</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildPowerInfo</Key>
-		  <Value>An Area Power Controller (APC) has a battery slot for power storage and a switch to turn on power to the output network. Open it with a {THING:ItemCrowbar}</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildFurnaceInfo</Key>
-		  <Value>An Advanced Furnace is required to smelt super alloys</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveDeepMinersInfo</Key>
-		  <Value>{THING:StructureDeepMiner} can be used to harvest a steady flow of resources. {THING:StructureRocketManufactory} can print the parts to build a mining rocket for gathering ore and ices from nearby asteroids</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveBuildStackerInfo</Key>
-		  <Value>Connect to the output of your {THING:StructureAutolathe} with {THING:StructureChuteStraight}</Value>
-		</Record>
-		<Record>
-		  <Key>HelperHints</Key>
-		  <Value>Helper Hints</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCanisters</Key>
-		  <Value>Refill Oxygen Canister</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCanistersInfo</Key>
-		  <Value>{THING:ItemGasCanisterEmpty} can be refilled by inserting into a {THING:DynamicGasCanisterEmpty} or a {THING:StructureGasTankStorage}</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveOfflinePlayersInfo</Key>
-		  <Value>Offline players can be kept alive in a {THING:StructureSleeperVertical}</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCablesBurn</Key>
-		  <Value>A power network overloaded! Replace burnt cable</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveCablesBurnInfo</Key>
-		  <Value>Power cables can burn out if overloaded or if a battery is shorted. Use a {THING:StructureCableFuse5k} to isolate failures. Limit power throughput with a {THING:StructureTransformerSmall} or upgrade high power networks to {THING:ItemCableCoilHeavy}</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveSmeltIce</Key>
-		  <Value>Mine Ice for Gasses</Value>
-		</Record>
-		<Record>
-		  <Key>WorldObjectiveSmeltIceInfo</Key>
-		  <Value>Ices can be melted for useful gasses and liquids. Place in an {THING:StructureIceCrusher} or just use direct sunlight or warm air above 6kPa.</Value>
-		</Record>
-		<Record>
-		  <Key>DismissCompletedButton</Key>
-		  <Value>Dismiss Completed</Value>
-		</Record>
-		<Record>
-		  <Key>ShowDismissedButton</Key>
-		  <Value>Show Dismissed</Value>
-		</Record>
-		<Record>
-		  <Key>RenderDistanceMultiplierSetting</Key>
-		  <Value>Render Distance Multiplier</Value>
-		</Record>
-		<Record>
-		  <Key>SelectTutorialTitle</Key>
-		  <Value>Select Tutorial</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1Title</Key>
-		  <Value>Tutorial 1: Inventory and Interactions</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1Summary</Key>
-		  <Value>Learn the basics of interactions, inventory management and construction.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1EquipToolBeltHeading</Key>
-		  <Value>Equip your tool belt</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1OpenBackpack</Key>
-		  <Value>Open your {THING:ItemHardBackpack} by holding {KEY:MouseControl} and clicking on it.</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1EquipToolBelt</Key>
-		  <Value>Holding {KEY:MouseControl} and dragging your {THING:ItemToolBelt} onto the belt slot will equip it.</Value>
-		</Record>
-		<Record>
-		  <Key>Tutorial1PlaceWallHeading</Key>
-		  <Value>Place one wall</Value>
-		</Record>
-		<Record>
-		  <Key>Tut1WallKitsInLocker</Key>
-		  <Value>{THING:ItemKitWallIron} stacks are found in the locker.</Value>
-		</Record>
+<Record>
+  <Key>StationpediaFoundIn</Key>
+  <Value>Encontrado en</Value>
+</Record>
+<Record>
+  <Key>StationpediaConstructionOptions</Key>
+  <Value>Opciones de Construcción</Value>
+</Record>
+<Record>
+  <Key>StationpediaModeHeader</Key>
+  <Value>Modo</Value>
+</Record>
+<Record>
+  <Key>StationpediaLogicHeader</Key>
+  <Value>Lógica</Value>
+</Record>
+<Record>
+  <Key>StationpediaLogicSlotHeader</Key>
+  <Value>Slots de Lógica</Value>
+</Record>
+<Record>
+  <Key>StationpediaTutorialListHeader</Key>
+  <Value>Tutoriales</Value>
+</Record>
+<Record>
+  <Key>StationpediaNoResults</Key>
+  <Value>No se encontraron resultados...</Value>
+</Record>
+<Record>
+  <Key>HydrationSPDAKey</Key>
+  <Value>Hidratación</Value>
+</Record>
+<Record>
+  <Key>EvaSPDAKey</Key>
+  <Value>EVA</Value>
+</Record>
+<Record>
+  <Key>NutritionSPDAKey</Key>
+  <Value>Nutrición</Value>
+</Record>
+<Record>
+  <Key>StatusIconHydrationDesc</Key>
+  <Value>La hidratación está baja</Value>
+</Record>
+<Record>
+  <Key>StatusIconHydrationKey</Key>
+  <Value>Hidratación Baja</Value>
+</Record>
+<Record>
+  <Key>HydrationCaution</Key>
+  <Value>Cuidado con la Hidratación</Value>
+</Record>
+<Record>
+  <Key>HydrationCritical</Key>
+  <Value>Hidratación Crítica</Value>
+</Record>
+<Record>
+  <Key>MoodLow</Key>
+  <Value>Ánimo Bajo</Value>
+</Record>
+<Record>
+  <Key>MoodCritical</Key>
+  <Value>Ánimo Crítico</Value>
+</Record>
+<Record>
+  <Key>HygieneLow</Key>
+  <Value>Higiene Baja</Value>
+</Record>
+<Record>
+  <Key>HygieneCritical</Key>
+  <Value>Higiene Crítica</Value>
+</Record>
+<Record>
+  <Key>Guides</Key>
+  <Value>Guías</Value>
+</Record>
+<Record>
+  <Key>Lore</Key>
+  <Value>Historia</Value>
+</Record>
+<Record>
+  <Key>SettingsLightShadowDistance</Key>
+  <Value>Distancia de Sombra de Luz</Value>
+</Record>
+<Record>
+  <Key>CrowbarToFlip</Key>
+  <Value>Voltear usando un palanca</Value>
+</Record>
+<Record>
+  <Key>TimerPanel</Key>
+  <Value>Temporizador</Value>
+</Record>
+<Record>
+  <Key>LogicTypeChannel</Key>
+  <Value>Canal en una red de cables que se debe considerar volátil</Value>
+</Record>
+<Record>
+  <Key>LogicTypeUnknown</Key>
+  <Value>No hay descripción disponible</Value>
+</Record>
+<Record>
+  <Key>LogicTypeTime</Key>
+  <Value>Tiempo</Value>
+</Record>
+<Record>
+  <Key>LogicTypeBpm</Key>
+  <Value>BPM</Value>
+</Record>
+<Record>
+  <Key>LogicTypeEnvironmentEfficiency</Key>
+  <Value>La eficiencia ambiental reportada por la máquina, como un flotante entre 0 y 1</Value>
+</Record>
+<Record>
+  <Key>LogicTypeWorkingGasEfficiency</Key>
+  <Value>La eficiencia del gas de trabajo reportada por la máquina, como un flotante entre 0 y 1</Value>
+</Record>
+<Record>
+  <Key>Pitch</Key>
+  <Value>Pitch</Value>
+</Record>
+<Record>
+  <Key>Volume</Key>
+  <Value>Volumen</Value>
+</Record>
+<Record>
+  <Key>NoAudioReceiverDevices</Key>
+  <Value>No hay dispositivos de recepción de audio</Value>
+</Record>
+<Record>
+  <Key>Speed</Key>
+  <Value>Velocidad</Value>
+</Record>
+<Record>
+  <Key>Attack</Key>
+  <Value>Ataque</Value>
+</Record>
+<Record>
+  <Key>Release</Key>
+  <Value>Liberar</Value>
+</Record>
+<Record>
+  <Key>CurrentInstrument</Key>
+  <Value>Instrumento Actual</Value>
+</Record>
+<Record>
+  <Key>NoSoundCartridge</Key>
+  <Value>No hay cartucho de sonido</Value>
+</Record>
+<Record>
+  <Key>NoNote</Key>
+  <Value>No hay nota</Value>
+</Record>
+<Record>
+  <Key>Intensity</Key>
+  <Value>Intensidad</Value>
+</Record>
+<Record>
+  <Key>Waveform</Key>
+  <Value>Forma de Onda</Value>
+</Record>
+<Record>
+  <Key>Radius</Key>
+  <Value>Radio de Detección</Value>
+</Record>
+<Record>
+  <Key>StationpediaBasePowerUsage</Key>
+  <Value>Uso de Potencia Base:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMaxPressure</Key>
+  <Value>Presión Máxima:</Value>
+</Record>
+<Record>
+  <Key>StationpediaVolume</Key>
+  <Value>Volumen:</Value>
+</Record>
+<Record>
+  <Key>StationpediaNutrition</Key>
+  <Value>Nutrición:</Value>
+</Record>
+<Record>
+  <Key>StationpediaNutritionQuality</Key>
+  <Value>Calidad:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMoodBonus</Key>
+  <Value>Bono de Ánimo:</Value>
+</Record>
+<Record>
+  <Key>StationpediaGrowthTime</Key>
+  <Value>Tiempo de Crecimiento:</Value>
+</Record>
+<Record>
+  <Key>MoleOxygenDescription</Key>
+  <Value>El oxígeno proporciona energía cuando se libera en combustión, y también se une con el hidrógeno para crear {GAS:Water}. Es creado por {LINK:OrganicPage;plants}, así como del procesamiento de {THING:ItemOxite}. Es altamente inflamable a bajas temperaturas.</Value>
+</Record>
+<Record>
+  <Key>MoleNitrogenDescription</Key>
+  <Value>{GAS:Nitrogen} se puede mezclar con {GAS:Oxygen} para estabilizar su inflamabilidad y evitar la toxicidad del {GAS:Oxygen}, y es un recurso en sí mismo, útil para crear una atmósfera respirable (aproximadamente 3:1 {GAS:Nitrogen} y {GAS:Oxygen). La fuente más eficiente de {GAS:Nitrogen} proviene de los depósitos de {THING:ItemNitrice} que se encuentran alrededor del Sistema Solar. Puedes condensar {GAS:Nitrogen} en {GAS:LiquidNitrogen} bajando su temperatura por debajo de su punto de ebullición.</Value>
+</Record>
+<Record>
+  <Key>MoleCarbonDioxideDescription</Key>
+  <Value>Lo exhalas, {LINK:OrganicPage;plants} lo inhalan. No crecen sin ello. Puedes usar elementos colocados en los slots de {SLOT:GasFilter} para eliminarlo de la atmósfera. 
+  {GAS:CarbonDioxide} tiene un calor específico moderadamente alto, lo que significa que es un buen refrigerante para dispositivos como el {THING:StructureWallCooler}. {GAS:Water} es mejor, pero generalmente tiene usos más importantes.</Value>
+</Record>
+<Record>
+  <Key>MoleVolatilesDescription</Key>
+  <Value>Los volátiles son un combustible combustible. Se refinan de {THING:ItemVolatiles}</Value>
+</Record>
+<Record>
+  <Key>MolePollutantDescription</Key>
+  <Value>También conocido como 'X', {GAS:Pollutant} se crea al fundir ciertos metales. Una concentración de 0.1 mol o mayor hará que tu traje advierta sobre veneno en la atmósfera. El contaminante tiene un calor específico alto, lo que lo convierte en un excelente refrigerante. Desafortunadamente, es extremadamente perjudicial para los seres orgánicos y dañará gravemente los pulmones de la mayoría de los organismos basados en {REAGENT:Carbon}.</Value>
+</Record>
+<Record>
+  <Key>MoleWaterDescription</Key>
+  <Value>Puedes obtener agua fundiendo o triturando {THING:ItemIce} usando un {THING:StructureFurnace} o un {THING:StructureIceCrusher}. {GAS:Water} es crítico para que {LINK:OrganicPage;plants} permanezcan vivas y crezcan {LINK:NutritionPage;food}. 
+  También es un refrigerante excepcional con una alta capacidad de calor específico. {GAS:Water} se evaporará en {GAS:Steam} si su temperatura se eleva por encima de su punto de ebullición.</Value>
+</Record>
+<Record>
+  <Key>MolePollutedWaterDescription</Key>
+  <Value>El agua contaminada es un producto de desecho del uso de {GAS:Water} en ciertos dispositivos. Se congelará en {THING:ItemPureIcePollutedWater} pero se hervirá en {GAS:Steam}. 
+  Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GAS:Water}.</Value>
+</Record>
+<Record>
+  <Key>{THING:StructureNitrolyzer}</Key>
+  <Value>El óxido nitroso es un gas reactivo que dejará inconscientes a los jugadores si se inhala. Actúa como un oxidante para la combustión, y permite que los volátiles se quemen significativamente más caliente, más rápido y a una temperatura de autoignición más baja. Puede producirse en un proceso intensivo en energía dentro de un {THING:StructureNitrolyzer}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidNitrogenDescription</Key>
+  <Value>{GAS:Nitrogen} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:Nitrogen} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidNitrogen} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:Nitrogen}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidOxygenDescription</Key>
+  <Value>{GAS:Oxygen} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:Oxygen} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:Oxygen}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidVolatilesDescription</Key>
+  <Value>{GAS:Volatiles} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:Volatiles} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:Volatiles}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidCarbonDioxideDescription</Key>
+  <Value>{GAS:CarbonDioxide} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:CarbonDioxide} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidCarbonDioxide} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:CarbonDioxide}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidPollutantDescription</Key>
+  <Value>{GAS:Pollutant} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:Pollutant} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidPollutant} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:Pollutant}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidNitrousOxideDescription</Key>
+  <Value>{GAS:NitrousOxide} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:NitrousOxide} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidNitrousOxide} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:NitrousOxide}.</Value>
+</Record>
+<Record>
+  <Key>MoleLiquidHydrogenDescription</Key>
+  <Value>{GAS:Hydrogen} en su forma líquida. Se puede crear bajando la temperatura del gas {GAS:Hydrogen} por debajo de su punto de ebullición. Esto se puede lograr utilizando un {THING:StructureHeatExchangerGastoGas} o un {THING:StructureAirConditioner}. {GAS:LiquidHydrogen} introducido en la atmósfera se evaporará rápidamente de nuevo en {GAS:Hydrogen}.</Value>
+</Record>
+<Record>
+  <Key>MoleHydrogenDescription</Key>
+  <Value />
+</Record>
+<Record>
+  <Key>MoleSteamDescription</Key>
+  <Value>{GAS:Steam} evaporado. Se puede crear elevando la temperatura del {GAS:Water} hasta su punto de ebullición. Cuando se introduce en un tubo, {GAS:Steam} se condensará de nuevo en {GAS:Water} si su temperatura está por debajo de su punto de ebullición. El vapor se puede crear combustiendo {GAS:Volatiles} y oxígeno utilizando el {THING:H2Combustor}</Value>
+</Record>
+<Record>
+  <Key>SettingsSmoothTerrain</Key>
+  <Value>Terreno Suave</Value>
+</Record>
+<Record>
+  <Key>SettingsVirtualizedRendering</Key>
+  <Value>Renderizado Virtualizado</Value>
+</Record>
+<Record>
+  <Key>SettingsStartLocalHost</Key>
+  <Value>Iniciar LocalHost</Value>
+</Record>
+<Record>
+  <Key>MainMenuChangeAppearance</Key>
+  <Value>Cambiar la apariencia</Value>
+</Record>
+<Record>
+  <Key>CreateNewGame</Key>
+  <Value>Seleccionar Mundo</Value>
+</Record>
+<Record>
+  <Key>WorkshopModsTitle</Key>
+  <Value>Mods del Taller</Value>
+</Record>
+<Record>
+  <Key>GameMenuButtonSaveAs</Key>
+  <Value>Guardar Juego Como...</Value>
+</Record>
+<Record>
+  <Key>GameMenuPauseGameButton</Key>
+  <Value>Pausar Juego</Value>
+</Record>
+<Record>
+  <Key>WorldConfigurationDifficultyTitle</Key>
+  <Value>Dificultad</Value>
+</Record>
+<Record>
+  <Key>SelectWorldTitle</Key>
+  <Value>Seleccionar Mundo</Value>
+</Record>
+<Record>
+  <Key>SelectDifficultyTitle</Key>
+  <Value>Seleccionar Dificultad</Value>
+</Record>
+<Record>
+  <Key>SelectStartingConditionsTitle</Key>
+  <Value>Seleccionar Condiciones de Inicio</Value>
+</Record>
+<Record>
+  <Key>NewGameNextButton</Key>
+  <Value>Siguiente</Value>
+</Record>
+<Record>
+  <Key>NewGameSaveName</Key>
+  <Value>Nombre del Guardado</Value>
+</Record>
+<Record>
+  <Key>StartNewGameButton</Key>
+  <Value>Iniciar Juego</Value>
+</Record>
+<Record>
+  <Key>StationpediaMinCoolantTemperature</Key>
+  <Value>Temperatura Mínima del Refrigerante:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMaxCoolantTemperature</Key>
+  <Value>Temperatura Máxima del Refrigerante:</Value>
+</Record>
+<Record>
+  <Key>StationpediaThermalConductivityConvection</Key>
+  <Value>Convección Térmica:</Value>
+</Record>
+<Record>
+  <Key>StationpediaThermalConductivityRadiation</Key>
+  <Value>Radiación Térmica:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMovementSpeedModifier</Key>
+  <Value>Velocidad de Movimiento:</Value>
+</Record>
+<Record>
+  <Key>StationpediaThermalSaturation</Key>
+  <Value>Saturación Térmica:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMinSafeTemperature</Key>
+  <Value>Temperatura Mínima Segura:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMaxSafeTemperature</Key>
+  <Value>Temperatura Máxima Segura:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMinOperatingTemperature</Key>
+  <Value>Temperatura Mínima de Operación:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMaxOperatingTemperature</Key>
+  <Value>Temperatura Máxima de Operación:</Value>
+</Record>
+<Record>
+  <Key>ScoreboardDaysLived</Key>
+  <Value>Días Vividos</Value>
+</Record>
+<Record>
+  <Key>WorldInfoButtonDeleteBackup</Key>
+  <Value>Eliminar Respaldo</Value>
+</Record>
+<Record>
+  <Key>TradeErrorNoMotherboardInsertedTitle</Key>
+  <Value>No se puede comerciar</Value>
+</Record>
+<Record>
+  <Key>TradeErrorNoMotherboardInsertedMessage</Key>
+  <Value>La computadora conectada requiere que se inserte una placa madre de comunicaciones para comerciar.</Value>
+</Record>
+<Record>
+  <Key>TradeErrorPadError</Key>
+  <Value>La Plataforma de Aterrizaje está en un estado de Error. Restaura la plataforma de aterrizaje a la operación normal antes de continuar el comercio.</Value>
+</Record>
+<Record>
+  <Key>TradeErrorPadOff</Key>
+  <Value>La Plataforma de Aterrizaje está sin energía. Restaura la plataforma de aterrizaje a la operación normal antes de continuar el comercio.</Value>
+</Record>
+<Record>
+  <Key>CartridgePlantAnalyserTitle</Key>
+  <Value>ANALIZADOR DE PLANTAS</Value>
+</Record>
+<Record>
+  <Key>ContactItemLostContact</Key>
+  <Value>Contacto Perdido</Value>
+</Record>
+<Record>
+  <Key>ButtonSell</Key>
+  <Value>Vender</Value>
+</Record>
+<Record>
+  <Key>ButtonBuy</Key>
+  <Value>Comprar</Value>
+</Record>
+<Record>
+  <Key>ButtonClose</Key>
+  <Value>Cerrar</Value>
+</Record>
+<Record>
+  <Key>ButtonRocket</Key>
+  <Value>Cohete</Value>
+</Record>
+<Record>
+  <Key>ButtonMap</Key>
+  <Value>Mapa</Value>
+</Record>
+<Record>
+  <Key>ButtonReCenter</Key>
+  <Value>Re-centar Mapa</Value>
+</Record>
+<Record>
+  <Key>SettingsVoiceLanguage</Key>
+  <Value>Idioma de Voz</Value>
+</Record>
+<Record>
+  <Key>ButtonContacts</Key>
+  <Value>Contactos</Value>
+</Record>
+<Record>
+  <Key>ButtonLog</Key>
+  <Value>Registro</Value>
+</Record>
+<Record>
+  <Key>StationpediaConnectionsHeader</Key>
+  <Value>Conexiones</Value>
+</Record>
+<Record>
+  <Key>StationpediaTypeName</Key>
+  <Value>Nombre del Tipo:</Value>
+</Record>
+<Record>
+  <Key>StationpediaPrefabName</Key>
+  <Value>Nombre del Prefab:</Value>
+</Record>
+<Record>
+  <Key>StationpediaTypeHash</Key>
+  <Value>Hash del Tipo:</Value>
+</Record>
+<Record>
+  <Key>PixelLightCount</Key>
+  <Value>Conteo de Luz Pixel</Value>
+</Record>
+<Record>
+  <Key>SaveVersionWarning</Key>
+  <Value>ADVERTENCIA. Se detectó una versión de guardado antigua</Value>
+</Record>
+<Record>
+  <Key>StateChangePopup</Key>
+  <Value>Cambio de Estado: ¿Te gustaría que Stationeers intentara modificar el contenido de las redes atmosféricas en el juego cargado para evitar explosiones inmediatas y eventos de sobrepresión debido al cambio de estado líquido-gas-sólido?</Value>
+</Record>
+<Record>
+  <Key>PipeVolumeChangePopup</Key>
+  <Value>Cambio de Volumen de Tubería: ¿Te gustaría que Stationeers intentara modificar el contenido de todas las redes de tuberías para prevenir la ruptura de tuberías?</Value>
+</Record>
+<Record>
+  <Key>AttemptToFix</Key>
+  <Value>Intentar Arreglar</Value>
+</Record>
+<Record>
+  <Key>DoNothing</Key>
+  <Value>No Hacer Nada</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserStressTitle</Key>
+  <Value>ESTRÉS</Value>
+</Record>
+<Record>
+  <Key>CartridgeAtmosAnalyserLatentTitle</Key>
+  <Value>LATENTE</Value>
+</Record>
+<Record>
+  <Key>PhaseChangeLogScale</Key>
+  <Value>Escala Logarítmica</Value>
+</Record>
+<Record>
+  <Key>PhaseDiagramTemperatureDisplay</Key>
+  <Value>Temperatura:</Value>
+</Record>
+<Record>
+  <Key>PhaseDiagramPressuredisplay</Key>
+  <Value>Presión:</Value>
+</Record>
+<Record>
+  <Key>PhaseChangeCelsius</Key>
+  <Value>Usar Celsius</Value>
+</Record>
+<Record>
+  <Key>SetDestinationButton</Key>
+  <Value>Establecer Destino</Value>
+</Record>
+<Record>
+  <Key>ButtonLocation</Key>
+  <Value>Ubicación</Value>
+</Record>
+<Record>
+  <Key>LocationInfoButton</Key>
+  <Value>Información de Ubicación</Value>
+</Record>
+<Record>
+  <Key>TabResources</Key>
+  <Value>Recursos</Value>
+</Record>
+<Record>
+  <Key>TabSiteDiscovery</Key>
+  <Value>Descubrimiento de Sitios</Value>
+</Record>
+<Record>
+  <Key>TabNavPoints</Key>
+  <Value>Puntos de Navegación</Value>
+</Record>
+<Record>
+  <Key>ButtonMine</Key>
+  <Value>Minar</Value>
+</Record>
+<Record>
+  <Key>ButtonDiscover</Key>
+  <Value>Descubrir</Value>
+</Record>
+<Record>
+  <Key>ButtonChart</Key>
+  <Value>Chart</Value>
+</Record>
+<Record>
+  <Key>ButtonSurvey</Key>
+  <Value>Encuesta</Value>
+</Record>
+<Record>
+  <Key>ButtonIdle</Key>
+  <Value>Inactivo</Value>
+</Record>
+<Record>
+  <Key>ButtonMonitors</Key>
+  <Value>Monitores</Value>
+</Record>
+<Record>
+  <Key>SettingsDayLength</Key>
+  <Value>Duración del Día (minutos)</Value>
+</Record>
+<Record>
+  <Key>NewWorldParentBody</Key>
+  <Value>Cuerpo Padre</Value>
+</Record>
+<Record>
+  <Key>NewWorldDayLength</Key>
+  <Value>Duración del Día</Value>
+</Record>
+<Record>
+  <Key>NewWorldYearLength</Key>
+  <Value>Período Sidéreo</Value>
+</Record>
+<Record>
+  <Key>StationpediaConstructableInRockets</Key>
+  <Value>Construible en Cohetes:</Value>
+</Record>
+<Record>
+  <Key>StationpediaRocketMassContribution</Key>
+  <Value>Contribución de Masa del Cohete:</Value>
+</Record>
+<Record>
+  <Key>StationpediaRocketMaxThrust</Key>
+  <Value>Empuje Máximo:</Value>
+</Record>
+<Record>
+  <Key>StationpediaRocketEfficiency</Key>
+  <Value>eficiencia:</Value>
+</Record>
+<Record>
+  <Key>StationpediaRocketExhaustVelocity</Key>
+  <Value>Velocidad de Escape:</Value>
+</Record>
+<Record>
+  <Key>NewWorldInformation</Key>
+  <Value>Resumen</Value>
+</Record>
+<Record>
+  <Key>NewWorldDifficulty</Key>
+  <Value>Modificadores</Value>
+</Record>
+<Record>
+  <Key>NewWorldChallenge</Key>
+  <Value>Desafío</Value>
+</Record>
+<Record>
+  <Key>RemoveNodeButton</Key>
+  <Value>Eliminar Ubicación</Value>
+</Record>
+<Record>
+  <Key>ClearDestinationButton</Key>
+  <Value>Limpiar Destino</Value>
+</Record>
+<Record>
+  <Key>StationpediaSpeedMultiplierTitle</Key>
+  <Value>Velocidad:</Value>
+</Record>
+<Record>
+  <Key>StationpediaReagentYieldMultiplierTitle</Key>
+  <Value>Rendimiento de Mineral:</Value>
+</Record>
+<Record>
+  <Key>StationpediaPowerConsumptionMultiplierTitle</Key>
+  <Value>Uso de Potencia:</Value>
+</Record>
+<Record>
+  <Key>StationpediaIceYieldMultiplierTitle</Key>
+  <Value>Rendimiento de Hielo:</Value>
+</Record>
+<Record>
+  <Key>StationpediaHealthMultiplierTitle</Key>
+  <Value>Durabilidad:</Value>
+</Record>
+<Record>
+  <Key>StationpediaNutritionQuality</Key>
+  <Value>Calidad:</Value>
+</Record>
+<Record>
+  <Key>PhaseChangeCompareTo</Key>
+  <Value>Comparar con:</Value>
+</Record>
+<Record>
+  <Key>StationpediaLogicInstructions</Key>
+  <Value>Instrucciones</Value>
+</Record>
+<Record>
+  <Key>StationpediaInstructions</Key>
+  <Value>Instrucciones</Value>
+</Record>
+<Record>
+  <Key>StationpediaInternalMemory</Key>
+  <Value>Memoria Interna</Value>
+</Record>
+<Record>
+  <Key>StationpediaMemoryHeader</Key>
+  <Value>Tamaño:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMemoryAccessHeader</Key>
+  <Value>Acceso:</Value>
+</Record>
+<Record>
+  <Key>InventorySlotSuitBack</Key>
+  <Value>Espalda del Traje</Value>
+</Record>
+<Record>
+  <Key>DefaultStartCondition</Key>
+  <Value>Inicio Estándar</Value>
+</Record>
+<Record>
+  <Key>DefaultStartConditionDescription</Key>
+  <Value>Todo lo que necesitas para construir tu primera base</Value>
+</Record>
+<Record>
+  <Key>DefaultScenarioStartCondition</Key>
+  <Value>Solo kit de jugador</Value>
+</Record>
+<Record>
+  <Key>DefaultStartConditionVulcan</Key>
+  <Value>Estándar (Vulcan)</Value>
+</Record>
+<Record>
+  <Key>DefaultStartConditionEuropa</Key>
+  <Value>Estándar (Europa)</Value>
+</Record>
+<Record>
+  <Key>DefaultStartConditionMimas</Key>
+  <Value>Estándar (Mimas)</Value>
+</Record>
+<Record>
+  <Key>DefaultStartConditionVenus</Key>
+  <Value>Estándar (Venus)</Value>
+</Record>
+<Record>
+  <Key>BrutalStartCondition</Key>
+  <Value>Brutal</Value>
+</Record>
+<Record>
+  <Key>BrutalStartConditionEuropa</Key>
+  <Value>Brutal (Europa)</Value>
+</Record>
+<Record>
+  <Key>BrutalStartConditionMimas</Key>
+  <Value>Brutal (Mimas)</Value>
+</Record>
+<Record>
+  <Key>BrutalStartConditionVulcan</Key>
+  <Value>Brutal (Planeta Caliente)</Value>
+</Record>
+<Record>
+  <Key>BrutalStartConditionDescription</Key>
+  <Value>El mínimo necesario para sobrevivir</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildPower</Key>
+  <Value>Construir una configuración de energía básica</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildFramePlatform</Key>
+  <Value>Construir una plataforma de 2x3 con marcos</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuild6Frames</Key>
+  <Value>Construir una plataforma de 2x3 con {THING:StructureFrameIron}. Los marcos proporcionan un punto de montaje para la mayoría de los dispositivos grandes.</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveWeldFrames</Key>
+  <Value>Un {THING:StructureFrameIron} se termina usando un {THING:ItemWeldingTorch} en tu mano activa, y {THING:ItemIronSheets} en tu otra mano.</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildArcFurnace</Key>
+  <Value>Construir y alimentar Auto-lathe y Horno de Arco</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveSmeltIron</Key>
+  <Value>Fundir Hierro en el Horno de Arco</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildPrinters</Key>
+  <Value>Construir más impresoras</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildStacker</Key>
+  <Value>Construir un Apilador</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveSmeltSteel</Key>
+  <Value>Fundir acero</Value>
+</Record>
+<Record>
+  <Key>SmeltSteelVulcanInfo</Key>
+  <Value>El aire de Vulcan al mediodía es lo suficientemente caliente como para fundir acero</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveVacuumRoom</Key>
+  <Value>Crear vacío en la habitación</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveVacuumRoomInfo</Key>
+  <Value>Ventila todo el gas de la habitación usando un {THING:StructureActiveVent}</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCombustion</Key>
+  <Value>Evitar incendios</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCombustionInfo</Key>
+  <Value>Durante el día, cualquier oxígeno liberado en la atmósfera de Vulcan se encenderá inmediatamente</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveUpgradeElectronicsPrinter</Key>
+  <Value>Actualizar Impresora Electrónica</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveUpgradeManufacturing</Key>
+  <Value>Actualizar Manufactura</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildFurnace</Key>
+  <Value>Construir un Horno Avanzado</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildCentrifuge</Key>
+  <Value>Construir un Reciclador y Centrífuga</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveDeepMiners</Key>
+  <Value>Minas profundas y cohetes pueden extraer recursos por ti</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildRoom</Key>
+  <Value>Construir una habitación con una puerta</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveFillOxygen</Key>
+  <Value>Llenar una habitación con Oxígeno</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveGrowFood</Key>
+  <Value>Cultivar plantas para Oxígeno y Comida</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveRefillBottle</Key>
+  <Value>Recargar Botella de Agua</Value>
+</Record>
+<Record>
+  <Key>WorldObjectivePlantsLight</Key>
+  <Value>Las plantas necesitan luz para crecer</Value>
+</Record>
+<Record>
+  <Key>WorldObjectivePlantsDarkness</Key>
+  <Value>Las plantas necesitan descansar en la oscuridad para crecer</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveSwitchOffYourGrowLight</Key>
+  <Value>Apagar {THING:StructureGrowLight}</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCookPotato</Key>
+  <Value>Cocinar una papa al horno</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
+  <Value>Desestimar para Reconocer</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveOfflinePlayers</Key>
+  <Value>Mantener a los jugadores fuera de línea vivos</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveFiltration</Key>
+  <Value>Hacer que la atmósfera de tu habitación sea segura para respirar</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveManageTemperature</Key>
+  <Value>Gestionar la temperatura de la habitación</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildPad</Key>
+  <Value>Construir y alimentar una plataforma de aterrizaje de 3x3 para comerciantes</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveConnectPad</Key>
+  <Value>Conectar una Computadora y una Máquina expendedora a la Plataforma de Aterrizaje</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveResolveContact</Key>
+  <Value>Conectar una Antena y Resolver un contacto comercial</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveContactLand</Key>
+  <Value>Interrogar a un Contacto Comerciante y llamarlos para aterrizar</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildPowerInfo</Key>
+  <Value>Un Controlador de Potencia de Área (APC) tiene un slot para batería para almacenamiento de energía y un interruptor para activar la energía en la red de salida. Ábrelo con un {THING:ItemCrowbar}</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildFurnaceInfo</Key>
+  <Value>Se requiere un Horno Avanzado para fundir superaleaciones</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveDeepMinersInfo</Key>
+  <Value>{THING:StructureDeepMiner} se puede usar para cosechar un flujo constante de recursos. {THING:StructureRocketManufactory} puede imprimir las piezas para construir un cohete minero para recolectar mineral y hielo de asteroides cercanos</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveBuildStackerInfo</Key>
+  <Value>Conectar a la salida de tu {THING:StructureAutolathe} con {THING:StructureChuteStraight}</Value>
+</Record>
+<Record>
+  <Key>HelperHints</Key>
+  <Value>Sugerencias de Ayuda</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCanisters</Key>
+  <Value>Recargar el Cilindro de Oxígeno</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCanistersInfo</Key>
+  <Value>{THING:ItemGasCanisterEmpty} se puede recargar insertándolo en un {THING:DynamicGasCanisterEmpty} o un {THING:StructureGasTankStorage}</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveOfflinePlayersInfo</Key>
+  <Value>Los jugadores fuera de línea pueden mantenerse vivos en un {THING:StructureSleeperVertical}</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCablesBurn</Key>
+  <Value>¡Una red de energía sobrecargada! Reemplaza el cable quemado</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveCablesBurnInfo</Key>
+  <Value>Los cables de potencia pueden quemarse si se sobrecargan o si una batería se cortocircuita. Usa un {THING:StructureCableFuse5k} para aislar fallas. Limita el flujo de energía con un {THING:StructureTransformerSmall} o actualiza redes de alta potencia a {THING:ItemCableCoilHeavy}</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveSmeltIce</Key>
+  <Value>Minar Hielo para Gases</Value>
+</Record>
+<Record>
+  <Key>WorldObjectiveSmeltIceInfo</Key>
+  <Value>Los hielos se pueden derretir para obtener gases y líquidos útiles. Colócalos en un {THING:StructureIceCrusher} o simplemente usa luz solar directa o aire caliente por encima de 6 kPa.</Value>
+</Record>
+<Record>
+  <Key>DismissCompletedButton</Key>
+  <Value>Desestimar Completado</Value>
+</Record>
+<Record>
+  <Key>ShowDismissedButton</Key>
+  <Value>Mostrar Desestimados</Value>
+</Record>
+<Record>
+  <Key>RenderDistanceMultiplierSetting</Key>
+  <Value>Multiplicador de Distancia de Renderizado</Value>
+</Record>
+<Record>
+  <Key>SelectTutorialTitle</Key>
+  <Value>Seleccionar Tutorial</Value>
+</Record>
+<Record>
+  <Key>Tutorial1Title</Key>
+  <Value>Tutorial 1: Inventario e Interacciones</Value>
+</Record>
+<Record>
+  <Key>Tutorial1Summary</Key>
+  <Value>Aprende lo básico de interacciones, gestión de inventario y construcción.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1EquipToolBeltHeading</Key>
+  <Value>Equipa tu cinturón de herramientas</Value>
+</Record>
+<Record>
+  <Key>Tut1OpenBackpack</Key>
+  <Value>Abre tu {THING:ItemHardBackpack} manteniendo {KEY:MouseControl} y haciendo clic en él.</Value>
+</Record>
+<Record>
+  <Key>Tut1EquipToolBelt</Key>
+  <Value>Manteniendo {KEY:MouseControl} y arrastrando tu {THING:ItemToolBelt} sobre el slot de cinturón, lo equiparás.</Value>
+</Record>
+<Record>
+  <Key>Tutorial1PlaceWallHeading</Key>
+  <Value>Colocar una pared</Value>
+</Record>
+<Record>
+  <Key>Tut1WallKitsInLocker</Key>
+  <Value>Los pilas de {THING:ItemKitWallIron} se encuentran en el armario.</Value>
+</Record>
 		<Record>
 		  <Key>Tut1SwapHands</Key>
 		  <Value>You have two hand slots, press {KEY:SwapHands} to swap between them.</Value>
