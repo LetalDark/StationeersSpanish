@@ -629,7 +629,7 @@ El efecto de estos ingredientes depende de sus proporciones respectivas en el co
 
 <StationpediaPage>
   <Key>DecayPage</Key>
-  <Title>Decaimiento de Comida</Title>
+  <Title>Deterioro de la Comida</Title>
   <DisplayFilter>Guides</DisplayFilter>
   <Text>La comida se descompone con el tiempo en {THING:DecayedFood}, a menos que se refrigere en una atmósfera adecuada. La velocidad exacta de descomposición varía individualmente por:
 
