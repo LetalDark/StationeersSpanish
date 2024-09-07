@@ -13932,6 +13932,82 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Value>Saltar relativo a la línea b si a != 0</Value>
 </Record>
 <Record>
+  <Key>ScriptCommandBrapz</Key>
+  <Value>Rama relativa a la línea c si abs(a) &lt;= float.epsilon * 8</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBrnaz</Key>
+  <Value>Rama relativa a la línea c si abs(a) &gt; float.epsilon * 8</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandJal</Key>
+  <Value>Salta la ejecución a la línea a y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBdseal</Key>
+  <Value>Salta la ejecución a la línea a y almacena el número de la siguiente línea si el dispositivo está configurado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBdnsal</Key>
+  <Value>Salta la ejecución a la línea a y almacena el número de la siguiente línea si el dispositivo no está configurado</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBltal</Key>
+  <Value>Rama a la línea c si a &lt; b y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgtal</Key>
+  <Value>Rama a la línea c si a &gt; b y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBleal</Key>
+  <Value>Rama a la línea c si a &lt;= b y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgeal</Key>
+  <Value>Rama a la línea c si a &gt;= b y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBeqal</Key>
+  <Value>Rama a la línea c si a == b y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBneal</Key>
+  <Value>Rama a la línea c si a != b y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBapal</Key>
+  <Value>Rama a la línea d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBnaal</Key>
+  <Value>Rama a la línea d si abs(a - b) &gt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBltzal</Key>
+  <Value>Rama a la línea b si a &lt; 0 y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgezal</Key>
+  <Value>Rama a la línea b si a &gt;= 0 y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBlezal</Key>
+  <Value>Rama a la línea b si a &lt;= 0 y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBgtzal</Key>
+  <Value>Rama a la línea b si a &gt; 0 y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBeqzal</Key>
+  <Value>Rama a la línea b si a == 0 y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
+  <Key>ScriptCommandBnezal</Key>
+  <Value>Rama a la línea b si a != 0 y almacena el número de la siguiente línea en ra</Value>
+</Record>
+<Record>
   <Key>ScriptCommandBapz</Key>
   <Value>Saltar relativo a la línea c si abs(a) &lt;= float.epsilon * 8</Value>
 </Record>
@@ -14511,539 +14587,522 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>CommandStartWeather</Key>
   <Value>Inicia una nueva tormenta instantáneamente. : "/startweather"</Value>
 </Record>
-		<Record>
-		  <Key>CommandToggleNoClip</Key>
-		  <Value>Toggles player collisions. : "/tnc"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSkipStage</Key>
-		  <Value>Skips the current mission Stage. : "/skipstage"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSetStage</Key>
-		  <Value>Sets the current mission Stage. : "/setstage"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandShowStage</Key>
-		  <Value>Displays the current mission Stage and how many stages are in the mission. : "/showstage"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandFillNeeds</Key>
-		  <Value>Fills a players hunger and hydration. : "/fillneeds"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandFillHealth</Key>
-		  <Value>heals a player. : "/fillhealth"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandAddGas</Key>
-		  <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandAddGas</Key>
-		  <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandCount</Key>
-		  <Value>Counts all the Things of specified type in the save. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSetDecay</Key>
-		  <Value>Sets the global food Decay Multiplier. : "/setdecay 2"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandSetContact</Key>
-		  <Value>Sets the required signal amount to contact a trader. : "/setcontact 10"</Value>
-		</Record>
-		<Record>
-		  <Key>CommandHelp</Key>
-		  <Value>Displays the commands list. : "/help"</Value>
-		</Record>
-		<Record>
-		  <Key>Seedsstring</Key>
-		  <Value>Seeds</Value>
-		</Record>
-		<Record>
-		  <Key>Agrizero</Key>
-		  <Value>Agrizero</Value>
-		</Record>
-		<Record>
-		  <Key>AgrizeroDesc</Key>
-		  <Value>Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.
-	Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.
-	While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} and {LINK:ExMin;ExMin} through the ever-expanding Trader Network.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Asura</Key>
-		  <Value>Asura Biomedia</Value>
-		</Record>
-		<Record>
-		  <Key>AsuraDesc</Key>
-		  <Value>Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.
-	Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.
-	Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.
-	By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>CHAC</Key>
-		  <Value>CHAC</Value>
-		</Record>
-		<Record>
-		  <Key>CHACDesc</Key>
-		  <Value>Founded in 2085 to produce weapons for {LINK:Sinotai;Sinotai}'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.
-	Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.
-	As a result, although CHAC guns excel in no particular category, and have certainly never been accused of greatness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>ExMin</Key>
-		  <Value>ExMin</Value>
-		</Record>
-		<Record>
-		  <Key>ExMinDesc</Key>
-		  <Value>In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the {LINK:ODA;ODA}. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.
-	Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.
-	With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant {LINK:Recurso;Recurso}, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>GeFabrik</Key>
-		  <Value>GeFabrik</Value>
-		</Record>
-		<Record>
-		  <Key>GeFabrikDesc</Key>
-		  <Value>Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.
-	In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.
-	GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Hiiragi</Key>
-		  <Value>Hiiragi</Value>
-		</Record>
-		<Record>
-		  <Key>HiiragiDesc</Key>
-		  <Value>Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi Communications absorbed several prominent offworld assets, quickly becoming the most widely used trans-Solar System communications network.
-	If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Norsec</Key>
-		  <Value>Norsec</Value>
-		</Record>
-		<Record>
-		  <Key>NorsecDesc</Key>
-		  <Value>With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.
-	Norsec was officially cleared of any wrong-doing, but when the {LINK:ODA;ODA} banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.
-	Norsec’s orbitally-based Space Systems Division is responsible for the design and production of {LINK:ODA;ODA}’s core transport systems, while also being rumoured to hold a large interest in {LINK:ExMin;ExMin}. The company is also noted for its willingness to engage in experimental robotic technology.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>ODA</Key>
-		  <Value>ODA</Value>
-		</Record>
-		<Record>
-		  <Key>ODADesc</Key>
-		  <Value>
-			In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.
-	Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. 
-	It inaugurated the {LINK:Stationeers;Stationeer} Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Recurso</Key>
-		  <Value>Recurso Espaciais</Value>
-		</Record>
-		<Record>
-		  <Key>RecursoDesc</Key>
-		  <Value>This long-standing Brazilian mining group branched into space in the late 21st century.
-	Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.
-	Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the {LINK:ODA;ODA} included – to exercise a certain ‘flexibility’ toward Recurso.
-	Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Sinotai</Key>
-		  <Value>Sinotai</Value>
-		</Record>
-		<Record>
-		  <Key>SinotaiDesc</Key>
-		  <Value>The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the {LINK:ODA;ODA} itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.
-	Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.
-	Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with {LINK:Recurso;Recurso} (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>TK</Key>
-		  <Value>TK Systems</Value>
-		</Record>
-		<Record>
-		  <Key>TKDesc</Key>
-		  <Value>Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.
-	Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with {LINK:CHAC;} and, as a result, many of their products show distinct similarities.
-			After all, what is a gun but a ‘high speed goods conveyor’.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Xigo</Key>
-		  <Value>Xigo</Value>
-		</Record>
-		<Record>
-		  <Key>XigoDesc</Key>
-		  <Value>A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
-	Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
-	It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
-	Suffice to say, it produces almost everything.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>Stationeers</Key>
-		  <Value>Stationeers</Value>
-		</Record>
-		<Record>
-		  <Key>StationeersDesc</Key>
-		  <Value>In the early 22nd century, Earth was emerging from a cataclysm. Its resources eroded, our population reduced, rebuilding was the spirit of the era.
-	Initiated by the {LINK:ODA;Offworld Development Agency} (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.
-	Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.
-	Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.
-	Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.
-	Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.
-		  </Value>
-		</Record>
-		<Record>
-		  <Key>ControlMouseControl</Key>
-		  <Value>{KEY:MouseControl}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlMouseControlDisc</Key>
-		  <Value>Activate Mouse Control</Value>
-		</Record>
-		<Record>
-		  <Key>ControlMouseDrag</Key>
-		  <Value>Hold and Drag {KEY:PrimaryAction}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlMouseDragDisc</Key>
-		  <Value>Move Selection</Value>
-		</Record>
-		<Record>
-		  <Key>ControlSecondaryAction</Key>
-		  <Value>{KEY:SecondaryAction}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlSecondaryActionBuildModeDisc</Key>
-		  <Value>Toggle Build Mode</Value>
-		</Record>
-		<Record>
-		  <Key>ControlScrollWheelSelect</Key>
-		  <Value>{KEY:SecondaryAction}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlScrollWheelSelectDisc</Key>
-		  <Value>Toggle Build Mode</Value>
-		</Record>
-		<Record>
-		  <Key>ControlAutoRotate</Key>
-		  <Value>{KEY:QuantityModifier}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlAutoRotateDisc</Key>
-		  <Value>Auto Rotate</Value>
-		</Record>
-		<Record>
-		  <Key>ControlMouseScroll</Key>
-		  <Value>Mouse scroll</Value>
-		</Record>
-		<Record>
-		  <Key>ControlMouseScrollDisc</Key>
-		  <Value>Item Select</Value>
-		</Record>
-		<Record>
-		  <Key>ControlTurnOn</Key>
-		  <Value>{KEY:SecondaryAction}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlTurnOnDisc</Key>
-		  <Value>Turn On</Value>
-		</Record>
-		<Record>
-		  <Key>ControlQuickMove</Key>
-		  <Value>Scroll wheel + {KEY:InventorySelect}</Value>
-		</Record>
-		<Record>
-		  <Key>ControlQuickMoveDisc</Key>
-		  <Value>Quick Move Item</Value>
-		</Record>
-		<Record>
-		  <Key>WeatherEventsField</Key>
-		  <Value>Has Weather Events</Value>
-		</Record>
-		<Record>
-		  <Key>ControlUseItemDisc</Key>
-		  <Value>Use Item</Value>
-		</Record>
-		<Record>
-		  <Key>ControlMineDisc</Key>
-		  <Value>Mine Ore</Value>
-		</Record>
-		<Record>
-		  <Key>ControlSecondaryEatDisc</Key>
-		  <Value>Eat</Value>
-		</Record>
-		<Record>
-		  <Key>HelpCommand</Key>
-		  <Value>Test /n Test /n Test</Value>
-		</Record>
-		<Record>
-		  <Key>ToggleChangeLog</Key>
-		  <Value>Toggle Changelog</Value>
-		</Record>
-		<Record>
-		  <Key>ShowPreviousVideoText</Key>
-		  <Value>Show Previous video</Value>
-		</Record>
-		<Record>
-		  <Key>HelmetString</Key>
-		  <Value>Helmet</Value>
-		</Record>
-		<Record>
-		  <Key>LightString</Key>
-		  <Value>Light</Value>
-		</Record>
-		<Record>
-		  <Key>FixedWeatherEventMissing</Key>
-		  <Value>No weather system was found for this world. The default weather system has been applied. Expect some turbulence.</Value>
-		</Record>
-		<Record>
-		  <Key>AdvancedTutorialButton</Key>
-		  <Value>Legacy/Advanced</Value>
-		</Record>
-		<Record>
-		  <Key>BasicButtonTutorial</Key>
-		  <Value>Basic</Value>
-		</Record>
-		<Record>
-		  <Key>NextTutoiralButtonFail</Key>
-		  <Value>Unable to load Next Tutorial. Please return to menu.</Value>
-		</Record>
-		<Record>
-		  <Key>ImportExportCategoryKey</Key>
-		  <Value>Import/Export</Value>
-		</Record>
-		<Record>
-		  <Key>TravelCategoryKey</Key>
-		  <Value>Travel</Value>
-		</Record>
-		<Record>
-		  <Key>FurnitureCategoryKey</Key>
-		  <Value>Furniture</Value>
-		</Record>
-		<Record>
-		  <Key>CartidgeCategoryKey</Key>
-		  <Value>Cartridges</Value>
-		</Record>
-		<Record>
-		  <Key>WeatherCategoryKey</Key>
-		  <Value>Weather</Value>
-		</Record>
-		<Record>
-		  <Key>HandToolsCategoryKey</Key>
-		  <Value>Hand Tools</Value>
-		</Record>
-		<Record>
-		  <Key>OrganicsCategoryKey</Key>
-		  <Value>Organics and Food</Value>
-		</Record>
-		<Record>
-		  <Key>RocketCategoryKey</Key>
-		  <Value>Rockets</Value>
-		</Record>
-		<Record>
-		  <Key>GeneticsCategoryKey</Key>
-		  <Value>Genetics</Value>
-		</Record>
-		<Record>
-		  <Key>TradingCategoryKey</Key>
-		  <Value>Trading</Value>
-		</Record>
-		<Record>
-		  <Key>StructureCategoryKey</Key>
-		  <Value>Structures</Value>
-		</Record>
-		<Record>
-		  <Key>LogicCategoryKey</Key>
-		  <Value>Logic Devices</Value>
-		</Record>
-		<Record>
-		  <Key>PowerCategoryKey</Key>
-		  <Value>Electronics</Value>
-		</Record>
-		<Record>
-		  <Key>AppliancesCategoryKey</Key>
-		  <Value>Appliances</Value>
-		</Record>
-		<Record>
-		  <Key>AtmopshericsCategoryKey</Key>
-		  <Value>Atmospherics</Value>
-		</Record>
-		<Record>
-		  <Key>ReagentsCategoryKey</Key>
-		  <Value>Reagents</Value>
-		</Record>
-		<Record>
-		  <Key>GasesCategoryKey</Key>
-		  <Value>Gases</Value>
-		</Record>
-		<Record>
-		  <Key>ConstructionKitsCategoryKey</Key>
-		  <Value>Structure Kits</Value>
-		</Record>
-		<Record>
-		  <Key>FabricatorCategoryKey</Key>
-		  <Value>Fabricators</Value>
-		</Record>
-		<Record>
-		  <Key>IngotsCategoryKey</Key>
-		  <Value>Ingots</Value>
-		</Record>
-		<Record>
-		  <Key>OreCategoryKey</Key>
-		  <Value>Ores</Value>
-		</Record>
-		<Record>
-		  <Key>OreCategoryKey </Key>
-		  <Value>Ores</Value>
-		</Record>
-		<Record>
-		  <Key>PersonalCategoryKey</Key>
-		  <Value>Personal</Value>
-		</Record>
-		<Record>
-		  <Key>PressureKeySPDA</Key>
-		  <Value>Max Pressure:</Value>
-		</Record>
-		<Record>
-		  <Key>CableMaxPowerSPDA</Key>
-		  <Value>Maximum Wattage:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaTitle</Key>
-		  <Value>Stationpedia</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaSearch</Key>
-		  <Value>Search</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaBeginnerGuides</Key>
-		  <Value>Guides</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaAdvancedGuides</Key>
-		  <Value>Universe</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaConstructWith</Key>
-		  <Value>Construct with:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaPrefabHash</Key>
-		  <Value>Prefab Hash:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaPaintable</Key>
-		  <Value>Paintable:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaStackSize</Key>
-		  <Value>Stack Size:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaThingUnit</Key>
-		  <Value>Unit:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaReagentsHeader</Key>
-		  <Value>Reagents:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaHeatHeader</Key>
-		  <Value>Specific Heat:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaLatentHeatHeader</Key>
-		  <Value>Latent Heat:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMolesPerLitreHeader</Key>
-		  <Value>Mols per Litre:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaShatterHeader</Key>
-		  <Value>Shatter:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaFlashpointHeader</Key>
-		  <Value>Flashpoint:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaAutoIgniteHeader</Key>
-		  <Value>Autoignition:</Value>
-		</Record>
-		<Record>
-		  <Key>FreezeTemperature</Key>
-		  <Value>Freezing Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>BoilingTemperature</Key>
-		  <Value>Boiling Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>MaxLiquidTemperature</Key>
-		  <Value>Max Liquid Temperature:</Value>
-		</Record>
-		<Record>
-		  <Key>MinLiquidPressure</Key>
-		  <Value>Min Condensation Pressure:</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaConstructedFrom</Key>
-		  <Value>Constructed From</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaSlotsHeader</Key>
-		  <Value>Slots</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaHowToManufacture</Key>
-		  <Value>How to Manufacture</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaBuildStates</Key>
-		  <Value>Build States</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaMachineVersion</Key>
-		  <Value>Versions</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaGasHeader</Key>
-		  <Value>Gases and Liquids</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaResoucesHeader</Key>
-		  <Value>Resources Used</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaUsedIn</Key>
-		  <Value>Used In</Value>
-		</Record>
-		<Record>
-		  <Key>StationpediaManufactures</Key>
-		  <Value>Manufactures</Value>
-		</Record>
+<Record>
+  <Key>CommandToggleNoClip</Key>
+  <Value>Cambiar colisiones de jugador. : "/tnc"</Value>
+</Record>
+<Record>
+  <Key>CommandSkipStage</Key>
+  <Value>Salta la etapa actual de la misión. : "/skipstage"</Value>
+</Record>
+<Record>
+  <Key>CommandSetStage</Key>
+  <Value>Establece la etapa actual de la misión. : "/setstage"</Value>
+</Record>
+<Record>
+  <Key>CommandShowStage</Key>
+  <Value>Muestra la etapa actual de la misión y cuántas etapas hay en la misión. : "/showstage"</Value>
+</Record>
+<Record>
+  <Key>CommandFillNeeds</Key>
+  <Value>Rellena el hambre y la hidratación de un jugador. : "/fillneeds"</Value>
+</Record>
+<Record>
+  <Key>CommandFillHealth</Key>
+  <Value>cura a un jugador. : "/fillhealth"</Value>
+</Record>
+<Record>
+  <Key>CommandAddGas</Key>
+  <Value>Agrega gases o líquidos a un tanque o red de tuberías dada. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
+</Record>
+<Record>
+  <Key>CommandCount</Key>
+  <Value>Cuenta todas las cosas de tipo especificado en la guardado. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
+</Record>
+<Record>
+  <Key>CommandSetDecay</Key>
+  <Value>Establece el multiplicador de descomposición de alimentos global. : "/setdecay 2"</Value>
+</Record>
+<Record>
+  <Key>CommandSetContact</Key>
+  <Value>Establece la cantidad de señal requerida para contactar a un comerciante. : "/setcontact 10"</Value>
+</Record>
+<Record>
+  <Key>CommandHelp</Key>
+  <Value>Muestra la lista de comandos. : "/help"</Value>
+</Record>
+<Record>
+  <Key>Seedsstring</Key>
+  <Value>Semillas</Value>
+</Record>
+<Record>
+  <Key>Agrizero</Key>
+  <Value>Agrizero</Value>
+</Record>
+<Record>
+  <Key>AgrizeroDesc</Key>
+  <Value>Agrizero es una empresa biotecnológica agrícola centrada en investigar y desplegar tecnología de agricultura fuera de este mundo. El objetivo de la empresa es proporcionar una red de 'biofábricas' autosuficientes y autónomas que alimentarán a un millón de humanos proyectados en el espacio. 
+  Surgiendo de los desastres ambientales de finales del siglo XXI, la empresa tiene raíces en las iniciativas de agricultura artificial de China y ahora se ha expandido a instalaciones en el Cinturón de Asteroides, donde el suministro de asteroides de hielo hace que la agricultura vertical y la agricultura en ambientes controlados sean extremadamente prometedoras. 
+  Mientras muchas de sus instalaciones aún están en construcción, Agrizero ya es uno de los principales proveedores de grupos fuera de este mundo como {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} y {LINK:ExMin;ExMin} a través de la cada vez más expansiva Red de Comerciantes.</Value>
+</Record>
+<Record>
+  <Key>Asura</Key>
+  <Value>Asura Biomedia</Value>
+</Record>
+<Record>
+  <Key>AsuraDesc</Key>
+  <Value>Asura Biomedia fue fundada a principios del siglo XXII por el trillionario de Mumbai Ashan Gurwaja. Nominalmente centrada en la 'biotecnología', la empresa siempre ha tenido una noción 'elástica' de lo que eso implica: todo, desde productos farmacéuticos hasta alimentos para mascotas. 
+  El fondo de Gurwaja en empresas de bioingeniería colocó a la empresa en la más alta esfera de las industrias de biociencia desde el principio, y creció exactamente como su fundador pretendía: rápida y confiablemente, estructurada específicamente para absorber cualquier firma más pequeña en su camino. 
+  Cerca de mediados de siglo, las ambiciones de Asura evolucionaron para abarcar sistemas de salud completos: ahora es el mayor proveedor de atención médica en la Tierra, integrando hospitales y atención primaria con suministros médicos, producción y venta de productos farmacéuticos, atención residencial y servicios funerarios. 
+  Para 2150, el negocio de Asura era una proposición simple, como se captura en su famoso - si no infame - eslogan publicitario: 'Estamos en ti'.</Value>
+</Record>
+<Record>
+  <Key>CHAC</Key>
+  <Value>CHAC</Value>
+</Record>
+<Record>
+  <Key>CHACDesc</Key>
+  <Value>Fundada en 2085 para producir armas para las fuerzas espaciales de {LINK:Sinotai;Sinotai}, la empresa es conocida por fabricar armas altamente confiables y asequibles para uso fuera de este mundo. 
+  Su enfoque pragmático se refleja en su enfoque en diseños adecuados para impresión 3D y producción en masa, así como en una alta reutilización de componentes a través de modelos y clases de armas. 
+  Como resultado, aunque las armas de CHAC no destacan en ninguna categoría particular, y ciertamente nunca han sido acusadas de grandeza, no sufren grandes fallos y funcionan suficientemente bien según la mayoría de las medidas conocidas para haber ganado a sus diseñadores el título informal de 'armador del Sistema Solar'.</Value>
+</Record>
+<Record>
+  <Key>ExMin</Key>
+  <Value>ExMin</Value>
+</Record>
+<Record>
+  <Key>ExMinDesc</Key>
+  <Value>Tras el desastre de Sisyphus en Marte en 2079, el desplazamiento de asteroides fue oficialmente prohibido por la {LINK:ODA;ODA}. Este cambio radical forzó a la recién nacida industria de minería espacial a reconsiderar sus estrategias, pero hasta la apertura del Elevador Espacial de Manaus, la economía marginal significó que la extracción de recursos fuera de este mundo era efectivamente imposible. 
+  Formada en 2095 por un conglomerado minero suizo-alemán de larga data y un consorcio de otros intereses, ExMin fue más una idea que una realidad comercial durante varias décadas. Creada con la certeza de que un elevador espacial eventualmente llegaría, ExMin fue una de las primeras en aprovechar el acceso que ofrecía. Posteriormente se ha convertido en una de las entidades comerciales más poderosas del Sistema Solar. 
+  Con el acceso al espacio asegurado, ExMin se convirtió en un jugador central en el flujo de recursos hacia el Sistema Interno. Tiene competencia, principalmente del gigante minero brasileño {LINK:Recurso;Recurso}, pero la compañía nunca ha perdido del todo su ventaja en la minería fuera de este mundo. Sinónimo de metales raros y pionera en la extracción de recursos fuera de este mundo, se encuentra a la vanguardia del desarrollo en todo el Sistema Solar.</Value>
+</Record>
+<Record>
+  <Key>GeFabrik</Key>
+  <Value>GeFabrik</Value>
+</Record>
+<Record>
+  <Key>GeFabrikDesc</Key>
+  <Value>Conocida oficialmente como Gewehrfabrik GmbH, GeFabrik es una de las firmas de armamento más antiguas y respetadas del mundo, conocida por producir armas de fuego excepcionalmente precisas y de alta gama. 
+  Tras el colapso de la fabricación de armas en Europa en la década de 2030, un grupo de personal de armamento desempleado formó GeFabrik. Dedicada a renovar los principios de diseño originales, la compañía es legendaria por sus pruebas extensivas, a veces durando hasta 10 años, para producir formatos de armas 'ganz'. 
+  GeFabrik es ampliamente considerada como la responsable de haber salvado la reputación de fabricación de Alemania, aunque no ha hecho nada por su sentido del humor.</Value>
+</Record>
+<Record>
+  <Key>Hiiragi</Key>
+  <Value>Hiiragi</Value>
+</Record>
+<Record>
+  <Key>HiiragiDesc</Key>
+  <Value>Fundada por Noboru Hiiragi en la estela de la burbuja económica de la década de 2110, Hiiragi Communications absorbió varios activos prominentes fuera de este mundo, convirtiéndose rápidamente en la red de comunicaciones trans-Sistema Solar más utilizada. 
+  Si has comunicado con amigos y familiares fuera de este mundo recientemente, ha sido a través de la red Hiiragi, incluso si ha sido bajo una de sus muchas empresas filiales. Hiiragi también es el vendedor número uno de PCD (Dispositivos de Comunicación Personal) así como un inversor profundo, aunque difícil de evaluar, en redes de telecomunicaciones terrestres.</Value>
+</Record>
+<Record>
+  <Key>Norsec</Key>
+  <Value>Norsec</Value>
+</Record>
+<Record>
+  <Key>NorsecDesc</Key>
+  <Value>Con raíces en la industria de defensa del siglo XX, Norsec (también conocido como Northern Security Systems) fue un pionero en la minería de asteroides, una de sus embarcaciones estuvo involucrada en el infame ataque de Sisyphus en la incipiente colonia marciana en Sanders. 
+  Norsec fue oficialmente exonerada de cualquier delito, pero cuando la {LINK:ODA;ODA} prohibió el desplazamiento de asteroides, la compañía cambió su enfoque hacia la infraestructura y la fabricación. 
+  La División de Sistemas Espaciales de Norsec, ubicada en órbita, es responsable del diseño y producción de los sistemas de transporte fundamentales de la {LINK:ODA;ODA}, mientras que también se rumorea que tiene un gran interés en {LINK:ExMin;ExMin}. La compañía también es conocida por su disposición a involucrarse en tecnología robótica experimental.</Value>
+</Record>
+<Record>
+  <Key>ODA</Key>
+  <Value>ODA</Value>
+</Record>
+<Record>
+  <Key>ODADesc</Key>
+  <Value>
+    Tras la Crisis de la Tierra, el enfoque de la humanidad en el espacio disminuyó. Sin embargo, muchos sentían que, sin ambiciones más allá de nuestro planeta natal, nuestra especie podría flaquear. 
+    Creada en 2070 CE por una renovada Organización de las Naciones Unidas, la Agencia de Desarrollo Extraterrestre recibió un objetivo muy específico: guiar y fomentar la exploración espacial humana en un momento en que el cosmos se desvanecía de la mente pública. 
+    Inauguró el Programa {LINK:Stationeers;Stationeer} en 2095. Entendiendo que el financiamiento sería difícil de conseguir, la ODA concibió el programa como una iniciativa espacial de bajo costo y de lento desarrollo. Mientras que algunos descalificaban a los Stationeers como 'castaway cósmicos de bajo costo', el éxito del programa es testimonio de la sabiduría y el pragmatismo de la visión de la ODA.</Value>
+</Record>
+<Record>
+  <Key>Recurso</Key>
+  <Value>Recurso Espaciais</Value>
+</Record>
+<Record>
+  <Key>RecursoDesc</Key>
+  <Value>Este grupo minero brasileño de larga data se adentró en el espacio a finales del siglo XXI. 
+  Enfocado principalmente en minerales y metales a granel, la empresa se entiende mejor como una extensión del gobierno brasileño: muy pocas figuras políticas de alto nivel en la Brasil moderna no están implicadas en uno u otro brazo de este coloso industrial. 
+  La enredada relación con la política sudamericana ha dado a la compañía una gran influencia sobre el elevador espacial de Manaus. Este control del estado profundo ha llevado a otros grupos – incluida la {LINK:ODA;ODA} – a ejercer cierta ‘flexibilidad’ hacia Recurso. 
+  Las acusaciones de desplazamiento ilegal de asteroides, violaciones de seguridad y numerosas infracciones comerciales apenas la han tocado. Mientras tanto, los defensores señalan que muy poco se ha demostrado en los tribunales, y Recurso no es el único – de ahí el dicho: 'En el espacio, todos vivimos en casas de cristal.'</Value>
+</Record>
+<Record>
+  <Key>Sinotai</Key>
+  <Value>Sinotai</Value>
+</Record>
+<Record>
+  <Key>SinotaiDesc</Key>
+  <Value>La única entidad estatal 'tradicional' que ha sobrevivido a la política fuera de este mundo, el alcance y poder de Sinotai es solo superado por la {LINK:ODA;ODA} misma. De muchas maneras, es un relicario – una sub-agencia de una compleja burocracia corporativa terrestre – su estructura le ha permitido a Sinotai lograr cosas increíbles. 
+  Demostrando su temple a principios del siglo XXI al poner a los primeros humanos en Marte, establecer el primer sistema de potencia en gigavatios fuera de este mundo, y la primera refinería de combustible en el espacio, pocas organizaciones espaciales carecen de algún grado de relación con Sinotai. Una broma común es que es imposible hacer algo en el espacio sin ellos. 
+  Independientemente de la verdad, el enfoque de Sinotai hacia el desarrollo fuera del mundo ha involucrado un enfoque de 'poder suave', desde MOUs con {LINK:Recurso;Recurso} (dándoles acceso preferencial al elevador espacial de Manaus) hasta alianzas más turbias de conveniencia con una variedad de grupos comerciales.</Value>
+</Record>
+<Record>
+  <Key>TK</Key>
+  <Value>TK Systems</Value>
+</Record>
+<Record>
+  <Key>TKDesc</Key>
+  <Value>Originalmente un contratista de defensa especializado en armamento de alta potencia, TK Systems llevó a cabo un gran cambio hacia la paz para convertirse en el principal diseñador de transportadores de alta velocidad de la Asamblea Africana. 
+  Ahora produciendo una variedad de diseños y componentes de redes de chutes, TK tiene una fuerte presencia fuera de este mundo como resultado de las asociaciones Afro-Sino en la última parte del siglo XXI. Con sede en el distrito de Kigamboni en Dar E Salaam, la empresa regularmente entra en asociaciones de desarrollo con {LINK:CHAC;} y, como resultado, muchos de sus productos muestran similitudes distintivas. 
+  Después de todo, ¿qué es un arma sino un 'transportador de bienes de alta velocidad'?</Value>
+</Record>
+<Record>
+  <Key>Xigo</Key>
+  <Value>Xigo</Value>
+</Record>
+<Record>
+  <Key>XigoDesc</Key>
+  <Value>Una encuesta de 2150 CE reveló que la 'X' de Xigo es uno de los símbolos más reconocidos en el mundo. Sin embargo, pocos participantes podían describir claramente el alcance real de la empresa. 
+  Precisamente dónde comienza y termina la empresa ha sido objeto de infinitas teorías, estudios financieros y demandas – originalmente un sitio web para comparaciones de precios, el conglomerado se expandió para abrazar datos, luego distribución y finalmente producción. 
+  Fue una expansión aparentemente indiscriminada, enfocada no en una industria, sino en todas ellas – abarcando tantos campos que los analistas de negocios han rechazado en gran medida la idea de Xigo como una sola entidad. Más bien, es un agrupamiento conceptual para una rama de la actividad humana. Y aunque tales estadísticas son, por su propia naturaleza, difíciles de confirmar, estimaciones recientes sugieren que Xigo emplea más del 1.5% de toda la raza humana. 
+  Baste decir que produce casi todo.</Value>
+</Record>
+<Record>
+  <Key>Stationeers</Key>
+  <Value>Stationeers</Value>
+</Record>
+<Record>
+  <Key>StationeersDesc</Key>
+  <Value>En el siglo XXII, la Tierra estaba emergiendo de un cataclismo. Sus recursos erosionados, nuestra población reducida, la reconstrucción era el espíritu de la época. 
+  Iniciado por la {LINK:ODA;Offworld Development Agency} (ODA) en 2095 CE, el Programa Stationeers estaba dedicado a un único ideal: mantener a la humanidad apuntando a las estrellas. 
+  Los Stationeers son todo: astronautas, ingenieros y exploradores, desplegados con equipo y herramientas limitadas, entrenados para hacer más con menos. Aprovechando el entorno a su favor, su trabajo es proporcionar infraestructura para los humanos en el espacio, a una fracción del costo de los programas espaciales tradicionales. 
+  Capaces de construir y mantener bases en cualquier lugar desde la Luna hasta Mimas y más allá, los Stationeers son nuestra vanguardia en el cosmos. Instruidos en técnicas de supervivencia, minería y construcción fuera de este mundo, metalurgia básica, electrónica, cohetería, hidroponía y más ciencias 'arcanas', los Stationeers hacen lo que deben para sobrevivir y prosperar. 
+  Reconocidos por no tener criterios de entrada, no existe tal cosa como un 'Stationeer típico'. El perfil psicológico sugiere que los cadetes exitosos muestran un pragmatismo y una determinación 'base', pero algunos de los Stationeers más famosos no poseen ninguna de estas cualidades. 
+  Reclutando de antecedentes de ingeniería civil, industrias militares y aeroespaciales, desarrollo de software, grupos mineros, así como de campos científicos e incluso órdenes religiosas, el Programa Stationeers está – fundamentalmente – abierto a toda la humanidad.</Value>
+</Record>
+<Record>
+  <Key>ControlMouseControl</Key>
+  <Value>{KEY:MouseControl}</Value>
+</Record>
+<Record>
+  <Key>ControlMouseControlDisc</Key>
+  <Value>Activar el control del mouse</Value>
+</Record>
+<Record>
+  <Key>ControlMouseDrag</Key>
+  <Value>Sostener y arrastrar {KEY:PrimaryAction}</Value>
+</Record>
+<Record>
+  <Key>ControlMouseDragDisc</Key>
+  <Value>Mover selección</Value>
+</Record>
+<Record>
+  <Key>ControlSecondaryAction</Key>
+  <Value>{KEY:SecondaryAction}</Value>
+</Record>
+<Record>
+  <Key>ControlSecondaryActionBuildModeDisc</Key>
+  <Value>Alternar modo de construcción</Value>
+</Record>
+<Record>
+  <Key>ControlScrollWheelSelect</Key>
+  <Value>{KEY:SecondaryAction}</Value>
+</Record>
+<Record>
+  <Key>ControlScrollWheelSelectDisc</Key>
+  <Value>Alternar modo de construcción</Value>
+</Record>
+<Record>
+  <Key>ControlAutoRotate</Key>
+  <Value>{KEY:QuantityModifier}</Value>
+</Record>
+<Record>
+  <Key>ControlAutoRotateDisc</Key>
+  <Value>Auto rotar</Value>
+</Record>
+<Record>
+  <Key>ControlMouseScroll</Key>
+  <Value>Desplazamiento del mouse</Value>
+</Record>
+<Record>
+  <Key>ControlMouseScrollDisc</Key>
+  <Value>Seleccionar artículo</Value>
+</Record>
+<Record>
+  <Key>ControlTurnOn</Key>
+  <Value>{KEY:SecondaryAction}</Value>
+</Record>
+<Record>
+  <Key>ControlTurnOnDisc</Key>
+  <Value>Encender</Value>
+</Record>
+<Record>
+  <Key>ControlQuickMove</Key>
+  <Value>Rueda de desplazamiento + {KEY:InventorySelect}</Value>
+</Record>
+<Record>
+  <Key>ControlQuickMoveDisc</Key>
+  <Value>Mover artículo rápidamente</Value>
+</Record>
+<Record>
+  <Key>WeatherEventsField</Key>
+  <Value>Tiene eventos meteorológicos</Value>
+</Record>
+<Record>
+  <Key>ControlUseItemDisc</Key>
+  <Value>Usar artículo</Value>
+</Record>
+<Record>
+  <Key>ControlMineDisc</Key>
+  <Value>Minar mineral</Value>
+</Record>
+<Record>
+  <Key>ControlSecondaryEatDisc</Key>
+  <Value>Comer</Value>
+</Record>
+<Record>
+  <Key>HelpCommand</Key>
+  <Value>Prueba /n Prueba /n Prueba</Value>
+</Record>
+<Record>
+  <Key>ToggleChangeLog</Key>
+  <Value>Alternar registro de cambios</Value>
+</Record>
+<Record>
+  <Key>ShowPreviousVideoText</Key>
+  <Value>Mostrar video anterior</Value>
+</Record>
+<Record>
+  <Key>HelmetString</Key>
+  <Value>Casco</Value>
+</Record>
+<Record>
+  <Key>LightString</Key>
+  <Value>Luz</Value>
+</Record>
+<Record>
+  <Key>FixedWeatherEventMissing</Key>
+  <Value>No se encontró ningún sistema meteorológico para este mundo. Se ha aplicado el sistema meteorológico predeterminado. Espere algo de turbulencia.</Value>
+</Record>
+<Record>
+  <Key>AdvancedTutorialButton</Key>
+  <Value>Herencia/Avanzado</Value>
+</Record>
+<Record>
+  <Key>BasicButtonTutorial</Key>
+  <Value>Básico</Value>
+</Record>
+<Record>
+  <Key>NextTutoiralButtonFail</Key>
+  <Value>No se pudo cargar el siguiente tutorial. Regrese al menú.</Value>
+</Record>
+<Record>
+  <Key>ImportExportCategoryKey</Key>
+  <Value>Importar/Exportar</Value>
+</Record>
+<Record>
+  <Key>TravelCategoryKey</Key>
+  <Value>Viajar</Value>
+</Record>
+<Record>
+  <Key>FurnitureCategoryKey</Key>
+  <Value>Muebles</Value>
+</Record>
+<Record>
+  <Key>CartidgeCategoryKey</Key>
+  <Value>Cartuchos</Value>
+</Record>
+<Record>
+  <Key>WeatherCategoryKey</Key>
+  <Value>Clima</Value>
+</Record>
+<Record>
+  <Key>HandToolsCategoryKey</Key>
+  <Value>Herramientas de mano</Value>
+</Record>
+<Record>
+  <Key>OrganicsCategoryKey</Key>
+  <Value>Orgánicos y alimentos</Value>
+</Record>
+<Record>
+  <Key>RocketCategoryKey</Key>
+  <Value>Cohetes</Value>
+</Record>
+<Record>
+  <Key>GeneticsCategoryKey</Key>
+  <Value>Genética</Value>
+</Record>
+<Record>
+  <Key>TradingCategoryKey</Key>
+  <Value>Comercio</Value>
+</Record>
+<Record>
+  <Key>StructureCategoryKey</Key>
+  <Value>Estructuras</Value>
+</Record>
+<Record>
+  <Key>LogicCategoryKey</Key>
+  <Value>Dispositivos lógicos</Value>
+</Record>
+<Record>
+  <Key>PowerCategoryKey</Key>
+  <Value>Electrónica</Value>
+</Record>
+<Record>
+  <Key>AppliancesCategoryKey</Key>
+  <Value>Electrodomésticos</Value>
+</Record>
+<Record>
+  <Key>AtmopshericsCategoryKey</Key>
+  <Value>Atmosféricos</Value>
+</Record>
+<Record>
+  <Key>ReagentsCategoryKey</Key>
+  <Value>Reactivos</Value>
+</Record>
+<Record>
+  <Key>GasesCategoryKey</Key>
+  <Value>Gases</Value>
+</Record>
+<Record>
+  <Key>ConstructionKitsCategoryKey</Key>
+  <Value>Kits de estructura</Value>
+</Record>
+<Record>
+  <Key>FabricatorCategoryKey</Key>
+  <Value>Fabricadores</Value>
+</Record>
+<Record>
+  <Key>IngotsCategoryKey</Key>
+  <Value>Lingotes</Value>
+</Record>
+<Record>
+  <Key>OreCategoryKey</Key>
+  <Value>Minerales</Value>
+</Record>
+<Record>
+  <Key>OreCategoryKey </Key>
+  <Value>Minerales</Value>
+</Record>
+<Record>
+  <Key>PersonalCategoryKey</Key>
+  <Value>Personal</Value>
+</Record>
+<Record>
+  <Key>PressureKeySPDA</Key>
+  <Value>Presión máxima:</Value>
+</Record>
+<Record>
+  <Key>CableMaxPowerSPDA</Key>
+  <Value>Poder máximo:</Value>
+</Record>
+<Record>
+  <Key>StationpediaTitle</Key>
+  <Value>Stationpedia</Value>
+</Record>
+<Record>
+  <Key>StationpediaSearch</Key>
+  <Value>Buscar</Value>
+</Record>
+<Record>
+  <Key>StationpediaBeginnerGuides</Key>
+  <Value>Guías</Value>
+</Record>
+<Record>
+  <Key>StationpediaAdvancedGuides</Key>
+  <Value>Universo</Value>
+</Record>
+<Record>
+  <Key>StationpediaConstructWith</Key>
+  <Value>Construir con:</Value>
+</Record>
+<Record>
+  <Key>StationpediaPrefabHash</Key>
+  <Value>Hash de Prefabricados:</Value>
+</Record>
+<Record>
+  <Key>StationpediaPaintable</Key>
+  <Value>Pintable:</Value>
+</Record>
+<Record>
+  <Key>StationpediaStackSize</Key>
+  <Value>Tamaño de pila:</Value>
+</Record>
+<Record>
+  <Key>StationpediaThingUnit</Key>
+  <Value>Unidad:</Value>
+</Record>
+<Record>
+  <Key>StationpediaReagentsHeader</Key>
+  <Value>Reactivos:</Value>
+</Record>
+<Record>
+  <Key>StationpediaHeatHeader</Key>
+  <Value>Calor específico:</Value>
+</Record>
+<Record>
+  <Key>StationpediaLatentHeatHeader</Key>
+  <Value>Calor latente:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMolesPerLitreHeader</Key>
+  <Value>Moles por litro:</Value>
+</Record>
+<Record>
+  <Key>StationpediaShatterHeader</Key>
+  <Value>Ruptura:</Value>
+</Record>
+<Record>
+  <Key>StationpediaFlashpointHeader</Key>
+  <Value>Punto de inflamación:</Value>
+</Record>
+<Record>
+  <Key>StationpediaAutoIgniteHeader</Key>
+  <Value>Autoignición:</Value>
+</Record>
+<Record>
+  <Key>FreezeTemperature</Key>
+  <Value>Temperatura de congelación:</Value>
+</Record>
+<Record>
+  <Key>BoilingTemperature</Key>
+  <Value>Temperatura de ebullición:</Value>
+</Record>
+<Record>
+  <Key>MaxLiquidTemperature</Key>
+  <Value>Temperatura máxima del líquido:</Value>
+</Record>
+<Record>
+  <Key>MinLiquidPressure</Key>
+  <Value>Presión mínima de condensación:</Value>
+</Record>
+<Record>
+  <Key>StationpediaConstructedFrom</Key>
+  <Value>Construido a partir de</Value>
+</Record>
+<Record>
+  <Key>StationpediaSlotsHeader</Key>
+  <Value>Slots</Value>
+</Record>
+<Record>
+  <Key>StationpediaHowToManufacture</Key>
+  <Value>Cómo fabricar</Value>
+</Record>
+<Record>
+  <Key>StationpediaBuildStates</Key>
+  <Value>Estados de construcción</Value>
+</Record>
+<Record>
+  <Key>StationpediaMachineVersion</Key>
+  <Value>Versiones</Value>
+</Record>
+<Record>
+  <Key>StationpediaGasHeader</Key>
+  <Value>Gases y líquidos</Value>
+</Record>
+<Record>
+  <Key>StationpediaResoucesHeader</Key>
+  <Value>Recursos utilizados</Value>
+</Record>
+<Record>
+  <Key>StationpediaUsedIn</Key>
+  <Value>Usado en</Value>
+</Record>
+<Record>
+  <Key>StationpediaManufactures</Key>
+  <Value>Manufacturas</Value>
+</Record>
 		<Record>
 		  <Key>StationpediaFoundIn</Key>
 		  <Value>Found In</Value>
