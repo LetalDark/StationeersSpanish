@@ -7454,7 +7454,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayGun</Key>
-  <Value>Pistola de Spray</Value>
+  <Value>Pistola de Spray de Pintura</Value>
   <Description>Úsala con latas de spray en el {SLOT:SprayCan} para pintar estructuras, cables y tuberías. Mucho más eficiente y rápido que hacerlo con latas de spray individuales.</Description>
 </RecordThing>
 <RecordThing>
@@ -14857,7 +14857,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>ToggleChangeLog</Key>
-  <Value>Alternar registro de cambios</Value>
+  <Value>Registro de cambios</Value>
 </Record>
 <Record>
   <Key>ShowPreviousVideoText</Key>
