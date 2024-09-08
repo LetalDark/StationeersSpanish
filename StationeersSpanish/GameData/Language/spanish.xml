@@ -21533,7 +21533,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>StationpediaLowFoodQuality</Key>
-  <Value>Bajo (-25% capacidad de hidratación)</Value>
+  <Value>Baja (-25% hidratación)</Value>
 </Record>
 <Record>
   <Key>StationpediaOkFoodQuality</Key>
@@ -21541,11 +21541,11 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>StationpediaGoodFoodQuality</Key>
-  <Value>Bueno (+25% capacidad de hidratación)</Value>
+  <Value>Buena (+25% hidratación)</Value>
 </Record>
 <Record>
   <Key>StationpediaSuperiorFoodQuality</Key>
-  <Value>Mejor (+75% capacidad de hidratación)</Value>
+  <Value>La Mejor (+75% hidratación)</Value>
 </Record>
 <Record>
   <Key>TooltipLowFoodQuality</Key>
