@@ -20,6 +20,7 @@ https://github.com/LetalDark/StationeersSpanish/releases/
 3. Pon los archivos XML en el directorio del juego (Por defecto):
 C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language
 4. Selecciona el idioma español en el juego.
+5. Asegurate de no tener el MOD activado en el juego o puedes ver duplicados.
 
 Nuestro Discord:
 https://discord.gg/ZUuma2JhZS
