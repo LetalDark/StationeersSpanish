@@ -1961,33 +1961,33 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteBin</Key>
-  <Value>Contenedor de Chute</Value>
-  <Description>El objetivo del {LINK:Stationeers;Stationeer's} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Al igual que la mayoría de los sistemas diseñados por {LINK:Recurso;Recurso}, los contenedores de chute son elementos simples y robustos que permiten que los elementos se introduzcan manualmente en las redes de chute al accionar una palanca. También se pueden programar con {LINK:LogicUnitPage;logic} para funcionar automáticamente, aunque la automatización completa requiere el uso de elementos como un {THING:StructureSDBHopper}.</Description>
+  <Value>Contenedor de Conducto</Value>
+  <Description>El objetivo del {LINK:Stationeers;Stationeer's} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Al igual que la mayoría de los sistemas diseñados por {LINK:Recurso;Recurso}, los contenedores de conductos son elementos simples y robustos que permiten que los elementos se introduzcan manualmente en las redes de conductos al accionar una palanca. También se pueden programar con {LINK:LogicUnitPage;logic} para funcionar automáticamente, aunque la automatización completa requiere el uso de elementos como un {THING:StructureSDBHopper}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteCorner</Key>
-  <Value>Chute (Esquina)</Value>
-  <Description>Los chutes actúan como tuberías para los elementos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;import/export} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las esquinas de chute son componentes fundamentales de las redes de chute, que permiten el transporte de elementos entre máquinas con ranuras de {LINK:ImportExportPage;import/export}, como la {THING:StructureFurnace} y otras estructuras automatizables.</Description>
+  <Value>Conducto (Esquina)</Value>
+  <Description>Los conductos actúan como tuberías para los objetos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;import/export} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las esquinas de conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre máquinas con ranuras de {LINK:ImportExportPage;import/export}, como la {THING:StructureFurnace} y otras estructuras automatizables.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteInlet</Key>
-  <Value>Entrada de Chute</Value>
-  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La entrada de chute es una abertura por la que los elementos pueden ser introducidos en redes de {LINK:ImportExportPage;import/export}. Ten en cuenta que su origen en la minería en gravedad cero significa que las entradas de chute no están alimentadas y permanecen permanentemente abiertas, en lugar de ser interactivas, permitiendo que los objetos sean lanzados. Pueden conectarse a sistemas de {LINK:LogicUnitPage;logic} para monitorear el flujo.</Description>
+  <Value>Entrada de Conducto</Value>
+  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La entrada de conducto es una abertura por la que los elementos pueden ser introducidos en redes de {LINK:ImportExportPage;import/export}. Ten en cuenta que su origen en la minería en gravedad cero significa que las entradas de conductos no están alimentadas y permanecen permanentemente abiertas, en lugar de ser interactivas, permitiendo que los objetos sean lanzados. Pueden conectarse a sistemas de {LINK:LogicUnitPage;logic} para monitorear el flujo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteJunction</Key>
-  <Value>Chute (Junción)</Value>
-  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las junciones de chute son componentes fundamentales de las redes de chute, permitiendo la fusión o separación de estas redes. Cuando se combinan con un {THING:StructureSorter} programado, los elementos pueden ser enviados por diferentes caminos a varias máquinas con ranuras de {LINK:ImportExportPage;import/export}.</Description>
+  <Value>Conducto (Unión)</Value>
+  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las uniones de conductos son componentes fundamentales de las redes de conductos, permitiendo la fusión o separación de estas redes. Cuando se combinan con un {THING:StructureSorter} programado, los elementos pueden ser enviados por diferentes caminos a varias máquinas con ranuras de {LINK:ImportExportPage;import/export}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteOutlet</Key>
-  <Value>Salida de Chute</Value>
-  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La salida de chute es una abertura para la salida de elementos de las redes de {LINK:ImportExportPage;import/export}. Ten en cuenta que el origen de la salida en la minería en gravedad cero significa que están permanentemente abiertas, en lugar de ser interactivas, pero pueden conectarse a sistemas de {LINK:LogicUnitPage;logic} para monitorear el flujo.</Description>
+  <Value>Salida de Conducto</Value>
+  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La salida de conducto es una abertura para la salida de elementos de las redes de {LINK:ImportExportPage;import/export}. Ten en cuenta que el origen de la salida en la minería en gravedad cero significa que están permanentemente abiertas, en lugar de ser interactivas, pero pueden conectarse a sistemas de {LINK:LogicUnitPage;logic} para monitorear el flujo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteStraight</Key>
-  <Value>Chute (Recto)</Value>
-  <Description>Los chutes actúan como tuberías para los elementos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;import/export} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Los chutes son componentes fundamentales de las redes de chute, que permiten el transporte de elementos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;import/export}.</Description>
+  <Value>Conducto (Recto)</Value>
+  <Description>Los conductos actúan como tuberías para los elementos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;import/export} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;import/export}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCompositeDoor</Key>
@@ -2542,8 +2542,8 @@ Nota que los transformadores operan como aisladores de datos, evitando que los d
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteWindow</Key>
-  <Value>Chut (Ventana)</Value>
-  <Description>Los chutes con ventanas te permiten ver lo que pasa a través de tu red de {LINK:ImportExportPage;import/export}. Pero ten en cuenta que no están aislados como otros chutes. El hielo se derretirá.</Description>
+  <Value>Conducto (Ventana)</Value>
+  <Description>Los conductos con ventanas te permiten ver lo que pasa a través de tu red de {LINK:ImportExportPage;import/export}. Pero ten en cuenta que no están aislados como otros conductos. El hielo se derretirá.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureArcFurnace</Key>
@@ -4204,7 +4204,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>ItemStelliteIngot</Key>
-  <Value>Lingote (Stellite)</Value>
+  <Value>Lingote (Estelita)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemWaspaloyIngot</Key>
@@ -7181,7 +7181,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemPlantSampler</Key>
   <Value>Muestra de Planta</Value>
-  <Description>El muestreador de plantas te permite tomar una muestra de {LINK:GeneticsPage;gen} de una planta en crecimiento. La muestra se puede colocar en el {THING:AppliancePlantGeneticAnalyzer} para obtener e interpretar los resultados.</Description>
+  <Description>El muestreador de plantas te permite recoger una muestra de {LINK:GeneticsPage;gen} de una planta en crecimiento. La muestra se puede colocar en el {THING:AppliancePlantGeneticAnalyzer} para obtener e interpretar los resultados.</Description>
 </RecordThing>
 <RecordThing>
   <Key>AppliancePlantGeneticAnalyzer</Key>
@@ -8029,12 +8029,12 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteUmbilicalMale</Key>
-  <Value>Umbilical (Chute)</Value>
+  <Value>Umbilical (Conducto)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteUmbilicalFemaleSide</Key>
-  <Value>Conector Umbilical en Ángulo (Chute)</Value>
+  <Value>Conector Umbilical en Ángulo (Conducto)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8109,7 +8109,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureRocketChuteStorage</Key>
-  <Value>Almacenamiento de Chute de Cohete</Value>
+  <Value>Almacenamiento de Conducto de Cohete</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8124,7 +8124,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteUmbilicalFemale</Key>
-  <Value>Conector Umbilical (Chute)</Value>
+  <Value>Conector Umbilical (Conducto)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8263,7 +8263,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemKitChuteUmbilical</Key>
-  <Value>Kit (Umbilical de Chute)</Value>
+  <Value>Kit (Umbilical de Conducto)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8659,7 +8659,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureRoboticArmDock</Key>
   <Value>Dock LArRE</Value>
-  <Description>El LArRE (Entidad de Rail Articulado Lineal) se puede utilizar para plantar, cosechar y fertilizar plantas en bandejas de plantas. También puede recoger elementos de un {THING:StructureChuteExportBin} y dejarlos en un {THING:StructureChuteBin}. LArRE puede interactuar con bandejas de plantas o recipientes de chute construidos debajo de una estación de riel lineal o construidos debajo de su dock.</Description>
+  <Description>El LArRE (Entidad de Rail Articulado Lineal) se puede utilizar para plantar, cosechar y fertilizar plantas en bandejas de plantas. También puede recoger elementos de un {THING:StructureChuteExportBin} y dejarlos en un {THING:StructureChuteBin}. LArRE puede interactuar con bandejas de plantas o recipientes de conductos construidos debajo de una estación de riel lineal o construidos debajo de su dock.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemIcarusSuit</Key>
@@ -8968,7 +8968,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteExportBin</Key>
-  <Value>Contenedor de Exportación de Chute</Value>
+  <Value>Contenedor de Exportación de Conducto</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -14369,7 +14369,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>Chute</Key>
-  <Value>Canalón</Value>
+  <Value>Conducto</Value>
 </Record>
 <Record>
   <Key>Elevator</Key>
@@ -14744,7 +14744,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <Record>
   <Key>TKDesc</Key>
   <Value>Originalmente un contratista de defensa especializado en armamento de alta potencia, TK Systems llevó a cabo un gran cambio hacia la paz para convertirse en el principal diseñador de transportadores de alta velocidad de la Asamblea Africana. 
-  Ahora produciendo una variedad de diseños y componentes de redes de chutes, TK tiene una fuerte presencia fuera de este mundo como resultado de las asociaciones Afro-Sino en la última parte del siglo XXI. Con sede en el distrito de Kigamboni en Dar E Salaam, la empresa regularmente entra en asociaciones de desarrollo con {LINK:CHAC;} y, como resultado, muchos de sus productos muestran similitudes distintivas. 
+  Ahora produciendo una variedad de diseños y componentes de redes de conducots, TK tiene una fuerte presencia fuera de este mundo como resultado de las asociaciones Afro-Sino en la última parte del siglo XXI. Con sede en el distrito de Kigamboni en Dar E Salaam, la empresa regularmente entra en asociaciones de desarrollo con {LINK:CHAC;} y, como resultado, muchos de sus productos muestran similitudes distintivas. 
   Después de todo, ¿qué es un arma sino un 'transportador de bienes de alta velocidad'?</Value>
 </Record>
 <Record>
@@ -18021,7 +18021,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>LoadingScreenDeserializingChuteNetworks</Key>
-  <Value>Deserializando redes de caída</Value>
+  <Value>Deserializando redes de conductos</Value>
 </Record>
 <Record>
   <Key>LoadingScreenProcessingThings</Key>
@@ -18133,7 +18133,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>PlantSamplerAction</Key>
-  <Value>Tomar muestra de {LOCAL:Plant}</Value>
+  <Value>Recoger muestra de {LOCAL:Plant}</Value>
 </Record>
 <Record>
   <Key>ActionClearPlant</Key>
@@ -18789,7 +18789,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>SlotTakeThingFromSlot</Key>
-  <Value>Tomar {LOCAL:Item} del slot</Value>
+  <Value>Recoger {LOCAL:Item} de la ranura</Value>
 </Record>
 <Record>
   <Key>CartridgeNoCartridgeInSlot</Key>
@@ -19761,11 +19761,11 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>WeldingWillLockDoor</Key>
-  <Value>&lt;color=yellow&gt;Soldar&lt;/color&gt; el {LOCAL:Thing} lo bloqueará en su lugar</Value>
+  <Value>&lt;color=yellow&gt;Soldar&lt;/color&gt; la {LOCAL:Thing} la bloqueará en su lugar</Value>
 </Record>
 <Record>
   <Key>UnweldingWillUnLockDoor</Key>
-  <Value>&lt;color=yellow&gt;Desoldar&lt;/color&gt; el {LOCAL:Thing} lo desbloqueará</Value>
+  <Value>&lt;color=yellow&gt;Deshacer la soldadura&lt;/color&gt; de la {LOCAL:Thing} la desbloqueará</Value>
 </Record>
 <Record>
   <Key>ClearStacker</Key>
@@ -21637,7 +21637,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>StructureNetworkTypeChute</Key>
-  <Value>Canaleta</Value>
+  <Value>Conducto</Value>
 </Record>
 <Record>
   <Key>StructureNetworkTypeRocket</Key>
