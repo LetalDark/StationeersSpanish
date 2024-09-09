@@ -343,7 +343,7 @@
 	  </Record>
 	  <Record>
 		<Key>Take</Key>
-		<Value>Tomar</Value>
+		<Value>Coger</Value>
 	  </Record>
 	  <Record>
 		<Key>Build</Key>
@@ -355,7 +355,7 @@
 	  </Record>
 	  <Record>
 		<Key>ConsumeFail</Key>
-		<Value>Fallido: Casco Cerrado</Value>
+		<Value>Fallo: Casco Cerrado</Value>
 	  </Record>
 	  <Record>
 		<Key>Plant</Key>
@@ -475,11 +475,11 @@
 	</Record>
 	<Record>
 	  <Key>ForceClose</Key>
-	  <Value>Cierre Forzado</Value>
+	  <Value>Forzar cierre</Value>
 	</Record>
 	<Record>
 	  <Key>ForceOpen</Key>
-	  <Value>Apertura Forzada</Value>
+	  <Value>Forzar Apertura</Value>
 	</Record>
 	<Record>
 	  <Key>Vend</Key>
@@ -499,7 +499,7 @@
 	</Record>
 	<Record>
 	  <Key>FlipRover</Key>
-	  <Value>Voltear Rover</Value>
+	  <Value>Girar Rover</Value>
 	</Record>
 	<Record>
 	  <Key>Idle</Key>
@@ -15189,7 +15189,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>CrowbarToFlip</Key>
-  <Value>Voltear usando un palanca</Value>
+  <Value>Girar usando un palanca</Value>
 </Record>
 <Record>
   <Key>TimerPanel</Key>
