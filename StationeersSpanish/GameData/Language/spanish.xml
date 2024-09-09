@@ -2310,7 +2310,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructureSorter</Key>
   <Value>Clasificador</Value>
-  <Description>Ninguna cantidad de automatización está completa sin alguna forma de mover diferentes artículos a diferentes partes de un sistema. El clasificador {LINK:Xigo;Xigo} A2B puede programarse a través de un ordenador con un {THING:MotherboardSorter} para dirigir varios artículos a diferentes redes de tolvas. Los artículos filtrados siempre se pasan por el lado derecho del clasificador, mientras que los artículos no filtrados continúan directamente.</Description>
+  <Description>Ninguna cantidad de automatización está completa sin alguna forma de mover diferentes artículos a diferentes partes de un sistema. El clasificador {LINK:Xigo;Xigo} A2B puede programarse a través de un Ordenador con un {THING:MotherboardSorter} para dirigir varios artículos a diferentes redes de tolvas. Los artículos filtrados siempre se pasan por el lado derecho del clasificador, mientras que los artículos no filtrados continúan directamente.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureStacker</Key>
@@ -7241,7 +7241,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>Landingpad_DataConnectionPiece</Key>
   <Value>Datos y Poder de Plataforma de Aterrizaje</Value>
-  <Description>Proporciona energía a la plataforma de aterrizaje. El puerto de datos debe estar conectado al puerto de datos de un ordenador con una placa base de comunicaciones para que un comerciante pueda ser llamado a aterrizar.</Description>
+  <Description>Proporciona energía a la plataforma de aterrizaje. El puerto de datos debe estar conectado al puerto de datos de un Ordenador con una placa base de comunicaciones para que un comerciante pueda ser llamado a aterrizar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>SeedBag_Switchgrass</Key>
@@ -7959,7 +7959,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>MotherboardRockets</Key>
-  <Value>Placa Madre de Control de Cohete</Value>
+  <Value>Placa Base del Control de Cohete</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -10151,7 +10151,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>TraderErrorMissingMotherboard</Key>
-  <Value>Falta una placa base en tu computadora, perdiste contacto con el comerciante.</Value>
+  <Value>Falta una placa base en tu Ordenador, perdiste contacto con el comerciante.</Value>
 </Record>
 <Record>
   <Key>TraderErrorMissingVendingMachine</Key>
@@ -11868,7 +11868,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 		</Record>
 		<Record>
 		  <Key>LogicTypeInterrogationProgress</Key>
-		  <Value>Progreso de la interrogación de este plato satelital de su objetivo actual, como una relación de 0-1</Value>
+		  <Value>Progreso de la interrogación de esta antena satelital de su objetivo actual, como una relación de 0-1</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSizeX</Key>
@@ -11884,11 +11884,11 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 		</Record>
 		<Record>
 		  <Key>LogicTypeMinWattsToContact</Key>
-		  <Value>Cantidad mínima requerida de vatios del plato que golpean al comerciante objetivo para comenzar a interrogar el contacto</Value>
+		  <Value>Cantidad mínima de vatios necesaria para que la antena alcance al comerciante objetivo y comience a interrogar el contacto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeWattsReachingContact</Key>
-		  <Value>La cantidad de vatios que realmente están golpeando el contacto. Esto se ve afectado por la potencia del plato y cuán desviado está el plato del vector de contacto</Value>
+		  <Value>La cantidad de vatios que realmente están llegando al contacto. Esto se ve afectado por la potencia de la antena y cuán desviada está la antena del vector de contacto</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeLineNumber</Key>
@@ -15480,7 +15480,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>TradeErrorNoMotherboardInsertedMessage</Key>
-  <Value>La computadora conectada requiere que se inserte una placa madre de comunicaciones para comerciar.</Value>
+  <Value>El Ordenador conectado requiere que se inserte una placa base de comunicaciones para comerciar.</Value>
 </Record>
 <Record>
   <Key>TradeErrorPadError</Key>
@@ -15908,7 +15908,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>WorldObjectiveCookPotato</Key>
-  <Value>Cocinar una papa al horno</Value>
+  <Value>Cocinar una patata al horno</Value>
 </Record>
 <Record>
   <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
@@ -15932,7 +15932,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>WorldObjectiveConnectPad</Key>
-  <Value>Conectar una Computadora y una Máquina expendedora a la Plataforma de Aterrizaje</Value>
+  <Value>Conectar un Ordenador y una Máquina expendedora a la Plataforma de Aterrizaje</Value>
 </Record>
 <Record>
   <Key>WorldObjectiveResolveContact</Key>
@@ -19517,7 +19517,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>ContactTradeLandingNoThreshold</Key>
-  <Value>El avión comerciante no puede aterrizar sin un umbral</Value>
+  <Value>La nave del comerciante no puede aterrizar sin un umbral de pista, necesario para un aterrizaje seguro</Value>
 </Record>
 <Record>
   <Key>ToggleVisualiser</Key>
@@ -21325,7 +21325,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>RocketNoDataConnection</Key>
-  <Value>No hay conexión a la placa madre con avionics a través del enlace de datos</Value>
+  <Value>No hay conexión a la placa base con avionics a través del enlace de datos</Value>
 </Record>
 <Record>
   <Key>RocketNoOperableAvionics</Key>
