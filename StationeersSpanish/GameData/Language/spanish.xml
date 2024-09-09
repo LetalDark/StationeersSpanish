@@ -519,7 +519,7 @@
 	</Record>
 	<Record>
 	  <Key>Retract</Key>
-	  <Value>Retractar</Value>
+	  <Value>Replegar</Value>
 	  </Record>
 	</Actions>
 	<Things>
@@ -1937,12 +1937,12 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>StructureCableJunction6</Key>
   <Value>Cable (6-Way Junction)</Value>
-  <Description>Transportando poder y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad del deber de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad del deber de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableStraight</Key>
   <Value>Cable (Straight)</Value>
-  <Description>Transportando poder y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCamera</Key>
@@ -2042,17 +2042,17 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>StructureConsole</Key>
   <Value>Consola</Value>
-  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene un puerto de datos/poder compartido. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
+  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene un puerto de datos/energía compartido. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureConsoleDual</Key>
   <Value>Consola Dual</Value>
-  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructureGasSensor}, el {THING:StructureCompositeDoor} y otros, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene puertos de datos y poder separados. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
+  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructureGasSensor}, el {THING:StructureCompositeDoor} y otros, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene puertos de datos y energía separados. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureConsoleMonitor</Key>
   <Value>Monitor de Consola</Value>
-  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor}, la {THING:ItemSecurityCamera} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene un puerto compartido de datos/poder y una interfaz inclinada encantadora. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
+  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor}, la {THING:ItemSecurityCamera} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene un puerto compartido de datos/energía y una interfaz inclinada encantadora. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureControlChair</Key>
@@ -2452,7 +2452,7 @@ Para obtener más información sobre cómo controlar las temperaturas, consulta 
 <RecordThing>
   <Key>StructureSolidFuelGenerator</Key>
   <Value>Generador (Combustible Sólido)</Value>
-  <Description>El pilar de la generación de energía para Stationeers, este dispositivo proporciona 20kW de energía. Se pueden cargar múltiples recursos sólidos. Mientras esté en funcionamiento, el dispositivo suministrará su máxima potencia independientemente de si la has capturado o no. ¡Cuidado con los cables rotos! Suministrará mucho más poder del que tu {THING:ItemCableCoil} normal puede manejar.</Description>
+  <Description>El pilar de la generación de energía para Stationeers, este dispositivo proporciona 20kW de energía. Se pueden cargar múltiples recursos sólidos. Mientras esté en funcionamiento, el dispositivo suministrará su máxima potencia independientemente de si la has capturado o no. ¡Cuidado con los cables rotos! Suministrará mucha más energía del que tu {THING:ItemCableCoil} normal puede manejar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitGenerator</Key>
@@ -7240,7 +7240,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>Landingpad_DataConnectionPiece</Key>
-  <Value>Datos y Poder de Plataforma de Aterrizaje</Value>
+  <Value>Datos y nergía de Plataforma de Aterrizaje</Value>
   <Description>Proporciona energía a la plataforma de aterrizaje. El puerto de datos debe estar conectado al puerto de datos de un Ordenador con una placa base de comunicaciones para que un comerciante pueda ser llamado a aterrizar.</Description>
 </RecordThing>
 <RecordThing>
@@ -8044,12 +8044,12 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructurePowerUmbilicalFemaleSide</Key>
-  <Value>Conector Umbilical en Ángulo (Poder)</Value>
+  <Value>Conector Umbilical en Ángulo (Energía)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructurePowerUmbilicalMale</Key>
-  <Value>Umbilical (Poder)</Value>
+  <Value>Umbilical (Energía)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8129,7 +8129,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructurePowerUmbilicalFemale</Key>
-  <Value>Conector Umbilical (Poder)</Value>
+  <Value>Conector Umbilical (Energía)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8218,7 +8218,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemKitElectricUmbilical</Key>
-  <Value>Kit (Umbilical de Poder)</Value>
+  <Value>Kit (Umbilical de Energía)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -9393,7 +9393,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 	<Interactables>
   <Record>
     <Key>Poke</Key>
-    <Value>Toquetear</Value>
+    <Value>Examinar</Value>
   </Record>
   <Record>
     <Key>Activate</Key>
@@ -9413,7 +9413,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   </Record>
   <Record>
     <Key>Powered</Key>
-    <Value>Alimentado</Value>
+    <Value>Con Energía</Value>
   </Record>
   <Record>
     <Key>Error</Key>
@@ -12184,7 +12184,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 		</Record>
 		<Record>
 		  <Key>LogicTypePowerRequired</Key>
-		  <Value>Poder solicitado del dispositivo y/o red</Value>
+		  <Value>Energía solicitada del dispositivo y/o red</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeIdle</Key>
@@ -12893,11 +12893,11 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>LoadBackupsTitle</Key>
-  <Value>Cargar Respaldo</Value>
+  <Value>Cargar Guardado</Value>
 </Record>
 <Record>
   <Key>BackupMenuFileListTitle</Key>
-  <Value>Respaldos</Value>
+  <Value>Guardados</Value>
 </Record>
 <Record>
   <Key>Experiments</Key>
@@ -13221,7 +13221,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>DialogConfirmLastSaveIsAutoSave</Key>
-  <Value>¿ESTÁS SEGURO? La última copia de seguridad que tienes es una copia de seguridad automática. Puedes perder tu progreso si no guardas ahora.</Value>
+  <Value>¿ESTÁS SEGURO? El último guardado que tienes es un guardado automático. Puedes perder tu progreso si no guardas ahora.</Value>
 </Record>
 <Record>
   <Key>GameMenuButtonCancel</Key>
@@ -14361,7 +14361,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>Power</Key>
-  <Value>Poder</Value>
+  <Value>Energía</Value>
 </Record>
 <Record>
   <Key>Data</Key>
@@ -14377,7 +14377,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>PowerAndData</Key>
-  <Value>Poder Y Datos</Value>
+  <Value>Energía Y Datos</Value>
 </Record>
 <Record>
   <Key>All</Key>
@@ -14565,7 +14565,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>CommandToggleInfinitePower</Key>
-  <Value>Activa el poder infinito en un jugador o globalmente en el servidor. : "/tgp"</Value>
+  <Value>Activa la energía infinita en un jugador o globalmente en el servidor. : "/tgp"</Value>
 </Record>
 <Record>
   <Key>CommandToggleGameMode</Key>
@@ -14985,7 +14985,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>CableMaxPowerSPDA</Key>
-  <Value>Poder máximo:</Value>
+  <Value>Energía máxima:</Value>
 </Record>
 <Record>
   <Key>StationpediaTitle</Key>
@@ -15472,7 +15472,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>WorldInfoButtonDeleteBackup</Key>
-  <Value>Eliminar Respaldo</Value>
+  <Value>Eliminar Guardado</Value>
 </Record>
 <Record>
   <Key>TradeErrorNoMotherboardInsertedTitle</Key>
@@ -15568,7 +15568,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>AttemptToFix</Key>
-  <Value>Intentar Arreglar</Value>
+  <Value>Intentar Reparar</Value>
 </Record>
 <Record>
   <Key>DoNothing</Key>
@@ -17898,7 +17898,7 @@ Esto eliminará &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt; y todas sus
 <Record>
   <Key>DeleteBackSavePrompt</Key>
   <Value>¿Estás seguro?
-Esto eliminará &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt; solo la copia de seguridad.</Value>
+Esto eliminará &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt; solo el guardado.</Value>
 </Record>
 <Record>
   <Key>DaysPassedPlayerMessage</Key>
@@ -19357,7 +19357,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>TransactionAtmosError</Key>
-  <Value>Atmósfera de la plataforma de aterrizaje no encontrada</Value>
+  <Value>No se detectó atmósfera en la plataforma de aterrizaje</Value>
 </Record>
 <Record>
   <Key>TransactionTradableError</Key>
@@ -19653,7 +19653,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>MoleMixtureMustBePure</Key>
-  <Value>Requiere una &lt;color=#44AD83&gt;mezcla de gas pura&lt;/color&gt; de solo los tipos enumerados</Value>
+  <Value>Requiere una &lt;color=#44AD83&gt;mezcla de gases pura&lt;/color&gt; de solo los tipos enumerados</Value>
 </Record>
 <Record>
   <Key>GridBlockedByStructure</Key>
@@ -19697,7 +19697,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>PipeContentTypeIncorrect</Key>
-  <Value>El tipo de contenido de la tubería no coincide con el tipo de contenido de &lt;color=green&gt;{LOCAL:DevicePipeMounted}&lt;/color&gt;</Value>
+  <Value>El tipo de contenido de la tubería no coincide con su tipo de contenido de &lt;color=green&gt;{LOCAL:DevicePipeMounted}&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>CannotMergeWithSmallGrid</Key>
@@ -19869,7 +19869,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>Recharge</Key>
-  <Value>Recargar</Value>
+  <Value>Cargar</Value>
 </Record>
 <Record>
   <Key>FullyCharged</Key>
@@ -20789,7 +20789,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>OverPressure</Key>
-  <Value>Sobre presión</Value>
+  <Value>Sobrepresión</Value>
 </Record>
 <Record>
   <Key>Frozen</Key>
@@ -20885,7 +20885,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>GroundVelocity</Key>
-  <Value>Velocidad de Suelo</Value>
+  <Value>Velocidad sobre el terreno</Value>
 </Record>
 <Record>
   <Key>TransferVelocity</Key>
