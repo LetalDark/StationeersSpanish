@@ -7137,10 +7137,10 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>StructureCombustionCentrifuge</Key>
   <Value>Centrifugadora de Combustión</Value>
   <Description>La Centrifugadora de Combustión es una versión alimentada por gas de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desbalanceado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo.
-    También refina {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Se debe suministrar una mezcla de combustible combustible a la entrada de gas, y los gases residuales deben ser ventilados desde la salida.
-    Las RPM de la máquina deben controlarse mediante las palancas de acelerador y limitador de combustión. Si la Centrífuga de Combustión gana o pierde RPM demasiado rápido, experimentará estrés y eventualmente se detendrá. RPM más altas resultan directamente en velocidades de procesamiento más rápidas.
+    También refina {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Se debe suministrar una mezcla de combustible a la entrada de gas y los gases residuales deben ser ventilados desde la salida.
+    Las RPM de la máquina deben controlarse mediante las palancas de acelerador y limitador de combustión. Si la Centrifugadora de Combustión gana o pierde RPM demasiado rápido, experimentará estrés y eventualmente se detendrá. RPM más altas resultan directamente en velocidades de procesamiento más rápidas.
     La palanca del acelerador controla la cantidad de combustible que se introduce en la máquina, aumentando la temperatura dentro del motor y llevando a un aumento en las RPM. La palanca limitadora influye en la velocidad de la combustión y en cuántos gases no quemados hay en el escape.
-    Eyectar mineral de la Centrífuga de Combustión mientras está a altas RPM resultará en una acumulación adicional de estrés. Si se apaga mientras no está estresada, la máquina comenzará automáticamente a frenar y reducir las RPM de manera controlada.</Description>
+    Eyectar mineral de la Centrifugadora de Combustión mientras está a altas RPM resultará en una acumulación adicional de estrés. Si se apaga mientras no está estresada, la máquina comenzará automáticamente a frenar y reducir las RPM de manera controlada.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteOverflow</Key>
@@ -7149,7 +7149,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>KitStructureCombustionCentrifuge</Key>
-  <Value>Kit (Centrífuga de Combustión)</Value>
+  <Value>Kit (Centrifugadora de Combustión)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
