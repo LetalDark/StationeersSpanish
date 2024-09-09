@@ -31,7 +31,7 @@
 	  </RecordReagent>
 	  <RecordReagent>
 		<Key>Carbon</Key>
-		<Value>Carbono</Value>
+		<Value>Carbon</Value>
 		<Unit>g</Unit>
 	  </RecordReagent>
 	  <RecordReagent>
@@ -171,7 +171,7 @@
 	  </RecordReagent>
 	  <RecordReagent>
 		<Key>Stellite</Key>
-		<Value>Stellite</Value>
+		<Value>Estelita</Value>
 		<Unit>g</Unit>
 	  </RecordReagent>
 	  <RecordReagent>
@@ -551,7 +551,7 @@
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleLegL</Key>
 	  <Value>Parte del Cuerpo Astronauta Pierna Femenina Izquierda</Value>
-	  <Description>Una pierna, es una pierna, es una pierna.</Description>
+	  <Description>Una pierna, es una pierna.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleLegR</Key>
@@ -576,7 +576,7 @@
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleHead</Key>
 	  <Value>Parte del Cuerpo Astronauta Cabeza Masculina</Value>
-	  <Description>{LINK:Stationeers;Stationeer}s deben mantener la cabeza en todo momento.</Description>
+	  <Description>{LINK:Stationeers;Stationeer} deben mantener la cabeza en todo momento.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleLegL</Key>
@@ -861,10 +861,10 @@ Para entrar en el modo de configuración, inserta la placa en una {THING:Structu
 	</RecordThing>
 	<RecordThing>
 	  <Key>CircuitboardPowerControl</Key>
-	  <Value>Control de Potencia</Value>
+	  <Value>Control de Energía</Value>
 	  <Description>Bajo soles distantes y entornos exigentes, los sistemas de {LINK:Stationeers;Stationeer} necesitan equilibrar fiabilidad, resistencia y versatilidad. La placa de control de potencia permite habilitar y deshabilitar de forma remota los dispositivos seleccionados, desconectando la operación manual.
 
-La placa de circuito tiene dos modos: 'Enlace' apaga o enciende todos los dispositivos; 'Alternar' cambia cada dispositivo a su estado alternativo.</Description>
+La placa de circuito tiene dos modos: 'Vincular' apaga o enciende todos los dispositivos; 'Alternar' cambia cada dispositivo a su estado alternativo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>CircuitboardShipDisplay</Key>
@@ -878,8 +878,8 @@ La placa de circuito tiene dos modos: 'Enlace' apaga o enciende todos los dispos
 	</RecordThing>
 	<RecordThing>
 	  <Key>DynamicAirConditioner</Key>
-	  <Value>Acondicionador de Aire Portátil</Value>
-	  <Description>El acondicionador de aire portátil Huxi, diseñado por {LINK:Sinotai;Sinotai}, enfría extrayendo calor de la atmósfera y almacenándolo, o añadiendo calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106kPa, su capacidad es relativamente limitada, la física es clara en este tema. Para extender su capacidad de almacenamiento de temperatura, fija el Huxi a un {THING:StructureTankConnector}, luego conéctalo a una red de tuberías que suministre {LINK:GasPage;gases} calientes o fríos.</Description>
+	  <Value>Aire Condicionado Portátil</Value>
+	  <Description>El Aire Condicionado Portátil Huxi, diseñado por {LINK:Sinotai;Sinotai}, enfría extrayendo calor de la atmósfera y almacenándolo, o añadiendo calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106kPa, su capacidad es relativamente limitada, la física es clara en este tema. Para extender su capacidad de almacenamiento de temperatura, fija el Huxi a un {THING:StructureTankConnector}, luego conéctalo a una red de tuberías que suministre {LINK:GasPage;gases} calientes o fríos.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>DynamicCrate</Key>
@@ -969,43 +969,43 @@ La placa de circuito tiene dos modos: 'Enlace' apaga o enciende todos los dispos
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityAlien</Key>
-	  <Value>Entidad Extraterrestre</Value>
+	  <Value>Extraterrestre</Value>
 	  <Description>La respuesta a la antigua pregunta, '¿Hay vida en otros planetas?', es 'Supongo que sí.'</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityChick</Key>
-	  <Value>Entidad Pollito</Value>
+	  <Value>Pollito</Value>
 	  <Description>Una vez que un pollito ha nacido, tiene hambre. Comerá soya, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityChickenBrown</Key>
-	  <Value>Entidad Pollo Marrón</Value>
+	  <Value>Pollo Marrón</Value>
 	  <Description>Como muchos de sus semejantes, este es un pollo. Uno marrón. Comerá soya, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityChickenWhite</Key>
-	  <Value>Entidad Pollo Blanco</Value>
+	  <Value>Pollo Blanco</Value>
 	  <Description>Es un pollo, tan blanco como el polvo lunar. Comerá soya, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityGraylien</Key>
-	  <Value>Entidad Graylien</Value>
+	  <Value>Graylien</Value>
 	  <Description>Mientras que la humanidad históricamente se ha referido a estas criaturas como 'Grises', ellos prefieren la etiqueta más inclusiva 'Trans-beige'.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityRoosterBlack</Key>
-	  <Value>Entidad Gallo Negro</Value>
+	  <Value>Gallo Negro</Value>
 	  <Description>Este es un gallo. Es negro. Hay dignidad en esto.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityRoosterBrown</Key>
-	  <Value>Entidad Gallo Marrón</Value>
+	  <Value>Gallo Marrón</Value>
 	  <Description>El gallo marrón común. No dejes que escuche eso.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>GasTankAir</Key>
 	  <Value>Tanque de Gas (Aire)</Value>
-	  <Description>Los tanques de gas portátiles almacenan gas, y solo gas. Para rellenar uno, atornílalo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctalo a una red de tuberías. Intenta evitar sobrepasar los 100 atmósferas, o saborearás el delicado sabor del arrepentimiento. Usa los tanques para llenar un {THING:ItemGasCanisterEmpty} al conectarlo a la sección rayada del tanque. O podrías ventilarlo en una habitación sellada para crear una atmósfera, conectarlo a un rover y dar un paseo, o simplemente usarlo para práctica de tiro ruidosa y costosa.</Description>
+	  <Description>Los tanques de gas portátiles almacenan gas, y solo gas. Para rellenar uno, atornílalo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctalo a una red de tuberías. Intenta evitar sobrepasar los 100 atmósferas (10 MPa), o saborearás el delicado sabor del arrepentimiento. Usa los tanques para llenar un {THING:ItemGasCanisterEmpty} al conectarlo a la sección rayada del tanque. O podrías ventilarlo en una habitación sellada para crear una atmósfera, conectarlo a un rover y dar un paseo, o simplemente usarlo para práctica de tiro ruidosa y costosa.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ItemActiveVent</Key>
@@ -1100,7 +1100,7 @@ La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de corrien
 	<RecordThing>
 	  <Key>ItemCrowbar</Key>
 	  <Value>Palanca</Value>
-	  <Description>La palanca de nivel de entrada de {LINK:Recurso;Recurso's} es útil en una variedad de configuraciones cotidianas de {LINK:Stationeers;Stationeer}, desde abrir {THING:StructureAreaPowerControl}s y {THING:StructureAirlock}s sin energía, hasta aplastar cangrejos interdimensionales, si surge la necesidad.</Description>
+	  <Description>La palanca de nivel de entrada de {LINK:Recurso;Recurso's} es útil en una variedad de configuraciones cotidianas de {LINK:Stationeers;Stationeer}, desde abrir {THING:StructureAreaPowerControl} y {THING:StructureAirlock} sin energía, hasta aplastar cangrejos interdimensionales, si surge la necesidad.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ItemDataDisk</Key>
@@ -1301,7 +1301,6 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
   <Value>Píldora Curativa</Value>
   <Description>Tres siglos de tecnología farmacéutica comprimidos en una pequeña y fácil de ingerir píldora: la Píldora Curativa, también conocida como la Píldora Protónica o Mr Happy, contiene enzimas activas, proteínas terapéuticas, cepas microbianas modificadas y análogos de líneas celulares mamíferas en una dosis única de alta pureza, eficacia y potencia que potencia una rápida respuesta inmune parasimpática.</Description>
 </RecordThing>
-
 <RecordThing>
   <Key>ItemHEMDroidRepairKit</Key>
   <Value>Kit de reparación HEMDroid</Value>
@@ -1340,7 +1339,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemIronOre</Key>
   <Value>Mena (Hierro)</Value>
-  <Description>Abundante en todo el Sistema Solar, el hierro es el {LINK:OrePage;ore} más comúnmente utilizado por los {LINK:Stationeers;Stationeers} para construir bases fuera del mundo. Se puede fundir en {THING:ItemIronIngot}s y {THING:ItemSteelIngot}s.</Description>
+  <Description>Abundante en todo el Sistema Solar, el hierro es el {LINK:OrePage;ore} más comúnmente utilizado por los {LINK:Stationeers;Stationeers} para construir bases fuera del mundo. Se puede fundir en {THING:ItemIronIngot} y {THING:ItemSteelIngot}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAirlock</Key>
@@ -1359,7 +1358,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemKitCentrifuge</Key>
-  <Value>Kit (Centrífuga)</Value>
+  <Value>Kit (Centrifugadora)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -1795,7 +1794,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>MotherboardLogic</Key>
   <Value>Placa Base de Lógica</Value>
-  <Description>Las placas base se conectan a {THING:StructureComputer}s para realizar varias funciones técnicas. La placa base de lógica K-cops diseñada por {LINK:Norsec;Norsec} permite a {LINK:Stationeers;Stationeers} configurar variables y acciones en elementos controlados por {LINK:LogicUnitPage;logic}.</Description>
+  <Description>Las placas base se conectan a {THING:StructureComputer} para realizar varias funciones técnicas. La placa base de lógica K-cops diseñada por {LINK:Norsec;Norsec} permite a {LINK:Stationeers;Stationeers} configurar variables y acciones en elementos controlados por {LINK:LogicUnitPage;logic}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>MotherboardManufacturing</Key>
@@ -1805,7 +1804,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>MotherboardSorter</Key>
   <Value>Placa Base de Clasificación</Value>
-  <Description>Las placas base se conectan a {THING:StructureComputer}s para realizar varias funciones técnicas. La placa base de clasificador 10-10 diseñada por {LINK:Norsec;Norsec} permite a {LINK:Stationeers;Stationeers} controlar qué elementos un {THING:StructureSorter} permite o no permite pasar.</Description>
+  <Description>Las placas base se conectan a {THING:StructureComputer} para realizar varias funciones técnicas. La placa base de clasificador 10-10 diseñada por {LINK:Norsec;Norsec} permite a {LINK:Stationeers;Stationeers} controlar qué elementos un {THING:StructureSorter} permite o no permite pasar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>MothershipCore</Key>
@@ -1951,8 +1950,8 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>StructureCentrifuge</Key>
-  <Value>Centrífuga</Value>
-  <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desequilibrado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrífuga te permite recuperar el {LINK:OrePage;ore} crudo. También refina el {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y el {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Su hermano mayor, el {THING:StructureCombustionCentrifuge}, se puede usar para procesar elementos de manera significativamente más rápida. Los elementos procesados por la centrífuga serán desgasificados. Si se abre mientras está encendida, la centrífuga entrará en un estado de error, reducirá su rpm a 0 y luego exportará cualquier elemento.</Description>
+  <Value>Centrifugadora</Value>
+  <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desequilibrado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo. También refina el {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y el {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Su hermano mayor, el {THING:StructureCombustionCentrifuge}, se puede usar para procesar elementos de manera significativamente más rápida. Los elementos procesados por la centrifugadora serán desgasificados. Si se abre mientras está encendida, la centrifugadora entrará en un estado de error, reducirá su rpm a 0 y luego exportará cualquier elemento.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChair</Key>
@@ -3049,7 +3048,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 <RecordThing>
   <Key>ItemTomatoSoup</Key>
   <Value>Sopa de Tomate</Value>
-  <Description>Hecha usando {THING:ItemCookedTomato}s y una {THING:ItemEmptyCan} en una {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}.</Description>
+  <Description>Hecha usando {THING:ItemCookedTomato} y una {THING:ItemEmptyCan} en una {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSoyOil</Key>
@@ -5975,7 +5974,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemMKIICrowbar</Key>
   <Value>Palanca Mk II</Value>
-  <Description>La entrada de nivel básico de {LINK:Recurso;Recurso's} es útil en una variedad de configuraciones cotidianas de {LINK:Stationeers;Stationeer}, desde abrir {THING:StructureAreaPowerControl}s y {THING:StructureAirlock}s sin energía, hasta aplastar cangrejos interdimensionales, si surge la necesidad. El MK II es más resistente a temperatura y presión.</Description>
+  <Description>La entrada de nivel básico de {LINK:Recurso;Recurso's} es útil en una variedad de configuraciones cotidianas de {LINK:Stationeers;Stationeer}, desde abrir {THING:StructureAreaPowerControl} y {THING:StructureAirlock} sin energía, hasta aplastar cangrejos interdimensionales, si surge la necesidad. El MK II es más resistente a temperatura y presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIArcWelder</Key>
@@ -6144,7 +6143,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 
   {HEADER:MÚSICA DIY - CÓMO EMPEZAR}
 
-  1: Conecta 8 {THING:DeviceStepUnit}s a tu secuenciador de pasos a través del puerto de datos en el lado izquierdo.
+  1: Conecta 8 {THING:DeviceStepUnit} a tu secuenciador de pasos a través del puerto de datos en el lado izquierdo.
 
   2: Etiqueta cada unidad de paso, luego asigna las unidades de paso del 1 al 8 en el secuenciador usando el destornillador.
 
@@ -6780,7 +6779,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemStelliteGlassSheets</Key>
-  <Value>Hojas de Vidrio Stellite</Value>
+  <Value>Hojas de Vidrio Estelita</Value>
   <Description>Un sustituto de vidrio más resistente.</Description>
 </RecordThing>
 <RecordThing>
@@ -7136,8 +7135,8 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureCombustionCentrifuge</Key>
-  <Value>Centrífuga de Combustión</Value>
-  <Description>La Centrífuga de Combustión es una versión alimentada por gas de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desbalanceado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrífuga te permite recuperar el {LINK:OrePage;ore} crudo.
+  <Value>Centrifugadora de Combustión</Value>
+  <Description>La Centrifugadora de Combustión es una versión alimentada por gas de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desbalanceado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo.
     También refina {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Se debe suministrar una mezcla de combustible combustible a la entrada de gas, y los gases residuales deben ser ventilados desde la salida.
     Las RPM de la máquina deben controlarse mediante las palancas de acelerador y limitador de combustión. Si la Centrífuga de Combustión gana o pierde RPM demasiado rápido, experimentará estrés y eventualmente se detendrá. RPM más altas resultan directamente en velocidades de procesamiento más rápidas.
     La palanca del acelerador controla la cantidad de combustible que se introduce en la máquina, aumentando la temperatura dentro del motor y llevando a un aumento en las RPM. La palanca limitadora influye en la velocidad de la combustión y en cuántos gases no quemados hay en el escape.
