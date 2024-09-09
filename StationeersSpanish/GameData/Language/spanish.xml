@@ -15317,7 +15317,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </Record>
 <Record>
   <Key>MoleWaterDescription</Key>
-  <Value>Puedes obtener agua fundiendo o triturando {THING:ItemIce} usando un {THING:StructureFurnace} o un {THING:StructureIceCrusher}. {GAS:Water} es crítico para que {LINK:OrganicPage;plants} permanezcan vivas y crezcan {LINK:NutritionPage;food}. 
+  <Value>Puedes obtener agua fundiendo o triturando {THING:ItemIce} usando un {THING:StructureFurnace} o un {THING:StructureIceCrusher}. El {GAS:Water} es crítica para que {LINK:OrganicPage;plants} permanezcan vivas y crezcan {LINK:NutritionPage;food}. 
   También es un refrigerante excepcional con una alta capacidad de calor específico. {GAS:Water} se evaporará en {GAS:Steam} si su temperatura se eleva por encima de su punto de ebullición.</Value>
 </Record>
 <Record>
