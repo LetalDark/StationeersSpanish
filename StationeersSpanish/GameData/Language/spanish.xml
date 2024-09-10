@@ -1838,35 +1838,39 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>StructureActiveVent</Key>
   <Value>Ventilación Activa</Value>
-  <Description>El ventilador activo es un dispositivo alimentado para mantener la presión de {LINK:GasPage;gas} bombeando gas dentro (o fuera) de una red de tuberías. El ventilador tiene dos modos: 'Hacia Fuera' lo configura para bombear gas hacia un espacio hasta que se alcance la presión; 'Hacia Dentro' lo configura para bombear gas hacia afuera hasta que se alcance la presión. El parámetro de presión se puede configurar en un {THING:StructureConsole} conectado. La presión por defecto es 101kPa para Hacia Fuera; 0kPa para Hacia Dentro...</Description>
+  <Description>El ventilador activo es un dispositivo alimentado para mantener la presión de {LINK:GasPage;gas} bombeando gas dentro (o fuera) de una red de tuberías. El ventilador tiene dos modos:
+ 'Hacia Fuera' lo configura para bombear gas hacia un espacio hasta que se alcance la presión.
+ 'Hacia Dentro' lo configura para bombear gas hacia afuera hasta que se alcance la presión.
+ El parámetro de presión se puede configurar en un {THING:StructureConsole} conectado.
+ La presión por defecto es 101kPa para Hacia Fuera; 0kPa para Hacia Dentro...</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAirConditioner</Key>
   <Value>Aire Acondicionado</Value>
   <Description>Construido usando el {THING:ItemKitAtmospherics}, el aire acondicionado diseñado por {LINK:ExMin;ExMin} se utiliza para elevar o reducir la temperatura del gas de entrada.
 
-  La unidad tiene tres conexiones de tubería: entrada, salida y desecho. El gas alimentado en la entrada será calentado o enfriado para alcanzar la temperatura objetivo, mientras que el gas en la red de desechos será tratado de la manera opuesta.
+La unidad tiene tres conexiones de tubería: entrada, salida y desecho. El gas alimentado en la entrada será calentado o enfriado para alcanzar la temperatura objetivo, mientras que el gas en la red de desechos será tratado de la manera opuesta.
 
-  Los Multiplicadores de Eficiencia Múltiple pueden afectar la cantidad de energía que usa el Aire Acondicionado, y estos se pueden ver en el Panel de Información verde de la unidad. A medida que la diferencia de temperatura entre la entrada y el desecho aumenta, el Multiplicador de Eficiencia de Diferencial de Temperatura disminuirá. Si la temperatura de entrada o desecho es extremadamente caliente o fría, la Eficiencia de Temperatura Operativa disminuirá. Si la tubería de entrada o desecho tiene presiones bajas, la Eficiencia de Presión disminuirá.
+Los Multiplicadores de Eficiencia Múltiple pueden afectar la cantidad de energía que usa el Aire Acondicionado, y estos se pueden ver en el Panel de Información verde de la unidad. A medida que la diferencia de temperatura entre la entrada y el desecho aumenta, el Multiplicador de Eficiencia de Diferencial de Temperatura disminuirá. Si la temperatura de entrada o desecho es extremadamente caliente o fría, la Eficiencia de Temperatura Operativa disminuirá. Si la tubería de entrada o desecho tiene presiones bajas, la Eficiencia de Presión disminuirá.
 
-  Los {THING:StructurePipeRadiator} pueden ser útiles para devolver las temperaturas extremas de las tuberías hacia temperaturas normales.
+Los {THING:StructurePipeRadiator} pueden ser útiles para devolver las temperaturas extremas de las tuberías hacia temperaturas normales.
 
-  Para más información sobre cómo usar el aire acondicionado, consulta la página de Guías de {LINK:TemperatureControlPage;temperature control}.</Description>
+Para más información sobre cómo usar el aire acondicionado, consulta la página de Guías de {LINK:TemperatureControlPage;temperature control}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAirlock</Key>
-  <Value>Escotilla</Value>
-  <Description>La escotilla estándar es un portal alimentado que forma el componente principal de una cámara de escotilla. Mientras la escotilla no esté bloqueada, se puede abrir manualmente usando una palanca.</Description>
+  <Value>Esclusa de Aire</Value>
+  <Description>La Esclusa de Aire estándar es una puerta alimentada que forma el componente principal de una cámara de aire. Mientras la esclusa no esté bloqueada, se puede abrir manualmente usando una palanca.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAreaPowerControl</Key>
   <Value>Control de Energía de Área</Value>
-  <Description>Un Control de Energía de Área (APC) tiene tres funciones principales: Su propósito principal es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APCs también crean sub-redes, ya que los dispositivos al otro lado de un APC no son visibles en la red principal. Finalmente, un APC carga baterías, que pueden proporcionar energía de respaldo a la sub-red en caso de una interrupción. Nota que un APC requiere una batería para estabilizar el consumo de energía. También tiene dos variantes, cada una permitiendo el flujo de energía en una sola dirección.</Description>
+  <Description>Un Control de Energía de Área (APC) tiene tres funciones principales: Su propósito principal es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APCs también crean sub-redes de datos, ya que los dispositivos al otro lado de un APC no son visibles en la red principal. Finalmente, un APC carga baterías, que pueden proporcionar energía de respaldo a la sub-red en caso de una interrupción. Nota que un APC requiere una batería para estabilizar el consumo de energía. También tiene dos variantes, cada una permitiendo el flujo de energía en una sola dirección.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAreaPowerControlReversed</Key>
   <Value>Control de Energía de Área</Value>
-  <Description>Un Control de Energía de Área (APC) tiene tres funciones principales. Su propósito principal es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APCs también crean sub-redes, ya que los dispositivos al otro lado de un APC no son visibles en la red principal. Finalmente, un APC carga baterías, que pueden proporcionar energía de respaldo a la sub-red en caso de una interrupción. Nota que un APC requiere una batería para estabilizar el consumo de energía. También tiene dos variantes, cada una permitiendo el flujo de energía en una sola dirección.</Description>
+  <Description>Un Control de Energía de Área (APC) tiene tres funciones principales. Su propósito principal es regular el flujo de energía, asegurando un rendimiento ininterrumpido de los dispositivos y maquinaria, especialmente aquellos con un consumo fluctuante. Los APCs también crean sub-redes de datos, ya que los dispositivos al otro lado de un APC no son visibles en la red principal. Finalmente, un APC carga baterías, que pueden proporcionar energía de respaldo a la sub-red en caso de una interrupción. Nota que un APC requiere una batería para estabilizar el consumo de energía. También tiene dos variantes, cada una permitiendo el flujo de energía en una sola dirección.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureBackPressureRegulator</Key>
@@ -1895,13 +1899,17 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>StructureBattery</Key>
-  <Value>Batería de Estación</Value>
-  <Description>Proporcionando almacenamiento de energía a gran escala y confiable, la batería de estación 'Dianzi' de {LINK:Sinotai;Sinotai} es el corazón de la mayoría de las bases de {LINK:Stationeers;Stationeer}. Existen diversas precauciones en el diseño de sistemas eléctricos que usan baterías, y cada Stationeer experimentado tiene una historia que contar, de ahí el adagio de Stationeer: 'Dianzi cocina, pero también fríe.' {HEADER:POWER OUTPUT} Capaz de almacenar hasta 3600000W de energía, no hay límites prácticos para su rendimiento, por lo que es aconsejable usar {THING:ItemCableCoilHeavy}. Los ingenieros eléctricos experimentados también se reirán de aquellos que no logran separar sus redes de generación de energía usando un {THING:StructureAreaPowerControl} y {THING:StructureTransformer}.</Description>
+  <Value>Estación de Baterías</Value>
+  <Description>Proporcionando almacenamiento de energía a gran escala y confiable. La Estación de Baterías 'Dianzi' de {LINK:Sinotai;Sinotai} es el corazón de la mayoría de las bases de {LINK:Stationeers;Stationeer}.
+Existen diversas precauciones en el diseño de sistemas eléctricos que usan baterías y cada Stationeer experimentado tiene una historia que contar. De ahí el adagio de Stationeer: 'Dianzi cocina, pero también fríe.' 
+
+{HEADER:POWER OUTPUT} Capaz de almacenar hasta 3600000W de energía, no hay límites prácticos para su rendimiento, por lo que es aconsejable usar {THING:ItemCableCoilHeavy}. Los ingenieros eléctricos experimentados también se reirán de aquellos que no logran separar sus redes de generación de energía usando un {THING:StructureAreaPowerControl} y {THING:StructureTransformer}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureBatteryCharger</Key>
   <Value>Cargador de Celdas de Batería</Value>
-  <Description>El cargador de batería de 5 ranuras {LINK:Xigo;Xigo} se adapta a las {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} y {THING:ItemBatteryCellNuclear}, proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más antiguo significa que este dispositivo tiene un consumo de energía menor (10W) incluso cuando no está cargando.</Description>
+  <Description>El cargador de celdas de batería de 5 ranuras {LINK:Xigo;Xigo} se adapta a las {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} y {THING:ItemBatteryCellNuclear}.
+Proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más antiguo significa que este dispositivo tiene un consumo de energía menor (10W) incluso cuando no está cargando.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureBench</Key>
@@ -1911,7 +1919,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>StructureBlastDoor</Key>
   <Value>Puerta Blindada</Value>
-  <Description>A prueba de aire y casi indestructible, la serie original 'Millmar' de puertas blindadas fue diseñada por el gigante de la minería espacial {LINK:Recurso;Recurso} para proteger las instalaciones de minería de asteroides de la descompresión explosiva a nivel de incidente nuclear. A menos que aparezca una singularidad del tamaño de un bolsillo parpadeando en el marco espacio-temporal local, no hay un límite efectivo para la presión que estas puertas blindadas pueden contener - ideal para construir escotillas en entornos sensibles a la presión.</Description>
+  <Description>A prueba de aire y casi indestructible, la serie original 'Millmar' de puertas blindadas fue diseñada por el gigante de la minería espacial {LINK:Recurso;Recurso} para proteger las instalaciones de minería de asteroides de la descompresión explosiva a nivel de incidente nuclear. A menos que aparezca una singularidad del tamaño de un bolsillo parpadeando en el marco espacio-temporal local, no hay un límite efectivo para la presión que estas puertas blindadas pueden contener - ideal para construir esclusas de aire en entornos sensibles a la presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableCorner</Key>
@@ -1925,22 +1933,22 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction</Key>
-  <Value>Cable (Junción)</Value>
+  <Value>Cable (Unión)</Value>
   <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction4</Key>
-  <Value>Cable (Junción de 4 Vías)</Value>
+  <Value>Cable (Unión de 4 Vías)</Value>
   <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction6</Key>
-  <Value>Cable (6-Way Junction)</Value>
+  <Value>Cable (Unión de 6 Vías)</Value>
   <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad del deber de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableStraight</Key>
-  <Value>Cable (Straight)</Value>
+  <Value>Cable (Recto)</Value>
   <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
@@ -1951,7 +1959,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>StructureCentrifuge</Key>
   <Value>Centrifugadora</Value>
-  <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desequilibrado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo. También refina el {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y el {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Su hermano mayor, el {THING:StructureCombustionCentrifuge}, se puede usar para procesar elementos de manera significativamente más rápida. Los elementos procesados por la centrifugadora serán desgasificados. Si se abre mientras está encendida, la centrifugadora entrará en un estado de error, reducirá su rpm a 0 y luego exportará cualquier elemento.</Description>
+  <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} mal configurado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo. También refina el {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y el {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Su hermano mayor, el {THING:StructureCombustionCentrifuge} se puede usar para procesar elementos de manera significativamente más rápida. Los elementos procesados por la centrifugadora serán desgasificados. Si se abre mientras está encendida, la centrifugadora entrará en un estado de error, reducirá su rpm a 0 y luego exportará cualquier elemento.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChair</Key>
@@ -1960,7 +1968,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteBin</Key>
-  <Value>Contenedor de Conducto</Value>
+  <Value>Contenedor de Importación de Conducto</Value>
   <Description>El objetivo del {LINK:Stationeers;Stationeer's} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Al igual que la mayoría de los sistemas diseñados por {LINK:Recurso;Recurso}, los contenedores de conductos son elementos simples y robustos que permiten que los elementos se introduzcan manualmente en las redes de conductos al accionar una palanca. También se pueden programar con {LINK:LogicUnitPage;logic} para funcionar automáticamente, aunque la automatización completa requiere el uso de elementos como un {THING:StructureSDBHopper}.</Description>
 </RecordThing>
 <RecordThing>
@@ -2438,15 +2446,15 @@ Para obtener más información sobre cómo controlar las temperaturas, consulta 
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction4Burnt</Key>
-  <Value>Cable Quemado (Junción de 4 Vías)</Value>
+  <Value>Cable Quemado (Unión de 4 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction6Burnt</Key>
-  <Value>Cable Quemado (Junción de 6 Vías)</Value>
+  <Value>Cable Quemado (Unión de 6 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionBurnt</Key>
-  <Value>Cable Quemado (Junción)</Value>
+  <Value>Cable Quemado (Unión)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureSolidFuelGenerator</Key>
@@ -2468,23 +2476,23 @@ Para obtener más información sobre cómo controlar las temperaturas, consulta 
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionH6</Key>
-  <Value>Cable Pesado (Junción de 6 Vías)</Value>
+  <Value>Cable Pesado (Unión de 6 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionH4</Key>
-  <Value>Cable Pesado (Junción de 4 Vías)</Value>
+  <Value>Cable Pesado (Unión de 4 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionH</Key>
-  <Value>Cable Pesado (Junción de 3 Vías)</Value>
+  <Value>Cable Pesado (Unión de 3 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction6HBurnt</Key>
-  <Value>Cable Quemado (Junción de 6 Vías)</Value>
+  <Value>Cable Quemado (Unión de 6 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction4HBurnt</Key>
-  <Value>Cable Quemado (Junción de 4 Vías)</Value>
+  <Value>Cable Quemado (Unión de 4 Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableStraightHBurnt</Key>
@@ -2492,7 +2500,7 @@ Para obtener más información sobre cómo controlar las temperaturas, consulta 
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionHBurnt</Key>
-  <Value>Cable Quemado (Junción)</Value>
+  <Value>Cable Quemado (Unión)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableCornerHBurnt</Key>
@@ -3076,7 +3084,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction5</Key>
-  <Value>Cable (Junción 5-Vías)</Value>
+  <Value>Cable (Unión 5-Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableCorner4</Key>
@@ -3088,15 +3096,15 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction5Burnt</Key>
-  <Value>Cable Quemado (Junción 5-Vías)</Value>
+  <Value>Cable Quemado (Unión 5-Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionH5</Key>
-  <Value>Cable Pesado (Junción 5-Vías)</Value>
+  <Value>Cable Pesado (Unión 5-Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunctionH5Burnt</Key>
-  <Value>Cable Pesado Quemado (Junción 5-Vías)</Value>
+  <Value>Cable Pesado Quemado (Unión 5-Vías)</Value>
 </RecordThing>
 <RecordThing>
   <Key>WallFrameCornerCut</Key>
@@ -4521,32 +4529,32 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeCrossJunction</Key>
-  <Value>Tubería Aislada (Junción Cruzada)</Value>
+  <Value>Tubería Aislada (Unión Cruzada)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeCrossJunction3</Key>
-  <Value>Tubería Aislada (Junción a 3 Vías)</Value>
+  <Value>Tubería Aislada (Unión a 3 Vías)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeCrossJunction4</Key>
-  <Value>Tubería Aislada (Junción a 4 Vías)</Value>
+  <Value>Tubería Aislada (Unión a 4 Vías)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeCrossJunction5</Key>
-  <Value>Tubería Aislada (Junción a 5 Vías)</Value>
+  <Value>Tubería Aislada (Unión a 5 Vías)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeCrossJunction6</Key>
-  <Value>Tubería Aislada (Junción a 6 Vías)</Value>
+  <Value>Tubería Aislada (Unión a 6 Vías)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeTJunction</Key>
-  <Value>Tubería Aislada (Junción en T)</Value>
+  <Value>Tubería Aislada (Unión en T)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
@@ -10023,7 +10031,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 </Record>
 <Record>
   <Key>DoorCategory</Key>
-  <Value>Puertas y Escotillas</Value>
+  <Value>Puertas y Esclusas</Value>
 </Record>
 <Record>
   <Key>ChairTableCategory</Key>
