@@ -526,7 +526,7 @@
 	<RecordThing>
 	  <Key>ApplianceMicrowave</Key>
 	  <Value>Microondas</Value>
-	  <Description>Aunque se han inventado innumerables formas 'mejores' de cocinar {LINK:FoodPage;Food} en los últimos cientos de años, pocas son tan duraderas o fáciles de fabricar como el microondas OK-Zoomer. Licenciado de {LINK:Xigo;Xigo}, los planos están basados en un modelo clásico de mediados del siglo XXI, dándole un encanto retro. Pero no te preocupes, oscila las moléculas de {GAS:Water} más que adecuadamente. Solo fíjalo a un {THING:StructureBench} usando una {THING:ItemWrench} para encenderlo, sigue la receta y estarás cocinando.</Description>
+	  <Description>Aunque se han inventado innumerables formas 'mejores' de cocinar {LINK:FoodPage;Comida} en los últimos cientos de años, pocas son tan duraderas o fáciles de fabricar como el microondas OK-Zoomer. Licenciado de {LINK:Xigo;Xigo}, los planos están basados en un modelo clásico de mediados del siglo XXI, dándole un encanto retro. Pero no te preocupes, oscila las moléculas de {GAS:Water} más que adecuadamente. Solo fíjalo a un {THING:StructureBench} usando una {THING:ItemWrench} para encenderlo, sigue la receta y estarás cocinando.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ApplianceReagentProcessor</Key>
@@ -806,7 +806,7 @@
 	<RecordThing>
 	  <Key>CartridgeAtmosAnalyser</Key>
 	  <Value>Cartucho (Analizador de Atmósfera)</Value>
-	  <Description>El analizador de atmósfera Lorenz es un espectrómetro de masas multifuncional diseñado por {LINK:ExMin;ExMin} para su uso con el OreCore {THING:ItemTablet}. Muestra la presión, concentración y cantidad molar de {LINK:GasPage;gas} en habitaciones, tanques o redes de tuberías.</Description>
+	  <Description>El analizador de atmósfera Lorenz es un espectrómetro de masas multifuncional diseñado por {LINK:ExMin;ExMin} para su uso con el OreCore {THING:ItemTablet}. Muestra la presión, concentración y cantidad molar de {LINK:GasPage;Gas} en habitaciones, tanques o redes de tuberías.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>CartridgeMedicalAnalyser</Key>
@@ -879,7 +879,7 @@ La placa de circuito tiene dos modos: 'Vincular' apaga o enciende todos los disp
 	<RecordThing>
 	  <Key>DynamicAirConditioner</Key>
 	  <Value>Aire Condicionado Portátil</Value>
-	  <Description>El Aire Condicionado Portátil Huxi, diseñado por {LINK:Sinotai;Sinotai}, enfría extrayendo calor de la atmósfera y almacenándolo, o añadiendo calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106kPa, su capacidad es relativamente limitada, la física es clara en este tema. Para extender su capacidad de almacenamiento de temperatura, fija el Huxi a un {THING:StructureTankConnector}, luego conéctalo a una red de tuberías que suministre {LINK:GasPage;gases} calientes o fríos.</Description>
+	  <Description>El Aire Condicionado Portátil Huxi, diseñado por {LINK:Sinotai;Sinotai}, enfría extrayendo calor de la atmósfera y almacenándolo, o añadiendo calor a la atmósfera desde su tanque interno. Con una presión interna máxima de 8106kPa, su capacidad es relativamente limitada, la física es clara en este tema. Para extender su capacidad de almacenamiento de temperatura, fija el Huxi a un {THING:StructureTankConnector}, luego conéctalo a una red de tuberías que suministre {LINK:GasPage;Gases} calientes o fríos.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>DynamicCrate</Key>
@@ -1039,7 +1039,7 @@ La celda de potencia grande puede descargar 288kW de potencia.</Description>
 	  <Description>Prohibida en la Tierra desde el Evento Chengdu, las celdas de energía nuclear de Norsec encontraron un mercado nuevo y drásticamente menos consciente de la seguridad fuera del mundo.
 
 {HEADER:POWER OUTPUT}
-Llevando el equilibrio potencia-peso al límite, el 'nuke' tiene una carga de 2.3 megavatios (2304000W), reflejando su dependencia de {LINK:IngotPage;superalloys} exóticas.</Description>
+Llevando el equilibrio potencia-peso al límite, el 'nuke' tiene una carga de 2.3 megavatios (2304000W), reflejando su dependencia de {LINK:IngotPage;Superaleaciones} exóticas.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ItemBatteryCharger</Key>
@@ -1085,7 +1085,7 @@ La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de corrien
 	<RecordThing>
 	  <Key>ItemCoalOre</Key>
 	  <Value>Mineral (Carbón)</Value>
-	  <Description>La humanidad no habría llegado al espacio sin el humilde y combustible carbón. Quémalo en un {THING:SolidFuelGenerator}, fúndelo en el {THING:StructureFurnace} para crear {LINK:IngotPage;superalloys}, o úsalo en el {THING:ApplianceReagentProcessor} para hacer {THING:ItemSprayCanBlack}.</Description>
+	  <Description>La humanidad no habría llegado al espacio sin el humilde y combustible carbón. Quémalo en un {THING:StructureSolidFuelGenerator}, fúndelo en el {THING:StructureFurnace} para crear {LINK:IngotPage;Superaleaciones}, o úsalo en el {THING:ApplianceReagentProcessor} para hacer {THING:ItemSprayCanBlack}.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ItemCompositeFloorGrating</Key>
@@ -1146,7 +1146,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 	<RecordThing>
 	  <Key>ItemEvaSuit</Key>
 	  <Value>Traje EVA</Value>
-	  <Description>El traje EVA es el traje básico que los {LINK:Stationeers;Stationeers} necesitan para sobrevivir en el ambiente inhóspito del espacio. Para obtener más información sobre los trajes EVA, consulta la guía del {LINK:EVAPage;EVA suit}.</Description>
+	  <Description>El traje EVA es el traje básico que los {LINK:Stationeers;Stationeers} necesitan para sobrevivir en el ambiente inhóspito del espacio. Para obtener más información sobre los trajes EVA, consulta la guía de los {LINK:EVAPage;Trajes EVA}.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ItemFertilizedEgg</Key>
@@ -1244,7 +1244,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemGasFilterVolatiles</Key>
   <Value>Filtro (Volátiles)</Value>
-  <Description>Los filtros se utilizan para capturar varios gases, que pueden ser eliminados o utilizados en otros lugares. Los {GAS:Volatiles} se crean al exponer {THING:ItemVolatiles} al calor. El producto puede recogerse y combinarse con {GAS:Oxygen} para crear combustible, o utilizarse en un {THING:StructureFurnace} para fundir minerales y crear {LINK:IngotPage;alloys}.</Description>
+  <Description>Los filtros se utilizan para capturar varios gases, que pueden ser eliminados o utilizados en otros lugares. Los {GAS:Volatiles} se crean al exponer {THING:ItemVolatiles} al calor. El producto puede recogerse y combinarse con {GAS:Oxygen} para crear combustible, o utilizarse en un {THING:StructureFurnace} para fundir minerales y crear {LINK:IngotPage;Aleaciones}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemGasFilterWater</Key>
@@ -1339,7 +1339,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemIronOre</Key>
   <Value>Mena (Hierro)</Value>
-  <Description>Abundante en todo el Sistema Solar, el hierro es el {LINK:OrePage;ore} más comúnmente utilizado por los {LINK:Stationeers;Stationeers} para construir bases fuera del mundo. Se puede fundir en {THING:ItemIronIngot} y {THING:ItemSteelIngot}.</Description>
+  <Description>Abundante en todo el Sistema Solar, el hierro es el {LINK:OrePage;Mineral} más comúnmente utilizado por los {LINK:Stationeers;Stationeers} para construir bases fuera del mundo. Se puede fundir en {THING:ItemIronIngot} y {THING:ItemSteelIngot}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAirlock</Key>
@@ -1383,7 +1383,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemKitCryoTube</Key>
-  <Value>Kit (Tubo Criogénico)</Value>
+  <Value>Kit (Criotubo)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -1474,7 +1474,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemLabeller</Key>
   <Value>Etiquetadora</Value>
-  <Description>Una etiquetadora te permite establecer nombres y valores en una variedad de dispositivos y estructuras, incluyendo {THING:StructureConsole} y {LINK:LogicPage;Logic}.</Description>
+  <Description>Una etiquetadora te permite establecer nombres y valores en una variedad de dispositivos y estructuras, incluyendo {THING:StructureConsole} y {LINK:LogicUnitPage;Unidades de lógica}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemLightSword</Key>
@@ -1484,12 +1484,12 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemMilk</Key>
   <Value>Leche</Value>
-  <Description>Para ser completamente sinceros, no es realmente 'leche', sino una síntesis de {LINK:Agrizero;Agrizero-invented} de 5 ml de {THING:ItemSoyOil} y 5 g de {THING:ItemFern}, mezclados delicadamente en el {THING:ApplianceChemistryStation}. Sorprendentemente saciante, puede ser utilizada como ingrediente para cocinar otros {LINK:FoodPage;food} en el {THING:ApplianceMicrowave} o {THING:StructureAutomatedOven}. Piensa en un {THING:ItemMuffin}.</Description>
+  <Description>Para ser completamente sinceros, no es realmente 'leche', sino una síntesis de {LINK:Agrizero;Agrizero-invented} de 5 ml de {THING:ItemSoyOil} y 5 g de {THING:ItemFern}, mezclados delicadamente en el {THING:ApplianceChemistryStation}. Sorprendentemente saciante, puede ser utilizada como ingrediente para cocinar otras {LINK:FoodPage;Comidas} en el {THING:ApplianceMicrowave} o {THING:StructureAutomatedOven}. Piensa en un {THING:ItemMuffin}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMiningBelt</Key>
   <Value>Cinturón de Minería</Value>
-  <Description>Originalmente desarrollado por {LINK:Recurso;Recurso Espaciais} para la minería de asteroides, el cinturón de minería de {LINK:Stationeers;Stationeer's} tiene espacio para dos {LINK:ToolPage;tools} y ocho pilas de {LINK:OrePage;ore}. Mientras se usa el cinturón, el {LINK:OrePage;ore} se almacena automáticamente allí cuando se extrae. Los materiales volátiles y dependientes de la temperatura permanecen estables en la unidad con control ambiental.</Description>
+  <Description>Originalmente desarrollado por {LINK:Recurso;Recurso Espaciais} para la minería de asteroides, el cinturón de minería de {LINK:Stationeers;Stationeer's} tiene espacio para dos {LINK:ToolPage;Herramientas} y ocho pilas de {LINK:OrePage;Minerales}. Mientras se usa el cinturón, el {LINK:OrePage;Mineral} se almacena automáticamente allí cuando se extrae. Los materiales volátiles y dependientes de la temperatura permanecen estables en la unidad con control ambiental.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMiningDrill</Key>
@@ -1604,7 +1604,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemReagentMix</Key>
   <Value>Mezcla de Reactivos</Value>
-  <Description>La mezcla de reactivos es pura potencialidad. Una suspensión de {LINK:OrePage;ores} no diferenciados, es generada por el {THING:StructureRecycler} y puede alimentarse al {THING:StructureCentrifuge} para separar y recuperar los materiales individuales. La mezcla de reactivos también se genera en el {THING:StructureFurnace} cuando se expulsan los contenidos actuales sin fundir un lingote específico.</Description>
+  <Description>La mezcla de reactivos es pura potencialidad. Una suspensión de {LINK:OrePage;Minerales} no diferenciados, es generada por el {THING:StructureRecycler} y puede alimentarse al {THING:StructureCentrifuge} para separar y recuperar los materiales individuales. La mezcla de reactivos también se genera en el {THING:StructureFurnace} cuando se expulsan los contenidos actuales sin fundir un lingote específico.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemRoadFlare</Key>
@@ -1629,7 +1629,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemScrewdriver</Key>
   <Value>Destornillador</Value>
-  <Description>Este ajustador de adherencia friccional estándar es un modelo de última generación, bi-rotacional, con un agarre columnado. Definitivamente no es solo un destornillador. Úsalo para construir y desmontar ciertos kits, y ajustar valores en unidades de {LINK:LogicUnitPage;logic}.</Description>
+  <Description>Este ajustador de adherencia friccional estándar es un modelo de última generación, bi-rotacional, con un agarre columnado. Definitivamente no es solo un destornillador. Úsalo para construir y desmontar ciertos kits, y ajustar valores en unidades de {LINK:LogicUnitPage;Unidades de lógica}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSecurityCamera</Key>
@@ -1649,7 +1649,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemSpacepack</Key>
   <Value>Mochila Espacial (Jetpack)</Value>
-  <Description>La básica mochila espacial {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez compartimentos de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemJetpackBasic} o {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack flote cuando se alcanza una determinada altura. USA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
+  <Description>La básica mochila espacial {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor de gas. Puede funcionar con cualquier gas, siempre y cuando la presión interna del {LINK:AtmosphericPage;Tanque} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez compartimentos de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemJetpackBasic} o {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack flote cuando se alcanza una determinada altura. USA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanBlack</Key>
@@ -1724,7 +1724,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemSteelSheets</Key>
   <Value>Hojas de Acero</Value>
-  <Description>Un material de construcción avanzado, las hojas de {THING:ItemSteelIngot} se utilizan al construir un {THING:StructureFrame} y varios otros tipos de {LINK:StructuresPage;wall}.</Description>
+  <Description>Un material de construcción avanzado, las hojas de {THING:ItemSteelIngot} se utilizan al construir un {THING:StructureFrame} y varios otros tipos de {LINK:StructurePage;Paredes}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSuitStorage</Key>
@@ -1734,7 +1734,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemTablet</Key>
   <Value>Tableta Portátil</Value>
-  <Description>La tableta portátil 'Padi' de {LINK:Xigo;Xigo} es una plataforma de datos de propósito general, proporcionada como equipo estándar a todos los {LINK:Stationeers;Stationeers}. Una herramienta dinámica que acepta una gama de {LINK:CartridgePage;cartridges}, el Padi se convierte en un {THING:CartridgeAtmosAnalyser} o {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, y varias otras funciones.</Description>
+  <Description>La tableta portátil 'Padi' de {LINK:Xigo;Xigo} es una plataforma de datos de propósito general, proporcionada como equipo estándar a todos los {LINK:Stationeers;Stationeers}. Una herramienta dinámica que acepta una gama de {LINK:CartridgePage;Cartuchos}, el Padi se convierte en un {THING:CartridgeAtmosAnalyser} o {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, y varias otras funciones.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemTankConnector</Key>
@@ -1779,22 +1779,22 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemWheat</Key>
   <Value>Trigo</Value>
-  <Description>Un símbolo clásico de crecimiento y nueva vida, el trigo tarda un tiempo moderado en crecer. Su uso principal es crear {LINK:ReagentPage;flour} usando el {THING:ApplianceReagentProcessor}.</Description>
+  <Description>Un símbolo clásico de crecimiento y nueva vida, el trigo tarda un tiempo moderado en crecer. Su uso principal es crear {LINK:ReagentPage;Harina} usando el {THING:ApplianceReagentProcessor}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemWireCutters</Key>
   <Value>Cortador de Cables</Value>
-  <Description>Los cortadores de cables te permiten deconstruir varias {LINK:StructurePage;structures}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de cables se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;tools}.</Description>
+  <Description>Los cortadores de cables te permiten deconstruir varias {LINK:StructurePage;Estructuras}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de cables se almacenan en el {THING:ItemToolBelt}, junto con otras {LINK:ToolPage;Herramientas} esenciales.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemWrench</Key>
   <Value>Llave Inglesa</Value>
-  <Description>Una de las contribuciones perdurables de la humanidad al cosmos, la llave inglesa representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y deconstruir una variedad de {LINK:StructurePage;structures}</Description>
+  <Description>Una de las contribuciones perdurables de la humanidad al cosmos, la llave inglesa representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y deconstruir una variedad de {LINK:StructurePage;Estructuras}</Description>
 </RecordThing>
 <RecordThing>
   <Key>MotherboardLogic</Key>
   <Value>Placa Base de Lógica</Value>
-  <Description>Las placas base se conectan a {THING:StructureComputer} para realizar varias funciones técnicas. La placa base de lógica K-cops diseñada por {LINK:Norsec;Norsec} permite a {LINK:Stationeers;Stationeers} configurar variables y acciones en elementos controlados por {LINK:LogicUnitPage;logic}.</Description>
+  <Description>Las placas base se conectan a {THING:StructureComputer} para realizar varias funciones técnicas. La placa base de lógica K-cops diseñada por {LINK:Norsec;Norsec} permite a {LINK:Stationeers;Stationeers} configurar variables y acciones en elementos controlados por {LINK:LogicUnitPage;Unidades de lógica}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>MotherboardManufacturing</Key>
@@ -1838,7 +1838,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>StructureActiveVent</Key>
   <Value>Ventilación Activa</Value>
-  <Description>El ventilador activo es un dispositivo alimentado para mantener la presión de {LINK:GasPage;gas} bombeando gas dentro (o fuera) de una red de tuberías. El ventilador tiene dos modos:
+  <Description>El ventilador activo es un dispositivo alimentado para mantener la presión de {LINK:GasPage;Gas} bombeando gas dentro (o fuera) de una red de tuberías. El ventilador tiene dos modos:
  'Hacia Fuera' lo configura para bombear gas hacia un espacio hasta que se alcance la presión.
  'Hacia Dentro' lo configura para bombear gas hacia afuera hasta que se alcance la presión.
  El parámetro de presión se puede configurar en un {THING:StructureConsole} conectado.
@@ -1855,7 +1855,7 @@ Los Multiplicadores de Eficiencia Múltiple pueden afectar la cantidad de energ�
 
 Los {THING:StructurePipeRadiator} pueden ser útiles para devolver las temperaturas extremas de las tuberías hacia temperaturas normales.
 
-Para más información sobre cómo usar el aire acondicionado, consulta la página de Guías de {LINK:TemperatureControlPage;temperature control}.</Description>
+Para más información sobre cómo usar el aire acondicionado, consulta la página de Guías de {LINK:TemperatureControlPage;Control de Temperatura}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAirlock</Key>
@@ -1924,32 +1924,32 @@ Proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más ant
 <RecordThing>
   <Key>StructureCableCorner</Key>
   <Value>Cable (Esquina)</Value>
-  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tan esencial, que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tan esencial, que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'Herramienta'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableCorner3</Key>
   <Value>Cable (Esquina de 3 Vías)</Value>
-  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tan esencial, que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tan esencial, que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'Herramienta'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction</Key>
   <Value>Cable (Unión)</Value>
-  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'Herramienta'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction4</Key>
   <Value>Cable (Unión de 4 Vías)</Value>
-  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando tanto energía como datos, la bobina de cable se ha convertido en un símbolo de la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'Herramienta'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableJunction6</Key>
   <Value>Cable (Unión de 6 Vías)</Value>
-  <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad del deber de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad del deber de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'Herramienta'} oficial durante la 3ª Conferencia Solar Decanual de Stationeer. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCableStraight</Key>
   <Value>Cable (Recto)</Value>
-  <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'tool'} oficial. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
+  <Description>Transportando energía y datos por igual, la bobina de cable ha llegado a simbolizar la innovación, independencia y flexibilidad de la vida de {LINK:Stationeers;Stationeer} - tanto es así que el {LINK:ODA;ODA} la designó como una {LINK:ToolPage;'Herramienta'} oficial. La bobina normal tiene una potencia máxima de 5kW. Para aplicaciones de mayor corriente, utiliza {THING:ItemCableCoilHeavy}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCamera</Key>
@@ -1959,7 +1959,7 @@ Proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más ant
 <RecordThing>
   <Key>StructureCentrifuge</Key>
   <Value>Centrifugadora</Value>
-  <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} mal configurado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo. También refina el {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y el {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Su hermano mayor, el {THING:StructureCombustionCentrifuge} se puede usar para procesar elementos de manera significativamente más rápida. Los elementos procesados por la centrifugadora serán desgasificados. Si se abre mientras está encendida, la centrifugadora entrará en un estado de error, reducirá su rpm a 0 y luego exportará cualquier elemento.</Description>
+  <Description>Si un {THING:StructureRecycler} o un {THING:StructureFurnace} mal configurado produce una mezcla de {LINK:ReagentPage;Reactivos} en lugar de los {LINK:IngotPage;Lingotes} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;Mineral} crudo. También refina el {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y el {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Su hermano mayor, el {THING:StructureCombustionCentrifuge} se puede usar para procesar elementos de manera significativamente más rápida. Los elementos procesados por la centrifugadora serán desgasificados. Si se abre mientras está encendida, la centrifugadora entrará en un estado de error, reducirá su rpm a 0 y luego exportará cualquier elemento.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChair</Key>
@@ -1969,32 +1969,32 @@ Proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más ant
 <RecordThing>
   <Key>StructureChuteBin</Key>
   <Value>Contenedor de Importación de Conducto</Value>
-  <Description>El objetivo del {LINK:Stationeers;Stationeer's} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Al igual que la mayoría de los sistemas diseñados por {LINK:Recurso;Recurso}, los contenedores de conductos son elementos simples y robustos que permiten que los elementos se introduzcan manualmente en las redes de conductos al accionar una palanca. También se pueden programar con {LINK:LogicUnitPage;logic} para funcionar automáticamente, aunque la automatización completa requiere el uso de elementos como un {THING:StructureSDBHopper}.</Description>
+  <Description>El objetivo del {LINK:Stationeers;Stationeer's} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Al igual que la mayoría de los sistemas diseñados por {LINK:Recurso;Recurso}, los contenedores de conductos son elementos simples y robustos que permiten que los elementos se introduzcan manualmente en las redes de conductos al accionar una palanca. También se pueden programar con {LINK:LogicUnitPage;Unidades de lógica} para funcionar automáticamente, aunque la automatización completa requiere el uso de elementos como un {THING:StructureSDBHopper}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteCorner</Key>
   <Value>Conducto (Esquina)</Value>
-  <Description>Los conductos actúan como tuberías para los objetos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;import/export} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las esquinas de conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre máquinas con ranuras de {LINK:ImportExportPage;import/export}, como la {THING:StructureFurnace} y otras estructuras automatizables.</Description>
+  <Description>Los conductos actúan como tuberías para los objetos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;Importar/Exportar} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las esquinas de conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre máquinas con ranuras de {LINK:ImportExportPage;Importar/Exportar}, como la {THING:StructureFurnace} y otras estructuras automatizables.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteInlet</Key>
   <Value>Entrada de Conducto</Value>
-  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La entrada de conducto es una abertura por la que los elementos pueden ser introducidos en redes de {LINK:ImportExportPage;import/export}. Ten en cuenta que su origen en la minería en gravedad cero significa que las entradas de conductos no están alimentadas y permanecen permanentemente abiertas, en lugar de ser interactivas, permitiendo que los objetos sean lanzados. Pueden conectarse a sistemas de {LINK:LogicUnitPage;logic} para monitorear el flujo.</Description>
+  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La entrada de conducto es una abertura por la que los elementos pueden ser introducidos en redes de {LINK:ImportExportPage;Importar/Exportar}. Ten en cuenta que su origen en la minería en gravedad cero significa que las entradas de conductos no están alimentadas y permanecen permanentemente abiertas, en lugar de ser interactivas, permitiendo que los objetos sean lanzados. Pueden conectarse a sistemas de {LINK:LogicUnitPage;Unidades de lógica} para monitorear el flujo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteJunction</Key>
   <Value>Conducto (Unión)</Value>
-  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las uniones de conductos son componentes fundamentales de las redes de conductos, permitiendo la fusión o separación de estas redes. Cuando se combinan con un {THING:StructureSorter} programado, los elementos pueden ser enviados por diferentes caminos a varias máquinas con ranuras de {LINK:ImportExportPage;import/export}.</Description>
+  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Las uniones de conductos son componentes fundamentales de las redes de conductos, permitiendo la fusión o separación de estas redes. Cuando se combinan con un {THING:StructureSorter} programado, los elementos pueden ser enviados por diferentes caminos a varias máquinas con ranuras de {LINK:ImportExportPage;Importar/Exportar}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteOutlet</Key>
   <Value>Salida de Conducto</Value>
-  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La salida de conducto es una abertura para la salida de elementos de las redes de {LINK:ImportExportPage;import/export}. Ten en cuenta que el origen de la salida en la minería en gravedad cero significa que están permanentemente abiertas, en lugar de ser interactivas, pero pueden conectarse a sistemas de {LINK:LogicUnitPage;logic} para monitorear el flujo.</Description>
+  <Description>El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. La salida de conducto es una abertura para la salida de elementos de las redes de {LINK:ImportExportPage;Importar/Exportar}. Ten en cuenta que el origen de la salida en la minería en gravedad cero significa que están permanentemente abiertas, en lugar de ser interactivas, pero pueden conectarse a sistemas de {LINK:LogicUnitPage;Unidades de lógica} para monitorear el flujo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteStraight</Key>
   <Value>Conducto (Recto)</Value>
-  <Description>Los conductos actúan como tuberías para los elementos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;import/export} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;import/export}.</Description>
+  <Description>Los conductos actúan como tuberías para los elementos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;Importar/Exportar} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;Importar/Exportar}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCompositeDoor</Key>
@@ -2044,22 +2044,22 @@ Proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más ant
 <RecordThing>
   <Key>StructureComputer</Key>
   <Value>Ordenador (Moderno)</Value>
-  <Description>Esta unidad opera con una amplia gama de {LINK:LogicUnitPage;motherboards}.</Description>
+  <Description>Esta unidad opera con una amplia gama de {LINK:LogicUnitPage;Placas Base}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureConsole</Key>
   <Value>Consola</Value>
-  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene un puerto de datos/energía compartido. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
+  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor} y la {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicUnitPage;Placa de Circuito} esté insertado en la unidad. Tiene un puerto de datos/energía compartido. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureConsoleDual</Key>
   <Value>Consola Dual</Value>
-  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructureGasSensor}, el {THING:StructureCompositeDoor} y otros, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene puertos de datos y energía separados. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
+  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructureGasSensor}, el {THING:StructureCompositeDoor} y otros, dependiendo de qué {LINK:LogicUnitPage;Placa de Circuito} esté insertado en la unidad. Tiene puertos de datos y energía separados. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureConsoleMonitor</Key>
   <Value>Monitor de Consola</Value>
-  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor}, la {THING:ItemSecurityCamera} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicPage;circuitboard} esté insertado en la unidad. Tiene un puerto compartido de datos/energía y una interfaz inclinada encantadora. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
+  <Description>Esta caja de control {LINK:Norsec;Norsec-designed} gestiona dispositivos como el {THING:StructureActiveVent}, el {THING:StructurePassiveVent}, el {THING:StructureGasSensor}, la {THING:ItemSecurityCamera} y el {THING:StructureCompositeDoor}, dependiendo de qué {LINK:LogicUnitPage;Placa de Circuito} esté insertado en la unidad. Tiene un puerto compartido de datos/energía y una interfaz inclinada encantadora. Una consola completa muestra todos los dispositivos conectados a la red de energía actual. Los dispositivos que no están relacionados con la placa de circuito instalada se atenuarán y serán inoperables. Las consolas están bloqueadas una vez que se retira un {THING:ItemDataDisk}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureControlChair</Key>
@@ -2096,29 +2096,29 @@ Una queja recurrente de {LINK:Stationeers;Stationeer} se centra en el hecho de q
 </RecordThing>
 <RecordThing>
   <Key>StructureCryoTube</Key>
-  <Value>CryoTube</Value>
-  <Description>La operación exacta del cryotube Longsleep sigue siendo un secreto comercial, con {LINK:Norsec;Norsec} simplemente licenciando el diseño. Capaz de regenerar daños en órganos cuando se le proporciona energía y una atmósfera, el Longsleep es un pequeño milagro de la tecnología médica moderna.</Description>
+  <Value>Criotubo</Value>
+  <Description>La operación exacta del Criotubo Largo Sueño sigue siendo un secreto comercial, con {LINK:Norsec;Norsec} simplemente licenciando el diseño. Capaz de regenerar daños en órganos cuando se le proporciona energía y una atmósfera, el Longsleep es un pequeño milagro de la tecnología médica moderna.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureDaylightSensor</Key>
-  <Value>Sensor de Luz Natural</Value>
-  <Description>Los sensores de luz natural proporcionan datos sobre si la región actual de tu base está en luz solar y reportan el ángulo solar exacto. Ten en cuenta que la orientación del sensor altera el ángulo solar reportado, mientras que los sistemas {LINK:LogicPage;Logic} pueden usarse para compensarlo.</Description>
+  <Value>Sensor de Luz Solar</Value>
+  <Description>Los sensores de luz natural proporcionan datos sobre si la región actual de tu base está en luz solar y reportan el ángulo solar exacto. Ten en cuenta que la orientación del sensor altera el ángulo solar reportado, mientras que los sistemas {LINK:LogicUnitPage;Unidades de lógica} pueden usarse para compensarlo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureDigitalValve</Key>
   <Value>Válvula Digital</Value>
-  <Description>La válvula digital permite a {LINK:Stationeers;Stationeers} crear válvulas y redes de tuberías {LINK:LogicPage;logic-controlled}.</Description>
+  <Description>La válvula digital permite a {LINK:Stationeers;Stationeers} crear válvulas y redes de tuberías {LINK:LogicUnitPage;con control lógico}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureFabricator</Key>
-  <Value>Fabricador</Value>
-  <Description>Capaz de fabricar una amplia gama de artículos, el Fabricador General {LINK:Norsec;Norsec} fue considerado demasiado arriesgado por la {LINK:ODA;ODA} para un uso generalizado. Ciertamente, se ha utilizado para fines más allá de los que se pretendía, incluyendo falsificación, terrorismo y mala arte. Como resultado, su implementación ahora está fuertemente regulada.</Description>
+  <Value>Fabricante</Value>
+  <Description>Capaz de fabricar una amplia gama de artículos, el Fabricante General {LINK:Norsec;Norsec} fue considerado demasiado arriesgado por la {LINK:ODA;ODA} para un uso generalizado. Ciertamente, se ha utilizado para fines más allá de los que se pretendía, incluyendo falsificación, terrorismo y mala arte. Como resultado, su implementación ahora está fuertemente regulada.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureFiltration</Key>
-  <Value>Filtración</Value>
+  <Value>Filtrador</Value>
   <Description>La Unidad de Filtración se basa en un sistema antiguo de {LINK:ExMin;ExMin}, a su vez basado en diseños anteriores de origen incierto. Está disponible en el {THING:ItemKitAtmospherics}.
-El dispositivo ha demostrado ser indispensable para los sistemas atmosféricos {LINK:Stationeers;Stationeer}, ya que puede filtrar dos {LINK:GasPage;gases} simultáneamente de una sola red de tuberías usando una matriz de filtros dual. La unidad tiene una entrada, una salida de filtro y una salida sin filtrar para cualquier gas residual.</Description>
+El dispositivo ha demostrado ser indispensable para los sistemas atmosféricos {LINK:Stationeers;Stationeer}, ya que puede filtrar dos {LINK:GasPage;Gases} simultáneamente de una sola red de tuberías usando una matriz de filtros dual. La unidad tiene una entrada, una salida de filtro y una salida sin filtrar para cualquier gas residual.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureWaterPurifier</Key>
@@ -2154,8 +2154,8 @@ Con un poco de paciencia y maniobras, la silueta inspirada en el gótico del mar
 <RecordThing>
   <Key>StructureFurnace</Key>
   <Value>Horno</Value>
-  <Description>El horno Zhurong emplea una mezcla de gases a alta temperatura de {GAS:Oxygen} y {GAS:Volatiles} para fundir {LINK:IngotPage;ingots} y una variedad de {LINK:IngotPage;alloys} como materias primas para {LINK:FabricatorPage;fabricators}.
-Se puede lograr una mezcla básica de gases añadiendo {THING:ItemOxite} y {THING:ItemVolatiles} en una proporción de 1:2 directamente al horno, pero aleaciones más complejas requerirán una gestión cuidadosa de una red dedicada de mezcla de gases. Se deben observar las proporciones exactas de los ingredientes. Asimismo, fundir minerales a temperaturas insuficientes producirá {LINK:ReagentPage;reagents}, que deben ser reciclados.
+  <Description>El horno Zhurong emplea una mezcla de gases a alta temperatura de {GAS:Oxygen} y {GAS:Volatiles} para fundir {LINK:IngotPage;Lingotes} y una variedad de {LINK:IngotPage;Aleaciones} como materias primas para {LINK:FabricatorPage;Fabricadores}.
+Se puede lograr una mezcla básica de gases añadiendo {THING:ItemOxite} y {THING:ItemVolatiles} en una proporción de 1:2 directamente al horno, pero aleaciones más complejas requerirán una gestión cuidadosa de una red dedicada de mezcla de gases. Se deben observar las proporciones exactas de los ingredientes. Asimismo, fundir minerales a temperaturas insuficientes producirá {LINK:ReagentPage;Reactivos}, que deben ser reciclados.
 Si hay líquidos presentes en el horno, se acumularán allí hasta que el horno esté conectado a una red de tuberías líquidas.</Description>
 </RecordThing>
 <RecordThing>
@@ -2195,7 +2195,7 @@ Si hay líquidos presentes en el horno, se acumularán allí hasta que el horno 
 <RecordThing>
   <Key>StructureHydroponicsTray</Key>
   <Value>Bandeja Hidropónica</Value>
-  <Description>La bandeja hidropónica {LINK:Agrizero;Agrizero} es el recipiente ideal para cultivar una variedad de {LINK:OrganicPage;plantlife}. Debe ser suministrada con agua mediante una red de tuberías y suficiente luz para generar fotosíntesis.
+  <Description>La bandeja hidropónica {LINK:Agrizero;Agrizero} es el recipiente ideal para cultivar una variedad de {LINK:OrganicPage;Plantas}. Debe ser suministrada con agua mediante una red de tuberías y suficiente luz para generar fotosíntesis.
 Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 </RecordThing>
 <RecordThing>
@@ -2211,7 +2211,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructureMotionSensor</Key>
   <Value>Sensor de Movimiento</Value>
-  <Description>Desarrollado originalmente para monitorear maratones de baile, el sensor de movimiento también puede conectarse a sistemas de {LINK:LogicPage;Logic} para propósitos de seguridad, iluminación automática, puertas y varias otras aplicaciones. El sensor se activa cada vez que un jugador entra en la cuadrícula en la que está colocado.</Description>
+  <Description>Desarrollado originalmente para monitorear maratones de baile, el sensor de movimiento también puede conectarse a sistemas de {LINK:LogicUnitPage;Unidades de lógica} para propósitos de seguridad, iluminación automática, puertas y varias otras aplicaciones. El sensor se activa cada vez que un jugador entra en la cuadrícula en la que está colocado.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructurePassiveVent</Key>
@@ -2221,7 +2221,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructurePipeAnalysizer</Key>
   <Value>Analizador de Tuberías</Value>
-  <Description>Alegadamente resultado de un proyecto de electrónica padre-hija durante el fin de semana por un ingeniero {LINK:ExMin;ExMin} entusiasta, el analizador de tuberías es esencialmente una versión más avanzada del {THING:StructurePipeMeter}. Mostrando la presión interna de las redes de tuberías, también lee la temperatura y los contenidos de gas, y puede conectarse a un {THING:StructureConsole} o {THING:StructureComputer} a través de un sistema {LINK:LogicPage;Logic}.</Description>
+  <Description>Alegadamente resultado de un proyecto de electrónica padre-hija durante el fin de semana por un ingeniero {LINK:ExMin;ExMin} entusiasta, el analizador de tuberías es esencialmente una versión más avanzada del {THING:StructurePipeMeter}. Mostrando la presión interna de las redes de tuberías, también lee la temperatura y los contenidos de gas, y puede conectarse a un {THING:StructureConsole} o {THING:StructureComputer} a través de un sistema {LINK:LogicUnitPage;Unidades de lógica}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructurePipeCorner</Key>
@@ -2312,7 +2312,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructureSolarPanel</Key>
   <Value>Panel Solar</Value>
-  <Description>Los paneles solares estándar de {LINK:Sinotai;Sinotai's} se utilizan para generar energía a partir de la luz solar. Pueden conectarse a sistemas {LINK:LogicPage;Logic} para seguir la luz solar, pero su rendimiento se reduce durante tormentas y cuando están dañados. Puedes repararlos usando algo de {THING:ItemDuctTape}.</Description>
+  <Description>Los paneles solares estándar de {LINK:Sinotai;Sinotai's} se utilizan para generar energía a partir de la luz solar. Pueden conectarse a sistemas {LINK:LogicUnitPage;Unidades de lógica} para seguir la luz solar, pero su rendimiento se reduce durante tormentas y cuando están dañados. Puedes repararlos usando algo de {THING:ItemDuctTape}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureSorter</Key>
@@ -2322,12 +2322,12 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructureStacker</Key>
   <Value>Apilador</Value>
-  <Description>Un apilador es una parte importante de cualquier red automatizada de tolvas. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;ingots}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
+  <Description>Un apilador es una parte importante de cualquier red automatizada de tolvas. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;Lingotes}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureStackerReverse</Key>
-  <Value>Apilador</Value>
-  <Description>Un apilador es una parte importante de cualquier red automatizada de tolvas. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El apilador invertido tiene energía y datos en el lado opuesto. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;ingots}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
+  <Value>Apilador (Invertido)</Value>
+  <Description>Un apilador es una parte importante de cualquier red automatizada de tolvas. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El apilador invertido tiene energía y datos en el lado opuesto. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;Lingotes}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureStairs4x2</Key>
@@ -2401,7 +2401,7 @@ Si el enfriador de pared parpadea con un error, entonces le falta uno de los sig
 - Gas en las tuberías conectadas o presión demasiado baja.
 - Atmósfera en el entorno circundante o presión demasiado baja.
 
-Para obtener más información sobre cómo controlar las temperaturas, consulta la página de Guías de {LINK:TemperatureControlPage;temperature control}.</Description>
+Para obtener más información sobre cómo controlar las temperaturas, consulta la página de Guías de {LINK:TemperatureControlPage;Control de Temperatura}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureWallHeater</Key>
@@ -2540,7 +2540,7 @@ Nota que los transformadores funcionan como aisladores de datos, evitando que lo
 <RecordThing>
   <Key>StructureTransformerSmall</Key>
   <Value>Transformador (Pequeño)</Value>
-  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar la sobrecarga de los sistemas {LINK:ElectronicPage;electrical}. La salida en transformadores pequeños se puede ajustar de 0 a 5000W.
+  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar la sobrecarga de los sistemas {LINK:ElectronicPage;eléctricos}. La salida en transformadores pequeños se puede ajustar de 0 a 5000W.
 Nota que los transformadores operan como aisladores de datos, evitando que los datos fluyan hacia cualquier red más allá de ellos.</Description>
 </RecordThing>
 <RecordThing>
@@ -2550,15 +2550,15 @@ Nota que los transformadores operan como aisladores de datos, evitando que los d
 <RecordThing>
   <Key>StructureChuteWindow</Key>
   <Value>Conducto (Ventana)</Value>
-  <Description>Los conductos con ventanas te permiten ver lo que pasa a través de tu red de {LINK:ImportExportPage;import/export}. Pero ten en cuenta que no están aislados como otros conductos. El hielo se derretirá.</Description>
+  <Description>Los conductos con ventanas te permiten ver lo que pasa a través de tu red de {LINK:ImportExportPage;Importar/Exportar}. Pero ten en cuenta que no están aislados como otros conductos. El hielo se derretirá.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureArcFurnace</Key>
   <Value>Horno de Arco</Value>
   <Description>El sistema de fundición más simple disponible para el {LINK:Stationeers;Stationeer} promedio, el horno de arco de {LINK:Recurso;Recurso's} fue forjado en las profundidades del Sistema Solar para ayudar a los geólogos exploradores a determinar la pureza de los posibles objetivos de minería de asteroides.
 Cooptado por la {LINK:ODA;ODA}, ahora proporciona a los Stationeers una forma de producir lingotes puros de varios recursos.
-El proceso de fundición también libera una variedad de {LINK:GasPage;gases} secundarios, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} y {GAS:Oxygen} en diferentes proporciones. Estos pueden ser recapturados de la atmósfera mediante filtrado, pero también hacen que el horno de arco sea un riesgo en entornos cerrados.
-A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no puede crear {LINK:IngotPage;alloys}.</Description>
+El proceso de fundición también libera una variedad de {LINK:GasPage;Gases} secundarios, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} y {GAS:Oxygen} en diferentes proporciones. Estos pueden ser recapturados de la atmósfera mediante filtrado, pero también hacen que el horno de arco sea un riesgo en entornos cerrados.
+A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no puede crear {LINK:IngotPage;Aleaciones}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAutolathe</Key>
@@ -2599,17 +2599,17 @@ A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no pue
 <RecordThing>
   <Key>ItemSilverOre</Key>
   <Value>Mineral (Plata)</Value>
-  <Description>La plata es un elemento químico con el símbolo "Ag". Valorado por muchos {LINK:Stationeers;Stationeers} por su atractivo brillo, también se usa en una variedad de componentes de {LINK:ElectronicPage;electronics}  y {LINK:IngotPage;alloys}.</Description>
+  <Description>La plata es un elemento químico con el símbolo "Ag". Valorado por muchos {LINK:Stationeers;Stationeers} por su atractivo brillo, también se usa en una variedad de componentes de {LINK:ElectronicPage;Electrónica}  y {LINK:IngotPage;Aleaciones}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemNickelOre</Key>
   <Value>Mineral (Níquel)</Value>
-  <Description>El níquel es un elemento químico con el símbolo "Ni" y es un metal raro comúnmente utilizado como revestimiento para prevenir la corrosión. Buscado por muchos {LINK:Stationeers;Stationeers}, el níquel también se usa comúnmente para crear varias {LINK:IngotPage;alloys}.</Description>
+  <Description>El níquel es un elemento químico con el símbolo "Ni" y es un metal raro comúnmente utilizado como revestimiento para prevenir la corrosión. Buscado por muchos {LINK:Stationeers;Stationeers}, el níquel también se usa comúnmente para crear varias {LINK:IngotPage;Aleaciones}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemLeadOre</Key>
   <Value>Mineral (Plomo)</Value>
-  <Description>El plomo es un elemento químico con el símbolo "Pb". Es un metal denso y pesado con un punto de fusión bajo. El plomo se usa para fabricar una variedad de cosas como {LINK:IngotPage;alloys} como {THING:ItemSolderIngot} y municiones.</Description>
+  <Description>El plomo es un elemento químico con el símbolo "Pb". Es un metal denso y pesado con un punto de fusión bajo. El plomo se usa para fabricar una variedad de cosas como {LINK:IngotPage;Aleaciones} como {THING:ItemSolderIngot} y municiones.</Description>
 </RecordThing>
 <RecordThing>
   <Key>WeaponRifleEnergy</Key>
@@ -2664,7 +2664,7 @@ A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no pue
 <RecordThing>
   <Key>ItemSiliconOre</Key>
   <Value>Mineral (Silicio)</Value>
-  <Description>El silicio es un elemento químico con el símbolo "Si" y es uno de los elementos más útiles para los {LINK:Stationeers;Stationeers}. Disponible en todo el universo, el silicio se utiliza en una variedad de {LINK:IngotPage;alloys}, vidrio, plásticos y varios componentes electrónicos que un Stationeer puede necesitar para completar su misión.</Description>
+  <Description>El silicio es un elemento químico con el símbolo "Si" y es uno de los elementos más útiles para los {LINK:Stationeers;Stationeers}. Disponible en todo el universo, el silicio se utiliza en una variedad de {LINK:IngotPage;Aleaciones}, vidrio, plásticos y varios componentes electrónicos que un Stationeer puede necesitar para completar su misión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSiliconIngot</Key>
@@ -2860,7 +2860,7 @@ Mejora el dispositivo usando un {THING:ToolPrinterMod} para obtener recetas adic
 <RecordThing>
   <Key>StructureTransformerSmallReversed</Key>
   <Value>Transformador Invertido (Pequeño)</Value>
-  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para prevenir la sobrecarga de los sistemas {LINK:ElectronicPage;electrical}. La salida en los transformadores pequeños puede ajustarse de 0 a 5000W.
+  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para prevenir la sobrecarga de los sistemas {LINK:ElectronicPage;eléctricos}. La salida en los transformadores pequeños puede ajustarse de 0 a 5000W.
 Ten en cuenta que los transformadores funcionan como aisladores de datos, impidiendo que los datos fluyan hacia cualquier red más allá de ellos.</Description>
 </RecordThing>
 <RecordThing>
@@ -2951,7 +2951,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 <RecordThing>
   <Key>StructureSolarPanelDual</Key>
   <Value>Panel Solar (Dual)</Value>
-  <Description>Los paneles solares duales de {LINK:Sinotai;Sinotai} se utilizan para generar energía a partir de la luz solar, con puertos dedicados para datos y energía. Pueden conectarse a sistemas de {LINK:LogicPage;Logic} para rastrear la luz solar, pero su eficiencia se reduce durante tormentas y cuando están dañados. Puedes repararlos usando {THING:ItemDuctTape}.</Description>
+  <Description>Los paneles solares duales de {LINK:Sinotai;Sinotai} se utilizan para generar energía a partir de la luz solar, con puertos dedicados para datos y energía. Pueden conectarse a sistemas de {LINK:LogicUnitPage;Unidades de lógica} para rastrear la luz solar, pero su eficiencia se reduce durante tormentas y cuando están dañados. Puedes repararlos usando {THING:ItemDuctTape}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureLogicBatchWriter</Key>
@@ -3689,7 +3689,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 <RecordThing>
   <Key>StructureVendingMachine</Key>
   <Value>Máquina Expendedora</Value>
-  <Description>La máquina expendedora {LINK:Xigo;Xigo-designed} 'Slot Mate' permite almacenar casi cualquier objeto, mientras que también opera como un punto de distribución para trabajar con {LINK:TradingPage;Traders}. No se puede comerciar sin una máquina expendedora, o su equivalente más avanzado, la {THING:StructureRefrigeratedVendingMachine}. Cada máquina expendedora puede contener hasta 100 pilas.</Description>
+  <Description>La máquina expendedora {LINK:Xigo;Xigo-designed} 'Slot Mate' permite almacenar casi cualquier objeto, mientras que también opera como un punto de distribución para trabajar con {LINK:TradingPage;Comerciantes}. No se puede comerciar sin una máquina expendedora, o su equivalente más avanzado, la {THING:StructureRefrigeratedVendingMachine}. Cada máquina expendedora puede contener hasta 100 pilas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitVendingMachine</Key>
@@ -3933,7 +3933,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 <RecordThing>
   <Key>ItemHardJetpack</Key>
   <Value>Jetpack de Traje Endurecido</Value>
-  <Description>El jetpack {LINK:Norsec;Norsec} no es 'técnicamente' un jetpack en absoluto, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack se mantenga en vuelo cuando se alcanza una altura determinada. El jetpack de hardsuit es capaz de velocidades mucho mayores que el {THING:ItemJetpackBasic} - hasta 15 m/s. Indispensable para la construcción, minería y movimiento general, tiene catorce espacios de almacenamiento. UTILIZA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
+  <Description>El jetpack {LINK:Norsec;Norsec} no es 'técnicamente' un jetpack en absoluto, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del {LINK:AtmosphericPage;Tanque} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack se mantenga en vuelo cuando se alcanza una altura determinada. El jetpack de hardsuit es capaz de velocidades mucho mayores que el {THING:ItemJetpackBasic} - hasta 15 m/s. Indispensable para la construcción, minería y movimiento general, tiene catorce espacios de almacenamiento. UTILIZA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
 <RecordThing>
   <Key>DynamicHydroponics</Key>
@@ -3947,7 +3947,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 <RecordThing>
   <Key>StructureKlaxon</Key>
   <Value>Altavoz Klaxon</Value>
-  <Description>Los klaxones permiten reproducir más de 50 anuncios y sonidos, dependiendo de tu configuración de {LINK:LogicPage;Logic}. Establece el modo para seleccionar la salida.</Description>
+  <Description>Los klaxones permiten reproducir más de 50 anuncios y sonidos, dependiendo de tu configuración de {LINK:LogicUnitPage;Unidades de lógica}. Establece el modo para seleccionar la salida.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitSpeaker</Key>
@@ -4096,7 +4096,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 <RecordThing>
   <Key>ItemMiningDrillHeavy</Key>
   <Value>Taladro de Minería (Pesado)</Value>
-  <Description>A veces, los viajes de minería requieren algo un poco más grande para llevarse la carga. Esta versión ampliada del diseño {LINK:Recurso;Recurso} 'Topo' {THING:ItemMiningDrill} puede literalmente mover montañas. El taladro de minería pesado eliminará más tierra y extraerá {LINK:OrePage;ore} más rápidamente que el taladro de minería estándar. El taladro de minería pesado también es resistente a la temperatura y a la presión. Así que, sin importar el planeta o las condiciones meteorológicas extremas que puedan estar presentes, el taladro de minería pesado de Recurso hará el trabajo.</Description>
+  <Description>A veces, los viajes de minería requieren algo un poco más grande para llevarse la carga. Esta versión ampliada del diseño {LINK:Recurso;Recurso} 'Topo' {THING:ItemMiningDrill} puede literalmente mover montañas. El taladro de minería pesado eliminará más tierra y extraerá {LINK:OrePage;Minerales} más rápidamente que el taladro de minería estándar. El taladro de minería pesado también es resistente a la temperatura y a la presión. Así que, sin importar el planeta o las condiciones meteorológicas extremas que puedan estar presentes, el taladro de minería pesado de Recurso hará el trabajo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>RoverCargo</Key>
@@ -4233,7 +4233,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 <RecordThing>
   <Key>ItemCobaltOre</Key>
   <Value>Mineral (Cobalto)</Value>
-  <Description>El cobalto es un elemento químico con el símbolo "Co" y se encuentra típicamente en solo depósitos pequeños. El cobalto es una sustancia rara, pero se usa para crear la {THING:ItemHealPill} y varias {LINK:IngotPage;alloys}.</Description>
+  <Description>El cobalto es un elemento químico con el símbolo "Co" y se encuentra típicamente en solo depósitos pequeños. El cobalto es una sustancia rara, pero se usa para crear la {THING:ItemHealPill} y varias {LINK:IngotPage;Aleaciones}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemCobaltIngot</Key>
@@ -4286,21 +4286,21 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 <RecordThing>
   <Key>StructureTransformerMedium</Key>
   <Value>Transformador (Medio)</Value>
-  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar sobrecargar los sistemas {LINK:ElectronicPage;electrical}. Los transformadores medianos se usan en configuraciones más grandes donde se requiere más de 5000W, con una salida que se puede ajustar hasta un máximo de 25000W. Ten en cuenta que los transformadores también funcionan como aisladores de datos, evitando que los datos fluyan a cualquier red más allá de ellos.</Description>
+  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar sobrecargar los sistemas {LINK:ElectronicPage;eléctricos}. Los transformadores medianos se usan en configuraciones más grandes donde se requiere más de 5000W, con una salida que se puede ajustar hasta un máximo de 25000W. Ten en cuenta que los transformadores también funcionan como aisladores de datos, evitando que los datos fluyan a cualquier red más allá de ellos.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureTransformerMediumReversed</Key>
-  <Value>Transformador Reverso (Medio)</Value>
-  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar sobrecargar los sistemas {LINK:ElectronicPage;electrical}. Los transformadores medianos se usan en configuraciones más grandes donde se requiere más de 5000W, con una salida que se puede ajustar hasta un máximo de 25000W. Ten en cuenta que los transformadores también funcionan como aisladores de datos, evitando que los datos fluyan a cualquier red más allá de ellos.</Description>
+  <Value>Transformador Invertido (Medio)</Value>
+  <Description>Los transformadores controlan la potencia máxima que fluirá por una subred de cables, para evitar sobrecargar los sistemas {LINK:ElectronicPage;eléctricos}. Los transformadores medianos se usan en configuraciones más grandes donde se requiere más de 5000W, con una salida que se puede ajustar hasta un máximo de 25000W. Ten en cuenta que los transformadores también funcionan como aisladores de datos, evitando que los datos fluyan a cualquier red más allá de ellos.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureTransformerMedium(Reversed)</Key>
-  <Value>Transformador Reverso (Medio)</Value>
+  <Value>Transformador Invertido (Medio)</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemJetpackBasic</Key>
   <Value>Jetpack Básico</Value>
-  <Description>El jetpack básico {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor a gas. Puede ser alimentado por cualquier gas, siempre que la presión interna del {LINK:AtmosphericsPage;canister} sea mayor que la presión externa ambiental. Si la presión externa es mayor, el jetpack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez ranuras de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack se mantenga en vuelo cuando se alcanza una altura determinada. USA: 'J' para activar; 'espacio' para subir; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
+  <Description>El jetpack básico {LINK:CHAC;CHAC} no es 'técnicamente' un jetpack, es un propulsor a gas. Puede ser alimentado por cualquier gas, siempre que la presión interna del {LINK:AtmosphericPage;Tanque} sea mayor que la presión externa ambiental. Si la presión externa es mayor, el jetpack no funcionará. Indispensable para la construcción, minería y movimiento general, tiene diez ranuras de almacenamiento y permite a los {LINK:Stationeers;Stationeers} volar a 3 m/s, en comparación con el más potente {THING:ItemHardJetpack}. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack se mantenga en vuelo cuando se alcanza una altura determinada. USA: 'J' para activar; 'espacio' para subir; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureRTGSurvival</Key>
@@ -4488,7 +4488,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 <RecordThing>
   <Key>StructureAutoMinerSmall</Key>
   <Value>Autominador (Pequeño)</Value>
-  <Description>El autominador SquareDig es una estructura que, una vez construida, excava un pozo vertical de 2x2 hasta alcanzar la roca madre. El autominador puede conectarse a un sistema de tolvas y es controlable por una red lógica. Ten en cuenta que el autominador produce más {LINK:OrePage;ore} que un {THING:ItemMiningDrill} convencional en la misma área.</Description>
+  <Description>El autominador SquareDig es una estructura que, una vez construida, excava un pozo vertical de 2x2 hasta alcanzar la roca madre. El autominador puede conectarse a un sistema de tolvas y es controlable por una red lógica. Ten en cuenta que el autominador produce más {LINK:OrePage;Minerales} que un {THING:ItemMiningDrill} convencional en la misma área.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAutoMinerSmall</Key>
@@ -4510,7 +4510,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>StructureReverseElectrolyzer</Key>
-  <Value>Electrolizador Reverso</Value>
+  <Value>Electrolizador Invertido</Value>
 </RecordThing>
 <RecordThing>
   <Key>H2Combustor</Key>
@@ -4560,7 +4560,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 <RecordThing>
   <Key>ItemAdvancedTablet</Key>
   <Value>Tableta Avanzada</Value>
-  <Description>La tableta Padi 2 de {LINK:Xigo;Xigo} es una versión mejorada de la básica {THING:ItemTablet}, con dos ranuras para {LINK:CartridgePage;cartridges}. La Padi 2 acepta {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} y varios otros cartuchos.
+  <Description>La tableta Padi 2 de {LINK:Xigo;Xigo} es una versión mejorada de la básica {THING:ItemTablet}, con dos ranuras para {LINK:CartridgePage;Cartuchos}. La Padi 2 acepta {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} y varios otros cartuchos.
   
 Con un {THING:ItemIntegratedCircuit10} en el {SLOT:ProgrammableChip}, puedes acceder a ranuras variables en el humano que lleva el dispositivo utilizando los números del dispositivo (d0, d1, etc...), siempre que el artículo pueda ser accedido mediante lógica, como el {THING:ItemHardSuit}.</Description>
 </RecordThing>
@@ -4705,7 +4705,7 @@ Con un {THING:ItemIntegratedCircuit10} en el {SLOT:ProgrammableChip}, puedes acc
 <RecordThing>
   <Key>StructurePipeOrgan</Key>
   <Value>Órgano de tubos</Value>
-  <Description>El órgano de tubos se puede conectar a un extremo de una {THING:ItemPipeValve}. La longitud de la tubería después del órgano cambia la altura del sonido que producirá cuando se abra la válvula. Usa {LINK:LogicPage;Logic} para abrir y cerrar las válvulas y crear melodías personalizadas para tu base o una advertencia sonora.</Description>
+  <Description>El órgano de tubos se puede conectar a un extremo de una {THING:ItemPipeValve}. La longitud de la tubería después del órgano cambia la altura del sonido que producirá cuando se abra la válvula. Usa {LINK:LogicUnitPage;Unidades de lógica} para abrir y cerrar las válvulas y crear melodías personalizadas para tu base o una advertencia sonora.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPipeOrgan</Key>
@@ -4773,7 +4773,7 @@ Con un {THING:ItemIntegratedCircuit10} en el {SLOT:ProgrammableChip}, puedes acc
 <RecordThing>
   <Key>StructureSDBSilo</Key>
   <Value>Silo SDB</Value>
-  <Description>El majestuoso silo almacena grandes cantidades de casi cualquier cosa. Mientras lo hace, no se puede desarmar. Ten en cuenta también que cualquier alimento que pongas en un silo probablemente {LINK:DecayPage;decay} muy rápidamente. El silo puede contener hasta 600 pilas.</Description>
+  <Description>El majestuoso silo almacena grandes cantidades de casi cualquier cosa. Mientras lo hace, no se puede desarmar. Ten en cuenta también que cualquier alimento que pongas en un silo probablemente {LINK:DecayPage;Descompondrá} muy rápidamente. El silo puede contener hasta 600 pilas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>KitSDBSilo</Key>
@@ -5683,17 +5683,17 @@ Un conjunto cuádruple de motores eléctricos montados en los cubos impulsa el m
 <RecordThing>
   <Key>ItemEmptyCan</Key>
   <Value>Lata Vacía</Value>
-  <Description>Usada para hacer sopas cuando se combina con comida en el {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}. Bastante alta en nutrición, la comida enlatada no {LINK:DecayPage;decay}.</Description>
+  <Description>Usada para hacer sopas cuando se combina con comida en el {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}. Bastante alta en nutrición, la comida enlatada no se {LINK:DecayPage;Descompondrá}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemPumpkinSoup</Key>
   <Value>Sopa de Calabaza</Value>
-  <Description>Hecha utilizando {THING:ItemCookedPumpkin} y una {THING:ItemEmptyCan} en un {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}. Bastante alta en nutrición, la comida enlatada no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecha utilizando {THING:ItemCookedPumpkin} y una {THING:ItemEmptyCan} en un {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}. Bastante alta en nutrición, la comida enlatada no se {LINK:DecayPage;Descompondrá}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemCornSoup</Key>
   <Value>Sopa de Maíz</Value>
-  <Description>Hecha utilizando {THING:ItemCookedCorn} y una {THING:ItemEmptyCan} en un {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}. Bastante alta en nutrición, la comida enlatada no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecha utilizando {THING:ItemCookedCorn} y una {THING:ItemEmptyCan} en un {THING:AppliancePackagingMachine} o {THING:StructureAdvancedPackagingMachine}. Bastante alta en nutrición, la comida enlatada no se {LINK:DecayPage;Descompondrá}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemBreadLoaf</Key>
@@ -5708,12 +5708,12 @@ Un conjunto cuádruple de motores eléctricos montados en los cubos impulsa el m
 <RecordThing>
   <Key>StructureHydroponicsTrayData</Key>
   <Value>Dispositivo Hidropónico</Value>
-  <Description>El dispositivo hidropónico {LINK:Agrizero;Agrizero} es el recipiente ideal para cultivar una variedad de {LINK:OrganicPage;plantlife}. Debe ser suministrado con {GAS:Water} utilizando una red de tuberías y suficiente luz para generar fotosíntesis. Puede ser automatizado usando el {THING:StructureHarvie}. Ten en cuenta que, a diferencia del {THING:StructureHydroponicsTray}, estos no pueden ser colocados consecutivamente ya que se consideran dispositivos en lugar de tuberías puras. Sin embargo, permiten la interrogaría de datos para sistemas lógicos.</Description>
+  <Description>El dispositivo hidropónico {LINK:Agrizero;Agrizero} es el recipiente ideal para cultivar una variedad de {LINK:OrganicPage;Plantas}. Debe ser suministrado con {GAS:Water} utilizando una red de tuberías y suficiente luz para generar fotosíntesis. Puede ser automatizado usando el {THING:StructureHarvie}. Ten en cuenta que, a diferencia del {THING:StructureHydroponicsTray}, estos no pueden ser colocados consecutivamente ya que se consideran dispositivos en lugar de tuberías puras. Sin embargo, permiten la interrogaría de datos para sistemas lógicos.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemCharcoal</Key>
   <Value>Carbón vegetal</Value>
-  <Description>El carbón vegetal es un residuo de carbono negro y ligero producido al calentar {THING:ItemBiomass} en un {THING:StructureArcFurnace}. Contiene menos potencial energético que {THING:ItemCoalOre}, pero puede ser utilizado como fuente básica de combustible. El carbón también puede ser sustituido por el carbón en recetas de {LINK:IngotPage;alloy}.</Description>
+  <Description>El carbón vegetal es un residuo de carbono negro y ligero producido al calentar {THING:ItemBiomass} en un {THING:StructureArcFurnace}. Contiene menos potencial energético que {THING:ItemCoalOre}, pero puede ser utilizado como fuente básica de combustible. El carbón también puede ser sustituido por el carbón en recetas de {LINK:IngotPage;Aleaciones}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitSolarPanelReinforced</Key>
@@ -5894,7 +5894,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureIceCrusher</Key>
   <Value>Picadora de Hielo</Value>
-  <Description>El {LINK:Recurso;Recurso} KoolAuger convierte varios hielos en sus respectivos {LINK:GasPage;gases} y líquidos. 
+  <Description>El {LINK:Recurso;Recurso} KoolAuger convierte varios hielos en sus respectivos {LINK:GasPage;Gases} y líquidos. 
 	Una unidad de sublimación-fusión notablemente inteligente y compacta, produce gas o líquido dependiendo del hielo que se esté procesando. La salida superior es gas, la inferior es líquida, y aunque puedes conectar cualquier tubería que desees a cualquiera de las salidas, solo funcionará si la red correcta está conectada. También solo pasará gas o líquido a una red si está alimentada y encendida. 
 	Si el KoolAuger está lleno, no aceptará más hielo hasta que se drenen los contenidos de gas o líquido. En este estado, mostrará un estado de error amarillo en el interruptor de activación.</Description>
 </RecordThing>
@@ -5972,7 +5972,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemMKIIScrewdriver</Key>
   <Value>Destornillador Mk II</Value>
-  <Description>Este ajustador de adherencia por fricción de emisión estándar es un modelo bi-rotacional de primera línea con un agarre uni-columnado. Definitivamente no es solo un destornillador. Úsalo para la construcción y deconstrucción de ciertos kits, y establecer valores en unidades de {LINK:LogicUnitPage;logic}. El MK II es más resistente a temperatura y presión.</Description>
+  <Description>Este ajustador de adherencia por fricción de emisión estándar es un modelo bi-rotacional de primera línea con un agarre uni-columnado. Definitivamente no es solo un destornillador. Úsalo para la construcción y deconstrucción de ciertos kits, y establecer valores en unidades de {LINK:LogicUnitPage;Unidades de lógica}. El MK II es más resistente a temperatura y presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIAngleGrinder</Key>
@@ -6002,12 +6002,12 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemMKIIWireCutters</Key>
   <Value>Cortadores de Alambre Mk II</Value>
-  <Description>Los cortadores de alambre te permiten deconstruir varias {LINK:StructurePage;structures}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de alambre se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;tools}.</Description>
+  <Description>Los cortadores de alambre te permiten deconstruir varias {LINK:StructurePage;Estructuras}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de alambre se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;Herramientas}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIWrench</Key>
   <Value>Llave Inglesa Mk II</Value>
-  <Description>Una de las contribuciones duraderas de la humanidad al cosmos, la llave representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y deconstruir una variedad de {LINK:StructurePage;structures}. El MK II es más resistente a temperatura y presión.</Description>
+  <Description>Una de las contribuciones duraderas de la humanidad al cosmos, la llave representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y deconstruir una variedad de {LINK:StructurePage;Estructuras}. El MK II es más resistente a temperatura y presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIDuctTape</Key>
@@ -6227,15 +6227,15 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>DecayedFood</Key>
   <Value>Comida Descompuesta</Value>
-  <Description>Cuando tu {LINK:OrganicPage;food} se descompone, se convierte en esto. Los científicos de {LINK:ODA;ODA} han intentado determinar los constituyentes exactos de esta sustancia, pero sigue siendo evasiva y misteriosa. Basta decir que comerla es una mala idea. Sin embargo, la investigación ha determinado que la velocidad exacta de descomposición varía individualmente por:
+  <Description>Cuando tu {LINK:OrganicPage;Comida} se descompone, se convierte en esto. Los científicos de {LINK:ODA;ODA} han intentado determinar los constituyentes exactos de esta sustancia, pero sigue siendo evasiva y misteriosa. Basta decir que comerla es una mala idea. Sin embargo, la investigación ha determinado que la velocidad exacta de descomposición varía individualmente por:
 
-  - TEMPERATURA - La refrigeración ralentiza la descomposición, pero muchos alimentos se dañarán por la exposición a baja presión extrema, así como al calor extremo. La temperatura óptima es 0 kelvin (-272 °C).
+- TEMPERATURA - La refrigeración ralentiza la descomposición, pero muchos alimentos se dañarán por la exposición a baja presión extrema, así como al calor extremo. La temperatura óptima es 0 kelvin (-272 °C).
 
-  - TIPO DE ALIMENTO - Cada tipo de {LINK:OrganicPage;food} tiene sus propias propiedades de descomposición. Por ejemplo, {THING:ItemTomatoSoup} dura mucho más que un {THING:ItemTomato}.
+- TIPO DE ALIMENTO - Cada tipo de {LINK:OrganicPage;Comida} tiene sus propias propiedades de descomposición. Por ejemplo, {THING:ItemTomatoSoup} dura mucho más que un {THING:ItemTomato}.
 
-  - PRESIÓN - La comida se descompone más rápido cuando la presión cae por debajo de 1 atmósfera (101 kPa). La descomposición ocurre exponencialmente más rápido a medida que la atmósfera se aproxima a un vacío perfecto. No hay efecto de presiones más altas. 
+- PRESIÓN - La comida se descompone más rápido cuando la presión cae por debajo de 1 atmósfera (101 kPa). La descomposición ocurre exponencialmente más rápido a medida que la atmósfera se aproxima a un vacío perfecto. No hay efecto de presiones más altas. 
 
-  - ATMÓSFERA - Diferentes gases pueden ralentizar y acelerar el proceso de descomposición. El proceso tendrá en cuenta las respectivas proporciones de gases en atmósferas mezcladas al calcular el modificador de descomposición. Las siguientes tasas se aplican a todos los alimentos:
+- ATMÓSFERA - Diferentes gases pueden ralentizar y acelerar el proceso de descomposición. El proceso tendrá en cuenta las respectivas proporciones de gases en atmósferas mezcladas al calcular el modificador de descomposición. Las siguientes tasas se aplican a todos los alimentos:
 
   &gt; {GAS:Oxygen} x 1.3
   &gt; {GAS:Nitrogen} x 0.6
@@ -6272,30 +6272,30 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   4. Usa otro escritor lógico para escribir el BPM al LFO.
   5. Estás listo. Este es el futuro. Estás en el espacio. Haz que suene genial.
 
-  Para más información, consulta la {LINK:MusicPage;music page}.</Description>
+  Para más información, consulta la {LINK:MusicPage;Página de Música}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureFridgeBig</Key>
-  <Value>Refrigerador (Grande)</Value>
-  <Description>El refrigerador Koolaid de {LINK:Xigo;Xigo} es un dispositivo de almacenamiento autoenfriable con 15 ranuras que preserva alimentos cuando está alimentado y encendido. Si bien muchos usuarios se han quejado sobre la ubicación del interruptor de energía, su lugar en el panteón de electrodomésticos fuera del mundo es incuestionable.
+  <Value>Nevera (Grande)</Value>
+  <Description>La Nevera Koolaid de {LINK:Xigo;Xigo} es un dispositivo de almacenamiento autoenfriable con 15 ranuras que preserva alimentos cuando está alimentado y encendido. Si bien muchos usuarios se han quejado sobre la ubicación del interruptor de energía, su lugar en el panteón de electrodomésticos fuera del mundo es incuestionable.
   
-  Con su propia atmósfera interna permanente, el refrigerador Koolaid ralentiza la descomposición de {LINK:OrganicPage;food} al mantener una temperatura interna óptima. Su consumo de energía varía según la temperatura externa contra la cual debe equilibrar su temperatura interna. Como tal, debe liberar calor para funcionar, por lo que el refrigerador Koolaid NO funciona en un vacío.
+  Con su propia atmósfera interna permanente, la Nevera Koolaid ralentiza la descomposición de {LINK:OrganicPage;Comida} al mantener una temperatura interna óptima. Su consumo de energía varía según la temperatura externa contra la cual debe equilibrar su temperatura interna. Como tal, debe liberar calor para funcionar, por lo que la Nevera Koolaid NO funciona en un vacío.
   
   Además, no dejes la puerta abierta, ya que se igualará con la temperatura del mundo actual. Y tal vez empiece a pitar.
 
-  Para más información sobre la preservación de alimentos, visita la sección {LINK:DecayPage;food decay} de la Stationpedia.</Description>
+  Para más información sobre la preservación de alimentos, visita la sección {LINK:DecayPage;Comida Descompuesta} de la Stationpedia.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitFridgeBig</Key>
-  <Value>Kit (Refrigerador Grande)</Value>
+  <Value>Kit (Nevera Grande)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureFridgeSmall</Key>
-  <Value>Refrigerador Pequeño</Value>
-  <Description>Esencialmente una caja altamente aislada que permite a los usuarios introducir la atmósfera deseada, el refrigerador Minibar de {LINK:Recurso;Recurso} fue una solución simple al problema de {LINK:NutritionPage;descomposición de alimentos}. Almacena una pequeña cantidad de artículos, a cualquier temperatura que puedas lograr.
+  <Value>Nevera Pequeña</Value>
+  <Description>Esencialmente una caja altamente aislada que permite a los usuarios introducir la atmósfera deseada, la Nevera Minibar de {LINK:Recurso;Recurso} fue una solución simple al problema de {LINK:NutritionPage;descomposición de alimentos}. Almacena una pequeña cantidad de artículos, a cualquier temperatura que puedas lograr.
   
-  Para más información sobre la preservación de alimentos, visita la sección {LINK:DecayPage;food decay} de la Stationpedia.</Description>
+  Para más información sobre la preservación de alimentos, visita la sección {LINK:DecayPage;Comida Descompuesta} de la Stationpedia.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureRefrigeratedVendingMachine</Key>
@@ -6357,27 +6357,27 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>Fertilizer</Key>
   <Value>Fertilizante</Value>
-  <Description>El fertilizante altera los procesos de crecimiento de las plantas y se crea a partir del compostador básico y el {THING:StructureAdvancedComposter} utilizando materia {LINK:OrganicPage;organic}.
-  Los efectos del fertilizante dependen de sus ingredientes:
+  <Description>El fertilizante altera los procesos de crecimiento de las plantas y se crea a partir del compostador básico y el {THING:StructureAdvancedComposter} utilizando materia {LINK:OrganicPage;Orgánica}.
+ Los efectos del fertilizante dependen de sus ingredientes:
 
-  - {LINK:OrganicPage;Food} aumenta el RENDIMIENTO DE LA PLANTA hasta dos veces
-  - {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces
-  - {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante
+ - {LINK:OrganicPage;Comida} aumenta el RENDIMIENTO DE LA PLANTA hasta dos veces
+ - {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces
+ - {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante
 
   El efecto de estos ingredientes depende de sus respectivas proporciones en el compostador cuando se activa el procesamiento.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAdvancedComposter</Key>
   <Value>Compostador Avanzado</Value>
-  <Description>El compostador avanzado crea {THING:Fertilizer} a partir de materia orgánica. Acepta {LINK:OrganicPage;food}, {THING:DecayedFood} o {THING:ItemBiomass}. Requiere {GAS:Water} y energía para operar, acelerando el proceso natural de compostaje.
-  Al procesar, libera nitrógeno y volátiles, así como una pequeña cantidad de calor. 
+  <Description>El compostador avanzado crea {THING:Fertilizer} a partir de materia orgánica. Acepta {LINK:OrganicPage;Comida}, {THING:DecayedFood} o {THING:ItemBiomass}. Requiere {GAS:Water} y energía para operar, acelerando el proceso natural de compostaje.
+Al procesar, libera nitrógeno y volátiles, así como una pequeña cantidad de calor. 
 
-  {HEADER:Composición de Compost}
-  El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Los efectos del fertilizante en las plantas variarán dependiendo de las proporciones respectivas de sus ingredientes.
+{HEADER:Composición de Compost}
+El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Los efectos del fertilizante en las plantas variarán dependiendo de las proporciones respectivas de sus ingredientes.
 
-  - {LINK:OrganicPage;Food} aumenta el RENDIMIENTO DE LA PLANTA hasta dos veces
-  - {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces
-  - {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante hasta cinco veces.</Description>
+- {LINK:OrganicPage;Comida} aumenta el RENDIMIENTO DE LA PLANTA hasta dos veces
+- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces
+- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante hasta cinco veces.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAdvancedComposter</Key>
@@ -6386,7 +6386,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemKitFridgeSmall</Key>
-  <Value>Kit (Refrigerador Pequeño)</Value>
+  <Value>Kit (Nevera Pequeño)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -6402,32 +6402,32 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>PortableComposter</Key>
   <Value>Compostador Portátil</Value>
-  <Description>Un simple dispositivo de compostaje, el compostador básico crea {THING:Fertilizer} a partir de materia orgánica. Acepta {LINK:OrganicPage;food}, {THING:DecayedFood} o {THING:ItemBiomass}. Requiere un {THING:ItemLiquidCanisterEmpty} lleno y una batería para operar, acelerando el proceso natural de compostaje.
-  Al procesar, libera nitrógeno y volátiles, así como una pequeña cantidad de calor.
+  <Description>Un simple dispositivo de compostaje, el compostador básico crea {THING:Fertilizer} a partir de materia orgánica. Acepta {LINK:OrganicPage;Comida}, {THING:DecayedFood} o {THING:ItemBiomass}. Requiere un {THING:ItemLiquidCanisterEmpty} lleno y una batería para operar, acelerando el proceso natural de compostaje.
+Al procesar, libera nitrógeno y volátiles, así como una pequeña cantidad de calor.
 
-  {HEADER:Composición de Compost}
-  El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Los efectos del fertilizante en las plantas variarán dependiendo de las proporciones respectivas de sus ingredientes.
+{HEADER:Composición de Compost}
+El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Los efectos del fertilizante en las plantas variarán dependiendo de las proporciones respectivas de sus ingredientes.
 
-  - {LINK:OrganicPage;food} aumenta el RENDIMIENTO DE LA PLANTA hasta dos veces
-  - {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces
-  - {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante.</Description>
+- {LINK:OrganicPage;Comida} aumenta el RENDIMIENTO DE LA PLANTA hasta dos veces
+- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta dos veces
+- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO que dura el fertilizante.</Description>
 </RecordThing>
 <RecordThing>
   <Key>AppliancePackagingMachine</Key>
   <Value>Máquina de Envasado Básica</Value>
-  <Description>El envasador Koolaid de {LINK:Xigo;Xigo} requiere {THING:ItemEmptyCan} y {LINK:OrganicPage;food} cocinado para crear {LINK:DecayPage;long-lasting}, fáciles de almacenar. Ten en cuenta que el envasador debe estar atornillado a un {THING:StructureBench} para obtener energía, y solo acepta alimentos cocinados y latas.
+  <Description>El envasador Koolaid de {LINK:Xigo;Xigo} requiere {THING:ItemEmptyCan} y {LINK:OrganicPage;Comida} cocinada para crear {LINK:DecayPage;Conservas}, fáciles de almacenar. Ten en cuenta que el envasador debe estar atornillado a un {THING:StructureBench} para obtener energía, y solo acepta alimentos cocinados y latas.
 
-  {HEADER:OPERACIÓN}
+{HEADER:OPERACIÓN}
 
-  1. Añade los ingredientes correctos al dispositivo a través de la tolva en la PARTE SUPERIOR.
+1. Añade los ingredientes correctos al dispositivo a través de la tolva en la PARTE SUPERIOR.
 
-  2. Cierra el dispositivo usando la manija desplegable.
+2. Cierra el dispositivo usando la manija desplegable.
 
-  3. Activa el dispositivo.
+3. Activa el dispositivo.
 
-  4. Retira los productos enlatados de la salida en la PARTE FRONTAL.
+4. Retira los productos enlatados de la salida en la PARTE FRONTAL.
 
-  Nota: el envasador parpadeará un error en su interruptor de activación si intentas activarlo antes de cerrarlo.</Description>
+Nota: el envasador parpadeará un error en su interruptor de activación si intentas activarlo antes de cerrarlo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPlanter</Key>
@@ -6447,7 +6447,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemCannedMushroom</Key>
   <Value>Champiñón Enlatado</Value>
-  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedMushroom} y una {THING:ItemEmptyCan}, la deliciosa sopa de champiñones es bastante alta en nutrición y no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedMushroom} y una {THING:ItemEmptyCan}, la deliciosa sopa de champiñones es bastante alta en nutrición y no {LINK:DecayPage;Caduca}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemPowderedeggs</Key>
@@ -6467,27 +6467,27 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemCannedRicePudding</Key>
   <Value>Pudin de Arroz Enlatado</Value>
-  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedRice} y una {THING:ItemEmptyCan}, el pudin de arroz enlatado es un dulce que es bastante alto en nutrición y no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedRice} y una {THING:ItemEmptyCan}, el pudin de arroz enlatado es un dulce que es bastante alto en nutrición y no {LINK:DecayPage;Caduca}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemCannedCondensedMilk</Key>
   <Value>Leche Condensada Enlatada</Value>
-  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedCondensedMilk} y una {THING:ItemEmptyCan}, la leche condensada enlatada es bastante alta en nutrición y no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedCondensedMilk} y una {THING:ItemEmptyCan}, la leche condensada enlatada es bastante alta en nutrición y no {LINK:DecayPage;Caduca}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemCannedEdamame</Key>
   <Value>Edamame Enlatado</Value>
-  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedSoybean} y una {THING:ItemEmptyCan}, los frijoles edamame enlatados son bastante altos en nutrición y no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedSoybean} y una {THING:ItemEmptyCan}, los frijoles edamame enlatados son bastante altos en nutrición y no {LINK:DecayPage;Caduca}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemCannedPowderedEggs</Key>
   <Value>Huevos en Polvo Enlatados</Value>
-  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedPowderedEggs} y una {THING:ItemEmptyCan}, los huevos en polvo enlatados son un alimento dinámico y emocionante que es bastante alto en nutrición y no {LINK:DecayPage;decay}.</Description>
+  <Description>Hecho en un {THING:StructureAdvancedPackagingMachine} o {THING:AppliancePackagingMachine}, utilizando {THING:ItemCookedPowderedEggs} y una {THING:ItemEmptyCan}, los huevos en polvo enlatados son un alimento dinámico y emocionante que es bastante alto en nutrición y no {LINK:DecayPage;Caduca}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureAdvancedPackagingMachine</Key>
   <Value>Máquina de Envasado Avanzada</Value>
-  <Description>El {LINK:Xigo;Xigo} Advanced Cannifier Multi-Plus Pro es una máquina de envasado automatizable que utiliza {THING:ItemEmptyCan} y {LINK:OrganicPage;food} cocinado para crear alimentos enlatados que no se descomponen. Ten en cuenta que el ACMPP solo acepta alimentos cocinados y latas.</Description>
+  <Description>El {LINK:Xigo;Xigo} Advanced Cannifier Multi-Plus Pro es una máquina de envasado automatizable que utiliza {THING:ItemEmptyCan} y {LINK:OrganicPage;Comida} cocinado para crear alimentos enlatados que no se descomponen. Ten en cuenta que el ACMPP solo acepta alimentos cocinados y latas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAdvancedPackagingMachine</Key>
@@ -6755,14 +6755,14 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Value>OGRE</Value>
   <Description>El {LINK:Recurso;Recurso} OGRE (Excavadora Rotativa Ortogonal) es una estructura base con un vehículo de minería adjunto, que excavará un pozo horizontal de hasta X metros de largo. Cuando esté lleno, el vehículo de minería regresará a la base para vaciarse, antes de volver a excavar. Si encuentra espacio vacío, también regresará a la base y esperará instrucciones. La unidad regresará si se desactiva.
 
-  El OGRE se puede conectar a un sistema de tolvas y es controlable mediante una red lógica. Ten en cuenta que el OGRE produce más {LINK:OrePage;ore} que un {THING:ItemMiningDrill} convencional en el mismo área, debido a un procesamiento más eficiente.
+El OGRE se puede conectar a un sistema de tolvas y es controlable mediante una red lógica. Ten en cuenta que el OGRE produce más {LINK:OrePage;Minerales} que un {THING:ItemMiningDrill} convencional en el mismo área, debido a un procesamiento más eficiente.
 
-  {HEADER:MODOS}
-  Inactivo - 0
-  Minando - 1
-  Regresando - 2
-  DepositarMinerales - 3
-  Terminado - 4
+{HEADER:MODOS}
+Inactivo - 0
+Minando - 1
+Regresando - 2
+DepositarMinerales - 3
+Terminado - 4
   </Description>
 </RecordThing>
 <RecordThing>
@@ -7019,7 +7019,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureLogicGate</Key>
   <Value>Puerta Lógica</Value>
-  <Description>Un dispositivo {LINK:LogicPage;logic} que realiza una operación lógica en una o más entradas binarias que produce una única salida binaria. Una entrada mayor que cero se considera verdadera para las operaciones.</Description>
+  <Description>Un dispositivo {LINK:LogicUnitPage;Unidades de lógica} que realiza una operación lógica en una o más entradas binarias que produce una única salida binaria. Una entrada mayor que cero se considera verdadera para las operaciones.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureNitrolyzer</Key>
@@ -7083,13 +7083,13 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureCryoTubeVertical</Key>
-  <Value>Tubo Criogénico Vertical</Value>
-  <Description>La variante vertical del tubo criogénico. Curará a los jugadores y órganos, así como revivirá a los jugadores muertos cuando se proporcione una atmósfera de Nitrógeno por debajo de -150 °C.</Description>
+  <Value>Criotubo Vertical</Value>
+  <Description>La variante vertical del Criotubo. Curará a los jugadores y órganos, así como revivirá a los jugadores muertos cuando se proporcione una atmósfera de Nitrógeno por debajo de -150 °C.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCryoTubeHorizontal</Key>
-  <Value>Tubo Criogénico Horizontal</Value>
-  <Description>La variante horizontal del tubo criogénico. Curará a los jugadores y órganos, así como revivirá a los jugadores muertos cuando se proporcione una atmósfera de Nitrógeno por debajo de -150 °C.</Description>
+  <Value>Criotubo Horizontal</Value>
+  <Description>La variante horizontal del Criotubo. Curará a los jugadores y órganos, así como revivirá a los jugadores muertos cuando se proporcione una atmósfera de Nitrógeno por debajo de -150 °C.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureDeepMiner</Key>
@@ -7144,11 +7144,11 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureCombustionCentrifuge</Key>
   <Value>Centrifugadora de Combustión</Value>
-  <Description>La Centrifugadora de Combustión es una versión alimentada por gas de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desbalanceado produce una mezcla de {LINK:ReagentPage;reagent} en lugar de los {LINK:IngotPage;ingots} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;ore} crudo.
-    También refina {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Se debe suministrar una mezcla de combustible a la entrada de gas y los gases residuales deben ser ventilados desde la salida.
-    Las RPM de la máquina deben controlarse mediante las palancas de acelerador y limitador de combustión. Si la Centrifugadora de Combustión gana o pierde RPM demasiado rápido, experimentará estrés y eventualmente se detendrá. RPM más altas resultan directamente en velocidades de procesamiento más rápidas.
-    La palanca del acelerador controla la cantidad de combustible que se introduce en la máquina, aumentando la temperatura dentro del motor y llevando a un aumento en las RPM. La palanca limitadora influye en la velocidad de la combustión y en cuántos gases no quemados hay en el escape.
-    Eyectar mineral de la Centrifugadora de Combustión mientras está a altas RPM resultará en una acumulación adicional de estrés. Si se apaga mientras no está estresada, la máquina comenzará automáticamente a frenar y reducir las RPM de manera controlada.</Description>
+  <Description>La Centrifugadora de Combustión es una versión alimentada por gas de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} o un {THING:StructureFurnace} desbalanceado produce una mezcla de {LINK:ReagentPage;Reactivos} en lugar de los {LINK:IngotPage;Lingotes} deseados, una centrifugadora te permite recuperar el {LINK:OrePage;Mineral} crudo.
+También refina {THING:ItemDirtyOre} producido por el {THING:StructureDeepMiner} y {THING:ItemSpaceOre} producido por el {THING:StructureRocketMiner}. Se debe suministrar una mezcla de combustible a la entrada de gas y los gases residuales deben ser ventilados desde la salida.
+Las RPM de la máquina deben controlarse mediante las palancas de acelerador y limitador de combustión. Si la Centrifugadora de Combustión gana o pierde RPM demasiado rápido, experimentará estrés y eventualmente se detendrá. RPM más altas resultan directamente en velocidades de procesamiento más rápidas.
+La palanca del acelerador controla la cantidad de combustible que se introduce en la máquina, aumentando la temperatura dentro del motor y llevando a un aumento en las RPM. La palanca limitadora influye en la velocidad de la combustión y en cuántos gases no quemados hay en el escape.
+Eyectar mineral de la Centrifugadora de Combustión mientras está a altas RPM resultará en una acumulación adicional de estrés. Si se apaga mientras no está estresada, la máquina comenzará automáticamente a frenar y reducir las RPM de manera controlada.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteOverflow</Key>
@@ -7188,7 +7188,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemPlantSampler</Key>
   <Value>Muestra de Planta</Value>
-  <Description>El muestreador de plantas te permite recoger una muestra de {LINK:GeneticsPage;gen} de una planta en crecimiento. La muestra se puede colocar en el {THING:AppliancePlantGeneticAnalyzer} para obtener e interpretar los resultados.</Description>
+  <Description>El muestreador de plantas te permite recoger una muestra de {LINK:GeneticsPage;Gen} de una planta en crecimiento. La muestra se puede colocar en el {THING:AppliancePlantGeneticAnalyzer} para obtener e interpretar los resultados.</Description>
 </RecordThing>
 <RecordThing>
   <Key>AppliancePlantGeneticAnalyzer</Key>
@@ -7209,16 +7209,16 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>AppliancePlantGeneticStabilizer</Key>
   <Value>Estabilizador Genético de Plantas</Value>
-  <Description>El Estabilizador Genético se puede utilizar para manipular la estabilidad genética de una {LINK:OrganicPage;Plants} o {LINK:OrganicPage;Seeds} específicas. Tiene dos modos: Estabilizar y Desestabilizar.
-  Estabilizar: Aumenta la estabilidad de todos los genes en un 50%.
-  Desestabilizar: Disminuye la estabilidad de todos los genes en un 10%, excepto un gen elegido que recibirá una disminución del 50% en su estabilidad.</Description>
+  <Description>El Estabilizador Genético se puede utilizar para manipular la estabilidad genética de una {LINK:OrganicPage;Plantas} o {LINK:OrganicPage;Semillas} específicas. Tiene dos modos: Estabilizar y Desestabilizar.
+Estabilizar: Aumenta la estabilidad de todos los genes en un 50%.
+Desestabilizar: Disminuye la estabilidad de todos los genes en un 10%, excepto un gen elegido que recibirá una disminución del 50% en su estabilidad.</Description>
 </RecordThing>
 <RecordThing>
   <Key>AppliancePlantGeneticSplicer</Key>
   <Value>Escisionador Genético de Plantas</Value>
   <Description>El Escisionador Genético se puede utilizar para copiar un único {LINK:GeneticsPage;gen} de una planta 'fuente' a otra planta 'objetivo' del mismo tipo. Después de copiar, la planta fuente será destruida.
 
-  Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura izquierda (fuente) y coloca otra planta o bolsa de semillas del mismo tipo en la ranura derecha (objetivo). Puedes seleccionar un gen usando los botones de flecha. Cierra la puerta deslizante y presiona el botón verde de activar. Una vez que la escisión ha comenzado, el dispositivo estará bloqueado hasta que el proceso haya terminado (lo que llevará aproximadamente veinte minutos). Si deseas cancelar la escisión, puedes apagar la mesa o desprender el aparato como último recurso.</Description>
+Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura izquierda (fuente) y coloca otra planta o bolsa de semillas del mismo tipo en la ranura derecha (objetivo). Puedes seleccionar un gen usando los botones de flecha. Cierra la puerta deslizante y presiona el botón verde de activar. Una vez que la escisión ha comenzado, el dispositivo estará bloqueado hasta que el proceso haya terminado (lo que llevará aproximadamente veinte minutos). Si deseas cancelar la escisión, puedes apagar la mesa o desprender el aparato como último recurso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ApplianceSeedTray</Key>
@@ -7247,7 +7247,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>Landingpad_DataConnectionPiece</Key>
-  <Value>Datos y nergía de Plataforma de Aterrizaje</Value>
+  <Value>Datos y Energía de Plataforma de Aterrizaje</Value>
   <Description>Proporciona energía a la plataforma de aterrizaje. El puerto de datos debe estar conectado al puerto de datos de un Ordenador con una placa base de comunicaciones para que un comerciante pueda ser llamado a aterrizar.</Description>
 </RecordThing>
 <RecordThing>
@@ -9086,7 +9086,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 <RecordThing>
   <Key>StructureComputerUpright</Key>
   <Value>Ordenador (Retro)</Value>
-  <Description>Esta unidad opera con una amplia gama de {LINK:LogicUnitPage;motherboards}.</Description>
+  <Description>Esta unidad opera con una amplia gama de {LINK:LogicUnitPage;Placas Base}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ApplianceBobbleHeadMarine</Key>
@@ -9601,7 +9601,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
   </Record>
   <Record>
     <Key>Flush</Key>
-    <Value>Vaciar</Value>
+    <Value>Purgar</Value>
   </Record>
   <Record>
     <Key>Battery</Key>
@@ -14805,11 +14805,11 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 <Record>
   <Key>StationeersDesc</Key>
   <Value>En el siglo XXII, la Tierra estaba emergiendo de un cataclismo. Sus recursos erosionados, nuestra población reducida, la reconstrucción era el espíritu de la época. 
-  Iniciado por la {LINK:ODA;Offworld Development Agency} (ODA) en 2095 CE, el Programa Stationeers estaba dedicado a un único ideal: mantener a la humanidad apuntando a las estrellas. 
-  Los Stationeers son todo: astronautas, ingenieros y exploradores, desplegados con equipo y herramientas limitadas, entrenados para hacer más con menos. Aprovechando el entorno a su favor, su trabajo es proporcionar infraestructura para los humanos en el espacio, a una fracción del costo de los programas espaciales tradicionales. 
-  Capaces de construir y mantener bases en cualquier lugar desde la Luna hasta Mimas y más allá, los Stationeers son nuestra vanguardia en el cosmos. Instruidos en técnicas de supervivencia, minería y construcción fuera de este mundo, metalurgia básica, electrónica, cohetería, hidroponía y más ciencias 'arcanas', los Stationeers hacen lo que deben para sobrevivir y prosperar. 
-  Reconocidos por no tener criterios de entrada, no existe tal cosa como un 'Stationeer típico'. El perfil psicológico sugiere que los cadetes exitosos muestran un pragmatismo y una determinación 'base', pero algunos de los Stationeers más famosos no poseen ninguna de estas cualidades. 
-  Reclutando de antecedentes de ingeniería civil, industrias militares y aeroespaciales, desarrollo de software, grupos mineros, así como de campos científicos e incluso órdenes religiosas, el Programa Stationeers está – fundamentalmente – abierto a toda la humanidad.</Value>
+ Iniciado por la {LINK:ODA;Offworld Development Agency} (ODA) en 2095 CE, el Programa Stationeers estaba dedicado a un único ideal: mantener a la humanidad apuntando a las estrellas. 
+ Los Stationeers son todo: astronautas, ingenieros y exploradores, desplegados con equipo y herramientas limitadas, entrenados para hacer más con menos. Aprovechando el entorno a su favor, su trabajo es proporcionar infraestructura para los humanos en el espacio, a una fracción del coste de los programas espaciales tradicionales. 
+ Capaces de construir y mantener bases en cualquier lugar desde la Luna hasta Mimas y más allá, los Stationeers son nuestra vanguardia en el cosmos. Instruidos en técnicas de supervivencia, minería y construcción fuera de este mundo, metalurgia básica, electrónica, cohetería, hidroponía y más ciencias 'arcanas', los Stationeers hacen lo que deben para sobrevivir y prosperar. 
+ Reconocidos por no tener criterios de entrada, no existe tal cosa como un 'Stationeer típico'. El perfil psicológico sugiere que los cadetes exitosos muestran un pragmatismo y una determinación 'base', pero algunos de los Stationeers más famosos no poseen ninguna de estas cualidades. 
+ Reclutando de antecedentes de ingeniería civil, industrias militares y aeroespaciales, desarrollo de software, grupos mineros, así como de campos científicos e incluso órdenes religiosas, el Programa Stationeers está – fundamentalmente – abierto a toda la humanidad.</Value>
 </Record>
 <Record>
   <Key>ControlMouseControl</Key>
@@ -15337,7 +15337,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 </Record>
 <Record>
   <Key>MoleOxygenDescription</Key>
-  <Value>El oxígeno proporciona energía cuando se libera en combustión, y también se une con el hidrógeno para crear {GAS:Water}. Es creado por {LINK:OrganicPage;plants}, así como del procesamiento de {THING:ItemOxite}. Es altamente inflamable a bajas temperaturas.</Value>
+  <Value>El oxígeno proporciona energía cuando se libera en combustión, y también se une con el hidrógeno para crear {GAS:Water}. Es creado por {LINK:OrganicPage;Plantas}, así como del procesamiento de {THING:ItemOxite}. Es altamente inflamable a bajas temperaturas.</Value>
 </Record>
 <Record>
   <Key>MoleNitrogenDescription</Key>
@@ -15345,8 +15345,8 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 </Record>
 <Record>
   <Key>MoleCarbonDioxideDescription</Key>
-  <Value>Lo exhalas, {LINK:OrganicPage;plants} lo inhalan. No crecen sin ello. Puedes usar elementos colocados en las ranuras de {SLOT:GasFilter} para eliminarlo de la atmósfera. 
-  {GAS:CarbonDioxide} tiene un calor específico moderadamente alto, lo que significa que es un buen refrigerante para dispositivos como el {THING:StructureWallCooler}. {GAS:Water} es mejor, pero generalmente tiene usos más importantes.</Value>
+  <Value>Lo exhalas, {LINK:OrganicPage;Plantas} lo inhalan. No crecen sin ello. Puedes usar elementos colocados en las ranuras de {SLOT:GasFilter} para eliminarlo de la atmósfera. 
+{GAS:CarbonDioxide} tiene un calor específico moderadamente alto, lo que significa que es un buen refrigerante para dispositivos como el {THING:StructureWallCooler}. {GAS:Water} es mejor, pero generalmente tiene usos más importantes.</Value>
 </Record>
 <Record>
   <Key>MoleVolatilesDescription</Key>
@@ -15358,13 +15358,13 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 </Record>
 <Record>
   <Key>MoleWaterDescription</Key>
-  <Value>Puedes obtener agua fundiendo o triturando {THING:ItemIce} usando un {THING:StructureFurnace} o un {THING:StructureIceCrusher}. El {GAS:Water} es crítica para que {LINK:OrganicPage;plants} permanezcan vivas y crezcan {LINK:NutritionPage;food}. 
-  También es un refrigerante excepcional con una alta capacidad de calor específico. {GAS:Water} se evaporará en {GAS:Steam} si su temperatura se eleva por encima de su punto de ebullición.</Value>
+  <Value>Puedes obtener agua fundiendo o triturando {THING:ItemIce} usando un {THING:StructureFurnace} o un {THING:StructureIceCrusher}. El {GAS:Water} es crítica para que {LINK:OrganicPage;Plantas} permanezcan vivas y crezca {LINK:NutritionPage;Comida}. 
+También es un refrigerante excepcional con una alta capacidad de calor específico. {GAS:Water} se evaporará en {GAS:Steam} si su temperatura se eleva por encima de su punto de ebullición.</Value>
 </Record>
 <Record>
   <Key>MolePollutedWaterDescription</Key>
   <Value>El agua contaminada es un producto de desecho del uso de {GAS:Water} en ciertos dispositivos. Se congelará en {THING:ItemPureIcePollutedWater} pero se hervirá en {GAS:Steam}. 
-  Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GAS:Water}.</Value>
+Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GAS:Water}.</Value>
 </Record>
 <Record>
   <Key>{THING:StructureNitrolyzer}</Key>

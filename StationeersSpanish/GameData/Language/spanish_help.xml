@@ -99,7 +99,7 @@
       <Key>SmeltingPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Fundición</Title>
-      <Text>Una vez que tengas {LINK:OrePage;mineral}, necesitas convertirlo en {LINK:IngotPage;lingotes} para que puedas usar sus {LINK:ReagentPage;reactivos}. La fundición a menudo producirá {LINK:GasPage;gases}. Esto ocurre ya sea en el {THING:StructureArcFurnace} (para recetas simples) y el {THING:StructureFurnace} para aleaciones más complicadas, y finalmente en el {THING:StructureAdvancedFurnace} para aleaciones muy complicadas {LINK:SuperAlloyPage;superaleaciones}. Para las aleaciones complejas, necesitarás lograr mezclas con proporciones perfectas, {LINK:TemperaturePage;Temperatura} y {LINK:PressurePage;Presión}.
+      <Text>Una vez que tengas {LINK:OrePage;mineral}, necesitas convertirlo en {LINK:IngotPage;lingotes} para que puedas usar sus {LINK:ReagentPage;reactivos}. La fundición a menudo producirá {LINK:GasPage;gases}. Esto ocurre ya sea en el {THING:StructureArcFurnace} (para recetas simples) y el {THING:StructureFurnace} para aleaciones más complicadas, y finalmente en el {THING:StructureAdvancedFurnace} para aleaciones muy complicadas {LINK:SuperAlloyPage;Superaleaciones}. Para las aleaciones complejas, necesitarás lograr mezclas con proporciones perfectas, {LINK:TemperaturePage;Temperatura} y {LINK:PressurePage;Presión}.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -129,16 +129,16 @@ Una vez que hayas resuelto la posición de los contactos, podrás presionar el b
       <Key>ConstructionPage</Key>
       <Title>Construcción</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>{HEADER:Getting Started}
-Normalmente usarás {LINK:KitPage;kits} para iniciar la construcción y luego una variedad de {LINK:ToolPage;tools} y {LINK:ResourcePage;resources} para completarla. Presta atención a cuántos de tu kit se requieren para construir lo que has seleccionado, ya que algunas estructuras requieren más de uno de la pila para ser consumidas. Para algunos kits tendrás múltiples opciones, usa el {COLORRED:Scroll Wheel} para cambiar la opción actual que estás buscando construir.
+      <Text>{HEADER:Empezando}
+Normalmente usarás {LINK:KitPage;kits} para iniciar la construcción y luego una variedad de {LINK:ToolPage;Herramientas} y {LINK:ResourcePage;Recursos} para completarla. Presta atención a cuántos de tu kit se requieren para construir lo que has seleccionado, ya que algunas estructuras requieren más de uno de la pila para ser consumidas. Para algunos kits tendrás múltiples opciones, usa la {COLORRED:Rueda del Ratón} para cambiar la opción actual que estás buscando construir.
 
-{HEADER:Build States}
+{HEADER:Estados de construcción}
 Algunas estructuras tendrán múltiples estados de construcción que requieren combinaciones diferentes para completarlas. Tu tooltip te aconsejará sobre qué combinación necesitas para completar la estructura. A veces necesitarás tener dos objetos, uno en cada mano, para completar un estado de construcción. Algunas herramientas necesitarán ser encendidas primero, lo cual se puede hacer presionando {KEY:ToggleHandPower} mientras esté en tu mano activa.
 
-{HEADER:Tooltips}
-Si miras directamente una estructura que está incompleta, obtendrás información sobre lo que necesitas hacer para completarla. Si tienes una {LINK:ToolPage;tool} en tu mano y no es la {LINK:ToolPage;tool} correcta, aparecerá un tooltip diciéndote qué necesitarías usar para desconstruirla.
+{HEADER:Consejos de Herramientas}
+Si miras directamente una estructura que está incompleta, obtendrás información sobre lo que necesitas hacer para completarla. Si tienes una {LINK:ToolPage;Herramienta} en tu mano y no es la {LINK:ToolPage;Herramienta} correcta, aparecerá un consejo diciéndote qué necesitarías usar para desconstruirla.
 
-{HEADER:Pressure}
+{HEADER:Presión}
 Al construir, es importante notar que la presión se mide como una diferencial. La mayoría de las estructuras tienen un límite de presión de 200kPa: si la diferencia entre el interior y el exterior es mayor que eso, tienes problemas.
       </Text>
 </StationpediaPage>
@@ -159,7 +159,7 @@ Al construir, es importante notar que la presión se mide como una diferencial. 
 Como tal, los {LINK:Stationeers;Stationeers} han tenido que crear su propio acompañamiento musical para el exigente trabajo de construir y mantener infraestructura fuera del mundo.
 Central a este pasatiempo es el secuenciador de pasos, que permite a los Stationeers secuenciar patrones musicales cortos o bucles.
 
-{HEADER:DIY MUSIC - GETTING STARTED}
+{HEADER:DIY MUSIC - EMPEZANDO}
 
 1: Conecta 8 {THING:DeviceStepUnit}s a tu secuenciador de pasos a través del puerto de datos en el lado izquierdo.
 
@@ -191,25 +191,25 @@ NOTA: Hay muchos métodos de control de temperatura. Algunos no involucran ningu
 
 Es importante entender tu entorno antes de instalar cualquier tipo de control de temperatura. El volumen de gas o líquido es un factor importante al elegir tu método de control de temperatura. Un {THING:StructureTankSmall} puede contener hasta 6000L, mientras que un {THING:StructureTankBig} puede contener hasta 50,000L, lo que significa que si ambos están llenos, el tanque pequeño reaccionará más rápido a los cambios de temperatura. Una sala es un espacio que puede contener una cierta cantidad de gas. Cuanto más grande sea, más volumen podrá contener, por lo que las mismas reglas generalmente se aplican a tanques y salas.
 
-{HEADER:PIPE NETWORKS}
+{HEADER:RED DE TUBERÍAS}
 Una red de tuberías es uno o más segmentos de tuberías conectados entre sí sin separación en ningún punto. Una red de tuberías comparte la misma atmósfera en toda la tubería, sin importar cuán grande sea. Si cambias la temperatura o la presión en un extremo de la red, el extremo más lejano experimentará el mismo cambio de inmediato sin demora.
 
 Agregar dispositivos a una red puede dividirla en dos redes diferentes. Por ejemplo, agregar una {THING:StructureVolumePump} a una red de tuberías dividirá la red en dos redes: una antes de la bomba y otra después de ella.
 
 Usa el {THING:ItemTablet} con el {THING:CartridgeAtmosAnalyser} instalado para ver información sobre el contenido de cualquier red de tuberías.
 
-{HEADER:RADIATORS}
+{HEADER:RADIADORES}
 Fabricado en la dobladora de tuberías, un {THING:StructurePipeRadiator} te ayudará a intercambiar calor entre las tuberías y su entorno. Funcionan tanto en tuberías aisladas como en tuberías, así como en variantes líquidas.
 
 En condiciones normales, un segmento de tubería intercambiará calor con su entorno, pero agregar un radiador a ese segmento de tubería acelerará mucho el proceso. Un segmento de tubería continuará intercambiando calor con la atmósfera circundante hasta que ambos se igualen en temperatura.
 
-{HEADER:PASSIVE COOLING}
+{HEADER:ENFRIAMIENTO PASIVO}
 Puedes enfriar o calentar cualquier entorno utilizando un {THING:StructurePipeRadiator} para intercambiar calor entre dos atmósferas. Un ejemplo de esto sería colocar una tubería en la pared, llenarla con gas y colocar radiadores en la tubería. Ahora las dos atmósferas de la tubería y la sala intercambiarán temperatura hasta que sus entornos se igualen.
 
-{HEADER:WALL HEATER}
+{HEADER:CALENTADOR DE PARED}
 El {THING:ItemWallHeater} es un dispositivo simple que se puede instalar en una pared o un marco y conectar a la energía. Cuando se enciende, comenzará a calentar el entorno circundante. Consume 1010W de energía y puede ser controlado por chips lógicos para funcionar cuando la temperatura alcance un nivel determinado.
 
-{HEADER:WALL COOLER}
+{HEADER:ENFRIADOR DE PARED}
 El {THING:ItemWallCooler} complementa al calentador de pared, que solo puede elevar la temperatura. El enfriador de pared funciona extrayendo calor de la atmósfera circundante y agregando ese calor a su red de tuberías. Para hacer funcionar el enfriador de pared correctamente, necesitarás conectar tuberías al enfriador de pared y llenar la red de tuberías conectada con cualquier tipo de gas. La capacidad calorífica y el volumen del gas determinarán qué tan rápido reacciona a los cambios de temperatura.
 
 Cuanto mayor sea la diferencia de temperatura entre el gas almacenado en las tuberías y la sala, menos eficiente será el enfriador de pared. Por lo tanto, para mantener el enfriador de pared funcionando a una eficiencia aceptable, tendrás que deshacerte del calor que se acumula en las tuberías conectadas a él. Una práctica común sería llevar las tuberías al exterior y usar radiadores en la sección exterior de las tuberías para deshacerse del calor.
@@ -221,7 +221,7 @@ Si el enfriador de pared está parpadeando con un error, entonces le falta uno d
 - Gas en las tuberías conectadas o la presión es demasiado baja.
 - Atmósfera en el entorno circundante o la presión es demasiado baja.
 
-{HEADER:AIR CONDITIONER}
+{HEADER:AIRE CONDICIONADO}
 El {THING:StructureAirConditioner} en su forma básica funciona igual que el enfriador de pared y puede beneficiarse de los mismos diseños. Sin embargo, es más potente. Enfría más rápido y usa considerablemente más energía dependiendo de la situación, por lo que es más adecuado para manejar grandes volúmenes y áreas extensas. Puede calentar o enfriar según la configuración.
 
 AIRE ACONDICIONADO: CÓMO FUNCIONA
@@ -261,7 +261,7 @@ Esta es la configuración básica. Para automatizarlo necesitarás un analizador
 <StationpediaPage>
   <Key>OrePage</Key>
   <Title>Minerales</Title>
-  <Text>Estos son artículos que son {LINK:MiningPage;mined} y a menudo pueden ser {LINK:SmeltingPage;smelted}. También puedes obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolos por el {THING:StructureCentrifuge}, que lo descompondrá en {LINK:OrePage;ore} para {LINK:SmeltingPage;smelting}.
+  <Text>Estos son artículos que pueden ser {LINK:MiningPage;minados} y a menudo pueden ser {LINK:SmeltingPage;fundidos}. También puedes obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolos por el {THING:StructureCentrifuge}, que lo descompondrá en {LINK:OrePage;mineral} para {LINK:SmeltingPage;fundir}.
 Hay algunos minerales que se derriten cuando se exponen a la luz solar o al calor y producen {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se derrite en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantener estos fuera del calor o la luz solar hasta que realmente quieras que se derritan.{LIST_OF_ORES}
   </Text>
 </StationpediaPage>
@@ -283,7 +283,7 @@ La genética de las plantas no es una ciencia exacta y requerirá prueba y error
 <StationpediaPage>
   <Key>IngotPage</Key>
   <Title>Lingotes</Title>
-  <Text>Estos son artículos que generalmente se hacen a partir de {LINK:SmeltingPage;Smelting} {LINK:OrePage;ores} para su uso en {LINK:FabricatorPage;fabricators}.
+  <Text>Estos son artículos que generalmente se hacen a partir de {LINK:OrePage;minerales} {LINK:SmeltingPage;fundidos} para su uso en {LINK:FabricatorPage;fabricadores}.
 
 {LIST_OF_INGOTS}
   </Text>
@@ -292,7 +292,7 @@ La genética de las plantas no es una ciencia exacta y requerirá prueba y error
 <StationpediaPage>
   <Key>ToolPage</Key>
   <Title>Herramientas</Title>
-  <Text>Estos son artículos que pueden encajar en una ranura de herramienta especializada y se utilizan para {LINK:ConstructionPage;Construction} y otras tareas.
+  <Text>Estos son artículos que pueden encajar en una ranura de herramienta especializada y se utilizan para {LINK:ConstructionPage;Construcción} y otras tareas.
 
 {LIST_OF_TOOLS}
   </Text>
@@ -301,7 +301,7 @@ La genética de las plantas no es una ciencia exacta y requerirá prueba y error
 <StationpediaPage>
   <Key>ResourcePage</Key>
   <Title>Recursos</Title>
-  <Text>Estos son artículos que se consumen durante {LINK:ConstructionPage;Construction} y otras tareas.
+  <Text>Estos son artículos que se consumen durante {LINK:ConstructionPage;Construcción} y otras tareas.
 {LIST_OF_RESOURCES}
   </Text>
 </StationpediaPage>
@@ -309,7 +309,7 @@ La genética de las plantas no es una ciencia exacta y requerirá prueba y error
 <StationpediaPage>
   <Key>KitPage</Key>
   <Title>Kits</Title>
-  <Text>Estos son artículos que se consumen durante {LINK:ConstructionPage;Construction} y otras tareas.
+  <Text>Estos son artículos que se consumen durante la {LINK:ConstructionPage;Construcción} y otras tareas.
 {LIST_OF_KITS}
   </Text>
 </StationpediaPage>
@@ -574,9 +574,9 @@ Presión de fusión {0}</Text>
   <Key>NutritionPage</Key>
   <Title>Hambre y nutrición</Title>
   <DisplayFilter>Guides</DisplayFilter>
-  <Text>{HEADER:HAMBURGUESA}
+  <Text>{HEADER:HAMBRE}
 
-Los Stationeers eventualmente tienen hambre, pero no toda la comida es igual. Además, tu tasa de hambre varía dependiendo de la configuración y la dificultad. Comer solo consumirá la parte del ítem adecuada para restaurar tu hambre al 100%.
+Los Stationeers eventualmente tienen hambre, pero no toda la comida es igual. Además, tu tasa de hambre varía dependiendo de la configuración y la dificultad. Comer solo consumirá la parte de la comida necesaria para restaurar tu hambre al 100%.
 
 Los Stationeers reciben suministros de comida como {LINK:Agrizero;Agrizero} {THING:ItemCerealBar} en su módulo de aterrizaje al llegar a un nuevo mundo. Cuando se agoten, debes encontrar nuevas fuentes de sustento, como cultivar tus propias plantas a partir de las semillas suministradas o contactar a un {LINK:TradingPage;comerciante}.
 
