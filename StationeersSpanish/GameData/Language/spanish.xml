@@ -7933,12 +7933,12 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ApplianceBobbleHeadBasicSuit</Key>
-  <Value>Cabecita (Traje Básico)</Value>
+  <Value>Cabeza de Traje Básico</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ApplianceBobbleHeadHardSuit</Key>
-  <Value>Cabecita (Traje Duro)</Value>
+  <Value>Cabeza de Traje Duro</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8743,7 +8743,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureShower</Key>
   <Value>Ducha</Value>
-  <Description />
+  <Description>La forma más rápida de eliminar la baja higiene. Debes quitarte el {THING:UniformOrangeJumpSuit} y el {THING:ItemEvaSuit} cuando uses la {THING:StructureShower}. Produce {GAS:PollutedWater} cuando está en uso. El {GAS:PollutedWater} interferirá con muchos otros sistemas de {GAS:Water}, así que asegúrate de recolectarlo y tratarlo usando un {THING:StructureWaterPurifier} o deséchalo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemHandSanitizer</Key>
@@ -8758,7 +8758,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureShowerPowered</Key>
   <Value>Ducha (Alimentada)</Value>
-  <Description />
+  <Description>La forma más rápida de eliminar la baja higiene. Debes quitarte el {THING:UniformOrangeJumpSuit} y el {THING:ItemEvaSuit} cuando uses la {THING:StructureShowerPowered}. Produce {GAS:PollutedWater} cuando está en uso. El {GAS:PollutedWater} interferirá con muchos otros sistemas de {GAS:Water}, así que asegúrate de recolectarlo y tratarlo usando un {THING:StructureWaterPurifier} o deséchalo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemFlashlight</Key>
@@ -8948,22 +8948,22 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureRoboticArmRailCornerStop</Key>
   <Value>Estación de Esquina de Riel Lineal</Value>
-  <Description />
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE. La estación de esquina crea un punto de parada para los brazos LArRE a lo largo del riel.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureRoboticArmRailStraight</Key>
   <Value>Riel Lineal Recto</Value>
-  <Description />
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureRoboticArmRailStraightStop</Key>
   <Value>Estación de Riel Lineal Recto</Value>
-  <Description />
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE. La estación recta crea un punto de parada para los brazos LArRE a lo largo del riel.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureRoboticArmRailCorner</Key>
   <Value>Esquina de Riel Lineal</Value>
-  <Description />
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteExportBin</Key>
@@ -8973,12 +8973,12 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureRoboticArmRailOuterCorner</Key>
   <Value>Esquina Externa de Riel Lineal</Value>
-  <Description />
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureRoboticArmRailInnerCorner</Key>
   <Value>Esquina Interna de Riel Lineal</Value>
-  <Description />
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureReinforcedWall</Key>
@@ -9008,7 +9008,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>StructureRobotArmDoor</Key>
   <Value>Puerta de Riel Lineal</Value>
-  <Description />
+  <Description>La puerta de riel lineal permite que los brazos LArRE pasen mientras viajan a lo largo de una red de rieles.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureTutorialSpawnPoint</Key>
@@ -9037,38 +9037,63 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemKitLarreDockCollector</Key>
-  <Value>Kit (Dock LArRE Coleccionista)</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>StructureLarreDockAtmos</Key>
-  <Value>Dock LARrE (Atmos)</Value>
+  <Value>Kit (Dock LArRE Colector)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureLarreDockBypass</Key>
-  <Value>Dock LARrE (Bypass)</Value>
-  <Description />
+  <Value>Muelle LArRE (Desvío)</Value>
+  <Description>El muelle de desvío permite que los brazos LArRE se muevan fuera del riel principal para que otros puedan pasar. Al presionar el botón de activación en un muelle mientras su brazo está en un desvío hará que el brazo se mueva a la posición fuera del riel.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>StructureLarreDockAtmos</Key>
+  <Value>Muelle LArRE (Atmósfera)</Value>
+  <Description>El LArRE atmosférico puede bombear gas dentro y fuera de su tanque de almacenamiento. Cuando se baja sobre un {THING:StructurePassiveVent}, el LArRE atmosférico se conectará con él y bombeará gas dentro y fuera de la red de tuberías conectadas.
+
+Al presionar el botón de activación mientras el brazo LArRE está en su muelle de origen hará que este se mueva fuera del riel principal. Esto permite que otros brazos en el mismo riel puedan pasar.
+
+Los valores lógicos atmosféricos base apuntan al almacenamiento de gas interno del LArRE. Los valores lógicos atmosféricos de entrada apuntan a la red a la que está conectado el LArRE o a la red de tuberías a la que el LArRE está acoplado a través de un {THING:StructurePassiveVent}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureLarreDockCargo</Key>
-  <Value>Dock LARrE (Carga)</Value>
-  <Description />
+  <Value>Muelle LArRE (Carga)</Value>
+  <Description>El LArRE de carga puede extraer objetos de las ranuras de los dispositivos y colocarlos en ellas. El dial en el panel frontal indica con qué ranura del dispositivo debe interactuar. Las variables de la ranura del objeto en la ranura objetivo pueden leerse usando el índice de ranura Proxy (255).
+
+Al presionar el botón de activación mientras el brazo LArRE está en su muelle de origen hará que el brazo se mueva fuera del riel principal. Esto permite que otros brazos en el mismo riel puedan pasar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureLarreDockCollector</Key>
-  <Value>Dock LARrE (Coleccionista)</Value>
-  <Description />
+  <Value>Muelle LArRE (Colector)</Value>
+  <Description>El LArRE colector puede aspirar objetos sueltos cercanos cuando su modo está configurado en interno y expulsará objetos almacenados cuando su modo este configurado en externo. Cuando se configure para aspirar objetos, el LArRE colector se detendrá automáticamente y se replegará cuando esté lleno.
+
+Al presionar el botón de activación mientras el brazo LArRE está en su muelle de origen hará que el brazo se mueva fuera del riel principal. Esto permite que otros brazos en el mismo riel puedan pasar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureLarreDockHydroponics</Key>
-  <Value>Dock LARrE (Hidroponía)</Value>
-  <Description />
+  <Value>Muelle LArRE (Hidroponía)</Value>
+  <Description>El LArRE de hidroponía puede plantar y cosechar plantas, así como colocar fertilizante en las bandejas de las plantas. Tiene una ranura de tolva adicional que alimentará objetos al espacio de la mano cuando esta esté vacía. Cosechar una planta diferente mientras el espacio de la mano esté lleno será posible si la ranura de la tolva está vacía. En ese caso, la planta en la mano se moverá a la ranura de la tolva y la nueva planta se cosechará en el espacio de la mano.
+    Las variables de la ranura de una planta en la bandeja de plantas de abajo se pueden leer usando el índice de ranura Proxy (255).
+Al presionar el botón de activación mientras el brazo LArRE está en su muelle de origen hará que el brazo se mueva fuera del riel principal. Esto permite que otros brazos en el mismo riel puedan pasar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureComputerUpright</Key>
   <Value>Ordenador (Retro)</Value>
   <Description>Esta unidad opera con una amplia gama de {LINK:LogicUnitPage;motherboards}.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>ApplianceBobbleHeadMarine</Key>
+  <Value>Cabeza de Marine</Value>
+  <Description />
+</RecordThing>
+<RecordThing>
+  <Key>StructureRoboticArmRailScrewLeft</Key>
+  <Value>Tornillo de Riel Lineal Izquierdo</Value>
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>StructureRoboticArmRailScrewRight</Key>
+  <Value>Tornillo de Riel Lineal Derecho</Value>
+  <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
 </RecordThing>
 	  </Things>
 <Slots>
@@ -9388,6 +9413,10 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
     <Key>ArmSlot</Key>
     <Value>Ranura de Brazo</Value>
   </Record>
+<Record>
+  <Key>HopperSlot</Key>
+  <Value>Ranura de Tolva</Value>
+</Record>
 	  </Slots>
 	<Interactables>
   <Record>
@@ -11905,14 +11934,14 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 		  <Key>LogicTypeTemperatureOutput2</Key>
 		  <Value>La lectura actual de temperatura de la red Output2 del dispositivo</Value>
 		</Record>
-		<Record>
-		  <Key>LogicTypePressureExternal</Key>
-		  <Value>Configuración para la seguridad de presión externa, en KPa</Value>
-		</Record>
-		<Record>
-		  <Key>LogicTypePressureInternal</Key>
-		  <Value>Configuración para la seguridad de presión interna, en KPa</Value>
-		</Record>
+<Record>
+  <Key>LogicTypePressureExternal</Key>
+  <Value>Ajuste para la seguridad de la presión externa, en KPa. Representa la presión objetivo de la atmósfera externa.</Value>
+</Record>
+<Record>
+  <Key>LogicTypePressureInternal</Key>
+  <Value>Ajuste para la seguridad de la presión interna, en KPa. Representa la presión objetivo de la atmósfera dentro de la red de tuberías conectada.</Value>
+</Record>
 		<Record>
 		  <Key>LogicTypeActivate</Key>
 		  <Value>1 si el dispositivo está activado (normalmente significa que está funcionando), de lo contrario 0</Value>
@@ -12477,6 +12506,10 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <Record>
   <Key>LogicSlotTypeSeeding</Key>
   <Value>Si una planta está sembrando (lista para cosechar semillas). Devuelve 1 si está sembrando o 0 si no.</Value>
+</Record>
+<Record>
+  <Key>LogicSlotTypeHarvestedHash</Key>
+  <Value>Devuelve el Prefab Hash de lo que se cosechará de la planta. 0 si la planta no está madura.</Value>
 </Record>
 <Record>
   <Key>LogicSlotTypeHealth</Key>

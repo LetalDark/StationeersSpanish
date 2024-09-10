@@ -8026,7 +8026,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     </RecordThing>
     <RecordThing>
       <Key>ApplianceBobbleHeadHardSuit</Key>
-      <Value>Bobble Head (Hard Suit)</Value>
+      <Value>Appliance Bobble Head Hard Suit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8831,7 +8831,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureShower</Key>
       <Value>Shower</Value>
-      <Description />
+      <Description>The fastest way to remove low hygiene. You must remove your {THING:UniformOrangeJumpSuit} and {THING:ItemEvaSuit} when using the {THING:StructureShower}. It outputs {GAS:PollutedWater} when in use. {GAS:PollutedWater} will interfere with many other {GAS:Water} systems so make sure to collect and treat it using a {THING:StructureWaterPurifier} or dump it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHandSanitizer</Key>
@@ -8846,7 +8846,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureShowerPowered</Key>
       <Value>Shower (Powered)</Value>
-      <Description />
+      <Description>The fastest way to remove low hygiene. You must remove your {THING:UniformOrangeJumpSuit} and {THING:ItemEvaSuit} when using the {THING:StructureShowerPowered}. It outputs {GAS:PollutedWater} when in use. {GAS:PollutedWater} will interfere with many other {GAS:Water} systems so make sure to collect and treat it using a {THING:StructureWaterPurifier} or dump it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashlight</Key>
@@ -9036,22 +9036,22 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureRoboticArmRailCornerStop</Key>
       <Value>Linear Rail Corner Station</Value>
-      <Description />
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks. The corner station creates a stopping point for LArRE arms along the rail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailStraight</Key>
       <Value>Linear Rail Straight</Value>
-      <Description />
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailStraightStop</Key>
       <Value>Linear Rail Straight Station</Value>
-      <Description />
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks. The straight station creates a stopping point for LArRE arms along the rail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailCorner</Key>
       <Value>Linear Rail Corner</Value>
-      <Description />
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteExportBin</Key>
@@ -9061,12 +9061,12 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureRoboticArmRailOuterCorner</Key>
       <Value>Linear Rail Outer Corner</Value>
-      <Description />
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailInnerCorner</Key>
       <Value>Linear Rail Inner Corner</Value>
-      <Description />
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWall</Key>
@@ -9096,7 +9096,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureRobotArmDoor</Key>
       <Value>Linear Rail Door</Value>
-      <Description />
+      <Description>The linear rail door allows LArRE arms to pass through while travelling along a rail network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTutorialSpawnPoint</Key>
@@ -9129,34 +9129,59 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>StructureLarreDockAtmos</Key>
-      <Value>LARrE Dock (Atmos)</Value>
-      <Description />
+      <Key>StructureLarreDockBypass</Key>
+      <Value>LArRE Dock (Bypass)</Value>
+      <Description>The bypass dock allows LArRE arms to move off the main rail so that others may pass. Pressing activate on a dock while its arm is at a bypass will cause the arm to move into the bypass' off-rail position.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureLarreDockBypass</Key>
-      <Value>LARrE Dock (Bypass)</Value>
-      <Description />
+      <Key>StructureLarreDockAtmos</Key>
+      <Value>LArRE Dock (Atmos)</Value>
+      <Description>The atmospherics LArRE can pump gas into and out of its storage canister. When lowered over a {THING:StructurePassiveVent}, the atmospherics LArRE will connect with it and pump gas into and out of the connected pipe network.
+
+Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by. 
+        
+The base atmospheric logic values point to LArRE's internal gas storage. The Input atmospheric logic values point to the grid that LArRE is in OR the pipe network that LArRE is docked to via a {THING:StructurePassiveVent}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCargo</Key>
-      <Value>LARrE Dock (Cargo)</Value>
-      <Description />
+      <Value>LArRE Dock (Cargo)</Value>
+      <Description>The cargo LArRE can take things out of and put things into slots on devices. The dial on the front panel indicates which slot on the device to interact with. The slot variables of the item in the target slot can be read using the Proxy Slot Index (255)
+
+Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCollector</Key>
-      <Value>LARrE Dock (Collector)</Value>
-      <Description />
+      <Value>LArRE Dock (Collector)</Value>
+      <Description>The collector LArRE can suck up nearby loose items when its mode is set to inward and eject stored items when its mode is set to outward. When set to suck up items, the collector LArRE will automatically stop and retract when full. 
+
+Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockHydroponics</Key>
-      <Value>LARrE Dock (Hydroponics)</Value>
-      <Description />
+      <Value>LArRE Dock (Hydroponics)</Value>
+      <Description>The hydroponics LArRE can plant and harvest plants as well as place fertiliser into plant trays. It has an additional hopper slot which will feed items into the 'hand' slot when the hand slot is empty. Harvesting a different plant while the hand slot is full will be possible if the hopper slot is empty. In which case the plant in the hand will be moved into the hopper slot and the new plant will be harvested into the hand slot.
+        The slot variables of a plant in the plant tray below can be read using the Proxy Slot Index (255).
+Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerUpright</Key>
       <Value>Computer (Retro)</Value>
       <Description>This unit operates with a wide range of {LINK:LogicUnitPage;motherboards}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ApplianceBobbleHeadMarine</Key>
+      <Value>Appliance Bobble Head Marine</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmRailScrewLeft</Key>
+      <Value>Linear Rail Screw Left</Value>
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmRailScrewRight</Key>
+      <Value>Linear Rail Screw Right</Value>
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -9475,6 +9500,10 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <Record>
       <Key>ArmSlot</Key>
       <Value>Arm Slot</Value>
+    </Record>
+    <Record>
+      <Key>HopperSlot</Key>
+      <Value>Hopper Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -12001,11 +12030,11 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
-      <Value>Setting for external pressure safety, in KPa</Value>
+      <Value>Setting for external pressure safety, in KPa. Represents the target pressure of the external atmosphere.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInternal</Key>
-      <Value>Setting for internal pressure safety, in KPa</Value>
+      <Value>Setting for internal pressure safety, in KPa. Represents the target pressure of the atmosphere inside the connected pipe network.</Value>
     </Record>
     <Record>
       <Key>LogicTypeActivate</Key>
@@ -12573,8 +12602,12 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Value>Whether a plant is seeding (ready to harvest seeds from). Returns 1 if seeding or 0 if not.</Value>
     </Record>
     <Record>
+      <Key>LogicSlotTypeHarvestedHash</Key>
+      <Value>Returns the Prefab Hash of what will be harvested from the plant. 0 if plant is not mature.</Value>
+    </Record>
+    <Record>
       <Key>LogicSlotTypeHealth</Key>
-      <Value>returns the health of the plant in the slot</Value>
+      <Value>Returns the health of the plant in the slot</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeGrowth</Key>
