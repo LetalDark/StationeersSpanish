@@ -4270,17 +4270,17 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>AutolathePrinterMod</Key>
-  <Value>Mod de Impresora Autolathe</Value>
+  <Value>Modificador de Impresora Autolathe</Value>
   <Description>Aplica a un {THING:StructureAutolathe} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para actualizarlo y aumentar la velocidad de procesamiento y las opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>PipeBenderMod</Key>
-  <Value>Mod de Dobladora de Tubos</Value>
+  <Value>Modificador de Dobladora de Tubos</Value>
   <Description>Aplica a un {THING:StructureHydraulicPipeBender} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para actualizarlo y aumentar la velocidad de procesamiento y las opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ToolPrinterMod</Key>
-  <Value>Mod de Impresora de Herramientas</Value>
+  <Value>Modificador de Impresora de Herramientas</Value>
   <Description>Aplica a un {THING:StructureToolManufactory} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para actualizarlo y aumentar la velocidad de procesamiento y las opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>

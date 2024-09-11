@@ -45,11 +45,11 @@
         </Record>
         <Record>
             <Key>StatusIconOxygenWarning</Key>
-            <Value>El tanque del traje está bajo y necesita atención</Value>
+            <Value>La bombona de oxígeno del traje está baja y necesita atención</Value>
         </Record>
         <Record>
             <Key>StatusIconOxyegnCritical</Key>
-            <Value>El tanque del traje está crítico, reemplaza tu tanque de oxígeno</Value>
+            <Value>La bombona de oxígeno del traje está crítica, reemplázala</Value>
         </Record>
         <Record>
             <Key>StatusIconPressureName</Key>
@@ -109,7 +109,7 @@
         </Record>
         <Record>
             <Key>StatusIconLightName</Key>
-            <Value>Alternar Faro</Value>
+            <Value>Alternar Luz</Value>
         </Record>
         <Record>
             <Key>StatusIconInternalsName</Key>
@@ -117,7 +117,7 @@
         </Record>
         <Record>
             <Key>StatusIconHandPowerName</Key>
-            <Value>Alternar Artículo en Mano On/Off</Value>
+            <Value>Alternar Objeto en Mano On/Off</Value>
         </Record>
         <Record>
             <Key>StatusIconInSlotName</Key>
@@ -133,7 +133,7 @@
         </Record>
         <Record>
             <Key>StatusIconAirTankName</Key>
-            <Value>Capacidad Actual del Tanque de Aire</Value>
+            <Value>Capacidad Actual de la bombona de Aire</Value>
         </Record>
         <Record>
             <Key>StatusIconJetpackWarningName</Key>
@@ -153,7 +153,7 @@
         </Record>
         <Record>
             <Key>StatusIconWasteDesc</Key>
-            <Value>El tanque de desechos está casi lleno</Value>
+            <Value>La bombona de desechos está casi llena</Value>
         </Record>
         <Record>
             <Key>StatusIconHealthName</Key>
@@ -177,7 +177,7 @@
         </Record>
         <Record>
             <Key>DeconstructCanisterFull</Key>
-            <Value>No se puede deconstruir. El recipiente necesita estar vacío</Value>
+            <Value>No se puede deconstruir. La bombona necesita estar vacía</Value>
         </Record>
     </ScreenSpaceToolTips>
 </Language>
