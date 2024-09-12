@@ -1723,8 +1723,8 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemSteelSheets</Key>
-  <Value>Hojas de Acero</Value>
-  <Description>Un material de construcción avanzado, las hojas de {THING:ItemSteelIngot} se utilizan al construir un {THING:StructureFrame} y varios otros tipos de {LINK:StructurePage;Paredes}.</Description>
+  <Value>Láminas de Acero</Value>
+  <Description>Un material de construcción avanzado, las láminas de {THING:ItemSteelIngot} se utilizan al construir un {THING:StructureFrame} y varios otros tipos de {LINK:StructurePage;Paredes}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSuitStorage</Key>
@@ -1754,7 +1754,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemUraniumOre</Key>
   <Value>Mineral (Uranio)</Value>
-  <Description>En 1934, Enrico Fermi notó que bombardear uranio con neutrones producía un estallido de rayos beta, y un nuevo material. Este proceso fue llamado 'fisión nuclear', y resultó en energía barata, la Guerra Fría, y miles de muertes. Aunque es razonablemente común en todo el Sistema Solar, los {LINK:Stationeers;Stationeers} son cautelosos con el material.</Description>
+  <Description>En 1934 Enrico Fermi notó que bombardear uranio con neutrones producía un estallido de rayos beta y un nuevo material. Este proceso fue llamado 'fisión nuclear', y resultó en energía barata, la Guerra Fría y miles de muertes. Aunque es razonablemente común en todo el Sistema Solar, los {LINK:Stationeers;Stationeers} son cautelosos con el material.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemWallCooler</Key>
@@ -2594,7 +2594,7 @@ A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no pue
 </RecordThing>
 <RecordThing>
   <Key>ItemIronSheets</Key>
-  <Value>Hojas de Hierro</Value>
+  <Value>Láminas de Hierro</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemSilverOre</Key>
@@ -4053,7 +4053,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemPlasticSheets</Key>
-  <Value>Hojas de Plástico</Value>
+  <Value>Láminas de Plástico</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemAlienMushroom</Key>
@@ -6787,7 +6787,7 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>ItemStelliteGlassSheets</Key>
-  <Value>Hojas de Vidrio Estelita</Value>
+  <Value>Láminas de Vidrio Estelita</Value>
   <Description>Un sustituto de vidrio más resistente.</Description>
 </RecordThing>
 <RecordThing>
