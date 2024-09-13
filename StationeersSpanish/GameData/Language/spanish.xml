@@ -7098,18 +7098,18 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>StructureSleeperVertical</Key>
-  <Value>Durmiente Vertical</Value>
-  <Description>La variante vertical del durmiente. Mantendrá a los jugadores hidratados y alimentados mientras están desconectados, siempre que se proporcione una atmósfera respirable.</Description>
+  <Value>Cápsula de Sueño Vertical</Value>
+  <Description>La variante vertical de la Cápsula de Sueño. Mantendrá a los jugadores hidratados y alimentados mientras están desconectados, siempre que se proporcione una atmósfera respirable.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureSleeperLeft</Key>
-  <Value>Durmiente Izquierda</Value>
-  <Description>Una variante horizontal del durmiente. Mantendrá a los jugadores hidratados y alimentados mientras están desconectados, siempre que se proporcione una atmósfera respirable.</Description>
+  <Value>Cápsula de Sueño Izquierda</Value>
+  <Description>Una variante horizontal de la Cápsula de Sueño. Mantendrá a los jugadores hidratados y alimentados mientras están desconectados, siempre que se proporcione una atmósfera respirable.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureSleeperRight</Key>
-  <Value>Durmiente Derecha</Value>
-  <Description>Una variante horizontal del durmiente. Mantendrá a los jugadores hidratados y alimentados mientras están desconectados, siempre que se proporcione una atmósfera respirable.</Description>
+  <Value>Cápsula de Sueño Derecha</Value>
+  <Description>Una variante horizontal de la Cápsula de Sueño. Mantendrá a los jugadores hidratados y alimentados mientras están desconectados, siempre que se proporcione una atmósfera respirable.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureProximitySensor</Key>
