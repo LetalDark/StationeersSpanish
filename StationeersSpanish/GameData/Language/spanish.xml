@@ -4137,7 +4137,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAutoMiner</Key>
-  <Value>Kit (Minero Automático)</Value>
+  <Value>Kit (Minador Automático)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -7093,7 +7093,7 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>StructureDeepMiner</Key>
-  <Value>Minero Profundo</Value>
+  <Value>Minador Profundo</Value>
   <Description>Perfora a través del terreno hasta que golpea la roca madre. Una vez dentro de la roca madre, se produce {THING:ItemDirtyOre} aproximadamente cada 90 segundos.</Description>
 </RecordThing>
 <RecordThing>
@@ -7123,7 +7123,7 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>ItemKitDeepMiner</Key>
-  <Value>Kit (Minero Profundo)</Value>
+  <Value>Kit (Minador Profundo)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8141,7 +8141,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>StructureRocketMiner</Key>
-  <Value>Minero de Cohete</Value>
+  <Value>Minador de Cohete</Value>
   <Description>Recolecta recursos disponibles en la ubicación espacial actual del cohete.</Description>
 </RecordThing>
 <RecordThing>
@@ -8210,7 +8210,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>ItemKitRocketMiner</Key>
-  <Value>Kit (Minero de Cohete)</Value>
+  <Value>Kit (Minador de Cohete)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -15992,7 +15992,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>WorldObjectiveDeepMinersInfo</Key>
-  <Value>{THING:StructureDeepMiner} se puede usar para cosechar un flujo constante de recursos. {THING:StructureRocketManufactory} puede imprimir las piezas para construir un cohete minero para recolectar mineral y hielo de asteroides cercanos</Value>
+  <Value>{THING:StructureDeepMiner} se puede usar para cosechar un flujo constante de recursos. {THING:StructureRocketManufactory} puede imprimir las piezas para construir un cohete minador para recolectar mineral y hielo de asteroides cercanos</Value>
 </Record>
 <Record>
   <Key>WorldObjectiveBuildStackerInfo</Key>
