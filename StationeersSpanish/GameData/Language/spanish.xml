@@ -211,7 +211,7 @@
 	  </RecordReagent>
 	  <RecordReagent>
 		<Key>Soy</Key>
-		<Value>Soya</Value>
+		<Value>Soja</Value>
 		<Unit />
 	  </RecordReagent>
 	  <RecordReagent>
@@ -975,17 +975,17 @@ La placa de circuito tiene dos modos: 'Vincular' apaga o enciende todos los disp
 	<RecordThing>
 	  <Key>EntityChick</Key>
 	  <Value>Pollito</Value>
-	  <Description>Una vez que un pollito ha nacido, tiene hambre. Comerá soya, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
+	  <Description>Una vez que un pollito ha nacido, tiene hambre. Comerá soja, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityChickenBrown</Key>
 	  <Value>Pollo Marrón</Value>
-	  <Description>Como muchos de sus semejantes, este es un pollo. Uno marrón. Comerá soya, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
+	  <Description>Como muchos de sus semejantes, este es un pollo. Uno marrón. Comerá soja, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityChickenWhite</Key>
 	  <Value>Pollo Blanco</Value>
-	  <Description>Es un pollo, tan blanco como el polvo lunar. Comerá soya, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
+	  <Description>Es un pollo, tan blanco como el polvo lunar. Comerá soja, maíz y trigo, y pondrá huevos. Algunos estarán fertilizados, produciendo más pollos. Algunos no.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>EntityGraylien</Key>
@@ -6331,7 +6331,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>SeedBag_Soybean</Key>
-  <Value>Semillas de Soya</Value>
+  <Value>Semillas de Soja</Value>
   <Description>Haz crecer algo de {THING:ItemSoybean}.</Description>
 </RecordThing>
 <RecordThing>
@@ -6496,7 +6496,7 @@ Nota: el envasador parpadeará un error en su interruptor de activación si inte
 </RecordThing>
 <RecordThing>
   <Key>ItemCookedSoybean</Key>
-  <Value>Soya Cocida</Value>
+  <Value>Soja Cocida</Value>
   <Description>Un alimento cocido de alta nutrición, que se puede envasar.</Description>
 </RecordThing>
 <RecordThing>
