@@ -15367,7 +15367,7 @@ También es un refrigerante excepcional con una alta capacidad de calor específ
 Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GAS:Water}.</Value>
 </Record>
 <Record>
-  <Key>{THING:StructureNitrolyzer}</Key>
+  <Key>MoleNitrousOxideDescription</Key>
   <Value>El óxido nitroso es un gas reactivo que dejará inconscientes a los jugadores si se inhala. Actúa como un oxidante para la combustión, y permite que los volátiles se quemen significativamente más caliente, más rápido y a una temperatura de autoignición más baja. Puede producirse en un proceso intensivo en energía dentro de un {THING:StructureNitrolyzer}.</Value>
 </Record>
 <Record>
