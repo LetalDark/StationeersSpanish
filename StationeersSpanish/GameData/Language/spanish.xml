@@ -15350,7 +15350,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 </Record>
 <Record>
   <Key>MoleVolatilesDescription</Key>
-  <Value>Los volátiles son un combustible combustible. Se refinan de {THING:ItemVolatiles}</Value>
+  <Value>Los volátiles son un combustible. Se refinan de {THING:ItemVolatiles}</Value>
 </Record>
 <Record>
   <Key>MolePollutantDescription</Key>
