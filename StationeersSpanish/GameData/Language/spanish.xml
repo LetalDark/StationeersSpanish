@@ -7023,8 +7023,8 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>StructureNitrolyzer</Key>
-  <Value>Nitrolyzer</Value>
-  <Description>Este dispositivo se utiliza para crear {GAS:NitrousOxide} a partir de {GAS:Oxygen}, {GAS:Nitrogen}, y una gran cantidad de energía. El proceso no transforma completamente todo el gas disponible a la vez, por lo que la salida es una mezcla de los tres gases, que puede necesitar un procesamiento adicional. Se generará más NOS si el gas dentro de la máquina está cerca de una relación 1/1 de Oxígeno a Nitrógeno. La segunda línea de entrada de gas es opcional y no se requiere si el gas ya está premisclado.</Description>
+  <Value>Nitrolizador</Value>
+  <Description>Este dispositivo se utiliza para crear {GAS:NitrousOxide} a partir de {GAS:Oxygen}, {GAS:Nitrogen}, y una gran cantidad de energía. El proceso no transforma completamente todo el gas disponible a la vez, por lo que la salida es una mezcla de los tres gases, que puede necesitar un procesamiento adicional. Se generará más NOS si el gas dentro de la máquina está cerca de una relación 1/1 de Oxígeno a Nitrógeno. La segunda línea de entrada de gas es opcional y no se requiere si el gas ya está premezclado.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMiningBackPack</Key>
