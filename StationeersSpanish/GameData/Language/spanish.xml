@@ -2219,6 +2219,11 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
   <Description>Las ventilaciones pasivas permiten que los gases entren y salgan de redes de tuberías, que son sistemas cerrados a menos que estén conectados a un dispositivo o estructura. Las ventilaciones pasivas no están alimentadas, solo son una abertura, convirtiendo esencialmente un espacio cerrado en parte de la red de tuberías.</Description>
 </RecordThing>
 <RecordThing>
+  <Key>StructurePassiveVentValve</Key>
+  <Value>Ventilación Pasiva (Válvula)</Value>
+  <Description>Las ventilaciones pasivas (Válvula) permiten que los gases entren y salgan de las redes de tuberías, que son sistemas cerrados a menos que estén conectados a un dispositivo o estructura. Las ventilaciones pasivas no requieren energía, pero permiten al usuario elegir cuándo dejar que los gases en un espacio cerrado se mezclen dentro de una red de tuberías.</Description>
+</RecordThing>
+<RecordThing>
   <Key>StructurePipeAnalysizer</Key>
   <Value>Analizador de Tuberías</Value>
   <Description>Alegadamente resultado de un proyecto de electrónica padre-hija durante el fin de semana por un ingeniero {LINK:ExMin;ExMin} entusiasta, el analizador de tuberías es esencialmente una versión más avanzada del {THING:StructurePipeMeter}. Mostrando la presión interna de las redes de tuberías, también lee la temperatura y los contenidos de gas, y puede conectarse a un {THING:StructureConsole} o {THING:StructureComputer} a través de un sistema {LINK:LogicUnitPage;Unidades de lógica}.</Description>
@@ -6206,7 +6211,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>ItemInsulatedTankConnector</Key>
-  <Value>Conector de Tanque Aislado</Value>
+  <Value>Kit (Conector de Tanque Aislado)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -6556,7 +6561,7 @@ Nota: el envasador parpadeará un error en su interruptor de activación si inte
 </RecordThing>
 <RecordThing>
   <Key>ItemKitInsulatedWaterPipe</Key>
-  <Value>Kit de Tubería de Agua Aislada</Value>
+  <Value>Kit (Tubería de Agua Aislada)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -7441,12 +7446,12 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>StructurePipeCowl</Key>
-  <Value>Capucha de Tubería</Value>
+  <Value>Ventilación Pasiva (Cabeza de Tubería)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureWallVent</Key>
-  <Value>Ventilación de Pared</Value>
+  <Value>Ventilación Pasiva (Conector)</Value>
   <Description>Utilizado para mezclar atmósferas pasivamente entre dos paredes.</Description>
 </RecordThing>
 <RecordThing>
@@ -7941,12 +7946,12 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>ApplianceBobbleHeadBasicSuit</Key>
-  <Value>Cabeza de Traje Básico</Value>
+  <Value>Figura de cabezón (Traje Básico)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ApplianceBobbleHeadHardSuit</Key>
-  <Value>Cabeza de Traje Duro</Value>
+  <Value>Figura de cabezón (Traje Duro)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -8790,22 +8795,22 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedInLineTankGas1x1</Key>
-  <Value>Tanque En Línea Aislado Pequeño de Gas</Value>
+  <Value>Tanque en Línea Pequeño de Gas (Aislado)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedInLineTankGas1x2</Key>
-  <Value>Tanque En Línea Aislado de Gas</Value>
+  <Value>Tanque en Línea de Gas (Aislado)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedInLineTankLiquid1x1</Key>
-  <Value>Tanque En Línea Aislado Pequeño de Líquido</Value>
+  <Value>Tanque de Líquido en Línea (Aislado)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedInLineTankLiquid1x2</Key>
-  <Value>Tanque En Línea Aislado de Líquido</Value>
+  <Value>Tanque de Líquido en Línea (Aislado)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -9090,7 +9095,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 </RecordThing>
 <RecordThing>
   <Key>ApplianceBobbleHeadMarine</Key>
-  <Value>Cabeza de Marine</Value>
+  <Value>Figura de cabezón (Marine)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -9102,6 +9107,16 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
   <Key>StructureRoboticArmRailScrewRight</Key>
   <Value>Tornillo de Riel Lineal Derecho</Value>
   <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>StructurePassiveVentValve</Key>
+  <Value>Ventilación Pasiva (Válvula)</Value>
+  <Description>Las ventilaciones pasivas (Válvula) permiten que los gases entren y salgan de las redes de tuberías, que son sistemas cerrados a menos que estén conectados a un dispositivo o estructura. Las ventilaciones pasivas no requieren energía, pero permiten al usuario elegir cuándo dejar que los gases en un espacio cerrado se mezclen dentro de una red de tuberías.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>StructureManualFloorHatch</Key>
+  <Value>Escotilla Manual de Suelo</Value>
+  <Description />
 </RecordThing>
 	  </Things>
 <Slots>

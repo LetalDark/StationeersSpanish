@@ -2258,6 +2258,11 @@ The sensor activates whenever a player enters the grid it is placed on.</Descrip
       <Description>Passive vents allow gases to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, merely an aperture, essentially turning an enclosed space into part of the pipe network. </Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructurePassiveVentValve</Key>
+      <Value>Passive Vent (Valve)</Value>
+      <Description>Passive vents (Valve) allow gasses to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, but allow the user to choose when to allow gases in an enclosed space to mix inside a pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
       <Value>Pipe Analyzer</Value>
       <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {{LINK:ExMin;ExMin} engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
@@ -6270,7 +6275,7 @@ Central to this pastime is the step sequencer, which allows Stationeers to seque
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnector</Key>
-      <Value>Insulated (Tank Connector)</Value>
+      <Value>Kit (Insulated Tank Connector)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6624,7 +6629,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
-      <Value>Insulated Water Pipe Kit</Value>
+      <Value>Kit (Insulated Water Pipe)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7514,12 +7519,12 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCowl</Key>
-      <Value>Pipe Cowl</Value>
+      <Value>Passive Vent (Pipe Cowl)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallVent</Key>
-      <Value>Wall Vent</Value>
+      <Value>Passive Vent (Passthrough)</Value>
       <Description>Used to mix atmospheres passively between two walls.</Description>
     </RecordThing>
     <RecordThing>
@@ -8026,7 +8031,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     </RecordThing>
     <RecordThing>
       <Key>ApplianceBobbleHeadHardSuit</Key>
-      <Value>Appliance Bobble Head Hard Suit</Value>
+      <Value>Bobble Head (Hard Suit)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8870,22 +8875,22 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x1</Key>
-      <Value>Insulated In-Line Tank Small Gas</Value>
+      <Value>In-Line Tank Small Gas (Insulated)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x2</Key>
-      <Value>Insulated In-Line Tank Gas</Value>
+      <Value>In-Line Tank Gas (Insulated)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x1</Key>
-      <Value>Insulated In-Line Tank Small Liquid</Value>
+      <Value>In-Line Liquid (Insulated)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x2</Key>
-      <Value>Insulated In-Line Tank Liquid</Value>
+      <Value>In-Line Tank Liquid (Insulated)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9170,7 +9175,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </RecordThing>
     <RecordThing>
       <Key>ApplianceBobbleHeadMarine</Key>
-      <Value>Appliance Bobble Head Marine</Value>
+      <Value>Bobble Head (Marine)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9182,6 +9187,16 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>StructureRoboticArmRailScrewRight</Key>
       <Value>Linear Rail Screw Right</Value>
       <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveVentValve</Key>
+      <Value>Passive Vent (Valve)</Value>
+      <Description> Passive vents (Valve) allow gasses to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, but allow the user to choose when to allow gases in an enclosed space to mix inside a pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureManualFloorHatch</Key>
+      <Value>Structure Manual Floor Hatch</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
