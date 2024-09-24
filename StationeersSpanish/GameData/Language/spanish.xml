@@ -2349,7 +2349,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureTankConnector</Key>
-  <Value>Conector de Tanque</Value>
+  <Value>Conector de Tanque (Gas)</Value>
   <Description>Los conectores de tanque son dispositivos básicos de montaje que permiten conectar un {THING:DynamicGasCanisterEmpty} a una red de tuberías de gas.</Description>
 </RecordThing>
 <RecordThing>
@@ -6216,7 +6216,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedTankConnector</Key>
-  <Value>Conector de Tanque Aislado</Value>
+  <Value>Conector de Tanque Aislado (Gas)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
