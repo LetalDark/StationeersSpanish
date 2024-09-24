@@ -8585,12 +8585,12 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>StructurePortablesConnector</Key>
-  <Value>Conector Portátiles</Value>
+  <Value>Conector de Tanques Portátiles</Value>
   <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPortablesConnector</Key>
-  <Value>Kit (Conector Portátiles)</Value>
+  <Value>Kit (Conector de Tanques Portátiles)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
