@@ -2322,17 +2322,17 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructureSorter</Key>
   <Value>Clasificador</Value>
-  <Description>Ninguna cantidad de automatización está completa sin alguna forma de mover diferentes artículos a diferentes partes de un sistema. El clasificador {LINK:Xigo;Xigo} A2B puede programarse a través de un Ordenador con un {THING:MotherboardSorter} para dirigir varios artículos a diferentes redes de tolvas. Los artículos filtrados siempre se pasan por el lado derecho del clasificador, mientras que los artículos no filtrados continúan directamente.</Description>
+  <Description>Ninguna cantidad de automatización está completa sin alguna forma de mover diferentes artículos a diferentes partes de un sistema. El clasificador {LINK:Xigo;Xigo} A2B puede programarse a través de un Ordenador con un {THING:MotherboardSorter} para dirigir varios artículos a diferentes redes de conductos. Los artículos filtrados siempre se pasan por el lado derecho del clasificador, mientras que los artículos no filtrados continúan directamente.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureStacker</Key>
   <Value>Apilador</Value>
-  <Description>Un apilador es una parte importante de cualquier red automatizada de tolvas. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;Lingotes}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
+  <Description>Un apilador es una parte importante de cualquier red automatizada de conductos. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;Lingotes}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureStackerReverse</Key>
   <Value>Apilador (Invertido)</Value>
-  <Description>Un apilador es una parte importante de cualquier red automatizada de tolvas. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El apilador invertido tiene energía y datos en el lado opuesto. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;Lingotes}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
+  <Description>Un apilador es una parte importante de cualquier red automatizada de conductos. El {LINK:Xigo;Xigo} ProKompile puede configurarse manualmente o a través de lógica, para asegurarse de que los artículos que pasan por el apilador estén maximizados para tus necesidades de almacenamiento. El apilador invertido tiene energía y datos en el lado opuesto. El ProKompile puede apilar una amplia variedad de cosas como {LINK:IngotPage;Lingotes}, así como dividir pilas en tamaños apropiados según sea necesario.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureStairs4x2</Key>
@@ -4187,7 +4187,7 @@ RobotMode.None = 0 = No hacer nada
 RobotMode.None = 1 = Seguir al jugador más cercano
 RobotMode.None = 2 = Moverse hacia el objetivo en línea recta
 RobotMode.None = 3 = Deambular buscando minerales en un radio de 15 coordenadas
-RobotMode.None = 4 = Descargar en una entrada de tolva o contenedor dentro de 3 metros / 1.5 rejillas grandes
+RobotMode.None = 4 = Descargar en una entrada de conducto o contenedor dentro de 3 metros / 1.5 rejillas grandes
 RobotMode.None = 5 = Encontrar ruta hacia el objetivo
 RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios de almacenamiento están llenos</Description>
 </RecordThing>
@@ -4493,7 +4493,7 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 <RecordThing>
   <Key>StructureAutoMinerSmall</Key>
   <Value>Autominador (Pequeño)</Value>
-  <Description>El autominador SquareDig es una estructura que, una vez construida, excava un pozo vertical de 2x2 hasta alcanzar la roca madre. El autominador puede conectarse a un sistema de tolvas y es controlable por una red lógica. Ten en cuenta que el autominador produce más {LINK:OrePage;Minerales} que un {THING:ItemMiningDrill} convencional en la misma área.</Description>
+  <Description>El autominador SquareDig es una estructura que, una vez construida, excava un pozo vertical de 2x2 hasta alcanzar la roca madre. El autominador puede conectarse a un sistema de conductos y es controlable por una red lógica. Ten en cuenta que el autominador produce más {LINK:OrePage;Minerales} que un {THING:ItemMiningDrill} convencional en la misma área.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAutoMinerSmall</Key>
@@ -6424,7 +6424,7 @@ El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredien
 
 {HEADER:OPERACIÓN}
 
-1. Añade los ingredientes correctos al dispositivo a través de la tolva en la PARTE SUPERIOR.
+1. Añade los ingredientes correctos al dispositivo a través del conducto en la PARTE SUPERIOR.
 
 2. Cierra el dispositivo usando la manija desplegable.
 
@@ -6760,7 +6760,7 @@ Nota: el envasador parpadeará un error en su interruptor de activación si inte
   <Value>OGRE</Value>
   <Description>El {LINK:Recurso;Recurso} OGRE (Excavadora Rotativa Ortogonal) es una estructura base con un vehículo de minería adjunto, que excavará un pozo horizontal de hasta X metros de largo. Cuando esté lleno, el vehículo de minería regresará a la base para vaciarse, antes de volver a excavar. Si encuentra espacio vacío, también regresará a la base y esperará instrucciones. La unidad regresará si se desactiva.
 
-El OGRE se puede conectar a un sistema de tolvas y es controlable mediante una red lógica. Ten en cuenta que el OGRE produce más {LINK:OrePage;Minerales} que un {THING:ItemMiningDrill} convencional en el mismo área, debido a un procesamiento más eficiente.
+El OGRE se puede conectar a un sistema de conductos y es controlable mediante una red lógica. Ten en cuenta que el OGRE produce más {LINK:OrePage;Minerales} que un {THING:ItemMiningDrill} convencional en el mismo área, debido a un procesamiento más eficiente.
 
 {HEADER:MODOS}
 Inactivo - 0
@@ -7138,13 +7138,13 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteFlipFlopSplitter</Key>
-  <Value>Divisor de Tolva Flip Flop</Value>
-  <Description>Una tolva que alterna entre dos salidas.</Description>
+  <Value>Divisor de conducto Flip Flop</Value>
+  <Description>Un conducto que alterna entre dos salidas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteValve</Key>
-  <Value>Válvula de Tolva</Value>
-  <Description>La Válvula de Tolva detendrá el flujo de materiales cuando esté cerrada y, cuando esté abierta, actuará como una tolva recta.</Description>
+  <Value>Válvula de conducto</Value>
+  <Description>La Válvula de conducto detendrá el flujo de materiales cuando esté cerrada y, cuando esté abierta, actuará como un conducto recto.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureCombustionCentrifuge</Key>
@@ -7157,8 +7157,8 @@ Eyectar mineral de la Centrifugadora de Combustión mientras está a altas RPM r
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteOverflow</Key>
-  <Value>Desbordamiento de Tolva</Value>
-  <Description>La tolva de desbordamiento dirigirá materiales a su puerto de desbordamiento cuando la cosa conectada a su puerto predeterminado ya esté ocupada.</Description>
+  <Value>Desbordamiento de conducto</Value>
+  <Description>El conducto de desbordamiento dirigirá materiales a su puerto de desbordamiento cuando el objeto conectado a su puerto predeterminado ya esté ocupado.</Description>
 </RecordThing>
 <RecordThing>
   <Key>KitStructureCombustionCentrifuge</Key>
@@ -7167,27 +7167,27 @@ Eyectar mineral de la Centrifugadora de Combustión mientras está a altas RPM r
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteDigitalValveLeft</Key>
-  <Value>Válvula Digital de Tolva Izquierda</Value>
-  <Description>La Válvula Digital de Tolva detendrá el flujo de materiales cuando esté cerrada y, cuando esté abierta, actuará como una tolva recta. La válvula se cerrará automáticamente después de que haya pasado un cierto número de elementos. Este umbral se puede ajustar usando el dial.</Description>
+  <Value>Válvula Digital de conducto Izquierdo</Value>
+  <Description>La Válvula Digital de conducto detendrá el flujo de materiales cuando esté cerrada y, cuando esté abierta, actuará como un conducto recto. La válvula se cerrará automáticamente después de que haya pasado un cierto número de elementos. Este umbral se puede ajustar usando el dial.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteDigitalValveRight</Key>
-  <Value>Válvula Digital de Tolva Derecha</Value>
-  <Description>La Válvula Digital de Tolva detendrá el flujo de materiales cuando esté cerrada y, cuando esté abierta, actuará como una tolva recta. La válvula se cerrará automáticamente después de que haya pasado un cierto número de elementos. Este umbral se puede ajustar usando el dial.</Description>
+  <Value>Válvula Digital de conducto Derecho</Value>
+  <Description>La Válvula Digital de conducto detendrá el flujo de materiales cuando esté cerrada y, cuando esté abierta, actuará como un conducto recto. La válvula se cerrará automáticamente después de que haya pasado un cierto número de elementos. Este umbral se puede ajustar usando el dial.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteDigitalFlipFlopSplitterLeft</Key>
-  <Value>Divisor Digital de Tolva Flip Flop Izquierda</Value>
+  <Value>Divisor Digital de conducto Flip Flop Izquierdo</Value>
   <Description>El flip flop digital alternará entre dos salidas usando una relación especificada (n:1). Por ejemplo, al ajustar el dial a 2, se permitiría que dos elementos pasen por la salida primaria antes de cambiar a la salida secundaria.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteDigitalFlipFlopSplitterRight</Key>
-  <Value>Divisor Digital de Tolva Flip Flop Derecha</Value>
+  <Value>Divisor Digital de conducto Flip Flop Derecho</Value>
   <Description>El flip flop digital alternará entre dos salidas usando una relación especificada (n:1). Por ejemplo, al ajustar el dial a 2, se permitiría que dos elementos pasen por la salida primaria antes de cambiar a la salida secundaria.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitStandardChute</Key>
-  <Value>Kit (Tolvas Alimentadas)</Value>
+  <Value>Kit (Conductos Alimentados)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -9084,9 +9084,9 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
 <RecordThing>
   <Key>StructureLarreDockHydroponics</Key>
   <Value>Muelle LArRE (Hidroponía)</Value>
-  <Description>El LArRE de hidroponía puede plantar y cosechar plantas, así como colocar fertilizante en las bandejas de las plantas. Tiene una ranura de tolva adicional que alimentará objetos al espacio de la mano cuando esta esté vacía. Cosechar una planta diferente mientras el espacio de la mano esté lleno será posible si la ranura de la tolva está vacía. En ese caso, la planta en la mano se moverá a la ranura de la tolva y la nueva planta se cosechará en el espacio de la mano.
-    Las variables de la ranura de una planta en la bandeja de plantas de abajo se pueden leer usando el índice de ranura Proxy (255).
-Al presionar el botón de activación mientras el brazo LArRE está en su muelle de origen hará que el brazo se mueva fuera del riel principal. Esto permite que otros brazos en el mismo riel puedan pasar.</Description>
+  <Description>El LArRE de hidroponía puede plantar y cosechar plantas, además de colocar fertilizante en las bandejas de las plantas. Cuenta con una ranura de conducto adicional que enviará objetos al espacio de la mano cuando este esté vacío. Cosechar una planta diferente mientras el espacio de la mano esté lleno será posible si la ranura del conducto está vacía. En ese caso, la planta en la mano se moverá a la ranura del conducto, y la nueva planta se cosechará en el espacio de la mano.
+Las variables de la ranura de una planta en la bandeja de plantas inferior se pueden leer usando el índice de ranura Proxy (255).
+Al presionar el botón de activación mientras el brazo LArRE esté en su muelle de origen, el brazo se moverá fuera del riel principal, permitiendo que otros brazos en el mismo riel puedan pasar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureComputerUpright</Key>
@@ -9438,7 +9438,7 @@ Al presionar el botón de activación mientras el brazo LArRE está en su muelle
   </Record>
 <Record>
   <Key>HopperSlot</Key>
-  <Value>Ranura de Tolva</Value>
+  <Value>Ranura de conducto</Value>
 </Record>
 	  </Slots>
 	<Interactables>
