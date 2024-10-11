@@ -4104,6 +4104,11 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
   <Description>A veces, los viajes de minería requieren algo un poco más grande para llevarse la carga. Esta versión ampliada del diseño {LINK:Recurso;Recurso} 'Topo' {THING:ItemMiningDrill} puede literalmente mover montañas. El taladro de minería pesado eliminará más tierra y extraerá {LINK:OrePage;Minerales} más rápidamente que el taladro de minería estándar. El taladro de minería pesado también es resistente a la temperatura y a la presión. Así que, sin importar el planeta o las condiciones meteorológicas extremas que puedan estar presentes, el taladro de minería pesado de Recurso hará el trabajo.</Description>
 </RecordThing>
 <RecordThing>
+  <Key>ItemLiquidVacuum</Key>
+  <Value>Aspiradora de Líquidos</Value>
+  <Description>Cuando se ajusta en modo de entrada, la {THING:ItemLiquidVacuum} extrae líquido del entorno y lo almacena en su tanque interno. En modo de salida, vacía su tanque interno de nuevo en el entorno. Vacíala sobre un {THING:StructureFloorDrain} para devolver el líquido a una tubería.</Description>
+</RecordThing>
+<RecordThing>
   <Key>RoverCargo</Key>
   <Value>Rover (Carga)</Value>
 </RecordThing>
@@ -6104,6 +6109,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>StructureFloorDrain</Key>
   <Value>Entrada Pasiva de Líquido</Value>
   <Description>Una entrada de líquido pasiva que elimina rápidamente los líquidos en una dirección desde el mundo hacia la red de tuberías conectada. También equilibrará los gases con la atmósfera del mundo.</Description>
+<Description>Una entrada de líquido pasiva en el suelo que elimina rápidamente los líquidos en una dirección desde el entorno hacia la red de tuberías conectada y equilibra los gases con la atmósfera del mundo. Extraerá líquidos de cuadrículas al mismo nivel a una distancia de hasta 6 de ellas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemLiquidPipeAnalyzer</Key>
@@ -9116,6 +9122,11 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 <RecordThing>
   <Key>StructureManualFloorHatch</Key>
   <Value>Escotilla Manual de Suelo</Value>
+  <Description />
+</RecordThing>
+<RecordThing>
+  <Key>StructureLiquidTap</Key>
+  <Value>Grifo de Líquidos</Value>
   <Description />
 </RecordThing>
 	  </Things>
@@ -15093,6 +15104,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 <Record>
   <Key>StationpediaMolesPerLitreHeader</Key>
   <Value>Moles por litro:</Value>
+</Record>
+<Record>
+  <Key>StationpediaMolesPerLitreInWorldHeader</Key>
+  <Value>Moles por Litro en el Mundo:</Value>
 </Record>
 <Record>
   <Key>StationpediaShatterHeader</Key>

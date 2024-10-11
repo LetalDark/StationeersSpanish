@@ -4160,6 +4160,11 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
       <Description>Sometimes mining trips require something a little bigger to bring home the goods. This scaled up version of the {LINK:Recurso;Recurso} 'Topo' design {THING:ItemMiningDrill} can literally move mountains. The heavy mining drill will remove more ground and mine {LINK:OrePage;ore} more quickly than the standard mining drill. The heavy mining drill is also resilient to temperature and pressure. So no matter what planet or extreme weather conditions may be present, the Recurso heavy mining drill will get the job done.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemLiquidVacuum</Key>
+      <Value>Liquid Vacuum</Value>
+      <Description>When set to Inwards mode the {THING:ItemLiquidVacuum} removes liquid from the world and into its internal tank. When set to outwards mode it empties its internal tank back into the world. Empty it over {THING:StructureFloorDrain} to get your liquid back into a pipe.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>RoverCargo</Key>
       <Value>Rover (Cargo)</Value>
     </RecordThing>
@@ -6167,7 +6172,8 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>StructureFloorDrain</Key>
       <Value>Passive Liquid Inlet</Value>
-      <Description>A passive liquid floor inlet that quickly removes liquids in one direction from the world into the connected pipe network. It will equalise gasses with the world atmosphere also.</Description>
+      <Description>A passive liquid floor inlet that quickly removes liquids in one direction from the world into the connected pipe network and equalises gasses with the world atmosphere. 
+        It will remove liquids from grids at the same level up to 6 Grids away.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeAnalyzer</Key>
@@ -9195,7 +9201,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </RecordThing>
     <RecordThing>
       <Key>StructureManualFloorHatch</Key>
-      <Value>Structure Manual Floor Hatch</Value>
+      <Value>Manual Floor Hatch</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTap</Key>
+      <Value>Liquid Tap</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -15200,6 +15211,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>StationpediaMolesPerLitreHeader</Key>
       <Value>Mols per Litre:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMolesPerLitreInWorldHeader</Key>
+      <Value>Mols per Litre In-World:</Value>
     </Record>
     <Record>
       <Key>StationpediaShatterHeader</Key>
