@@ -267,18 +267,18 @@ Hay algunos minerales que se derriten cuando se exponen a la luz solar o al calo
 </StationpediaPage>
 
 <StationpediaPage>
-  <Key>GeneticsPage</Key>
-  <DisplayFilter>Guides</DisplayFilter>
-  <Title>Genética</Title>
-  <Text>Las plantas tienen un conjunto de Genes que modifica su comportamiento. Los genes de una planta serán manipulados de varias maneras, tanto naturalmente como artificialmente. Cuando una planta produce frutas o semillas, transmitirá su genética con una pequeña mutación aleatoria.
+        <Key>GeneticsPage</Key>
+        <DisplayFilter>Guides</DisplayFilter>
+        <Title>Genética</Title>
+        <Text>Las plantas tienen un conjunto de Genes que modifican su comportamiento. Los genes de una planta serán manipulados de varias maneras, tanto naturalmente como artificialmente. Cuando una planta produce frutas o semillas, transmitirá su genética con una pequeña mutación aleatoria.
 
 Además de las mutaciones aleatorias, la condición de una planta a lo largo de su vida también puede afectar sus genes: por ejemplo, si una planta se priva de agua, aunque puede afectar la velocidad de crecimiento y el rendimiento de la planta, la descendencia recibirá genes que hacen que requiera menos agua. De esta manera, puedes manipular las condiciones ideales para tus cultivos.
 
 Hay varias herramientas que necesitarás para manejar tus cultivos de manera efectiva: {THING:ItemPlantSampler} y {THING:AppliancePlantGeneticAnalyzer}. Estas herramientas te permiten muestrear una planta en crecimiento y ver el estado de sus genes.
 
 La genética de las plantas no es una ciencia exacta y requerirá prueba y error y múltiples intentos antes de que puedas alcanzar tus objetivos. {LIST_OF_GENES} {LIST_OF_GENETIC_DEVICES}
-  </Text>
-</StationpediaPage>
+        </Text>
+    </StationpediaPage>
 
 <StationpediaPage>
   <Key>IngotPage</Key>
@@ -686,7 +686,7 @@ Los trajes contienen de 6 a 8 compartimentos:
 - Tanque de aire (x1) - inserta un cartucho o cartucho inteligente que contenga una mezcla de gas respirable, p. ej., {GAS:Oxygen} o {GAS:Nitrogen}/{GAS:Oxygen} 35/65.
 - Tanque de desechos (x1) - recoge los gases eliminados por los filtros
 - Soporte vital (x1) - contiene una batería, que alimenta tu A/C, luces, etc.
-- {SLOT:GasFilter} (x3) - requiere al menos un {SLOT:ItemGasFilterCarbonDioxide} (si eres humano), dependiendo de tu mezcla de gases respirables. Ten en cuenta que un {THING:ItemHardSuit} tiene 4 compartimentos para filtros.
+- {SLOT:GasFilter} (x3) - requiere al menos un {THING:ItemGasFilterCarbonDioxide} (si eres humano), dependiendo de tu mezcla de gases respirables. Ten en cuenta que un {THING:ItemHardSuit} tiene 4 compartimentos para filtros.
 - IC - solo {THING:ItemHardSuit}.
 
 Presión: debe ajustarse a 50-100 KPa (0.5 a 1 atmósfera terrestre). Los humanos en el juego toleran hasta ~250kPa y pueden sobrevivir hasta ~300kPA.

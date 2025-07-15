@@ -299,6 +299,14 @@
 		<Key>LiquidHydrogen</Key>
 		<Value>Hidrógeno Líquido</Value>
 	  </Record>
+    <Record>
+      <Key>Air</Key>
+      <Value>Mezcla de Aire</Value>
+    </Record>
+    <Record>
+      <Key>Fuel</Key>
+      <Value>Mezcla de Combustible</Value>
+    </Record>
 	</Gases>
 	<Actions>
 	  <Record>
@@ -1784,12 +1792,12 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemWireCutters</Key>
   <Value>Cortador de Cables</Value>
-  <Description>Los cortadores de cables te permiten deconstruir varias {LINK:StructurePage;Estructuras}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de cables se almacenan en el {THING:ItemToolBelt}, junto con otras {LINK:ToolPage;Herramientas} esenciales.</Description>
+  <Description>Los cortadores de cables te permiten desmontar varias {LINK:StructurePage;Estructuras}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de cables se almacenan en el {THING:ItemToolBelt}, junto con otras {LINK:ToolPage;Herramientas} esenciales.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemWrench</Key>
   <Value>Llave Inglesa</Value>
-  <Description>Una de las contribuciones perdurables de la humanidad al cosmos, la llave inglesa representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y deconstruir una variedad de {LINK:StructurePage;Estructuras}</Description>
+  <Description>Una de las contribuciones perdurables de la humanidad al cosmos, la llave inglesa representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y desmontar una variedad de {LINK:StructurePage;Estructuras}</Description>
 </RecordThing>
 <RecordThing>
   <Key>MotherboardLogic</Key>
@@ -2576,6 +2584,11 @@ A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no pue
   <Description />
 </RecordThing>
 <RecordThing>
+      <Key>StructureTerraformingManufactory</Key>
+      <Value>Fábrica de Terraformación</Value>
+      <Description>Imprime kits para construir estructuras de terraformación.</Description>
+    </RecordThing>
+<RecordThing>
   <Key>ItemKitPipe</Key>
   <Value>Kit (Tubería)</Value>
   <Description />
@@ -3036,10 +3049,52 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
   <Description>Las patatas son un cultivo simple y de rápido crecimiento que puede mantener a los Stationeers vivos en emergencias.</Description>
 </RecordThing>
 <RecordThing>
+      <Key>ItemStrawberry</Key>
+      <Value>Fresa</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Strawberry</Key>
+      <Value>Semillas de Fresa</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBlueberry</Key>
+      <Value>Arándano</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Blueberry</Key>
+      <Value>Semillas de Arándano</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWatermelon</Key>
+      <Value>Sandía</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Watermelon</Key>
+      <Value>Semillas de Sandía</Value>
+      <Description />
+    </RecordThing>
+<RecordThing>
   <Key>ItemTomato</Key>
   <Value>Tomate</Value>
   <Description>Las plantas de tomate son perennes y producirán múltiples cosechas sin necesidad de replantarse. Una vez que la planta esté madura, producirá frutos a un ritmo moderado.</Description>
 </RecordThing>
+<RecordThing>
+      <Key>ItemGrass</Key>
+      <Value>Hierba</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFlax</Key>
+      <Value>Lino</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGorse</Key>
+      <Value>Tojo</Value>
+    </RecordThing>
 <RecordThing>
   <Key>StructureGasGenerator</Key>
   <Value>Generador de Combustible de Gas</Value>
@@ -3492,29 +3547,265 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
   <Value>Herramienta de Creación</Value>
 </RecordThing>
 <RecordThing>
+      <Key>ItemTerrainEditor</Key>
+      <Value>Herramienta de Edición de Terreno</Value>
+    </RecordThing>
+<RecordThing>
   <Key>StructureRocketEngineDestroyed</Key>
   <Value>Motor de Cohete (Destruido)</Value>
 </RecordThing>
 <RecordThing>
-  <Key>ItemWreckageConstructor</Key>
-  <Value>Constructor de Restos de Depuración</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckage1</Key>
-  <Value>Restos</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckage2</Key>
-  <Value>Restos</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckage3</Key>
-  <Value>Restos</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckage4</Key>
-  <Value>Restos</Value>
-</RecordThing>
+  <Key>ItemWreckage</Key>
+  <Value>Escombros</Value>
+</RecordThing>	
+    <RecordThing>
+      <Key>ItemWreckageAirlock</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageArcFurnce</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControl1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControl2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBin</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBlastDoor</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageChuteExport</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoorGlass1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageDoorControlPanel</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectrolysis</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicPrinter</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevator</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorLevelFront1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageH2Combustor1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHalfSteelBumper</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsStation</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLargeExtendableRadiator</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePowerPiece0</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePowerPiece1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler0</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish0</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSmallFan</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelBase</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelFragment</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelLarge</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelBar</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelBumper</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCornerSmall</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelFragmentMedium</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelFragmentSmall</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel0</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel3</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPieceMedium</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate0</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelSlabSmall</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip0</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageStructureWeatherStation</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine1</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine2</Key>
+      <Value>Escombros</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine3</Key>
+      <Value>Escombros</Value>
+    </RecordThing>	
 <RecordThing>
   <Key>CartridgeAccessController</Key>
   <Value>Cartucho (Control de Acceso)</Value>
@@ -3726,6 +4017,10 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
   <Key>ItemWearLamp</Key>
   <Value>Linterna de cabeza</Value>
 </RecordThing>
+<RecordThing>
+      <Key>ItemDebugHeadlamp</Key>
+      <Value>Linterna de Cabeza de Depuración</Value>
+    </RecordThing>
 <RecordThing>
   <Key>StructureTurbineGenerator</Key>
   <Value>Generador de turbina</Value>
@@ -3940,6 +4235,11 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
   <Value>Jetpack de Traje Endurecido</Value>
   <Description>El jetpack {LINK:Norsec;Norsec} no es 'técnicamente' un jetpack en absoluto, es un propulsor de gas. Puede funcionar con cualquier gas, siempre que la presión interna del {LINK:AtmosphericPage;Tanque} sea mayor que la presión externa ambiente. Si la presión externa es mayor, el jetpack no funcionará. Ajustar el valor del empuje altera tu tasa de aceleración, mientras que activar el estabilizador hace que el jetpack se mantenga en vuelo cuando se alcanza una altura determinada. El jetpack de hardsuit es capaz de velocidades mucho mayores que el {THING:ItemJetpackBasic} - hasta 15 m/s. Indispensable para la construcción, minería y movimiento general, tiene catorce espacios de almacenamiento. UTILIZA: 'J' para activar; 'espacio' para volar hacia arriba; 'ctrl izquierdo' para descender; y 'WASD' para moverte.</Description>
 </RecordThing>
+<RecordThing>
+      <Key>ItemDebugJetpack</Key>
+      <Value>Jetpack de Depuración</Value>
+      <Description />
+    </RecordThing>
 <RecordThing>
   <Key>DynamicHydroponics</Key>
   <Value>Hidroponía Portátil</Value>
@@ -4991,520 +5291,6 @@ Capaz de almacenar hasta 9000001 vatios de energía, no hay límites prácticos 
   <Description />
 </RecordThing>
 <RecordThing>
-  <Key>ItemWreckageVendingMachine1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageVendingMachine2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageVendingMachine3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageVendingMachine4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageArcFurnace1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageArcFurnace2</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageArcFurnace3</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAreaPowerControl1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAreaPowerControl2</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAreaPowerControlReversed1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAreaPowerControlReversed2</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe6</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSolarPanel1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSolarPanel2</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSolarPanel3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTransformer1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTransformer2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTransformerMedium1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTransformerMedium2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTransformerSmall1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTransformerSmall2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSecurityPrinter1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSecurityPrinter2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSecurityPrinter3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSecurityPrinter4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSecurityPrinter5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSecurityPrinter6</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe6</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAutolathe7</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectronicsPrinter1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectronicsPrinter2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectronicsPrinter3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectronicsPrinter4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectronicsPrinter5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectronicsPrinter6</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCentrifuge1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCentrifuge2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCentrifuge3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCentrifuge4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCentrifuge5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageGasGenerator1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageGasGenerator2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageVent1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSatelliteDish1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSatelliteDish2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSatelliteDish3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectrolysis1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElectrolysis2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLight1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLight2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLightLongAngled1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLightLongAngled2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLightLongWide1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLightLongWide2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWallLightBatteryPowered1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWallLightBatteryPowered2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageRecycler1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageRecycler2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageRecycler3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageRecycler4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageRecycler5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageRecycler6</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageFlashingLight1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageFlashingLight2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageActiveVent1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckagePassiveVent1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCoalGenerator1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCoalGenerator2</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCoalGenerator3</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCoalGenerator4</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageH2Combustor1</Key>
-  <Value>Escombros</Value>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageHydroponicsAutomatic1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageHydroponicsAutomatic2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageHydroponicsAutomatic3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageHydroponicsStation1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageHydroponicsStation2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSDBSilo1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSDBSilo2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSDBSilo3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSDBSilo4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageSDBSilo5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageShuttleLandingPad1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageShuttleLandingPad2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageShuttleLandingPad3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageShuttleLandingPad4</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageShuttleLandingPad5</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageBlastDoor1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageBlastDoor2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCompositeDoor1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCompositeDoor2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCompositeDoor3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAirlock1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAirlock2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCompositeDoorGlass1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageCompositeDoorGlass2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElevatorShaftIndustrial1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElevatorShaftIndustrial2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElevatorShaftIndustrial3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElevatorLevelFront1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageElevatorLevelFront2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
   <Key>ItemKitHarvie</Key>
   <Value>Kit (Harvie)</Value>
   <Description />
@@ -5598,46 +5384,6 @@ Un conjunto cuádruple de motores eléctricos montados en los cubos impulsa el m
 <RecordThing>
   <Key>Flag_ODA_4m</Key>
   <Value>Bandera (ODA 4m)</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureRTG1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTurbineGenerator1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTurbineGenerator2</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageTurbineGenerator3</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAirConditioner1</Key>
-  <Value>Escombros</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageAirConditioner2</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWallCooler1</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWallCooler2</Key>
-  <Value>Restos</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -5822,71 +5568,6 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidTJunction} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
 </RecordThing>
 <RecordThing>
-  <Key>ItemWreckageWindTurbine001</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWindTurbine002</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWindTurbine003</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWindTurbine004</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageWindTurbine005</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation001</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation002</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation003</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation004</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation005</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation006</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation007</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageStructureWeatherStation008</Key>
-  <Value>Restos</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
   <Key>ItemWaterBottle</Key>
   <Value>Botella de Agua</Value>
   <Description>Deliciosa y pura H20, refinada de fuentes locales tan variadas como hielo venusiano y cometas trans-solares. Las botellas vacías se pueden rellenar usando el {THING:StructureWaterBottleFiller}.</Description>
@@ -6002,7 +5683,7 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemMKIIDrill</Key>
   <Value>Taladro Mk II</Value>
-  <Description>El Taladro Manual 'Topo' Off-whirled ha sido un compañero de {LINK:Stationeers;Stationeers} durante décadas. Esencial para ensamblar y deconstruir varios elementos y estructuras, independientemente de la gravedad, presión o temperatura.</Description>
+  <Description>El Taladro Manual 'Topo' Off-whirled ha sido un compañero de {LINK:Stationeers;Stationeers} durante décadas. Esencial para ensamblar y desmontar varios elementos y estructuras, independientemente de la gravedad, presión o temperatura.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIMiningDrill</Key>
@@ -6012,12 +5693,12 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
   <Key>ItemMKIIWireCutters</Key>
   <Value>Cortadores de Alambre Mk II</Value>
-  <Description>Los cortadores de alambre te permiten deconstruir varias {LINK:StructurePage;Estructuras}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de alambre se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;Herramientas}.</Description>
+  <Description>Los cortadores de alambre te permiten desmontar varias {LINK:StructurePage;Estructuras}, así como cruzar cables cuando se sostienen en tu mano no activa, y desactivar explosivos según sea necesario. Los cortadores de alambre se almacenan en el {THING:ItemToolBelt}, junto con otras herramientas esenciales {LINK:ToolPage;Herramientas}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIWrench</Key>
   <Value>Llave Inglesa Mk II</Value>
-  <Description>Una de las contribuciones duraderas de la humanidad al cosmos, la llave representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y deconstruir una variedad de {LINK:StructurePage;Estructuras}. El MK II es más resistente a temperatura y presión.</Description>
+  <Description>Una de las contribuciones duraderas de la humanidad al cosmos, la llave representa la esencia de nuestra especie. Una herramienta simple, efectiva y espiritualmente estéril, úsala para construir y desmontar una variedad de {LINK:StructurePage;Estructuras}. El MK II es más resistente a temperatura y presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMKIIDuctTape</Key>
@@ -6051,15 +5732,15 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Description />
 </RecordThing>
 <RecordThing>
-  <Key>StructureLiquidTankBigInsulated</Key>
-  <Value>Tanque Líquido Grande Aislado</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>StructureLiquidTankSmallInsulated</Key>
-  <Value>Tanque Líquido Pequeño Aislado</Value>
-  <Description />
-</RecordThing>
+      <Key>StructureLiquidTankBigInsulated</Key>
+      <Value>Tanque Líquido Grande (Aislado)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmallInsulated</Key>
+      <Value>Tanque Líquido Pequeño (Aislado)</Value>
+      <Description />
+    </RecordThing>
 <RecordThing>
   <Key>ItemWaterPipeMeter</Key>
   <Value>Kit (Medidor de Tubería Líquida)</Value>
@@ -6120,33 +5801,6 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Key>StructureLiquidPipeAnalyzer</Key>
   <Value>Analizador de Tubería Líquida</Value>
   <Description />
-</RecordThing>
-<RecordThing>
-  <Key>ItemKitHeatExchanger</Key>
-  <Value>Kit (Intercambiador de Calor)</Value>
-  <Description />
-</RecordThing>
-<RecordThing>
-  <Key>StructureHeatExchangerLiquidtoLiquid</Key>
-  <Value>Intercambiador de Calor - Líquido</Value>
-  <Description>Las especificaciones originales del intercambiador de calor N Series Flow-P se rumorea que fueron garabateadas en la parte posterior de un recibo de hamburguesa por un diseñador aburrido de {LINK:Sinotai;Sinotai} que subía en el ascensor espacial brasileño, pero eso no ha impedido que se convierta en uno de los diseños de intercambiador de calor más copiados en el Sistema Solar. 
-  El 'N Flow-P' tiene cuatro conexiones, permitiendo pasar dos redes líquidas a la unidad, que luego trabaja para igualar la temperatura entre las dos redes separadas. 
-  Como el N Flow-P es un sistema pasivo, iguala la presión en toda cada red individual, a menos que esté conectado a dispositivos de gestión de líquidos como un {THING:StructureLiquidVolumePump} o un {THING:StructureBackLiquidPressureRegulator}.
-  </Description>
-</RecordThing>
-<RecordThing>
-  <Key>StructureHeatExchangerGastoGas</Key>
-  <Value>Intercambiador de Calor - Gas</Value>
-  <Description>Las especificaciones originales del intercambiador de calor N Series Flow-P se rumorea que fueron garabateadas en la parte posterior de un recibo de hamburguesa por un diseñador aburrido de {LINK:Sinotai;Sinotai} que subía en el ascensor espacial brasileño, pero eso no ha impedido que se convierta en uno de los diseños de intercambiador de calor más copiados en el Sistema Solar.
-  El 'N Flow-P' tiene cuatro conexiones, permitiendo pasar dos redes de gas a la unidad, que luego trabaja para igualar la temperatura entre las dos redes separadas.
-  Como el N Flow-P es un sistema pasivo, iguala la presión en toda cada red individual, a menos que esté conectado a dispositivos de gestión de gas como un {THING:StructureVolumePump} o un {THING:StructureBackPressureRegulator}.</Description>
-</RecordThing>
-<RecordThing>
-  <Key>StructureHeatExchangeLiquidtoGas</Key>
-  <Value>Intercambiador de Calor - Líquido + Gas</Value>
-  <Description>Las especificaciones originales del intercambiador de calor N Series Flow-P se rumorea que fueron garabateadas en la parte posterior de un recibo de hamburguesa por un diseñador aburrido de {LINK:Sinotai;Sinotai} que subía en el ascensor espacial brasileño, pero eso no ha impedido que se convierta en uno de los diseños de intercambiador de calor más copiados en el Sistema Solar.
-  El 'N Flow-P' tiene cuatro conexiones, permitiendo pasar redes separadas de líquido y gas a la unidad, que luego trabaja para igualar la temperatura entre las dos redes separadas.
-  Como el N Flow-P es un sistema pasivo, iguala la presión en toda cada red individual, a menos que esté conectado a dispositivos como un {THING:StructureVolumePump} o un {THING:StructureBackLiquidPressureRegulator}.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureHeatExchangeLiquidAndGas</Key>
@@ -6566,6 +6220,11 @@ Nota: el envasador parpadeará un error en su interruptor de activación si inte
   <Description>Un helecho adaptado por {LINK:Agrizero;Agrizero} para procesar un volumen mucho mayor de {GAS:CarbonDioxide} en {GAS:Oxygen} que una planta promedio.</Description>
 </RecordThing>
 <RecordThing>
+      <Key>SeedBag_DargaFern</Key>
+      <Value>Semillas de Helecho Darga</Value>
+      <Description />
+    </RecordThing>
+<RecordThing>
   <Key>ItemKitInsulatedWaterPipe</Key>
   <Value>Kit (Tubería de Agua Aislada)</Value>
   <Description />
@@ -6820,25 +6479,45 @@ Terminado - 4
   </Description>
 </RecordThing>
 <RecordThing>
-  <Key>ItemPlantEndothermic_Genepool1</Key>
-  <Value>Invierno (Variante Alpha)</Value>
-  <Description>El {LINK:Agrizero;Agrizero's} invierno procesador biológico atmosférico es una adición reciente a su catálogo de decoraciones ambientales genéticamente modificadas. Usando calor ambiental para dividir {GAS:Water} en {GAS:Volatiles} y {GAS:Oxygen}, el invierno enfría su entorno, cuando se suministra con suficiente {GAS:Nitrogen}. La variante alpha tiene una capacidad máxima de enfriamiento y electrólisis de 90W y es más eficiente operando en temperaturas ambientales de 0 a 40 grados Celsius.</Description>
+      <Key>ItemPlantEndothermic_Genepool1</Key>
+      <Value>Invierno (Cepa Alpha)</Value>
+  <Description>El {LINK:Agrizero;Agrizero's} invierno procesador biológico atmosférico es una adición reciente a su catálogo de decoraciones ambientales genéticamente modificadas. Usando calor ambiental para dividir {GAS:Water} en {GAS:Volatiles} y {GAS:Oxygen}, el invierno enfría su entorno, cuando se suministra con suficiente {GAS:Nitrogen}. La cepa alpha tiene una capacidad máxima de enfriamiento y electrólisis de 90W y es más eficiente operando en temperaturas ambientales de 0 a 40 grados Celsius.</Description>
 </RecordThing>
 <RecordThing>
-  <Key>ItemPlantEndothermic_Genepool2</Key>
-  <Value>Invierno (Variante Beta)</Value>
-  <Description>El {LINK:Agrizero;Agrizero's} invierno procesador biológico atmosférico es una adición reciente a su catálogo de decoraciones ambientales genéticamente modificadas. Usando calor ambiental para dividir {GAS:Water} en {GAS:Volatiles} y {GAS:Oxygen}, el invierno enfría su entorno cuando se suministra con suficiente {GAS:Nitrogen}. La variante beta tiene una capacidad máxima de enfriamiento y electrólisis de 150W y es más eficiente operando en temperaturas ambientales de 14 a 24 grados Celsius.</Description>
+      <Key>ItemPlantEndothermic_Genepool2</Key>
+      <Value>Invierno (Cepa Beta)</Value>
+  <Description>El {LINK:Agrizero;Agrizero's} invierno procesador biológico atmosférico es una adición reciente a su catálogo de decoraciones ambientales genéticamente modificadas. Usando calor ambiental para dividir {GAS:Water} en {GAS:Volatiles} y {GAS:Oxygen}, el invierno enfría su entorno cuando se suministra con suficiente {GAS:Nitrogen}. La cepa beta tiene una capacidad máxima de enfriamiento y electrólisis de 150W y es más eficiente operando en temperaturas ambientales de 14 a 24 grados Celsius.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemPlantThermogenic_Genepool1</Key>
-  <Value>Flor Hades (Variante Alpha)</Value>
+  <Value>Flor Hades (Cepa Alpha)</Value>
   <Description>La {LINK:Agrizero;Agrizero's} Flor Hades es el resultado de un experimento dudoso para combinar el atractivo de las plantas tropicales con la comodidad y calidez de una bomba de calor. La planta respira una mezcla 1:3 de {GAS:Volatiles} y {GAS:Oxygen}, y exhala {GAS:Pollutant} caliente.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemPlantThermogenic_Genepool2</Key>
-  <Value>Flor Hades (Variante Beta)</Value>
-  <Description>La {LINK:Agrizero;Agrizero's} Flor Hades es el resultado de un experimento dudoso para combinar el atractivo de las plantas tropicales con la comodidad y calidez de una bomba de calor. La planta respira una mezcla 1:3 de {GAS:Volatiles} y {GAS:Oxygen}, y exhala {GAS:Pollutant} caliente. La variante beta es notablemente más eficiente que la variante alpha, más experimental.</Description>
+  <Value>Flor Hades (Cepa Beta)</Value>
+  <Description>La {LINK:Agrizero;Agrizero's} Flor Hades es el resultado de un experimento dudoso para combinar el atractivo de las plantas tropicales con la comodidad y calidez de una bomba de calor. La planta respira una mezcla 1:3 de {GAS:Volatiles} y {GAS:Oxygen}, y exhala {GAS:Pollutant} caliente. La cepa beta es notablemente más eficiente que la cepa alpha, más experimental.</Description>
 </RecordThing>
+<RecordThing>
+      <Key>SeedBag_HadesAlpha</Key>
+      <Value>Semilla de Hades (Cepa Alpha)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_HadesBeta</Key>
+      <Value>Semilla de Hades (Cepa Beta)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_WinterspawnAlpha</Key>
+      <Value>Semilla de Invierno (Cepa Alpha)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_WinterspawnBeta</Key>
+      <Value>Semilla de Invierno (Cepa Beta)</Value>
+      <Description />
+    </RecordThing>
 <RecordThing>
   <Key>ItemKitStirlingEngine</Key>
   <Value>Kit (Motor Stirling)</Value>
@@ -6974,11 +6653,6 @@ Terminado - 4
   <Key>StructureLargeExtendableRadiator</Key>
   <Value>Radiador Grande Extensible</Value>
   <Description>Optimizado para radiar calor en ambientes de vacío y baja presión. Si se apunta al sol, calentará su contenido rápidamente a través de calentamiento solar. Los paneles se pueden plegar para detener toda radiación de calor/calor solar y protegerlos de tormentas.</Description>
-</RecordThing>
-<RecordThing>
-  <Key>ItemWreckageLargeExtendableRadiator01</Key>
-  <Value>Restos</Value>
-  <Description />
 </RecordThing>
 <RecordThing>
   <Key>StructureWaterBottleFillerPoweredBottom</Key>
@@ -8131,6 +7805,16 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
   <Description />
 </RecordThing>
 <RecordThing>
+      <Key>StructureRocketCargoBay</Key>
+      <Value>Bahía de Carga de Cohete</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCargoBayFuselage</Key>
+      <Value>Fuselaje (Bahía de Carga)</Value>
+      <Description />
+    </RecordThing>
+<RecordThing>
   <Key>StructureCargoStorageSmall</Key>
   <Value>Almacenamiento de Carga (Pequeño)</Value>
   <Description />
@@ -8151,19 +7835,14 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
   <Description />
 </RecordThing>
 <RecordThing>
-  <Key>StructureRocketMiner</Key>
-  <Value>Minador de Cohete</Value>
-  <Description>Recolecta recursos disponibles en la ubicación espacial actual del cohete.</Description>
-</RecordThing>
+      <Key>StructureRocketMiner</Key>
+      <Value>Minador de Cohete</Value>
+      <Description>Recolecta recursos disponibles en la ubicación espacial actual del cohete. La minería también genera un pequeño flujo de puntos de exploración en la ubicación.</Description>
+    </RecordThing>
 <RecordThing>
   <Key>ItemRocketMiningDrillHead</Key>
   <Value>Cabeza de Perforación de Minería (Básica)</Value>
   <Description>Cabeza de perforación reemplazable para {THING:StructureRocketMiner}</Description>
-</RecordThing>
-<RecordThing>
-  <Key>ItemKitRocketParts</Key>
-  <Value>Partes Internas de Cohete</Value>
-  <Description />
 </RecordThing>
 <RecordThing>
   <Key>ItemKitRockets</Key>
@@ -8691,7 +8370,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>FlareGun</Key>
-  <Value>Pistola de Señales</Value>
+  <Value>Pistola de Bengalas</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -9115,11 +8794,6 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Description>Un componente de una red de rieles lineales que se usa junto con los muelles LArRE.</Description>
 </RecordThing>
 <RecordThing>
-  <Key>StructurePassiveVentValve</Key>
-  <Value>Ventilación Pasiva (Válvula)</Value>
-  <Description>Las ventilaciones pasivas (Válvula) permiten que los gases entren y salgan de las redes de tuberías, que son sistemas cerrados a menos que estén conectados a un dispositivo o estructura. Las ventilaciones pasivas no requieren energía, pero permiten al usuario elegir cuándo dejar que los gases en un espacio cerrado se mezclen dentro de una red de tuberías.</Description>
-</RecordThing>
-<RecordThing>
   <Key>StructureManualFloorHatch</Key>
   <Value>Escotilla Manual de Suelo</Value>
   <Description />
@@ -9129,8 +8803,128 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Grifo de Líquidos</Value>
   <Description />
 </RecordThing>
+<RecordThing>
+      <Key>ItemGasMask</Key>
+      <Value>Máscara de Gas</Value>
+      <Description>Esta máscara se mezcla con la atmósfera del entorno, pero filtra los gases según los filtros en sus dos ranuras.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGasMaskStorage</Key>
+      <Value>Almacenamiento de Máscara de Gas</Value>
+      <Description>El almacenamiento de máscara de gas es un estante diseñado específicamente para guardar una máscara de gas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFireExtinguisherStorage</Key>
+      <Value>Almacenamiento de Extintor</Value>
+      <Description>El almacenamiento de extintor es un estante diseñado específicamente para guardar un extintor de incendios.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGPR</Key>
+      <Value>GPR Dinámico</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSuitHARM</Key>
+      <Value>Traje HARM</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSuitHelmetHARM</Key>
+      <Value>Casco HARM</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MonsterEgg</Key>
+      <Value>Huevo de Monstruo</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MonsterQueen</Key>
+      <Value>Reina Monstruo</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardMissionControl</Key>
+      <Value>Placa Base de Control de Misión</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganLungsZrilian</Key>
+      <Value>Pulmones</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner3HBurnt</Key>
+      <Value>Cable</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCarbonSequester</Key>
+      <Value>Filtro de Carbono</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCarbonSequesterTopExtension</Key>
+      <Value>Filtro de Carbono (Extensión Superior)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCarbonSequesterVentExtension</Key>
+      <Value>Filtro de Carbono (Extensión de Ventilación)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDispersalTower</Key>
+      <Value>Torre de Dispersión</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDispersalTowerChimneyExtension</Key>
+      <Value>Torre de Dispersión (Extensión de Chimenea)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangeLiquidtoGas</Key>
+      <Value>Intercambiador de Calor (Líquido a Gas)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangerGastoGas</Key>
+      <Value>Intercambiador de Calor (Gas a Gas)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangerLiquidtoLiquid</Key>
+      <Value>Intercambiador de Calor (Líquido a Líquido)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialBurner</Key>
+      <Value>Quemador Industrial</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialBurnerChimneyExtension</Key>
+      <Value>Quemador Industrial (Extensión de Chimenea)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialBurnerHeatExchangerExtension</Key>
+      <Value>Quemador Industrial (Extensión de Intercambiador de Calor)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialCombustor</Key>
+      <Value>Combustor Industrial</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialCombustorChamberExtension</Key>
+      <Value>Combustor Industrial (Extensión de Cámara)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialCombustorChimneyExtension</Key>
+      <Value>Combustor Industrial (Extensión de Chimenea)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialFiltration</Key>
+      <Value>Filtración Industrial</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureIndustrialFiltrationExtension1</Key>
+      <Value>Extensión de Filtración Industrial</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketSpotCamera</Key>
+      <Value>Cámara de Punto de Cohete</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeDeepMiner</Key>
+      <Value>Cartucho (Minador Profundo)</Value>
+      <Description />
+    </RecordThing>
 	  </Things>
-<Slots>
+	<Slots>
   <Record>
     <Key>SprayCan</Key>
     <Value>Spray Can</Value>
@@ -9283,6 +9077,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Key>ScannerSlot</Key>
     <Value>Ranura de Cabezal de Escáner</Value>
   </Record>
+<Record>
+      <Key>PortableSlot</Key>
+      <Value>Ranura Portátil</Value>
+    </Record>  
   <Record>
     <Key>Motherboard</Key>
     <Value>Placa Base</Value>
@@ -9296,7 +9094,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Ocupante</Value>
   </Record>
   <Record>
-    <Key>PortableSlot</Key>
+    <Key>Portables</Key>
     <Value>Ranura Portátil</Value>
   </Record>
   <Record>
@@ -9324,6 +9122,14 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Revista</Value>
   </Record>
   <Record>
+      <Key>Chamber</Key>
+      <Value>Cámara</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Cartucho de Líquido</Value>
+    </Record>
+  <Record>
     <Key>ContainerSlot</Key>
     <Value>Ranura de Contenedor</Value>
   </Record>
@@ -9340,9 +9146,13 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Circuito</Value>
   </Record>
   <Record>
-    <Key>CircuitBoard</Key>
+    <Key>CircuitBoard</Key> <!-- These are intentionally duplicate. Do not change -->
     <Value>Placa de Circuito</Value>
   </Record>
+  <Record>
+    <Key>CircuitBoard</Key> <!-- These are intentionally duplicate. Do not change -->
+    <Value>Placa de Circuito</Value>
+  </Record>  
   <Record>
     <Key>ProgrammableChip</Key>
     <Value>Chip Programable</Value>
@@ -9440,10 +9250,6 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Puerta</Value>
   </Record>
   <Record>
-    <Key>Storage</Key>
-    <Value>Almacenamiento</Value>
-  </Record>
-  <Record>
     <Key>ArmSlot</Key>
     <Value>Ranura de Brazo</Value>
   </Record>
@@ -9451,6 +9257,38 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>HopperSlot</Key>
   <Value>Ranura de conducto</Value>
 </Record>
+<Record>
+      <Key>Wreckage</Key>
+      <Value>Escombros</Value>
+    </Record>
+    <Record>
+      <Key>Appliance</Key>
+      <Value>Aparato</Value>
+    </Record>
+    <Record>
+      <Key>SoundCartridge</Key>
+      <Value>Cartucho de Sonido</Value>
+    </Record>
+    <Record>
+      <Key>LiquidBottle</Key>
+      <Value>Botella de Agua</Value>
+    </Record>
+    <Record>
+      <Key>Bottle</Key>
+      <Value>Lata de Aerosol</Value>
+    </Record>
+    <Record>
+      <Key>Flare</Key>
+      <Value>Bengala</Value>
+    </Record>
+    <Record>
+      <Key>Tablet</Key>
+      <Value>Tablet</Value>
+    </Record>
+    <Record>
+      <Key>None</Key>
+      <Value>Nada</Value>
+    </Record>
 	  </Slots>
 	<Interactables>
   <Record>
@@ -9958,7 +9796,523 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Aumentar</Value>
   </Record>
   </Interactables>
-	<Interface>
+	<Interface>	
+<Record>
+      <Key>EuropaPoiRegionCallanishPeakName</Key>
+      <Value>Pico Callanish</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionCallanishPeakDescription</Key>
+      <Value>Punto más alto del sector</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionFalgasDescentName</Key>
+      <Value>Descenso de Falga</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionFalgasDescentDescription</Key>
+      <Value>Descenso pronunciado hacia la gran cuenca</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionBalgatanRidgeName</Key>
+      <Value>Cresta Balgatan</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionBalgatanRidgeDescription</Key>
+      <Value>Con vistas a la cuenca norte</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSouthCallanishPassName</Key>
+      <Value>Paso Callanish Sur</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSouthCallanishPassDescription</Key>
+      <Value>Ruta más segura hacia las tierras altas</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSidonGullyName</Key>
+      <Value>Barranco Sidon</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSidonGullyDescription</Key>
+      <Value>Dedo protegido que se extiende desde la gran cuenca</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionMorensFellName</Key>
+      <Value>Colina de Moren</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionMorensFellDescription</Key>
+      <Value>Desierto de hielo azotado por el viento</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiMarsdenCraterName</Key>
+      <Value>Cráter Marsden</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiMarsdenCraterDescription</Key>
+      <Value>Cráter de tierras bajas poco profundo</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDesolationName</Key>
+      <Value>Desolación</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDesolationDescription</Key>
+      <Value>Cráter profundo y polvoriento</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDustBowlName</Key>
+      <Value>Cuenca de Polvo</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDustBowlDescription</Key>
+      <Value>Cráter vasto y árido</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCraterFieldLookOutName</Key>
+      <Value>Mirador del Campo de Cráteres</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCraterFieldLookOutDescription</Key>
+      <Value>Vista elevada del campo de cráteres debajo</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiSouthHighlandsPassName</Key>
+      <Value>Paso de las Tierras Altas Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiSouthHighlandsPassDescription</Key>
+      <Value>Valle estrecho hacia las tierras altas</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiShelteredCraterViewName</Key>
+      <Value>Vista del Cráter Protegido</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiShelteredCraterViewDescription</Key>
+      <Value>Vista sobre el cráter central masivo</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCentralMesaCraterName</Key>
+      <Value>Cráter de la Mesa Central</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCentralMesaCraterDescription</Key>
+      <Value>Cráter dentro de un cráter dentro de un cráter</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCressidasPointName</Key>
+      <Value>Punto de Cressida</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCressidasFollyName</Key>
+      <Value>Locura de Cressida</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSouthBarrensName</Key>
+      <Value>Tierras Áridas del Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionWestBarrensName</Key>
+      <Value>Tierras Áridas del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthBarrensName</Key>
+      <Value>Tierras Áridas del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionEastBarrensName</Key>
+      <Value>Tierras Áridas del Este</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsWestName</Key>
+      <Value>Tierras Polvorientas del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsNorthName</Key>
+      <Value>Tierras Polvorientas del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsSouthName</Key>
+      <Value>Tierras Polvorientas del Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCrumbsWatchName</Key>
+      <Value>Mirador de Crumb</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthernEscarpmentName</Key>
+      <Value>Escarpado del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthWesternHighlandsName</Key>
+      <Value>Tierras Altas del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthEasternHighlandsName</Key>
+      <Value>Tierras Altas del Noreste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthernHighlandsName</Key>
+      <Value>Tierras Altas del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSouthernHighlandsName</Key>
+      <Value>Tierras Altas del Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionMarsdenCraterName</Key>
+      <Value>Cráter Marsden</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionHarrietsDitchName</Key>
+      <Value>Zanja de Harriet</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionHarrietCraterName</Key>
+      <Value>Cráter Harriet</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDesolationName</Key>
+      <Value>Desolación</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustBowlName</Key>
+      <Value>Cuenca de Polvo</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsNorthWestName</Key>
+      <Value>Tierras Bajas del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsWestName</Key>
+      <Value>Tierras Bajas del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsSouthName</Key>
+      <Value>Tierras Bajas del Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsEastName</Key>
+      <Value>Tierras Bajas del Este</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsNorthName</Key>
+      <Value>Tierras Bajas del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthWestName</Key>
+      <Value>Campo de Cráteres del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldWestName</Key>
+      <Value>Campo de Cráteres del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthWestName</Key>
+      <Value>Campo de Cráteres del Suroeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthName</Key>
+      <Value>Campo de Cráteres del Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthEastName</Key>
+      <Value>Campo de Cráteres del Sureste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldEastName</Key>
+      <Value>Campo de Cráteres del Este</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthEastName</Key>
+      <Value>Campo de Cráteres del Noreste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthName</Key>
+      <Value>Campo de Cráteres del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthWestName</Key>
+      <Value>Supercráter del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterWestName</Key>
+      <Value>Supercráter del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthWestName</Key>
+      <Value>Supercráter del Suroeste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthName</Key>
+      <Value>Supercráter del Sur</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthEastName</Key>
+      <Value>Supercráter del Sureste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterEastName</Key>
+      <Value>Supercráter del Este</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthEastName</Key>
+      <Value>Supercráter del Noreste</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthName</Key>
+      <Value>Supercráter del Norte</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCentralMesaName</Key>
+      <Value>Mesa Central</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCentralMesaName</Key>
+      <Value>Mesa Central</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnHarrietCraterName</Key>
+      <Value>Cráter Harriet</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCraterFieldName</Key>
+      <Value>Campo de Cráteres</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnDustBowlName</Key>
+      <Value>Cuenca de Polvo</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTyreSlopeName</Key>
+      <Value>Pendiente de Tyre</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionIceDesertName</Key>
+      <Value>Desierto de Hielo</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthEastRangeName</Key>
+      <Value>Cordillera del Noreste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthernTroughName</Key>
+      <Value>Surco del Norte</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthRangeName</Key>
+      <Value>Cordillera del Norte</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestRangeName</Key>
+      <Value>Cordillera del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTheDitchName</Key>
+      <Value>La Zanja</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionBasinViewName</Key>
+      <Value>Vista de la Cuenca</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthernRangesName</Key>
+      <Value>Cordillera del Sur</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsRestName</Key>
+      <Value>Reposo de Rupert</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionPerpetuityName</Key>
+      <Value>Perpetuidad</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsRangeName</Key>
+      <Value>Cordillera de Rupert</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsValleyName</Key>
+      <Value>Valle de Rupert</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerWestName</Key>
+      <Value>Dedo Glacial del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerEastName</Key>
+      <Value>Dedo Glacial del Este</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerSouthName</Key>
+      <Value>Dedo Glacial del Sur</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerNorthName</Key>
+      <Value>Dedo Glacial del Norte</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinWestName</Key>
+      <Value>Gran Cuenca del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinSouthName</Key>
+      <Value>Gran Cuenca del Sur</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinEastName</Key>
+      <Value>Gran Cuenca del Este</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinNorthName</Key>
+      <Value>Gran Cuenca del Norte</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionEastBalgatanRangeName</Key>
+      <Value>Cordillera Balgatan del Este</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionWestBalgatanRangeName</Key>
+      <Value>Cordillera Balgatan del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTyreValleyName</Key>
+      <Value>Valle de Tyre</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionMorensCrossingName</Key>
+      <Value>Cruce de Moren</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionWesternIceFlatsName</Key>
+      <Value>Llanuras de Hielo del Oeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionEasternIceFlatsName</Key>
+      <Value>Llanuras de Hielo del Este</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTheWallName</Key>
+      <Value>El Muro</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionCrescentValleyName</Key>
+      <Value>Valle Creciente</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthEastHighlandsName</Key>
+      <Value>Tierras Altas del Sureste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthEastHighlandsName</Key>
+      <Value>Tierras Altas del Noreste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthWestHighlandsName</Key>
+      <Value>Tierras Altas del Suroeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestHighlandsName</Key>
+      <Value>Tierras Altas del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionHeavensVaultName</Key>
+      <Value>Bóveda del Cielo</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionBalgatanPassName</Key>
+      <Value>Paso Balgatan</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionPilgrimsPathName</Key>
+      <Value>Camino del Peregrino</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestOutlandsName</Key>
+      <Value>Tierras Lejanas del Noroeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthWestOutlandsName</Key>
+      <Value>Tierras Lejanas del Suroeste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthEastOutlandsName</Key>
+      <Value>Tierras Lejanas del Sureste</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthOutlandsName</Key>
+      <Value>Tierras Lejanas del Sur</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnIcyBasin</Key>
+      <Value>Cuenca Helada</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnGlacialChannel</Key>
+      <Value>Canal Glacial</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnBalgatanPass</Key>
+      <Value>Paso Balgatan</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnFrigidHighlands</Key>
+      <Value>Tierras Altas Gélidas</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnTyreValley</Key>
+      <Value>Valle de Tyre</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterName</Key>
+      <Value>Cráter de Mineral Rico</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterGoldSilverDescription</Key>
+      <Value>Rico en Oro y Plata</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterCobaltDescription</Key>
+      <Value>Rico en Cobalto</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterNickelLeadDescription</Key>
+      <Value>Rico en Níquel y Plomo</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterLacusBellusName</Key>
+      <Value>Lacus Bellus</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterLacusBellusDescription</Key>
+      <Value>Gran Cráter</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVeritasName</Key>
+      <Value>Cráter Veritas</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVeritasDescription</Key>
+      <Value>Gran Cráter</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVesperName</Key>
+      <Value>Cráter Vesper</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
+      <Value>Gran Cráter</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterNoxName</Key>
+      <Value>Cráter Nox</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
+      <Value>Gran Cráter</Value>
+    </Record>	
   <Record>
     <Key>OkayConfirmation</Key>
     <Value>De acuerdo</Value>
@@ -10232,6 +10586,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Cargar Mundo</Value>
 </Record>
 <Record>
+      <Key>FileLoadSave</Key>
+      <Value>Cargar Partida</Value>
+    </Record>
+<Record>
   <Key>MainMenuJoinWorld</Key>
   <Value>Unirse al mundo</Value>
 </Record>
@@ -10239,6 +10597,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>MainMenuWorkshop</Key>
   <Value>Workshop</Value>
 </Record>
+<Record>
+      <Key>MainMenuLocal</Key>
+      <Value>Partida Local</Value>
+    </Record>
 <Record>
   <Key>MainMenuSettings</Key>
   <Value>Configuración</Value>
@@ -10363,6 +10725,54 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>NewWorldAreaSpace</Key>
   <Value>Cinturón de Asteroides</Value>
 </Record>
+<Record>
+      <Key>NewWorldAlienWorld</Key>
+      <Value>Prueba de Terreno - Mundo Alienígena</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon1kWorld</Key>
+      <Value>Prueba de Terreno - Luna 1K</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon2kWorld</Key>
+      <Value>Prueba de Terreno - Luna 2K</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon4kWorld</Key>
+      <Value>Luna</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon8kWorld</Key>
+      <Value>Prueba de Terreno - Luna 8K</Value>
+    </Record>
+    <Record>
+      <Key>64Test</Key>
+      <Value>Prueba de Terreno - 64M</Value>
+    </Record>
+    <Record>
+      <Key>128Test</Key>
+      <Value>Prueba de Terreno - 128M</Value>
+    </Record>
+    <Record>
+      <Key>512Test</Key>
+      <Value>Prueba de Terreno - 512M</Value>
+    </Record>
+    <Record>
+      <Key>1024Test</Key>
+      <Value>Prueba de Terreno - 1024M</Value>
+    </Record>
+    <Record>
+      <Key>4096Test</Key>
+      <Value>Prueba de Terreno - 4096M</Value>
+    </Record>
+    <Record>
+      <Key>8192Test</Key>
+      <Value>Prueba de Terreno - 8192M</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldArea4KMars</Key>
+      <Value>Prueba de Terreno - Marte 4K</Value>
+    </Record>
 <Record>
   <Key>NewWorldAreaLowEarthOrbit</Key>
   <Value>Órbita Baja de la Tierra</Value>
@@ -10628,6 +11038,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Resolución</Value>
 </Record>
 <Record>
+      <Key>SettingsRefreshRate</Key>
+      <Value>Tasa de Refresco</Value>
+    </Record>
+<Record>
   <Key>SettingsScreenMode</Key>
   <Value>Modo de Pantalla</Value>
 </Record>
@@ -10660,6 +11074,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Calidad de Partículas</Value>
 </Record>
 <Record>
+      <Key>SettingsTerrainDetail</Key>
+      <Value>Detalle del Terreno</Value>
+    </Record>
+<Record>
   <Key>SettingsSoftParticles</Key>
   <Value>Partículas Suaves</Value>
 </Record>
@@ -10675,6 +11093,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>SettingsShadows</Key>
   <Value>Sombras</Value>
 </Record>
+<Record>
+      <Key>SettingsDistantShadows</Key>
+      <Value>Distancia de sombreado</Value>
+    </Record>
 <Record>
   <Key>SettingsShadowResolution</Key>
   <Value>Resolución de Sombras</Value>
@@ -10743,6 +11165,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>PlayerIsConnecting</Key>
   <Value>Un jugador se está conectando</Value>
 </Record>
+<Record>
+      <Key>PlayerHasConnected</Key>
+      <Value>Un jugador se ha conectado</Value>
+    </Record>
 <Record>
   <Key>GamePaused</Key>
   <Value>Juego Pausado</Value>
@@ -11101,7 +11527,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 </Record>
 <Record>
   <Key>PromptDeleteTitle</Key>
-  <Value>Eliminar Todo el Guardado</Value>
+  <Value>Eliminar Guardado</Value>
 </Record>
 <Record>
   <Key>PromptDeleteBody</Key>
@@ -11433,8 +11859,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>
     ¡Este es el Modo Creativo de Stationeers! ¡Genera cualquier objeto, prueba ideas y construye cosas locas muy rápido! 
     &lt;color=red&gt;Este modo es experimental. Piensa en ello como una fiesta espacial sin restricciones donde cosas emocionantes e inesperadas* pueden y sucederán, en comparación con la experiencia más confiable de casi morir del Modo Supervivencia. 
-    Simplemente no te sientas triste cuando te explotes en pequeños pedacitos o seas atacado por pollos o explotes lentamente mientras flotas solo en el vacío infinito. 
-    * errores
+    Simplemente no te sientas triste cuando te explotes en pequeños pedacitos o seas atacado por pollos o explotes lentamente mientras flotas solo en el vacío infinito.
   </Value>
 </Record>
 <Record>
@@ -11637,10 +12062,6 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Configuraciones de Entrada</Value>
 </Record>
 <Record>
-  <Key>NewWorldAreaEuropa</Key>
-  <Value>Europa</Value>
-</Record>
-<Record>
   <Key>NewWorldAreaMimas</Key>
   <Value>Mimas</Value>
 </Record>
@@ -11648,6 +12069,30 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>NewWorldMarsShortDesc</Key>
   <Value>Una bola roja polvorienta y desolada, Marte presenta un terreno más variado que puede alcanzar el cielo, y una atmósfera fría que no es buena para respirar, pero tal vez se puede usar para algo...</Value>
 </Record>
+<Record>
+      <Key>NewWorldAlienWorldShortDesc</Key>
+      <Value>Para probar el nuevo sistema de terreno</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon1kShortDesc</Key>
+      <Value>Mapa de prueba de luna de 1 km por 1 km</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon2kShortDesc</Key>
+      <Value>Mapa de prueba de luna de 1 km por 1 km</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon4kShortDesc</Key>
+      <Value>4 km por 4 km</Value>
+    </Record>
+    <Record>
+      <Key>WorldLunar</Key>
+      <Value>Mar Lunar</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldLunarShortDesc</Key>
+      <Value>Este mapa está situado en el límite de un mar lunar, donde las llanuras de lava antiguas se encuentran con las tierras altas escarpadas. El terreno es una mezcla de llanuras abiertas y crestas fracturadas, moldeadas por impactos y la historia volcánica. Sin atmósfera y con luz solar constante, ofrece un entorno severo pero estable para operaciones lunares.</Value>
+    </Record>
 <Record>
   <Key>NewWorldMoonShortDesc</Key>
   <Value>Aunque la presencia de carbón no es típica de la Luna de la Tierra, el terreno relativamente plano lleno de varios cráteres de tamaño considerable y la falta de atmósfera pueden ser más familiares en este paisaje gris. Una gran ubicación para que el emergente Stationeer comience su viaje, con menos peligros y complejidades que ofrecen mundos más exóticos.</Value>
@@ -11680,6 +12125,158 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>NewWorldMimasShortDesc</Key>
   <Value>Una roca estéril situada bajo el ala de los espectaculares anillos de Saturno. La pequeña estatura de Mimas se refleja en su gravedad extremadamente baja, y la superficie mimanteana está saturada de cráteres de impacto de ocupantes errantes de los anillos. Su distancia del sol proporciona poca energía de dispositivos solares. Ten mucho cuidado al caminar o saltar, ya que puedes viajar una larga distancia y adquirir mucha velocidad debido a la extremadamente baja gravedad.</Value>
 </Record>
+<Record>
+      <Key>RandomSpawnLocation</Key>
+      <Value>Aleatorio</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterVesper</Key>
+      <Value>Cráter Vesper</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMontesUmbrarum</Key>
+      <Value>Montes Umbrarum</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterNox</Key>
+      <Value>Cráter Nox</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMonsArcanus</Key>
+      <Value>Mons Arcanus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumCaradus</Key>
+      <Value>Dorsum Caradus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusJaewoo</Key>
+      <Value>Lacus Jaewoo</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPromontoriumSolis</Key>
+      <Value>Promontorium Solis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMareSimonis</Key>
+      <Value>Mare Simonis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMontesUmbrarum</Key>
+      <Value>Montes Umbrarum</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisLiama</Key>
+      <Value>Vallis Liama</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterVeritas</Key>
+      <Value>Cráter Veritas</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLabyrinthusPetr</Key>
+      <Value>Labyrinthus Petr</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarTerraDylan</Key>
+      <Value>Terra Dylan</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarFossaMyers</Key>
+      <Value>Fossa Myers</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumMcLean</Key>
+      <Value>Dorsum McLean</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPalusAeternus</Key>
+      <Value>Palus Aeternus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMonsArcanus</Key>
+      <Value>Mons Arcanus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterElissae</Key>
+      <Value>Cráter Elissae</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarSinusTenebrae</Key>
+      <Value>Sinus Tenebrae</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterVesper</Key>
+      <Value>Cráter Vesper</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPlanitiaSolstitia</Key>
+      <Value>Planitia Solstitia</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMontesFulgur</Key>
+      <Value>Montes Fulgur</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisCineris</Key>
+      <Value>Vallis Cineris</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumBorealis</Key>
+      <Value>Dorsum Borealis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusGelidus</Key>
+      <Value>Lacus Gelidus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPromontoriumZenith</Key>
+      <Value>Promontorium Zenith</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarTerraFerruginea</Key>
+      <Value>Terra Ferruginea</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarFossaAbyssus</Key>
+      <Value>Fossa Abyssus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMareSomnii</Key>
+      <Value>Mare Somnii</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarRimaSerpentis</Key>
+      <Value>Rima Serpentis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusBellus</Key>
+      <Value>Lacus Bellus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisOblivionis</Key>
+      <Value>Vallis Oblivionis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterNox</Key>
+      <Value>Cráter Nox</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterSolaris</Key>
+      <Value>Cráter Solaris</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterNovus</Key>
+      <Value>Cráter Novus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarRupesMagna</Key>
+      <Value>Rupes Magna</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarSpeculaObservans</Key>
+      <Value>Specula Observans</Value>
+    </Record>
 <Record>
   <Key>SettingsTitleAudioAlerts</Key>
   <Value>Notificaciones de Voz</Value>
@@ -11772,6 +12369,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 		  <Key>ButtonLoad</Key>
 		  <Value>Cargar</Value>
 		</Record>
+    <Record>
+      <Key>ButtonLoadLatest</Key>
+      <Value>Cargar última partida</Value>
+    </Record>		
 		<Record>
 		  <Key>HeadingEdit</Key>
 		  <Value>Editar</Value>
@@ -12357,10 +12958,6 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 		  <Key>LogicTypePlantHash4</Key>
 		  <Value>Obsoleto</Value>
 		</Record>
-<Record>
-  <Key>LogicTypeRequestHash</Key>
-  <Value>Cuando se establece en el identificador único, solicita un artículo del tipo proporcionado del dispositivo</Value>
-</Record>
 <Record>
   <Key>LogicTypeCompletionRatio</Key>
   <Value>Qué tan completa está la producción actual para este dispositivo, entre 0 y 1</Value>
@@ -13382,24 +13979,8 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Acero</Value>
 </Record>
 <Record>
-  <Key>ElectronicReaderUranium</Key>
-  <Value>Uranio</Value>
-</Record>
-<Record>
   <Key>ElectronicReaderHydrocarbon</Key>
   <Value>Hidrocarburo</Value>
-</Record>
-<Record>
-  <Key>ElectronicReaderSilver</Key>
-  <Value>Plata</Value>
-</Record>
-<Record>
-  <Key>ElectronicReaderNickel</Key>
-  <Value>Níquel</Value>
-</Record>
-<Record>
-  <Key>ElectronicReaderLead</Key>
-  <Value>Plomo</Value>
 </Record>
 <Record>
   <Key>ElectronicReaderElectrum</Key>
@@ -13416,10 +13997,6 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 <Record>
   <Key>ElectronicReaderSolder</Key>
   <Value>Soldadura</Value>
-</Record>
-<Record>
-  <Key>ElectronicReaderSilicon</Key>
-  <Value>Silicio</Value>
 </Record>
 <Record>
   <Key>ElectronicReaderSalicylicAcid</Key>
@@ -14451,7 +15028,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 </Record>
 <Record>
   <Key>DeconstructToolTipText</Key>
-  <Value>{0} requerido para deconstruir</Value>
+  <Value>{0} requerido para desmontar</Value>
 </Record>
 <Record>
   <Key>SettingsDoubleClickDelay</Key>
@@ -14475,7 +15052,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 </Record>
 <Record>
   <Key>SiloDeconstruct</Key>
-  <Value>Tu Silo debe estar vacío antes de deconstruirlo.</Value>
+  <Value>Tu Silo debe estar vacío antes de desmontarlo.</Value>
 </Record>
 <Record>
   <Key>PressEnterToContinue</Key>
@@ -14531,7 +15108,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 </Record>
 <Record>
   <Key>ControlHoldPrimaryClickDeconstructDisc</Key>
-  <Value>Deconstruir</Value>
+  <Value>Desmontar</Value>
 </Record>
 <Record>
   <Key>ControlHoldPrimaryClickPlaceDisc</Key>
@@ -15038,10 +15615,6 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Minerales</Value>
 </Record>
 <Record>
-  <Key>OreCategoryKey </Key>
-  <Value>Minerales</Value>
-</Record>
-<Record>
   <Key>PersonalCategoryKey</Key>
   <Value>Personal</Value>
 </Record>
@@ -15221,6 +15794,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>StatusIconHydrationKey</Key>
   <Value>Hidratación Baja</Value>
 </Record>
+<Record>
+      <Key>StatusWarningLeavingMissionArea</Key>
+      <Value>Abandonando el Área de la Misión</Value>
+    </Record>
 <Record>
   <Key>HydrationCaution</Key>
   <Value>Cuidado con la Hidratación</Value>
@@ -15697,6 +16274,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
   <Value>Minar</Value>
 </Record>
 <Record>
+      <Key>ButtonDeploy</Key>
+      <Value>Desplegar</Value>
+    </Record>
+<Record>
   <Key>ButtonDiscover</Key>
   <Value>Descubrir</Value>
 </Record>
@@ -15732,6 +16313,14 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
   <Key>NewWorldYearLength</Key>
   <Value>Período Sidéreo</Value>
 </Record>
+<Record>
+      <Key>StationpediaGrowthParameters</Key>
+      <Value>Parámetros de Crecimiento</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaGeneInfoTitle</Key>
+      <Value>Gen:</Value>
+    </Record>
 <Record>
   <Key>StationpediaConstructableInRockets</Key>
   <Value>Construible en Cohetes:</Value>
@@ -15769,6 +16358,18 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
   <Value>Eliminar Ubicación</Value>
 </Record>
 <Record>
+      <Key>RemoveNodeText</Key>
+      <Value>¿Estás seguro de que quieres eliminar esta ubicación?</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeConfirm</Key>
+      <Value>Eliminar</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeCancel</Key>
+      <Value>Cancelar</Value>
+    </Record>
+<Record>
   <Key>ClearDestinationButton</Key>
   <Value>Limpiar Destino</Value>
 </Record>
@@ -15776,6 +16377,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
   <Key>StationpediaSpeedMultiplierTitle</Key>
   <Value>Velocidad:</Value>
 </Record>
+<Record>
+      <Key>StationpediaPowerMultiplierTitle</Key>
+      <Value>Uso de Energía:</Value>
+    </Record>
 <Record>
   <Key>StationpediaReagentYieldMultiplierTitle</Key>
   <Value>Rendimiento de Mineral:</Value>
@@ -15791,10 +16396,6 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 <Record>
   <Key>StationpediaHealthMultiplierTitle</Key>
   <Value>Durabilidad:</Value>
-</Record>
-<Record>
-  <Key>StationpediaNutritionQuality</Key>
-  <Value>Calidad:</Value>
 </Record>
 <Record>
   <Key>PhaseChangeCompareTo</Key>
@@ -15826,12 +16427,20 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>DefaultStartCondition</Key>
-  <Value>Inicio Estándar</Value>
+  <Value>Estándar</Value>
 </Record>
 <Record>
-  <Key>DefaultStartConditionDescription</Key>
-  <Value>Todo lo que necesitas para construir tu primera base</Value>
-</Record>
+      <Key>DefaultStartConditionDescription</Key>
+      <Value>Comenzarás con los elementos básicos necesarios para establecer una base remota, organizados sistemáticamente en un módulo de aterrizaje con cajas y paquetes.</Value>
+    </Record>
+    <Record>
+      <Key>TerrainEditStartCondition</Key>
+      <Value>Edición de Terreno</Value>
+    </Record>
+    <Record>
+      <Key>TerrainEditStartConditionDescription</Key>
+      <Value>Comienza con herramientas de depuración para editar rápidamente el terreno.</Value>
+    </Record>
 <Record>
   <Key>DefaultScenarioStartCondition</Key>
   <Value>Solo kit de jugador</Value>
@@ -15870,7 +16479,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>BrutalStartConditionDescription</Key>
-  <Value>El mínimo necesario para sobrevivir</Value>
+  <Value>Tendrás muy poco para sobrevivir. No te diré cuáles son tus posibilidades... pero... tienes mis condolencias.</Value>
 </Record>
 <Record>
   <Key>WorldObjectiveBuildPower</Key>
@@ -16484,6 +17093,1471 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
   <Key>AutoExpandToggle</Key>
   <Value>Expandir automáticamente</Value>
 </Record>
+
+
+
+
+
+<Record>
+      <Key>ButtonHostServer</Key>
+      <Value>Alojar Servidor</Value>
+    </Record>
+    <Record>
+      <Key>CartridgeAtmosAnalyserSelected</Key>
+      <Value>MUNDO</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTextPlayers</Key>
+      <Value>Jugadores:</Value>
+    </Record>
+    <Record>
+      <Key>FactionsCategoryKey</Key>
+      <Value>Facciones</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMineableDistance</Key>
+      <Value>Distancia de minerales</Value>
+    </Record>
+    <Record>
+      <Key>SettingsChunkDistance</Key>
+      <Value>Distancia de sectores</Value>
+    </Record>
+    <Record>
+      <Key>HeaderSettings</Key>
+      <Value>Configuración</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalAirTankCritical</Key>
+      <Value>Tanque de Aire Crítico</Value>
+    </Record>
+<Record>
+      <Key>StatusCriticalCognitionCritical</Key>
+      <Value>Pérdida de Conciencia Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalCoolantTankCritical</Key>
+      <Value>Tanque de Refrigerante Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalFilterCritical</Key>
+      <Value>Filtro Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalHealthCritical</Key>
+      <Value>Salud Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalHungerCritical</Key>
+      <Value>Hambre Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalHydrationCritical</Key>
+      <Value>Hidratación Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalHygieneCritical</Key>
+      <Value>Higiene Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalJetPackCritical</Key>
+      <Value>Jetpack Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalMoodCritical</Key>
+      <Value>Estado de Ánimo Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalOxygenCritical</Key>
+      <Value>Oxígeno Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalPowerCritical</Key>
+      <Value>Energía Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalPressureCritical</Key>
+      <Value>Presión Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalSuitCritical</Key>
+      <Value>Traje Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalTemperatureCritical</Key>
+      <Value>Temperatura Crítica</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalToxinCritical</Key>
+      <Value>Toxinas Críticas</Value>
+    </Record>
+    <Record>
+      <Key>StatusCriticalWasteTankCritical</Key>
+      <Value>Tanque de Residuos Crítico</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningAirTankLow</Key>
+      <Value>Tanque de Aire Bajo</Value>
+    </Record>
+ <Record>
+      <Key>StatusWarningCognitionLow</Key>
+      <Value>Perdiendo Conciencia</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningCoolantTankCaution</Key>
+      <Value>Precaución Tanque de Refrigerante</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningFilterLow</Key>
+      <Value>Filtro Bajo</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningHealthLow</Key>
+      <Value>Salud Baja</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningHighPressure</Key>
+      <Value>Presión Alta</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningHungerCaution</Key>
+      <Value>Precaución Hambre</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningHydrationCaution</Key>
+      <Value>Precaución Hidratación</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningHygieneLow</Key>
+      <Value>Higiene Baja</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningJetPackLow</Key>
+      <Value>Jetpack Bajo</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningLowPressure</Key>
+      <Value>Presión Baja</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningMoodLow</Key>
+      <Value>Estado de Ánimo Bajo</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningOxygenLow</Key>
+      <Value>Oxígeno Bajo</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningPowerLow</Key>
+      <Value>Energía Baja</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningSuitDamage</Key>
+      <Value>Daño en el Traje</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningTemperatureHigh</Key>
+      <Value>Temperatura Alta</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningTemperatureLow</Key>
+      <Value>Temperatura Baja</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningToxinDetected</Key>
+      <Value>Toxinas Detectadas</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningWasteTankCaution</Key>
+      <Value>Precaución Tanque de Residuos</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningZeroGee</Key>
+      <Value>Gravedad Cero</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeActiveHandOff</Key>
+      <Value>Mano Activa Apagada</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeActiveHandOn</Key>
+      <Value>Mano Activa Encendida</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHelmetClosed</Key>
+      <Value>Casco Cerrado</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHelmetOpened</Key>
+      <Value>Casco Abierto</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeJetpackOn</Key>
+      <Value>Jetpack Encendido</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeLightOff</Key>
+      <Value>Luz Apagada</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeLightOn</Key>
+      <Value>Luz Encendida</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeNutritionNotice</Key>
+      <Value>Aviso de Nutrición</Value>
+    </Record>
+    <Record>
+      <Key>HeaderCommsTerminal</Key>
+      <Value>TERMINAL DE COMUNICACIONES</Value>
+    </Record>
+    <Record>
+      <Key>TradingSoldOut</Key>
+      <Value>Agotado</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionCreative</Key>
+      <Value>Acceso a funciones de generación de objetos y sin uso de recursos. Sobrevivirás indefinidamente en entornos tóxicos. Reaparecer no es un problema</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionEasy</Key>
+      <Value>Un juego más relajado, con menor consumo de oxígeno, comida y agua. Sobrevivirás más tiempo en entornos tóxicos. Reaparecer no es un problema</Value>
+    </Record>
+	<Record>
+      <Key>DifficultyDescriptionNormal</Key>
+      <Value>Tendrás que trabajar duro para mantenerte con vida. Planificar a largo plazo es clave para la supervivencia, ya que comida, agua y oxígeno pueden escasear. Reaparecer dará equipo limitado</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionStationeer</Key>
+      <Value>Una experiencia desafiante. Necesitarás sistemas extensos de soporte vital e hidropónicos para mantenerte con vida. Un respiro equivocado puede matarte. Reapareces sin traje ni equipo</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyCreative</Key>
+      <Value>Creativo</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyEasy</Key>
+      <Value>Fácil</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyNormal</Key>
+      <Value>Normal</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStationeer</Key>
+      <Value>Stationeer</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingBeginner</Key>
+      <Value>Principiante</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingIntermediate</Key>
+      <Value>Intermedio</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingChallenging</Key>
+      <Value>Desafiante</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingExtreme</Key>
+      <Value>Extremo</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEarth</Key>
+      <Value>Tierra</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMoon</Key>
+      <Value>Luna</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodySol</Key>
+      <Value>Sol</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyJanus</Key>
+      <Value>Janus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyJupiter</Key>
+      <Value>Júpiter</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodySaturn</Key>
+      <Value>Saturno</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMercury</Key>
+      <Value>Mercurio</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyVenus</Key>
+      <Value>Venus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMars</Key>
+      <Value>Marte</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPhobos</Key>
+      <Value>Fobos</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyDeimos</Key>
+      <Value>Deimos</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyIo</Key>
+      <Value>Ío</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyGanymede</Key>
+      <Value>Ganimedes</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyCallisto</Key>
+      <Value>Calisto</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHimalia</Key>
+      <Value>Himalia</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEnceladus</Key>
+      <Value>Encélado</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyTethys</Key>
+      <Value>Tetis</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyDione</Key>
+      <Value>Dione</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyRhea</Key>
+      <Value>Rea</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyTitan</Key>
+      <Value>Titán</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHyperion</Key>
+      <Value>Hiperión</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyIapetus</Key>
+      <Value>Jápeto</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPhoebe</Key>
+      <Value>Febe</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyUranus</Key>
+      <Value>Urano</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyNeptune</Key>
+      <Value>Neptuno</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPluto</Key>
+      <Value>Plutón</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEris</Key>
+      <Value>Eris</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHaumea</Key>
+      <Value>Haumea</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyVulcan</Key>
+      <Value>Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyErebus</Key>
+      <Value>Erebus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPrometheus</Key>
+      <Value>Prometeo</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyAcheron</Key>
+      <Value>Aqueronte</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyStyx</Key>
+      <Value>Estigia</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyLethos</Key>
+      <Value>Lethos</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataFuelTank</Key>
+      <Value>Tanque de Combustible</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataOxygenTank</Key>
+      <Value>Tanque de Oxígeno</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataNitrogenTank</Key>
+      <Value>Tanque de Nitrógeno</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidNitrogenTank</Key>
+      <Value>Tanque de Nitrógeno Líquido</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidOxygenTank</Key>
+      <Value>Tanque de Oxígeno Líquido</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidVolatilesTank</Key>
+      <Value>Tanque de Volátiles Líquidos</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataWaterTank</Key>
+      <Value>Tanque de Agua</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLanderCapsule</Key>
+      <Value>Cápsula de Aterrizaje</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataCapsuleDoor</Key>
+      <Value>Puerta de Cápsula de Aterrizaje</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataConstructionSupplies</Key>
+      <Value>Suministros de Construcción</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataElectricalSupplies</Key>
+      <Value>Suministros Eléctricos</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataStirlingEngineSupplies</Key>
+      <Value>Suministros para Motor Stirling</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataStirlingEngineGas</Key>
+      <Value>Gas para Motor Stirling</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataAirlockSupplies</Key>
+      <Value>Suministros para Esclusa</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataAdvancedAirlockSupplies</Key>
+      <Value>Suministros para Esclusa Avanzada</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataSurvivalSupplies</Key>
+      <Value>Suministros de Supervivencia</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidCO2Canister</Key>
+      <Value>Cartucho de CO2 Líquido</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataOxygenCanister</Key>
+      <Value>Cartucho de Oxígeno</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataVolatilesCanister</Key>
+      <Value>Cartucho de Volátiles</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataHydroponicsSupplies</Key>
+      <Value>Suministros Hidropónicos</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataAtmosphericsSupplies</Key>
+      <Value>Suministros Atmosféricos</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataTradingSupplies</Key>
+      <Value>Suministros de Comercio</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMinimumSupplies</Key>
+      <Value>Suministros Mínimos</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataRocketSupplies</Key>
+      <Value>Suministros para Cohete</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataIngots</Key>
+      <Value>Lingotes</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataProductionPackage</Key>
+      <Value>Paquete de Producción</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataSolarPowerPackage</Key>
+      <Value>Paquete de Energía Solar</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataHybridPowerPackage</Key>
+      <Value>Paquete de Energía Híbrida</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataGasPowerPackage</Key>
+      <Value>Paquete de Energía de Gas</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataFuelCanister</Key>
+      <Value>Cartucho de Combustible</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataWaterCanister</Key>
+      <Value>Cartucho de Agua</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPortableGeneratorPackage</Key>
+      <Value>Paquete de Generador Portátil</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPortableScrubberPackage</Key>
+      <Value>Paquete de Depurador Portátil</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPortableACPackage</Key>
+      <Value>Paquete de Aire Acondicionado Portátil</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataCoolantCanister</Key>
+      <Value>Cartucho de Refrigerante</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataEggCartonFertilized</Key>
+      <Value>Cartón de Huevos (Fertilizados)</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMiningSupplies</Key>
+      <Value>Suministros de Minería</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPneumaticFuel</Key>
+      <Value>Combustible Neumático</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataH2CombustorSupplies</Key>
+      <Value>Suministros para Combustor H2</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataRocketManufactoryPackage</Key>
+      <Value>Paquete de Fábrica de Cohetes</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPropellentCanister</Key>
+      <Value>Cartucho de Propelente</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelSearchPlaceHolderText</Key>
+      <Value>Filtro de Búsqueda</Value>
+    </Record>
+    <Record>
+      <Key>AirControlTitle</Key>
+      <Value>CONTROL DE AIRE</Value>
+    </Record>
+    <Record>
+      <Key>AirControlSetupTitle</Key>
+      <Value>CONFIGURACIÓN DE CONTROL DE AIRE</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardHashDisplayConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE PANTALLA HASH</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGraphDisplayConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE PANTALLA GRÁFICA</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAdvAirlockConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE ESCLUSA AVANZADA</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAirlockConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE ESCLUSA</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardDoorControlConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE CONTROL DE PUERTA</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGasDisplayConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE PANTALLA DE GAS</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardModeControlConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE CONTROL DE MODO</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardPowerControlConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE CONTROL DE ENERGÍA</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlConfigTitle</Key>
+      <Value>CONFIGURACIÓN DE CONTROL SOLAR</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlTitle</Key>
+      <Value>CONSOLA</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlVerticalTitle</Key>
+      <Value>VERTICAL</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlHorizontalTitle</Key>
+      <Value>HORIZONTAL</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlGenerated</Key>
+      <Value>GENERADO</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlConnected</Key>
+      <Value>CONECTADO</Value>
+    </Record>
+    <Record>
+      <Key>DustStorm</Key>
+      <Value>Tormenta de Polvo</Value>
+    </Record>
+    <Record>
+      <Key>SnowStorm</Key>
+      <Value>Tormenta de Nieve</Value>
+    </Record>
+    <Record>
+      <Key>AshStorm</Key>
+      <Value>Tormenta de Cenizas</Value>
+    </Record>
+    <Record>
+      <Key>RainWeather</Key>
+      <Value>Lluvia</Value>
+    </Record>
+    <Record>
+      <Key>SnowWeather</Key>
+      <Value>Nieve</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
+      <Value>Presión</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramTemperatureTitle</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramSolid</Key>
+      <Value>Sólido</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramLiquid</Key>
+      <Value>Líquido</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramGas</Key>
+      <Value>Gas</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGrowthEfficiency</Key>
+      <Value>Eficiencia de Crecimiento</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleBreathingEfficiency</Key>
+      <Value>Eficiencia de Respiración</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleTemperatureEfficiency</Key>
+      <Value>Eficiencia de Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMinIdealTemperature</Key>
+      <Value>Temperatura Ideal Mínima</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMaxIdealTemperature</Key>
+      <Value>Temperatura Ideal Máxima</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleCurrentTemperature</Key>
+      <Value>Temperatura Actual</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitlePressureEfficiency</Key>
+      <Value>Eficiencia de Presión</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMinIdealPressure</Key>
+      <Value>Presión Ideal Mínima</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMaxIdealPressure</Key>
+      <Value>Presión Ideal Máxima</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleCurrentPressure</Key>
+      <Value>Presión Actual</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightEfficiency</Key>
+      <Value>Eficiencia de Luz</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightIntensity</Key>
+      <Value>Intensidad de Luz</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleIlluminationStress</Key>
+      <Value>Estrés por Iluminación</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightDeficiency</Key>
+      <Value>Deficiencia de Luz</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleDarknessDeficiency</Key>
+      <Value>Deficiencia de Oscuridad</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleHydrationEfficiency</Key>
+      <Value>Eficiencia de Hidratación</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasRequired</Key>
+      <Value>Requerido:</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasPresent</Key>
+      <Value>Presente:</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasLimit</Key>
+      <Value>Límite:</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockTitle</Key>
+      <Value>CONTROL DE ESCLUSA AVANZADA</Value>
+    </Record>
+    <Record>
+      <Key>AirlockTitle</Key>
+      <Value>CONTROL DE ESCLUSA</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataOxygenReplenishment</Key>
+      <Value>Reposición de Oxígeno</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataWaterReplenishment</Key>
+      <Value>Reposición de Agua</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataShipRefuel</Key>
+      <Value>Reabastecimiento de Nave</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataFoodPackage</Key>
+      <Value>Paquete de Comida</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataConsumablesPackage</Key>
+      <Value>Paquete de Consumibles</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataMarineClothingPackage</Key>
+      <Value>Paquete de Ropa Marine</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataShipRepairPackage</Key>
+      <Value>Paquete de Reparación de Nave</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataHardsuitPackage</Key>
+      <Value>Paquete de Traje Endurecido</Value>
+    </Record>
+    <Record>
+      <Key>SellDataRubbishCollection</Key>
+      <Value>Recolección de Basura</Value>
+    </Record>
+    <Record>
+      <Key>SellDataUnprocessedOre</Key>
+      <Value>Mineral Sin Procesar</Value>
+    </Record>
+    <Record>
+      <Key>SellDataJunkOre</Key>
+      <Value>Mineral de Desecho</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataNitrousOxideFuelMix</Key>
+      <Value>Mezcla de Combustible de Óxido Nitroso</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataRegularFuelMix</Key>
+      <Value>Mezcla de Combustible Regular</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxide</Key>
+      <Value>Dióxido de Carbono a Granel</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkWater</Key>
+      <Value>Agua a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFernSeedPack</Key>
+      <Value>Paquete de Semillas de Helecho</Value>
+    </Record>
+    <Record>
+      <Key>SellDataMushroomSeedPack</Key>
+      <Value>Paquete de Semillas de Champiñón</Value>
+    </Record>
+    <Record>
+      <Key>SellDataCornSeedPack</Key>
+      <Value>Paquete de Semillas de Maíz</Value>
+    </Record>
+    <Record>
+      <Key>SellDataPotatoSeedPack</Key>
+      <Value>Paquete de Semillas de Patata</Value>
+    </Record>
+    <Record>
+      <Key>SellDataPumpkinSeedPack</Key>
+      <Value>Paquete de Semillas de Calabaza</Value>
+    </Record>
+    <Record>
+      <Key>SellDataRiceSeedPack</Key>
+      <Value>Paquete de Semillas de Arroz</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSoybeanSeedPack</Key>
+      <Value>Paquete de Semillas de Soja</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSwitchgrassSeedPack</Key>
+      <Value>Paquete de Semillas de Pasto Varilla</Value>
+    </Record>
+    <Record>
+      <Key>SellDataTomatoSeedPack</Key>
+      <Value>Paquete de Semillas de Tomate</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWheatSeedPack</Key>
+      <Value>Paquete de Semillas de Trigo</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSugarcaneSeedPack</Key>
+      <Value>Paquete de Semillas de Caña de Azúcar</Value>
+    </Record>
+    <Record>
+      <Key>SellDataCocoaSeedPack</Key>
+      <Value>Paquete de Semillas de Cacao</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWatermelonSeedPack</Key>
+      <Value>Paquete de Semillas de Sandía</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBlueberrySeedPack</Key>
+      <Value>Paquete de Semillas de Arándano</Value>
+    </Record>
+    <Record>
+      <Key>SellDataStrawberrySeedPack</Key>
+      <Value>Paquete de Semillas de Fresa</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFastGrowingPotato</Key>
+      <Value>Patata de Crecimiento Rápido</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkVolatiles</Key>
+      <Value>Volátiles a Granel</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkOxygen</Key>
+      <Value>Oxígeno a Granel</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataEmptyGasCanister</Key>
+      <Value>Cartucho de Gas Vacío</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkOxygen</Key>
+      <Value>Oxígeno a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkNitrogen</Key>
+      <Value>Nitrógeno a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkCarbonDioxide</Key>
+      <Value>Dióxido de Carbono a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkVolatiles</Key>
+      <Value>Volátiles a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkPollutants</Key>
+      <Value>Contaminantes a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkWater</Key>
+      <Value>Agua a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkNitrousOxide</Key>
+      <Value>Óxido Nitroso a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkDirtyVolatiles</Key>
+      <Value>Volátiles Sucios a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSteam</Key>
+      <Value>Vapor</Value>
+    </Record>
+    <Record>
+      <Key>SellDataOxygenCanister</Key>
+      <Value>Cartucho de Oxígeno</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFuelCanister</Key>
+      <Value>Cartucho de Combustible</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWaterCanister</Key>
+      <Value>Cartucho de Agua</Value>
+    </Record>
+    <Record>
+      <Key>SellDataNitrogenCanister</Key>
+      <Value>Cartucho de Nitrógeno</Value>
+    </Record>
+    <Record>
+      <Key>SellDataEmergencyWater</Key>
+      <Value>Agua de Emergencia</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataEmptyLiquidCanister</Key>
+      <Value>Cartucho de Líquido Vacío</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidNitrogen</Key>
+      <Value>Nitrógeno Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOxygen</Key>
+      <Value>Oxígeno Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidVolatiles</Key>
+      <Value>Volátiles Líquidos a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidNitrogenCanister</Key>
+      <Value>Cartucho de Nitrógeno Líquido</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidOxygenCanister</Key>
+      <Value>Cartucho de Oxígeno Líquido</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidVolatilesCanister</Key>
+      <Value>Cartucho de Volátiles Líquidos</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxofSprayCans</Key>
+      <Value>Caja de Latas de Aerosol</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfBatteryCells</Key>
+      <Value>Caja de Celdas de Batería</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfBatteryCellsLarge</Key>
+      <Value>Caja de Celdas de Batería (Grandes)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWeldingFuel</Key>
+      <Value>Combustible de Soldadura</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSetofRoadFlares</Key>
+      <Value>Juego de Bengalas de Carretera</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxofChemlights</Key>
+      <Value>Caja de Luces Químicas</Value>
+    </Record>
+    <Record>
+      <Key>SellDataAutolatheConstructionKit</Key>
+      <Value>Kit de Construcción de Autotono</Value>
+    </Record>
+    <Record>
+      <Key>TraderMoreOreLess</Key>
+      <Value>Más o Menos Mineral</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAssayers</Key>
+      <Value>Ensayadores de Asteroides</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCrush</Key>
+      <Value>Trituración Cósmica</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGravels</Key>
+      <Value>Gravas Galácticas</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNuggets</Key>
+      <Value>Pepitas de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOreOasis</Key>
+      <Value>Oasis de Mineral Orbital</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarStoneSupply</Key>
+      <Value>Suministro de Piedra Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarExcavators</Key>
+      <Value>Excavadores Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVeinVendors</Key>
+      <Value>Vendedores de Vetas del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderPlanetaryPebbles</Key>
+      <Value>Guijarros Planetarios</Value>
+    </Record>
+    <Record>
+      <Key>TraderAllAlloys</Key>
+      <Value>Todas las Aleaciones</Value>
+    </Record>
+    <Record>
+      <Key>TraderMetalMavens</Key>
+      <Value>Expertos en Metales</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAlloyEmporium</Key>
+      <Value>Emporio de Aleaciones Astro</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicForge</Key>
+      <Value>Forja Cósmica</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticMetallurgy</Key>
+      <Value>Metalurgia Galáctica</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOreOutfitters</Key>
+      <Value>Equipos de Mineral Orbital</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSmelter</Key>
+      <Value>Fundición Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIngots</Key>
+      <Value>Lingotes Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNucleus</Key>
+      <Value>Núcleo de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceAlloySpecialists</Key>
+      <Value>Especialistas en Aleaciones Espaciales</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSmelter</Key>
+      <Value>Fundición Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarlightSuppers</Key>
+      <Value>Cenas de Luz Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGroceries</Key>
+      <Value>Comestibles Galácticos</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOrganics</Key>
+      <Value>Orgánicos Orbitales</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCuisine</Key>
+      <Value>Cocina Cósmica</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidEats</Key>
+      <Value>Comida de Asteroides</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNibbles</Key>
+      <Value>Bocados de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSnacks</Key>
+      <Value>Aperitivos Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIngredients</Key>
+      <Value>Ingredientes Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSpices</Key>
+      <Value>Especias Espaciales</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVegetables</Key>
+      <Value>Vegetales del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderPlanetaryProduce</Key>
+      <Value>Productos Planetarios</Value>
+    </Record>
+    <Record>
+      <Key>TraderGreenFutures</Key>
+      <Value>Futuros Verdes</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAgronomics</Key>
+      <Value>Agroastronomía</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSprouts</Key>
+      <Value>Brotos Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderHydroHarvestHaven</Key>
+      <Value>Refugio de Cosecha Hidropónica</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOrchards</Key>
+      <Value>Hertos Orbitales</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGrowers</Key>
+      <Value>Cultivadores Galácticos</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmoCropConnect</Key>
+      <Value>Conexión de Cultivos Cósmicos</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSproutSuppliers</Key>
+      <Value>Proveedores de Brotos Espaciales</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNurturers</Key>
+      <Value>Cuidadores de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSeedlings</Key>
+      <Value>Plantones Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderEcoSphereEssentials</Key>
+      <Value>Esenciales de Ecosfera</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIrrigation</Key>
+      <Value>Riego Interestelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderGasForLess</Key>
+      <Value>Gas por Menos</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAether</Key>
+      <Value>Éter Astro</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicClouds</Key>
+      <Value>Nubes Cósmicas</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNectars</Key>
+      <Value>Néctares de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOxygens</Key>
+      <Value>Oxígenos Orbitales</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGases</Key>
+      <Value>Gases Galácticos</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSteam</Key>
+      <Value>Vapor Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInhalants</Key>
+      <Value>Inhalantes Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVapors</Key>
+      <Value>Vapores del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceGasStation</Key>
+      <Value>Estación de Gas Espacial</Value>
+    </Record>
+    <Record>
+      <Key>TraderBuildINC</Key>
+      <Value>Construcción INC</Value>
+    </Record>
+    <Record>
+      <Key>TraderPaylessLiquids</Key>
+      <Value>Líquidos Económicos</Value>
+    </Record>
+    <Record>
+      <Key>TraderFrostyBarrels</Key>
+      <Value>Barriles Gélidos</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicConcoctions</Key>
+      <Value>Concocciones Cósmicas</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGush</Key>
+      <Value>Chorro Galáctico</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalOceans</Key>
+      <Value>Océanos Orbitales</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarStreams</Key>
+      <Value>Corrientes Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIcicles</Key>
+      <Value>Carámbanos Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVessels</Key>
+      <Value>Recipientes del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSprings</Key>
+      <Value>Fuentes Espaciales</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSippers</Key>
+      <Value>Sorbo Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicToolsAndMore</Key>
+      <Value>Herramientas Cósmicas y Más</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGearworks</Key>
+      <Value>Mecanismos Galácticos</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSupplies</Key>
+      <Value>Suministros Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOpsHardware</Key>
+      <Value>Hardware de Operaciones Orbitales</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarImplements</Key>
+      <Value>Implementos Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVentures</Key>
+      <Value>Aventuras del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidArtisans</Key>
+      <Value>Artesanos de Asteroides</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSpanners</Key>
+      <Value>Llaves Espaciales</Value>
+    </Record>
+    <Record>
+      <Key>TraderMeteorMechanics</Key>
+      <Value>Mecánicos de Meteoros</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroMart</Key>
+      <Value>AstroMart</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmosConvenience</Key>
+      <Value>Conveniencia de Cosmos</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarStop</Key>
+      <Value>Parada Estelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNecessities</Key>
+      <Value>Necesidades de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarEssentials</Key>
+      <Value>Esenciales Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVending</Key>
+      <Value>Venta del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderMeteorMunchies</Key>
+      <Value>Bocados de Meteoro</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGadgets</Key>
+      <Value>Artilugios Galácticos</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitronAppliances</Key>
+      <Value>Aparatos Orbitron</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSystemsStore</Key>
+      <Value>Tienda de Sistemas Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSavvySolutions</Key>
+      <Value>Soluciones Espaciales Inteligentes</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInnovations</Key>
+      <Value>Innovaciones Interestelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVisions</Key>
+      <Value>Visiones del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAppliances</Key>
+      <Value>Aparatos de Asteroides</Value>
+    </Record>
+    <Record>
+      <Key>TradeError</Key>
+      <Value>Error de Comercio</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationPanelSelectRocket</Key>
+      <Value>Seleccionar Cohete</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoDensityTitle</Key>
+      <Value>Densidad</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoRichnessTitle</Key>
+      <Value>Riqueza</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoSizeTitle</Key>
+      <Value>Tamaño</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoCompositionTitle</Key>
+      <Value>Composición</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoNameTitle</Key>
+      <Value>Nombre</Value>
+    </Record>
+    <Record>
+      <Key>NavPointDistanceTitle</Key>
+      <Value>Distancia</Value>
+    </Record>
+    <Record>
+      <Key>NavPointChartingProgressTitle</Key>
+      <Value>Progreso de Cartografía</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTargetsTitle</Key>
+      <Value>Objetivos de Prospección</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget10</Key>
+      <Value>Composición al 10%</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget30</Key>
+      <Value>Tamaño al 30%</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget60</Key>
+      <Value>Densidad al 60%</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget100</Key>
+      <Value>Riqueza al 100%</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget200</Key>
+      <Value>Impulso de Minería al 200% (10%)</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget1000</Key>
+      <Value>Impulso de Minería al 1000% (25%)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardRocketControlTitle</Key>
+      <Value>Control de Cohete</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardRocketControlOpenButton</Key>
+      <Value>Abrir Interfaz</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationPanelError</Key>
+      <Value>NO HAY INFORMACIÓN ADICIONAL DISPONIBLE</Value>
+    </Record>
+    <Record>
+      <Key>WorldMimasHerschel</Key>
+      <Value>Mimas Herschel</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
+      <Value>Localizado en el cráter Herschel en Mimas, este lugar cuenta con cráteres de impacto y las imponentes paredes del cráter que proporcionan un fondo espectacular</Value>
+    </Record>
+    <Record>
+      <Key>WorldLunar</Key>
+      <Value>Mar Lunar</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldLunarShortDesc</Key>
+      <Value>Ambientado en el límite de un mar lunar, donde las llanuras de lava antiguas se encuentran con las tierras altas escarpadas, el terreno es una mezcla de llanuras abiertas y crestas fracturadas, moldeadas por impactos y la historia volcánica. Sin atmósfera, proporciona un entorno severo pero estable para operaciones lunares</Value>
+    </Record>
+    <Record>
+      <Key>WorldMimasHerschel</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
+      <Value>Una roca árida situada bajo el ala de los espectaculares anillos de Saturno. La pequeña estatura de Mimas se refleja en su gravedad extremadamente baja, y la superficie mimanteana está saturada de cráteres de impacto de ocupantes errantes de los anillos. Su distancia al sol proporciona poca energía para dispositivos solares. Ten mucho cuidado al caminar o saltar, ya que puedes recorrer una gran distancia y ganar mucha velocidad debido a la gravedad extremadamente baja.</Value>
+    </Record>
 	  </Interface>
 	<Colors>
 <Record>
@@ -17934,7 +20008,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>SaveButtonGameString</Key>
-  <Value>Guardado rápido &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
+  <Value>Guardado &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
 </Record>
 <Record>
   <Key>SaveAsButtonGameString</Key>
@@ -17961,10 +20035,9 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
   <Value>Establecer {LOCAL:InteractableAction}</Value>
 </Record>
 <Record>
-  <Key>DeleteSavePrompt</Key>
-  <Value>¿Estás seguro?
-Esto eliminará &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt; y todas sus copias de seguridad.</Value>
-</Record>
+      <Key>DeleteSavePrompt</Key>
+      <Value>¿Estás seguro de que quieres eliminar &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt;?</Value>
+    </Record>
 <Record>
   <Key>DeleteBackSavePrompt</Key>
   <Value>¿Estás seguro?
@@ -20603,7 +22676,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>InvalidAttachmentsDeconstruct</Key>
-  <Value>No se puede deconstruir mientras {LOCAL:Device} esté unido a él</Value>
+  <Value>No se puede desmontar mientras {LOCAL:Device} esté unido a él</Value>
 </Record>
 <Record>
   <Key>PlacementIsNotUmbilicalConnector</Key>
@@ -20611,7 +22684,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>CannotDeconstructLaunchMount</Key>
-  <Value>No se puede deconstruir {LOCAL:Mount} ya que {LOCAL:Rocket} está interactuando con él</Value>
+  <Value>No se puede desmontar {LOCAL:Mount} ya que {LOCAL:Rocket} está interactuando con él</Value>
 </Record>
 <Record>
   <Key>LoadingScreenDeserializingSpaceMap</Key>
@@ -20919,7 +22992,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>InvalidFuselageDeconstruct</Key>
-  <Value>No se puede deconstruir el fuselaje ya que está soportando &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
+  <Value>No se puede desmontar el fuselaje ya que está soportando &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>Left</Key>
@@ -21367,7 +23440,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>RocketFuselageHasInternals</Key>
-  <Value>No se puede deconstruir el fuselaje ya que contiene componentes internos</Value>
+  <Value>No se puede desmontar el fuselaje ya que contiene componentes internos</Value>
 </Record>
 <Record>
   <Key>On</Key>
@@ -21785,6 +23858,1385 @@ Estado: {LOCAL:StatusValue}</Value>
   <Key>RoomTypeHydroponics</Key>
   <Value>Hidroponía</Value>
 </Record>
+<Record>
+      <Key>ButtonSearch</Key>
+      <Value>Buscar</Value>
+    </Record>
+    <Record>
+      <Key>HeaderCreativeSpawnMenu</Key>
+      <Value>Menú de Generación Creativa</Value>
+    </Record>
+    <Record>
+      <Key>EnabledLower</Key>
+      <Value>activado</Value>
+    </Record>
+    <Record>
+      <Key>DisabledLower</Key>
+      <Value>desactivado</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDays</Key>
+      <Value> días, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHours</Key>
+      <Value> horas, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinutes</Key>
+      <Value> minutos, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSeconds</Key>
+      <Value> segundos</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValuePeriod</Key>
+      <Value>Período de {LOCAL:Type} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValueStatusAre</Key>
+      <Value>{LOCAL:Type} están {LOCAL:Status}</Value>
+    </Record>
+    <Record>
+      <Key>AltitudeDescription</Key>
+      <Value>La altitud del cohete sobre la superficie del planeta. -1 si el cohete está en el espacio.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTargetSlotIndex</Key>
+      <Value>El índice de la ranura del dispositivo objetivo con el que este dispositivo intentará interactuar</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTargetPrefabHash</Key>
+      <Value>El prefab</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionExtended</Key>
+      <Value>Extendido</Value>
+    </Record>
+    <Record>
+      <Key>AchievementUnlocked</Key>
+      <Value>Logro '{LOCAL:Name}' desbloqueado</Value>
+    </Record>
+    <Record>
+      <Key>InteractableActionToState</Key>
+      <Value>Establecer {LOCAL:InteractableAction} {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>StructureIsCompleted</Key>
+      <Value>Debe estar completamente construido</Value>
+    </Record>
+    <Record>
+      <Key>StructureCanManufacture</Key>
+      <Value>Estado de Construcción puede fabricar</Value>
+    </Record>
+    <Record>
+      <Key>PlantRecordCondition</Key>
+      <Value>El registro de {LOCAL:StatusType} debe ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PlantStatusCondition</Key>
+      <Value>El estado de {LOCAL:StatusType} debe ser {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>GrowthStateCondition</Key>
+      <Value>El estado de crecimiento debe ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PreSpawnedCondition</Key>
+      <Value>Fue pre-generado: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HumanCondition</Key>
+      <Value>El jugador está {LOCAL:IsOnline} {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureComparableCondition</Key>
+      <Value>La temperatura debe ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeTerraformingValues</Key>
+      <Value>Deserializando valores de terraformación</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingWorldObjectives</Key>
+      <Value>Deserializando objetivos del mundo</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingTerrain</Key>
+      <Value>Cargando datos de terreno</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenSeedingMinables</Key>
+      <Value>Inicializando recursos minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingMinables</Key>
+      <Value>Generando recursos minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenValidatingMinables</Key>
+      <Value>Validando recursos minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegisteringMinables</Key>
+      <Value>Registrando recursos minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenApplyingMinedMinables</Key>
+      <Value>Deltas de recursos minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPreparingTerrain</Key>
+      <Value>Preparando terreno</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorAuthorInfo</Key>
+      <Value>Creado por &lt;color=white&gt;{LOCAL:Author}&lt;/color&gt;
+{LOCAL:Description}</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorLoadTitle</Key>
+      <Value>Cargar Instrucciones</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorLoadDescription</Key>
+      <Value>¿Estás seguro de que quieres cargar este script en tu ordenador? Esto reemplazará lo que está en pantalla.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorOverwriteTitle</Key>
+      <Value>Sobrescribir Instrucciones</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorOverwriteDescription</Key>
+      <Value>¿Estás seguro de que quieres sobrescribir este script con los datos que tienes en la pantalla del ordenador? Esto reemplazará lo que está en tu biblioteca de código fuente.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorPublishTitle</Key>
+      <Value>Publicar Instrucciones</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorPublishDescription</Key>
+      <Value>¿Estás seguro de que quieres publicar este conjunto de instrucciones en el Workshop de Steam?</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorDeleteTitle</Key>
+      <Value>Eliminar Instrucciones</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorDeleteDescription</Key>
+      <Value>¿Estás seguro de que quieres eliminar este script de la biblioteca? No puedes deshacer esto.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorInstructionCancelled</Key>
+      <Value>Consulta de lista de instrucciones cancelada</Value>
+    </Record>
+    <Record>
+      <Key>InputKPA</Key>
+      <Value>Entrada &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputVolumeRatio</Key>
+      <Value>Llenado de entrada &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmBusy</Key>
+      <Value>Actualmente ocupado</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmObstructed</Key>
+      <Value>El brazo está obstruido</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmCantSetPositionWhenClosed</Key>
+      <Value>No se puede cambiar la posición cuando está puenteado</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmJunction</Key>
+      <Value>Estación {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmTargetIndex</Key>
+      <Value>Índice de Destino {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmCargoSetSlotIndex</Key>
+      <Value>Índice de Ranura {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmSetStartingDock</Key>
+      <Value>Establecer muelle de acoplamiento inicial</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFull</Key>
+      <Value>El almacenamiento del brazo está lleno</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmEmpty</Key>
+      <Value>El almacenamiento del brazo está vacío</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmExtended</Key>
+      <Value>Extendido</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmMoving</Key>
+      <Value>Moviéndose</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmDocked</Key>
+      <Value>Acoplado</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFaceBlocked</Key>
+      <Value>Acción del brazo bloqueada</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFaceBlockedInfo</Key>
+      <Value>Acción del brazo bloqueada. No hay suficiente espacio para que el brazo se extienda</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmIdle</Key>
+      <Value>Inactivo</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmPosition</Key>
+      <Value>Posición {LOCAL:Position}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmIndex</Key>
+      <Value>Índice de Destino {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmState</Key>
+      <Value>Estado {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmVentDirection</Key>
+      <Value>Dirección de Ventilación {LOCAL:direction}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmArmDisplayStateHasSpace</Key>
+      <Value>Almacenamiento Disponible</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmArmDisplayStateFull</Key>
+      <Value>Almacenamiento Lleno</Value>
+    </Record>
+    <Record>
+      <Key>TargetSlotInfo</Key>
+      <Value>Apuntando a {LOCAL:SlotName} {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>TargetSlot</Key>
+      <Value>Ranura Objetivo</Value>
+    </Record>
+    <Record>
+      <Key>Proxy</Key>
+      <Value>Proxy</Value>
+    </Record>
+    <Record>
+      <Key>SizeTwoDCondition</Key>
+      <Value>El tamaño debe ser {LOCAL:Condition} {LOCAL:SizeX} x {LOCAL:SizeY}</Value>
+    </Record>
+    <Record>
+      <Key>BuildNetworkCondition</Key>
+      <Value>Construir una red {LOCAL:NetworkType}</Value>
+    </Record>
+    <Record>
+      <Key>TraderContactCondition</Key>
+      <Value>{LOCAL:Action} un contacto comercial</Value>
+    </Record>
+    <Record>
+      <Key>ResolveAction</Key>
+      <Value>Resolver</Value>
+    </Record>
+    <Record>
+      <Key>InterrogateAction</Key>
+      <Value>Interrogar</Value>
+    </Record>
+    <Record>
+      <Key>LandAction</Key>
+      <Value>Aterrizar</Value>
+    </Record>
+    <Record>
+      <Key>PressureCondition</Key>
+      <Value>La presión debe ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CreateThingCondition</Key>
+      <Value>Crear un {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureCondition</Key>
+      <Value>La presión parcial de {LOCAL:GasType} debe ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintExpand</Key>
+      <Value>Expandir</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintCollapse</Key>
+      <Value>Colapsar</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintDismiss</Key>
+      <Value>Descartar</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRestore</Key>
+      <Value>Restaurar</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintOpenStationpedia</Key>
+      <Value>Abrir Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintCreateThingCondition</Key>
+      <Value>Crear un &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+	 </Record>
+    <Record>
+      <Key>HelperHintContainsItem</Key>
+      <Value>Contiene un &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsItemInSlot</Key>
+	  <Value>Contiene un &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; en la ranura &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRoomState</Key>
+		<Value>En una sala &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt;</Value>
+	  </Record>
+    <Record>
+      <Key>HelperHintAnyRoomState</Key>
+      <Value>Construir una sala</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintQuantityComparison</Key>
+      <Value>Cantidad {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintPressureCondition</Key>
+      <Value>La presión debe ser {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRatioMustBeComparison</Key>
+      <Value> la proporción debe ser {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintMustBeComparison</Key>
+      <Value> debe ser {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintPartialPressure</Key>
+      <Value>Presión parcial </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintDecayComparison</Key>
+      <Value>Descomposición {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintSpeciesState</Key>
+      <Value>Especie del Jugador </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsComparison</Key>
+      <Value>Contiene {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintHumanCondition</Key>
+      <Value>todo</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintInCellCondition</Key>
+      <Value>El objeto está en la celda: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>NoRocketCargoBay</Key>
+      <Value>Este cohete no tiene bahía de carga desde la que desplegar</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployActionInfo</Key>
+      <Value>Bahía de Carga: {LOCAL:OnOff}, Estado: {LOCAL:Open}, Progreso: {LOCAL:Progress}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouDied</Key>
+      <Value>Has Muerto</Value>
+    </Record>
+    <Record>
+      <Key>TutorialExitToMainMenu</Key>
+      <Value>Salir al Menú Principal</Value>
+    </Record>
+    <Record>
+      <Key>RoomState</Key>
+      <Value>en una {LOCAL:RoomType}</Value>
+    </Record>
+    <Record>
+      <Key>BrutalStartConditionDescription</Key>
+      <Value>Lo mínimo para sobrevivir</Value>
+    </Record>
+    <Record>
+      <Key>StartScreenHeaderInWorldSpawns</Key>
+      <Value>Generaciones en el Mundo</Value>
+    </Record>
+    <Record>
+      <Key>StartScreenHeaderPlayerLandingCapsule</Key>
+      <Value>Cápsula de Aterrizaje del Jugador</Value>
+    </Record>
+    <Record>
+      <Key>ObjectiveIsCompletedCondition</Key>
+      <Value>{LOCAL:Objective} debe estar completado primero</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOn</Key>
+      <Value>Encender</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOff</Key>
+      <Value>Apagar</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOpen</Key>
+      <Value>Debe estar abierto</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeClosed</Key>
+      <Value>Debe estar cerrado</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBePowered</Key>
+      <Value>Debe tener energía</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeUnpowered</Key>
+      <Value>Debe estar sin energía</Value>
+    </Record>
+
+
+
+
+
+<Record>
+      <Key>CustomNameCondition</Key>
+	  <Value>El nombre debe ser &lt;color=green&gt;{LOCAL:Name}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RoomMinSizeCondition</Key>
+	  <Value>Tamaño mayor a &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; celdas</Value>
+    </Record>
+    <Record>
+      <Key>RoomMaxSizeCondition</Key>
+	  <Value>Tamaño menor a &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; celdas</Value>
+    </Record>
+    <Record>
+      <Key>Infinity</Key>
+      <Value>Infinito</Value>
+    </Record>
+    <Record>
+      <Key>SurvivalPropertyCondition</Key>
+      <Value>{LOCAL:Property} {LOCAL:ComparisonOperator} {LOCAL:PercentValue}</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereModeCondition</Key>
+      <Value>La atmósfera objetivo es {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>NoneSelected</Key>
+      <Value>Nada</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxideRatio</Key>
+	  <Value>Proporción de Dióxido de Carbono  &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StressedToFailure</Key>
+	  <Value>&lt;color=red&gt;Estresado Hasta el Fallo &lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MachineTemperature</Key>
+      <Value>Temperatura de la Máquina</Value>
+    </Record>
+    <Record>
+      <Key>DispersalTowerNotEnoughPressure</Key>
+      <Value>La Presión Interna debe estar por encima de {LOCAL:Target}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticCreativeMode</Key>
+      <Value>Modo creativo</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticAchievements</Key>
+      <Value>Logros</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticWeatherDamage</Key>
+      <Value>Daño por clima</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticCalmWeather</Key>
+      <Value>Clima tranquilo</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMetabolism</Key>
+      <Value>Metabolismo</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHungerRate</Key>
+      <Value>Nutrición</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHydrationRate</Key>
+      <Value>Hidratación</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticBreathing</Key>
+      <Value>Respiración</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticRobotBattery</Key>
+      <Value>Batería del robot</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoonReduction</Key>
+      <Value>Reducción lunar</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygeineReduction</Key>
+      <Value>Reducción de higiene</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticFoodDecay</Key>
+      <Value>Descomposición de comida</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticJetpackConsumption</Key>
+      <Value>Consumo del jetpack</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMining</Key>
+      <Value>Minado</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticLungDamage</Key>
+      <Value>Daño pulmonar</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticOfflineMetabolism</Key>
+      <Value>Metabolismo desconectado</Value>
+    </Record>
+    <Record>
+      <Key>DownlinkConnectedToNothing</Key>
+      <Value>Sin conexión</Value>
+    </Record>
+    <Record>
+      <Key>DownlinkConnectedTo</Key>
+      <Value>Conectado a </Value>
+    </Record>
+<Record>
+      <Key>AvionicsDeviceParentRocket</Key>
+      <Value>Principal {LOCAL:RocketName}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketMass</Key>
+      <Value>Masa {LOCAL:Mass}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketWeight</Key>
+      <Value>Peso {LOCAL:Weight}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketThrustToWeight</Key>
+      <Value>Empuje respecto al peso {LOCAL:ThrustToWeight}</Value>
+    </Record>
+    <Record>
+      <Key>MolesPerHour</Key>
+      <Value>{LOCAL:Value} moles por hora</Value>
+    </Record>
+    <Record>
+      <Key>InhaledGassesStationpedia</Key>
+      <Value>Gases Inhalados</Value>
+    </Record>
+    <Record>
+      <Key>ExhaledGassesStationpedia</Key>
+      <Value>Gases Exhalados</Value>
+    </Record>
+    <Record>
+      <Key>ToxicGassesStatiopedia</Key>
+      <Value>Gases Tóxicos</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptTitle</Key>
+      <Value>Fallo</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptEmptyName</Key>
+      <Value>No se puede crear una partida nueva con un nombre vacío</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptNameExists</Key>
+      <Value>Ya existe una partida con este nombre</Value>
+    </Record>
+    <Record>
+      <Key>OverwriteConfirmation</Key>
+      <Value>Sobrescribir</Value>
+    </Record>
+    <Record>
+      <Key>JetpackStabilizerState</Key>
+      <Value>Estabilizador {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>MiningDrillModeDefault</Key>
+      <Value>Por defecto</Value>
+    </Record>
+    <Record>
+      <Key>MiningDrillModeFlatten</Key>
+      <Value>Aplanar</Value>
+    </Record>
+    <Record>
+      <Key>FlashLightModeLowPower</Key>
+      <Value>Potencia baja</Value>
+    </Record>
+    <Record>
+      <Key>FlashLightModeHighPower</Key>
+      <Value>Potencia alta</Value>
+    </Record>
+    <Record>
+      <Key>VentDirectionInward</Key>
+      <Value>Hacia dentro</Value>
+    </Record>
+    <Record>
+      <Key>VentDirectionOutward</Key>
+      <Value>Hacia fuera</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelSelectRecipe</Key>
+      <Value>Seleccionar receta</Value>
+    </Record>
+    <Record>
+      <Key>GasTemperature</Key>
+      <Value>Temperatura: {LOCAL:Value}K</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmInvalid</Key>
+      <Value>Inválido</Value>
+    </Record>
+    <Record>
+      <Key>RadiatorHeatingEfficiency</Key>
+      <Value>Eficiencia de calentamiento {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>ThingHealth</Key>
+      <Value>Salud {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CannotPlaceOutsideRocket</Key>
+      <Value>No se puede colocar fuera de un cohete</Value>
+    </Record>
+    <Record>
+      <Key>DamageTypeDecay</Key>
+      <Value>Descomposición</Value>
+    </Record>
+    <Record>
+      <Key>DamageTypeDamage</Key>
+      <Value>Daño</Value>
+    </Record>
+    <Record>
+      <Key>And</Key>
+      <Value> y </Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterCurrentlyProcessing</Key>
+      <Value>Procesando actualmente...</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterItemsLeftToGrind</Key>
+      <Value>Objetos por triturar: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterItemsLeftToProcess</Key>
+      <Value>Objetos por procesar: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserActual</Key>
+      <Value>Actual {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserRequired</Key>
+      <Value>Requerido {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserPotential</Key>
+      <Value>Potencial {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserNoCableNetworkFound</Key>
+      <Value>No se encontró red de cables</Value>
+    </Record>
+    <Record>
+      <Key>EntityDehydrated</Key>
+      <Value>Deshidratado</Value>
+    </Record>
+<Record>
+      <Key>EntityWheezing</Key>
+      <Value>Desmayándose</Value>
+    </Record>
+    <Record>
+      <Key>EntityHungry</Key>
+      <Value>Hambriento</Value>
+    </Record>
+    <Record>
+      <Key>EntityHurt</Key>
+      <Value>Herido</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusOffline</Key>
+      <Value>DESCONECTADO</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusPressure</Key>
+      <Value>PRESIÓN</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusDraught</Key>
+      <Value>CORRIENTE</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusError</Key>
+      <Value>ERROR</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeButton</Key>
+      <Value>Modo
+&lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+    </Record>
+    <Record>
+      <Key>AirControlVent</Key>
+      <Value>VENTILACIÓN</Value>
+    </Record>
+    <Record>
+      <Key>AirControlSensor</Key>
+      <Value>SENSOR</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeOffline</Key>
+      <Value>Desconectado</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeDraught</Key>
+      <Value>Corriente</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModePressure</Key>
+      <Value>Presión</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardMasterLabel</Key>
+      <Value>MAESTRO</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSlaveLabel</Key>
+      <Value>ESCLAVO</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardMakeSlaveLabel</Key>
+      <Value>CONVERTIR EN ESCLAVO</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelFilterDevicesTitle</Key>
+      <Value>Filtrar Dispositivos</Value>
+    </Record>
+    <Record>
+      <Key>SolarControlPanelsCount</Key>
+      <Value>{LOCAL:Value} PANELES</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeButton</Key>
+      <Value>Modo: &lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTitlePressure</Key>
+      <Value>PRESIÓN</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTitleTemperature</Key>
+      <Value>TEMPERATURA</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModePressure</Key>
+      <Value>Presión</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTemperature</Key>
+      <Value>Temperatura</Value>
+    </Record>
+    <Record>
+      <Key>NaN</Key>
+      <Value>NaN</Value>
+    </Record>
+    <Record>
+      <Key>AirlockErrorState</Key>
+      <Value>ERROR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockInConfigString</Key>
+      <Value>EN CONFIGURACIÓN</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCancelButton</Key>
+      <Value>CANCELAR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockPressurize</Key>
+      <Value>PRESURIZAR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockDepressurize</Key>
+      <Value>DESPRESURIZAR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCycle</Key>
+      <Value>CICLO</Value>
+    </Record>
+    <Record>
+      <Key>AirlockToExterior</Key>
+      <Value>AL EXTERIOR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockToInterior</Key>
+      <Value>AL INTERIOR</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlActive</Key>
+      <Value>ACTIVO</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlInactive</Key>
+      <Value>INACTIVO</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlMode</Key>
+      <Value>MODO</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlToggle</Key>
+      <Value>ALTERNAR</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPower</Key>
+      <Value>ENERGÍA</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOff</Key>
+      <Value>APAGADO</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOn</Key>
+      <Value>ENCENDIDO</Value>
+    </Record>
+    <Record>
+      <Key>SolarPanelEfficiency</Key>
+      <Value>Eficiencia</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateMax</Key>
+      <Value>Máximo</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsLimited</Key>
+      <Value>Entrada Limitada</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsVeryLimited</Key>
+      <Value>Entrada Muy Limitada</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsLimited</Key>
+      <Value>Salida Limitada</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
+      <Value>Salida Muy Limitada</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateIdle</Key>
+      <Value>Inactivo</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingInternal</Key>
+      <Value>Presurizando Interno</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedInternal</Key>
+      <Value>Presurizado Interno</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingInternal</Key>
+      <Value>Despresurizando Interno</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingExternal</Key>
+      <Value>Presurizando Externo</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedExternal</Key>
+      <Value>Presurizado Externo</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingExternal</Key>
+      <Value>Despresurizando Externo</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDisabled</Key>
+      <Value>Desactivado</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurizing</Key>
+      <Value>Presurizando</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurized</Key>
+      <Value>Presurizado</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurizing</Key>
+      <Value>Despresurizando</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurized</Key>
+      <Value>Despresurizado</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverrideCount</Key>
+      <Value>Contador de Anulación</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverride</Key>
+      <Value>Anular</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeBasic</Key>
+      <Value>Básico</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeAlloy</Key>
+      <Value>Aleación</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeSuperAlloy</Key>
+      <Value>Superaleación</Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotType</Key>
+      <Value>Tipo: </Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotIndex</Key>
+      <Value>Índice: </Value>
+    </Record>
+    <Record>
+      <Key>SPDAManufacturerRequirements</Key>
+      <Value>Requisitos:</Value>
+    </Record>
+    <Record>
+      <Key>RecipeEnergy</Key>
+      <Value>Energía</Value>
+    </Record>
+    <Record>
+      <Key>RecipeReagentFrom</Key>
+      <Value> de </Value>
+    </Record>
+    <Record>
+      <Key>RecipeTemperatureRangeSeporator</Key>
+      <Value> a </Value>
+    </Record>
+    <Record>
+      <Key>ConstructableInRocketsTrue</Key>
+      <Value>Verdadero</Value>
+    </Record>
+    <Record>
+      <Key>YesPaintable</Key>
+      <Value>Sí</Value>
+    </Record>
+    <Record>
+      <Key>NoPaintable</Key>
+      <Value>No</Value>
+    </Record>
+    <Record>
+      <Key>SiloItemCount</Key>
+      <Value>Contador de Objetos en Silo: {LOCAL:TotalItemsCurrentlyStored}/{LOCAL:MaxItems}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleNone</Key>
+      <Value>Nada</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput</Key>
+      <Value>Entrada</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput2</Key>
+      <Value>Entrada 2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput</Key>
+      <Value>Salida</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput2</Key>
+      <Value>Salida 2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleWaste</Key>
+      <Value>Residuos</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipe</Key>
+      <Value>Tubería</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePower</Key>
+      <Value>Energía</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeData</Key>
+      <Value>Datos</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeChute</Key>
+      <Value>Conducto</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeElevator</Key>
+      <Value>Ascensor</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipeLiquid</Key>
+      <Value>Tubería de Líquido</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLandingPad</Key>
+      <Value>Plataforma de Aterrizaje</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLaunchPad</Key>
+      <Value>Plataforma de Lanzamiento</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeRoboticArmRail</Key>
+      <Value>Rail de Brazo Robótico</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePowerAndData</Key>
+      <Value>Energía y Datos</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeDefault</Key>
+      <Value>Por defecto</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeHorizontal</Key>
+      <Value>Horizontal</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeVertical</Key>
+      <Value>Vertical</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorGridSunlight</Key>
+      <Value>Celda de Luz solar {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarAngle</Key>
+      <Value>Ángulo solar {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarIrradiance</Key>
+      <Value>Irradiancia solar {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorHorizontal</Key>
+      <Value>Horizontal {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorVertical</Key>
+      <Value>Vertical {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorMode</Key>
+      <Value>Modo {LOCAL:Value}</Value>
+    </Record>
+<Record>
+      <Key>DaylightSensorModeError</Key>
+      <Value>Modo {LOCAL:Value} ERROR</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateEmpty</Key>
+      <Value>Vacío</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateCritical</Key>
+      <Value>Crítico</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateLow</Key>
+      <Value>Bajo</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateVeryLow</Key>
+      <Value>Muy Bajo</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateMedium</Key>
+      <Value>Medio</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateHigh</Key>
+      <Value>Alto</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateFull</Key>
+      <Value>Lleno</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardCurrentlyTrading</Key>
+      <Value>Comerciando actualmente</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardTimeTillResolveUnknown</Key>
+      <Value>Tiempo hasta resolución desconocido</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardSecondsTillResolve</Key>
+      <Value>{LOCAL:Value} s hasta resolución</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardDegreesFromContact</Key>
+      <Value>{LOCAL:Value}° desde el contacto</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardPercentInterogated</Key>
+      <Value>{LOCAL:Value} % interrogado</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardContacted</Key>
+      <Value>Contactado</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgressAnother</Key>
+      <Value>Interrogación en curso por otra antena</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgress</Key>
+      <Value>Interrogación en curso</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalWattageOnContact</Key>
+      <Value>{LOCAL:Value}W/{LOCAL:Setting}W están alcanzando el contacto</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalEstimatedSecondsUntilInterrogated</Key>
+      <Value>estimado {LOCAL:Value}s hasta interrogado</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishInUse</Key>
+      <Value>Antena en uso: {LOCAL:DishName}</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalLandTraderButton</Key>
+      <Value>Aterrizar</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactingComplete</Key>
+      <Value>Contacto completado, continúa para llamar al comerciante</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactRequires</Key>
+      <Value>El contacto requiere {LOCAL:Value}W durante {LOCAL:Time}s</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishBusy</Key>
+      <Value>Antena de mayor potencia ocupada. Por favor espera, o usa un Terminal de Comunicaciones separado</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogateButton</Key>
+      <Value>Interrogar</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalNotEnoughEnergy</Key>
+      <Value>No hay suficiente energía dirigida al contacto para interrogar</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionCharge</Key>
+      <Value>Carga {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicWrite</Key>
+      <Value>Escribir</Value>
+    </Record>
+    <Record>
+      <Key>LogicRead</Key>
+      <Value>Leer</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadWrite</Key>
+      <Value>Leer Escribir</Value>
+    </Record>
+    <Record>
+      <Key>MemoryAccessNone</Key>
+      <Value>Nada</Value>
+    </Record>
+    <Record>
+      <Key>RocketApex</Key>
+      <Value>Apogeo</Value>
+    </Record>
+    <Record>
+      <Key>RocketImpactVelocity</Key>
+      <Value>Velocidad de Impacto</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileNone</Key>
+      <Value>Nada</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileLow</Key>
+      <Value>Bajo</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMedium</Key>
+      <Value>Medio</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileHigh</Key>
+      <Value>Alto</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMax</Key>
+      <Value>Máximo</Value>
+    </Record>
+    <Record>
+      <Key>SpaceMapUknownDeltaV</Key>
+      <Value>???</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationCurrentAction</Key>
+      <Value>Acción Actual: {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthInfiniteSeconds</Key>
+      <Value>segundos infinitos</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthZeroSeconds</Key>
+      <Value>0 segundos</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthLessThan1Millisecond</Key>
+      <Value>&lt; 1 milisegundo</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillisecond</Key>
+      <Value>milisegundo</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSecond</Key>
+      <Value>segundo</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinute</Key>
+      <Value>minuto</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHour</Key>
+      <Value>hora</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDay</Key>
+      <Value>día</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthWeek</Key>
+      <Value>semana</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMonth</Key>
+      <Value>mes</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthYear</Key>
+      <Value>año</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCentury</Key>
+      <Value>siglo</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCenturies</Key>
+      <Value>siglos</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennium</Key>
+      <Value>milenio</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennia</Key>
+      <Value>milenios</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthEon</Key>
+      <Value>eón</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthAeons</Key>
+      <Value>eones</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorFindRecipe</Key>
+      <Value>Encontrar Receta</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorUknownRecipe</Key>
+      <Value>Receta Desconocida</Value>
+    </Record>
+    <Record>
+      <Key>EntityDeceased</Key>
+      <Value>Fallecido</Value>
+    </Record>
+    <Record>
+      <Key>EntityUnconsious</Key>
+      <Value>Inconsciente</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRequestingCharacter</Key>
+      <Value>Solicitando Personaje</Value>
+    </Record>
+    <Record>
+      <Key>SaveInvalidTerrainDataModified</Key>
+      <Value>Datos de guardado de terreno inválidos. Este mundo ha sido modificado.</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoodReduction</Key>
+      <Value>Reducción del estado de ánimo</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygieneReduction</Key>
+      <Value>Reducción de higiene</Value>
+    </Record>
+    <Record>
+      <Key>PressToExit</Key>
+      <Value>Presiona {KEY:ExitKey} para salir</Value>
+    </Record>
+    <Record>
+      <Key>LeavingPlayableArea</Key>
+      <Value>Abandonando el área jugable</Value>
+    </Record>
+    <Record>
+      <Key>ResetTerrainButton</Key>
+      <Value>Restablecer Terreno</Value>
+    </Record>
+    <Record>
+      <Key>CancelLoadButton</Key>
+      <Value>Cancelar</Value>
+    </Record>
 	  </GameStrings>
 	<GameTip />
 </Language>

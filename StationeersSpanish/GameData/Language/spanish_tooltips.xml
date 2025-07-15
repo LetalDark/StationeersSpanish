@@ -158,7 +158,11 @@
         <Record>
             <Key>StatusIconHealthName</Key>
             <Value>Salud Actual</Value>
-        </Record>
+        </Record>		
+	<Record>
+      <Key>StatusIconHealthDesc</Key>
+      <Value>Salud Baja</Value>
+    </Record>		
         <Record>
             <Key>StatusIconHydrationName</Key>
             <Value>Hidratación Actual</Value>
@@ -178,6 +182,14 @@
         <Record>
             <Key>DeconstructCanisterFull</Key>
             <Value>No se puede deconstruir. La bombona necesita estar vacía</Value>
-        </Record>
+        </Record>		
+	<Record>
+      <Key>StatusIconLeavingAreaName</Key>
+      <Value>Abandonando el Área de la Misión</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaDesc</Key>
+      <Value>Fuera de los límites, da la vuelta</Value>
+    </Record>		
     </ScreenSpaceToolTips>
 </Language>

@@ -272,7 +272,7 @@ Good luck, Cadet!
           <Key>GeneticsPage</Key>
 			<DisplayFilter>Guides</DisplayFilter>
           <Title>Genetics</Title>
-          <Text>Plants have a set of Genes that modifies its behavior. A plant's genes will be manipulated in a number of ways, both naturally as well as artificially. When a plant produces fruit or seeds it will pass on its genetics with a small random mutation.
+          <Text>Plants have a set of Genes that modifies their behavior. A plant's genes will be manipulated in a number of ways, both naturally as well as artificially. When a plant produces fruit or seeds it will pass on its genetics with a small random mutation.
 
 On top of random mutations, a plant's condition over its life can also affect its genes - for example if a plant is starved of water, while it may affect the plants growth speed and yield, the offspring will receive genes that make it require less water. In this way you can manipulate your crop's ideal conditions.
 
@@ -692,7 +692,7 @@ Suits contains 6-8 slots:
 - Air tank (x1) - insert a canister or smart canister containing a breathable gas mix, eg {GAS:Oxygen} or {GAS:Nitrogen}/{GAS:Oxygen} 35/65.
 - Waste tank (x1) - collects gases removed by the filters
 - Life support (x1) - holds one battery, which powers your A/C, lights, etc.
-- {SLOT:GasFilter} (x3) - requires at least one {SLOT:ItemGasFilterCarbonDioxide} (if human), depending on your breathable gas mix. Note that a {THING:ItemHardSuit} has 4 filter slots.
+- {SLOT:GasFilter} (x3) - requires at least one {THING:ItemGasFilterCarbonDioxide} (if human), depending on your breathable gas mix. Note that a {THING:ItemHardSuit} has 4 filter slots.
 - IC - {THING:ItemHardSuit} only.
 
 Pressure: should be set to 50-100 KPa (0.5 to 1 Earth atmospheres). Humans in-game tolerate up to ~250kPa and can survive up to ~300kPA.
