@@ -6373,6 +6373,21 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Description>Liquid piping with very low temperature loss or gain.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight3</Key>
+      <Value>Insulated Liquid Pipe (Straight 3)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight5</Key>
+      <Value>Insulated Liquid Pipe (Straight 5)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight10</Key>
+      <Value>Insulated Liquid Pipe (Straight 10)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureInsulatedPipeLiquidTJunction</Key>
       <Value>Insulated Liquid Pipe (T Junction)</Value>
       <Description>Liquid piping with very low temperature loss or gain.</Description>
@@ -21969,7 +21984,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeable</Key>
-      <Value>This {LOCAL:IMergeable} cannot me merged</Value>
+      <Value>This {LOCAL:IMergeable} cannot be merged</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeableOfDifferentType</Key>

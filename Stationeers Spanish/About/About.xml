@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>StationeersSpanish</Name>
+  <Name>Stationeers Spanish</Name>
   <Author>Letal</Author>
-  <Version>0.1</Version>
+  <Version>0.2.5721.25323</Version>
   <Description>Spanish for Stationeers.
-Traducción en proceso mediante ChatGPT. Cualquier error, por favor, comunicadlo en los comentarios.
+Traducción en proceso mediante ChatGPT/Grok. Cualquier error, por favor, comunicadlo en los comentarios.
 Proyecto en GitHub: https://github.com/LetalDark/StationeersSpanish
 
 Hay dos maneras de activarlo.

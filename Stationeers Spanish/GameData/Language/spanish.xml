@@ -6310,6 +6310,21 @@ Nota: el envasador parpadeará un error en su interruptor de activación si inte
   <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
 </RecordThing>
 <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight3</Key>
+      <Value>Tubería Líquida Aislada (Recta 3)</Value>
+      <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight5</Key>
+      <Value>Tubería Líquida Aislada (Recta 5)</Value>
+      <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight10</Key>
+      <Value>Tubería Líquida Aislada (Recta 10)</Value>
+      <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
+    </RecordThing>
+<RecordThing>
   <Key>StructureInsulatedPipeLiquidTJunction</Key>
   <Value>Tubería Líquida Aislada (Unión T)</Value>
   <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>

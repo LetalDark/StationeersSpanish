@@ -1,5 +1,5 @@
 Spanish for Stationeers.
-Traducción en proceso mediante ChatGPT. Cualquier error, por favor, comunicadlo en los comentarios.
+Traducción en proceso mediante ChatGPT/Grok. Cualquier error, por favor, comunicadlo en los comentarios.
 Proyecto en GitHub: https://github.com/LetalDark/StationeersSpanish
 
 Hay dos maneras de activarlo.
