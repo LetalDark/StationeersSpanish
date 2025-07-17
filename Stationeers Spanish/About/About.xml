@@ -3,7 +3,7 @@
   <Name>Stationeers Spanish</Name>
   <Author>Letal</Author>
   <Version>0.2.5721.25323</Version>
-  <Description>Spanish for Stationeers.
+  <Description>Translation in Spanish for Stationeers.
 Traducción en proceso mediante ChatGPT/Grok. Cualquier error, por favor, comunicadlo en los comentarios.
 Proyecto en GitHub: https://github.com/LetalDark/StationeersSpanish
 
@@ -35,6 +35,7 @@ https://discord.gg/ZUuma2JhZS
   <Tags>
     <Tag>Spanish</Tag>
     <Tag>Mod</Tag>
-    <Tag>language</Tag>
+    <Tag>Language</Tag>
+    <Tag>Translation</Tag>
   </Tags>
 </ModMetadata>

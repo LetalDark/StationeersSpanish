@@ -1741,8 +1741,8 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemTablet</Key>
-  <Value>Tableta Portátil</Value>
-  <Description>La tableta portátil 'Padi' de {LINK:Xigo;Xigo} es una plataforma de datos de propósito general, proporcionada como equipo estándar a todos los {LINK:Stationeers;Stationeers}. Una herramienta dinámica que acepta una gama de {LINK:CartridgePage;Cartuchos}, el Padi se convierte en un {THING:CartridgeAtmosAnalyser} o {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, y varias otras funciones.</Description>
+  <Value>Tablet Portátil</Value>
+  <Description>La Tablet portátil 'Padi' de {LINK:Xigo;Xigo} es una plataforma de datos de propósito general, proporcionada como equipo estándar a todos los {LINK:Stationeers;Stationeers}. Una herramienta dinámica que acepta una gama de {LINK:CartridgePage;Cartuchos}, el Padi se convierte en un {THING:CartridgeAtmosAnalyser} o {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, y varias otras funciones.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemTankConnector</Key>
@@ -4262,7 +4262,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 <RecordThing>
   <Key>CartridgeOreScannerColor</Key>
   <Value>Cartucho (Escáner de Minerales Color)</Value>
-  <Description>Cuando se inserta en un {THING:ItemTablet}, el escáner mostrará minerales ocultos bajo tierra en diferentes colores en la tableta.</Description>
+  <Description>Cuando se inserta en un {THING:ItemTablet}, el escáner mostrará minerales ocultos bajo tierra en diferentes colores en la Tablet.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureLogicWriterSwitch</Key>
@@ -4869,8 +4869,8 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>ItemAdvancedTablet</Key>
-  <Value>Tableta Avanzada</Value>
-  <Description>La tableta Padi 2 de {LINK:Xigo;Xigo} es una versión mejorada de la básica {THING:ItemTablet}, con dos ranuras para {LINK:CartridgePage;Cartuchos}. La Padi 2 acepta {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} y varios otros cartuchos.
+  <Value>Tablet Avanzada</Value>
+  <Description>La Tablet Padi 2 de {LINK:Xigo;Xigo} es una versión mejorada de la básica {THING:ItemTablet}, con dos ranuras para {LINK:CartridgePage;Cartuchos}. La Padi 2 acepta {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} y varios otros cartuchos.
   
 Con un {THING:ItemIntegratedCircuit10} en el {SLOT:ProgrammableChip}, puedes acceder a ranuras variables en el humano que lleva el dispositivo utilizando los números del dispositivo (d0, d1, etc...), siempre que el artículo pueda ser accedido mediante lógica, como el {THING:ItemHardSuit}.</Description>
 </RecordThing>
@@ -8310,7 +8310,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>ApplianceTabletDock</Key>
-  <Value>Base para Tableta</Value>
+  <Value>Base para Tablet</Value>
   <Description />
 </RecordThing>
 <RecordThing>
