@@ -2037,6 +2037,27 @@ The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less
 Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureChuteStraight3</Key>
+      <Value>Chute (Straight 3)</Value>
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight5</Key>
+      <Value>Chute (Straight 5)</Value>
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight10</Key>
+      <Value>Chute (Straight 10)</Value>
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Composite Door</Value>
       <Description>{LINK:Recurso;Recurso's} composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials are not your friend.</Description>
@@ -2323,6 +2344,21 @@ The speed of heat gain or loss will depend on the gas in question. Adding multip
     <RecordThing>
       <Key>StructurePipeStraight</Key>
       <Value>Pipe (Straight)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight3</Key>
+      <Value>Pipe (Straight 3)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight5</Key>
+      <Value>Pipe (Straight 5)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight10</Key>
+      <Value>Pipe (Straight 10)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -4895,6 +4931,21 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureInsulatedPipeStraight3</Key>
+      <Value>Insulated Pipe (Straight 3)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight5</Key>
+      <Value>Insulated Pipe (Straight 5)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight10</Key>
+      <Value>Insulated Pipe (Straight 10)</Value>
+      <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
       <Value>Insulated Pipe (Corner)</Value>
       <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
@@ -5594,6 +5645,21 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
       <Value>Liquid Pipe (Straight)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight3</Key>
+      <Value>Liquid Pipe (Straight 3)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight5</Key>
+      <Value>Liquid Pipe (Straight 5)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight10</Key>
+      <Value>Liquid Pipe (Straight 10)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -9166,6 +9232,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>ScannerSlot</Key>
       <Value>Scanner Head Slot</Value>
+    </Record>
+    <Record>
+      <Key>DrillHead</Key>
+      <Value>Drill Head</Value>
+    </Record>
+    <Record>
+      <Key>ScanningHead</Key>
+      <Value>Scanning Head</Value>
     </Record>
     <Record>
       <Key>PortableSlot</Key>

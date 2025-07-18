@@ -2005,6 +2005,27 @@ Proporcionando hasta 500W a cualquier celda conectada. Nota: el diseño más ant
   <Description>Los conductos actúan como tuberías para los elementos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;Importar/Exportar} como la {THING:StructureVendingMachine} y las impresoras como la {THING:StructureAutolathe}. El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del mundo sea menos difícil para ellos mismos y para aquellos que seguirán sus pasos. Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de elementos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;Importar/Exportar}.</Description>
 </RecordThing>
 <RecordThing>
+      <Key>StructureChuteStraight3</Key>
+      <Value>Conducto (Recto 3)</Value>
+      <Description>Los conductos funcionan como tuberías para objetos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;importación/exportación} como la {THING:StructureVendingMachine} y las impresoras como el {THING:StructureAutolathe}.
+        El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del planeta sea menos difícil para sí mismos y para aquellos que seguirán sus pasos.
+        Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de objetos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;importación/exportación}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight5</Key>
+      <Value>Conducto (Recto 5)</Value>
+      <Description>Los conductos funcionan como tuberías para objetos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;importación/exportación} como la {THING:StructureVendingMachine} y las impresoras como el {THING:StructureAutolathe}.
+        El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del planeta sea menos difícil para sí mismos y para aquellos que seguirán sus pasos.
+        Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de objetos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;importación/exportación}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight10</Key>
+      <Value>Conducto (Recto 10)</Value>
+      <Description>Los conductos funcionan como tuberías para objetos. Úsalos para conectar diversos equipos de {LINK:ImportExportPage;importación/exportación} como la {THING:StructureVendingMachine} y las impresoras como el {THING:StructureAutolathe}.
+        El objetivo de cualquier {LINK:Stationeers;Stationeer} es hacer que la supervivencia fuera del planeta sea menos difícil para sí mismos y para aquellos que seguirán sus pasos.
+        Los conductos son componentes fundamentales de las redes de conductos, que permiten el transporte de objetos entre cualquier máquina o dispositivo con una ranura de {LINK:ImportExportPage;importación/exportación}.</Description>
+    </RecordThing>
+<RecordThing>
   <Key>StructureCompositeDoor</Key>
   <Value>Puerta Compuesta</Value>
   <Description>Las puertas compuestas de {LINK:Recurso;Recurso's} están calificadas hasta 300kPa, lo que es más que suficiente para la mayoría de los propósitos para los que fueron diseñadas. Sin embargo, los diferenciales de presión pronunciados no son tus amigos.</Description>
@@ -2281,6 +2302,21 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
   <Value>Tubería (Recta)</Value>
   <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
 </RecordThing>
+<RecordThing>
+      <Key>StructurePipeStraight3</Key>
+      <Value>Tubería (Recta 3)</Value>
+      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
+    </RecordThing>
+<RecordThing>
+      <Key>StructurePipeStraight5</Key>
+      <Value>Tubería (Recta 5)</Value>
+      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
+    </RecordThing>
+<RecordThing>
+      <Key>StructurePipeStraight10</Key>
+      <Value>Tubería (Recta 10)</Value>
+      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
+    </RecordThing>
 <RecordThing>
   <Key>StructurePipeTJunction</Key>
   <Value>Tubería (T Junction)</Value>
@@ -4833,6 +4869,21 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
 </RecordThing>
 <RecordThing>
+      <Key>StructureInsulatedPipeStraight3</Key>
+      <Value>Tubería Aislada (Recta 3)</Value>
+      <Description>Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight5</Key>
+      <Value>Tubería Aislada (Recta 5)</Value>
+      <Description>Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight10</Key>
+      <Value>Tubería Aislada (Recta 10)</Value>
+      <Description>Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
+    </RecordThing>
+<RecordThing>
   <Key>StructureInsulatedPipeCorner</Key>
   <Value>Tubería Aislada (Esquina)</Value>
   <Description>Las tuberías aisladas reducen en gran medida la pérdida de calor de los gases almacenados en ellas.</Description>
@@ -5537,6 +5588,21 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
   <Value>Tubería Líquida (Recta)</Value>
   <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
 </RecordThing>
+<RecordThing>
+      <Key>StructurePipeLiquidStraight3</Key>
+      <Value>Tubería Líquida (Recta 3)</Value>
+      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight5</Key>
+      <Value>Tubería Líquida (Recta 5)</Value>
+      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight10</Key>
+      <Value>Tubería Líquida (Recta 10)</Value>
+      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
+    </RecordThing>
 <RecordThing>
   <Key>StructurePipeLiquidCorner</Key>
   <Value>Tubería Líquida (Esquina)</Value>
@@ -9093,6 +9159,14 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Ranura de Cabezal de Escáner</Value>
   </Record>
 <Record>
+      <Key>DrillHead</Key>
+      <Value>Cabeza del Taladro</Value>
+    </Record>
+    <Record>
+      <Key>ScanningHead</Key>
+      <Value>Cabeza del Escáner</Value>
+    </Record>
+<Record>
       <Key>PortableSlot</Key>
       <Value>Ranura Portátil</Value>
     </Record>  
@@ -12386,7 +12460,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 		</Record>
     <Record>
       <Key>ButtonLoadLatest</Key>
-      <Value>Cargar última partida</Value>
+      <Value>Cargar última</Value>
     </Record>		
 		<Record>
 		  <Key>HeadingEdit</Key>
