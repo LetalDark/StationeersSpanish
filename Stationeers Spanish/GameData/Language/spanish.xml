@@ -2611,8 +2611,8 @@ A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no pue
 </RecordThing>
 <RecordThing>
   <Key>StructureAutolathe</Key>
-  <Value>Autolathe</Value>
-  <Description>La base de la mayoría de los sistemas de fabricación del {LINK:Stationeers;Stationeer}, el autolathe de {LINK:ExMin;ExMin} es un sistema molecular de composición de múltiples ejes. Su complejidad requiere un tiempo considerable para ensamblarse, pero sigue siendo una herramienta de creación indispensable. Mejora el dispositivo usando un {THING:AutolathePrinterMod} para recetas adicionales y velocidades de procesamiento más rápidas.</Description>
+  <Value>Impresora Básica (AutoLathe)</Value>
+  <Description>La base de la mayoría de los sistemas de fabricación del {LINK:Stationeers;Stationeer}, la Impresora Básica (AutoLathe) de {LINK:ExMin;ExMin} es un sistema molecular de composición de múltiples ejes. Su complejidad requiere un tiempo considerable para ensamblarse, pero sigue siendo una herramienta de creación indispensable. Mejora el dispositivo usando un {THING:AutolathePrinterMod} para recetas adicionales y velocidades de procesamiento más rápidas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitFabrication</Key>
@@ -2756,8 +2756,8 @@ A diferencia del más avanzado {THING:StructureFurnace}, el horno de arco no pue
 </RecordThing>
 <RecordThing>
   <Key>StructureElectronicsPrinter</Key>
-  <Value>Impresora de Electrónica</Value>
-  <Description>La impresora electrónica creará cualquier parte electrónica que necesites. Desde placas de circuito y dispositivos electrónicos hasta paneles solares. La elección es tuya. Mejora el dispositivo usando un {THING:ElectronicPrinterMod} para recetas adicionales y velocidades de procesamiento más rápidas.</Description>
+  <Value>Impresora de Electrónica (ElectroPrint)</Value>
+  <Description>La Impresora de Electrónica (ElectroPrint) creará cualquier parte electrónica que necesites. Desde placas de circuito y dispositivos electrónicos hasta paneles solares. La elección es tuya. Mejora el dispositivo usando un {THING:ElectronicPrinterMod} para recetas adicionales y velocidades de procesamiento más rápidas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemVolatiles</Key>
@@ -2845,7 +2845,7 @@ Altamente sensible a la temperatura, el oxite comenzará a derretirse tan pronto
 </RecordThing>
 <RecordThing>
   <Key>ItemKitElectronicsPrinter</Key>
-  <Value>Kit (Impresora de Electrónica)</Value>
+  <Value>Kit (Impresora de Electrónica ElectroPrint)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -2855,7 +2855,7 @@ Altamente sensible a la temperatura, el oxite comenzará a derretirse tan pronto
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAutolathe</Key>
-  <Value>Kit (Autolathe)</Value>
+  <Value>Kit (Impresora Básica AutoLathe)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -2870,12 +2870,12 @@ Altamente sensible a la temperatura, el oxite comenzará a derretirse tan pronto
 </RecordThing>
 <RecordThing>
   <Key>StructureHydraulicPipeBender</Key>
-  <Value>Curvadora de Tubos Hidráulica</Value>
-  <Description>Una herramienta esencial para todas tus necesidades atmosféricas y de fontanería, el {LINK:ExMin;ExMin} Atmoprinter creará todo, desde tubos, bombas y tanques, hasta ventilaciones y filtros, asegurando tu supervivencia en cualquier entorno. Mejora el Atmoprinter usando un {THING:PipeBenderMod} para recetas adicionales y velocidades de procesamiento más rápidas.</Description>
+  <Value>Impresora de Atmosféricos (AtmosPrint)</Value>
+  <Description>Una herramienta esencial para todas tus necesidades atmosféricas y de fontanería, el {LINK:ExMin;ExMin} Atmoprinter creará todo, desde tubos, bombas y tanques, hasta ventilaciones y filtros, asegurando tu supervivencia en cualquier entorno. Mejora la Impresora de Atmosféricos usando un {THING:PipeBenderMod} para recetas adicionales y velocidades de procesamiento más rápidas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitHydraulicPipeBender</Key>
-  <Value>Kit (Curvadora de Tubos Hidráulica)</Value>
+  <Value>Kit (Impresora de Atmosféricos AtmosPrint)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -2902,13 +2902,13 @@ Altamente sensible a la temperatura, el oxite comenzará a derretirse tan pronto
 </RecordThing>
 <RecordThing>
   <Key>StructureToolManufactory</Key>
-  <Value>Fábrica de Herramientas</Value>
+  <Value>Impresora de Herramientas (ToolMaker)</Value>
   <Description>Ninguna misión se puede completar sin las herramientas adecuadas. La fábrica ThuulDek de {LINK:Norsec;Norsec} puede fabricar casi cualquier herramienta o dispositivo manual que un {LINK:Stationeer;Stationeer} pueda necesitar para completar su misión, así como una variedad de pinturas encantadoras.
 Mejora el dispositivo usando un {THING:ToolPrinterMod} para obtener recetas adicionales y velocidades de procesamiento más rápidas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitToolManufactory</Key>
-  <Value>Kit (Fábrica de Herramientas)</Value>
+  <Value>Kit (Impresora de Herramientas ToolMaker)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -2979,17 +2979,20 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
   <Value>Min/Max Lógico</Value>
 </RecordThing>
 <RecordThing>
-  <Key>StructureLogicDisplay5</Key>
-  <Value>Pantalla LED (Pequeña)</Value>
-</RecordThing>
-<RecordThing>
-  <Key>StructureConsoleLED5</Key>
-  <Value>Pantalla LED (Pequeña)</Value>
-</RecordThing>
-<RecordThing>
-  <Key>StructureConsoleLED8Large</Key>
-  <Value>Pantalla LED (Grande)</Value>
-</RecordThing>
+      <Key>StructureLogicDisplay5</Key>
+      <Value>Pantalla LED (Pequeña)</Value>
+      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta 8 caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED5</Key>
+      <Value>Pantalla LED (Pequeña)</Value>
+      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta 8 caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED8Large</Key>
+      <Value>Pantalla LED (Grande)</Value>
+      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta 8 caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
+    </RecordThing>
 <RecordThing>
   <Key>StructureSign1x1</Key>
   <Value>Señal 1x1</Value>
@@ -4611,22 +4614,22 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>ElectronicPrinterMod</Key>
-  <Value>Modificador de Impresora Electrónica</Value>
+  <Value>Modificador de Impresora de Electrónica (ElectroPrint)</Value>
   <Description>Aplicar a una {THING:StructureElectronicsPrinter} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para mejorar la velocidad de procesamiento y tener más opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>AutolathePrinterMod</Key>
-  <Value>Modificador de Impresora Autolathe</Value>
+  <Value>Modificador de Impresora Básica (AutoLathe)</Value>
   <Description>Aplica a un {THING:StructureAutolathe} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para actualizarlo y aumentar la velocidad de procesamiento y las opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>PipeBenderMod</Key>
-  <Value>Modificador de Dobladora de Tubos</Value>
+  <Value>Modificador de Impresora Atmosféricos (AtmosPrint)</Value>
   <Description>Aplica a un {THING:StructureHydraulicPipeBender} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para actualizarlo y aumentar la velocidad de procesamiento y las opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ToolPrinterMod</Key>
-  <Value>Modificador de Impresora de Herramientas</Value>
+  <Value>Modificador de Impresora de Herramientas (ToolMaker)</Value>
   <Description>Aplica a un {THING:StructureToolManufactory} con un {THING:ItemWeldingTorch} o {THING:ItemArcWelder} para actualizarlo y aumentar la velocidad de procesamiento y las opciones de recetas.</Description>
 </RecordThing>
 <RecordThing>
@@ -16628,7 +16631,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>WorldObjectiveUpgradeElectronicsPrinter</Key>
-  <Value>Actualizar Impresora Electrónica</Value>
+  <Value>Actualizar Impresora de Electrónica (ElectroPrint)</Value>
 </Record>
 <Record>
   <Key>WorldObjectiveUpgradeManufacturing</Key>
@@ -21877,7 +21880,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>ItemInSlotValue</Key>
-  <Value>El {LOCAL:Thing} está en &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+  <Value>{LOCAL:Thing} contiene &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>DoorIsWelded</Key>
@@ -22697,7 +22700,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>ScriptDescriptionRMap</Key>
-  <Value>Dado un hash de reactivo, almacena el hash de prefab correspondiente que el dispositivo espera cumplir con el requisito del reactivo. Por ejemplo, en un autolathe, el hash para hierro almacenará el hash para ItemIronIngot.</Value>
+  <Value>Dado un hash de reactivo, almacena el hash de prefab correspondiente que el dispositivo espera cumplir con el requisito del reactivo. Por ejemplo, en una AutoLathe, el hash para hierro almacenará el hash para ItemIronIngot.</Value>
 </Record>
 <Record>
   <Key>FurnaceMeltThing</Key>
@@ -23661,11 +23664,11 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>PlayerStatsMoodDeltaState</Key>
-  <Value>El estado de ánimo es {LOCAL:Delta}</Value>
+  <Value>El estado de ánimo está {LOCAL:Delta}</Value>
 </Record>
 <Record>
   <Key>PlayerStatsHygieneDeltaState</Key>
-  <Value>La higiene es {LOCAL:Delta}</Value>
+  <Value>La higiene está {LOCAL:Delta}</Value>
 </Record>
 <Record>
   <Key>PlayerStatsTooltipTitle</Key>
@@ -23673,15 +23676,15 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>PlayerStatsIncreasing</Key>
-  <Value>incrementando</Value>
+  <Value>mejorando</Value>
 </Record>
 <Record>
   <Key>PlayerStatsDecreasing</Key>
-  <Value>disminuyendo</Value>
+  <Value>empeorando</Value>
 </Record>
 <Record>
   <Key>PlayerStatsStable</Key>
-  <Value>no aumentando</Value>
+  <Value>no están mejorando</Value>
 </Record>
 <Record>
   <Key>PlayerStatsLowHygiene</Key>
@@ -23789,11 +23792,11 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>TooltipGoodFoodQuality</Key>
-  <Value>Bueno &lt;color=green&gt;+25% hidratación &lt;/color&gt;</Value>
+  <Value>Buena &lt;color=green&gt;+25% hidratación &lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>TooltipSuperiorFoodQuality</Key>
-  <Value>Mejor &lt;color=green&gt;+75% hidratación&lt;/color&gt;</Value>
+  <Value>Excelente &lt;color=green&gt;+75% hidratación&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>WaterPurifierCharcoalErrorMsg</Key>

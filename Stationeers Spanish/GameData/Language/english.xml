@@ -3032,14 +3032,17 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicDisplay5</Key>
       <Value>LED Display (Small)</Value>
+	  <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to 8 ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>LED Display (Small)</Value>
+	  <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to 8 ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED8Large</Key>
       <Value>LED Display (Large)</Value>
+	  <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to 8 ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
