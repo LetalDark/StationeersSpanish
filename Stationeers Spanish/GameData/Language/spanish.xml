@@ -838,14 +838,14 @@
 	</RecordThing>
 	<RecordThing>
 	  <Key>CircuitboardAirlockControl</Key>
-	  <Value>Control de Aire Acondicionado</Value>
+	  <Value>Control de Esclusa Básica</Value>
 	  <Description>Se rumorea que fue esbozado por primera vez en una pared del baño de {LINK:Norsec;Norsec} por un ingeniero descontento, la versatilidad y facilidad de fabricación del circuito de control de esclusa Exgress lo ha convertido en el sistema de control de {LINK:Stationeers;Stationeers} para los protocolos de ciclaje de {THING:StructureAirlock}.
 
 Para entrar en el modo de configuración, inserta la placa en una {THING:StructureConsole} junto con un disco de datos. En este modo, puedes ver todos los objetos accesibles a los datos actualmente conectados a la {THING:StructureConsole}. Las puertas, luces, sensores de gas y consolas esclavas pueden ser seleccionados (destacados en verde) y serán controlados una vez que se retire el disco de datos.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>ImGuiCircuitboardAirlockControl</Key>
-	  <Value>Control de Aire Acondicionado (Experimental)</Value>
+	  <Value>Control de Esclusa Básica (Experimental)</Value>
 	</RecordThing>
 	<RecordThing>
 	  <Key>CircuitboardCameraDisplay</Key>
@@ -2981,17 +2981,17 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 <RecordThing>
       <Key>StructureLogicDisplay5</Key>
       <Value>Pantalla LED (Pequeña)</Value>
-      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta 8 caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
+      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta seis caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>Pantalla LED (Pequeña)</Value>
-      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta 8 caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
+      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta seis caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED8Large</Key>
       <Value>Pantalla LED (Grande)</Value>
-      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta 8 caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
+      <Description>Esta consola LED normalmente muestra el valor numérico bruto de su configuración. Cuando cambias al Modo Cadena, trata ese valor como hasta seis caracteres ASCII, cada uno empaquetado en un byte mediante desplazamientos repetidos de 8 bits y operaciones OR, y los representa como texto. Otros modos ofrecen visualizaciones alternativas del mismo valor subyacente.</Description>
     </RecordThing>
 <RecordThing>
   <Key>StructureSign1x1</Key>
@@ -3301,7 +3301,7 @@ Ten en cuenta que los transformadores funcionan como aisladores de datos, impidi
 </RecordThing>
 <RecordThing>
   <Key>CircuitboardAdvancedAirlockControl</Key>
-  <Value>Airlock Avanzado</Value>
+  <Value>Control de Esclusa Avanzada</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitOrganicsPrinter</Key>
@@ -4120,7 +4120,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>CircuitboardAdvAirlockControl</Key>
-  <Value>Airlock avanzado</Value>
+  <Value>Control de Esclusa Avanzada</Value>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPressurePlate</Key>
@@ -20836,7 +20836,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>ProgrammableChipErrorCode</Key>
-  <Value>Error {LOCAL:ErrorType} en la línea {LOCAL:LineNumber}</Value>
+  <Value>Error &lt;color=red&gt;{LOCAL:ErrorType}&lt;/color&gt; en la línea {LOCAL:LineNumber}</Value>
 </Record>
 <Record>
   <Key>OutputLitres</Key>
@@ -22484,7 +22484,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>DifficultyValueRate</Key>
-  <Value>tasa de {LOCAL:Type} {LOCAL:Value}</Value>
+  <Value>Tasa de {LOCAL:Type} {LOCAL:Value}</Value>
 </Record>
 <Record>
   <Key>DifficultyValueYield</Key>
