@@ -3032,17 +3032,17 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicDisplay5</Key>
       <Value>LED Display (Small)</Value>
-	  <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to 8 ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
+      <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to six ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>LED Display (Small)</Value>
-	  <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to 8 ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
+      <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to six ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED8Large</Key>
       <Value>LED Display (Large)</Value>
-	  <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to 8 ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
+      <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to six ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
@@ -4374,6 +4374,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
       <Value>IC Housing</Value>
+	  <Description>Used to house a {THING:ItemIntegratedCircuit10} to run complex logic code.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIntegratedCircuit10</Key>
@@ -9082,6 +9083,11 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Cartridge (Deep Miner)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureCircuitHousingCompact</Key>
+      <Value>IC Housing (Compact)</Value>
+	  <Description>Used to house a {THING:ItemIntegratedCircuit10} to run complex logic code.</Description>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9313,11 +9319,11 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Circuit</Value>
     </Record>
     <Record>
-      <Key>CircuitBoard</Key> <!-- These are intentionally duplicate. Do not change -->
+      <Key>CircuitBoard</Key>
       <Value>Circuitboard</Value>
     </Record>
     <Record>
-      <Key>Circuitboard</Key> <!-- These are intentionally duplicate. Do not change -->
+      <Key>Circuitboard</Key>
       <Value>Circuitboard</Value>
     </Record>
     <Record>
@@ -10012,7 +10018,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaPoiRegionMorensFellDescription</Key>
       <Value>Windswept ice desert</Value>
     </Record>
-    
     <Record>
       <Key>MimasPoiMarsdenCraterName</Key>
       <Value>Marsden Crater</Value>
@@ -10069,7 +10074,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MimasPoiCentralMesaCraterDescription</Key>
       <Value>Crater within a crater within a crater</Value>
     </Record>
-    
     <Record>
       <Key>MimasNamedRegionCressidasPointName</Key>
       <Value>Cressida's Point</Value>
@@ -10238,7 +10242,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MimasNamedRegionCentralMesaName</Key>
       <Value>Central Mesa</Value>
     </Record>
-
     <Record>
       <Key>MimasSpawnCentralMesaName</Key>
       <Value>Central Mesa</Value>
@@ -10255,7 +10258,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MimasSpawnDustBowlName</Key>
       <Value>Dust Bowl</Value>
     </Record>
-    
     <Record>
       <Key>EuropaNamedRegionTyreSlopeName</Key>
       <Value>Tyre Slope</Value>
@@ -10416,7 +10418,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaNamedRegionSouthOutlandsName</Key>
       <Value>South Outlands</Value>
     </Record>
-    
     <Record>
       <Key>EuropaSpawnIcyBasin</Key>
       <Value>Icy Basin</Value>
@@ -10437,7 +10438,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaSpawnTyreValley</Key>
       <Value>Tyre Valley</Value>
     </Record>
-    
     <Record>
       <Key>LunarPoiRichOreCraterName</Key>
       <Value>Rich Ore Crater</Value>
@@ -10478,7 +10478,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
       <Value>Grand Crater</Value>
     </Record>
-
     <Record>
       <Key>LunarPoiGrandCraterCraterNoxName</Key>
       <Value>Crater Nox</Value>
@@ -18059,6 +18058,38 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Oxygen Replenishment</Value>
     </Record>
     <Record>
+      <Key>BuyDataBoxOfMuffins</Key>
+      <Value>Box of Muffins</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCornSoup</Key>
+      <Value>Box of Corn Soup</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfPumpkinSoup</Key>
+      <Value>Box of Pumpkin Soup</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfChocolates</Key>
+      <Value>Box of Chocolates</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataChocolateCakeInBox</Key>
+      <Value>Chocolate Cake in a Box</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfTomatoSoup</Key>
+      <Value>Box of Tomato Soup</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfRicePudding</Key>
+      <Value>Box of Rice Pudding</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCannedEdamame</Key>
+      <Value>Box of Canned Edamame</Value>
+    </Record>
+    <Record>
       <Key>BuyDataWaterReplenishment</Key>
       <Value>Water Replenishment</Value>
     </Record>
@@ -18736,7 +18767,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-        <Value>Located in the Herschel crater on Mimas, this site features impact craters and the towering walls of the crater providing a dramatic backdrop</Value>
+      <Value>Located in the Herschel crater on Mimas, this site features impact craters and the towering walls of the crater providing a dramatic backdrop</Value>
     </Record>
     <Record>
       <Key>WorldLunar</Key>
@@ -20941,7 +20972,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProgrammableChipErrorCode</Key>
-      <Value>Error {LOCAL:ErrorType} at line {LOCAL:LineNumber}</Value>
+      <Value>Error &lt;color=red&gt;{LOCAL:ErrorType}&lt;/color&gt; at line {LOCAL:LineNumber}</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>

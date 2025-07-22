@@ -4320,6 +4320,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 <RecordThing>
   <Key>StructureCircuitHousing</Key>
   <Value>Carcasa de Circuito Integrado</Value>
+  <Description>Se utiliza para alojar un {THING:ItemIntegratedCircuit10} para ejecutar código lógico complejo.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemIntegratedCircuit10</Key>
@@ -9007,6 +9008,11 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
       <Value>Cartucho (Minador Profundo)</Value>
       <Description />
     </RecordThing>
+<RecordThing>
+      <Key>StructureCircuitHousingCompact</Key>
+      <Value>Carcasa de Circuito Integrado (Compacto)</Value>
+      <Description>Se utiliza para alojar un {THING:ItemIntegratedCircuit10} para ejecutar código lógico complejo.</Description>
+    </RecordThing>
 	  </Things>
 	<Slots>
   <Record>
@@ -9238,11 +9244,11 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Value>Circuito</Value>
   </Record>
   <Record>
-    <Key>CircuitBoard</Key> <!-- These are intentionally duplicate. Do not change -->
+    <Key>CircuitBoard</Key>
     <Value>Placa de Circuito</Value>
   </Record>
   <Record>
-    <Key>CircuitBoard</Key> <!-- These are intentionally duplicate. Do not change -->
+    <Key>CircuitBoard</Key>
     <Value>Placa de Circuito</Value>
   </Record>  
   <Record>
@@ -17953,6 +17959,38 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     <Record>
       <Key>BuyDataOxygenReplenishment</Key>
       <Value>Reposición de Oxígeno</Value>
+    </Record>
+<Record>
+      <Key>BuyDataBoxOfMuffins</Key>
+      <Value>Caja de Magdalenas</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCornSoup</Key>
+      <Value>Caja de Sopa de Maíz</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfPumpkinSoup</Key>
+      <Value>Caja de Sopa de Calabaza</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfChocolates</Key>
+      <Value>Caja de Bombones</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataChocolateCakeInBox</Key>
+      <Value>Tarta de Chocolate en Caja</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfTomatoSoup</Key>
+      <Value>Caja de Sopa de Tomate</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfRicePudding</Key>
+      <Value>Caja de Arroz con Leche</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCannedEdamame</Key>
+      <Value>Caja de Edamame Enlatado</Value>
     </Record>
     <Record>
       <Key>BuyDataWaterReplenishment</Key>
