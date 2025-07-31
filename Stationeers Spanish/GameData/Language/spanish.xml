@@ -2305,17 +2305,17 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
       <Key>StructurePipeStraight3</Key>
       <Value>Tubería (Recta 3)</Value>
-      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
+      <Description>Variante larga de la tubería recta. Estas variantes no pueden fusionarse ni actualizarse con aislamiento.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructurePipeStraight5</Key>
       <Value>Tubería (Recta 5)</Value>
-      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
+      <Description>Variante larga de la tubería recta. Estas variantes no pueden fusionarse ni actualizarse con aislamiento.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructurePipeStraight10</Key>
       <Value>Tubería (Recta 10)</Value>
-      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeStraight} usando un {THING:ItemKitInsulatedPipe} y una {THING:ItemWrench}.</Description>
+      <Description>Variante larga de la tubería recta. Estas variantes no pueden fusionarse ni actualizarse con aislamiento.</Description>
     </RecordThing>
 <RecordThing>
   <Key>StructurePipeTJunction</Key>
@@ -2389,7 +2389,7 @@ Se puede automatizar usando el {THING:StructureHarvie}.</Description>
 <RecordThing>
   <Key>StructureSuitStorage</Key>
   <Value>Almacenamiento de Trajes</Value>
-  <Description>Tan ordenado como útil, el rack de almacenamiento de trajes sostiene un {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} y un {THING:ItemJetpackBasic}. Cuando está alimentado y conectado a {THING:Oxygen} y {THING:Propellant}, recargará las baterías del traje, rellenará el {THING:ItemGasCanisterOxygen} y tu {THING:ItemGasFilterNitrogen} {SLOT:GasCanister}. El tanque de desechos será bombeado hacia el tubo conectado al desagüe de desechos. Todos los tubos del rack deben estar conectados o la unidad mostrará un estado de error, pero aún cargará la batería.</Description>
+  <Description>Tan ordenado como útil, el rack de almacenamiento de trajes sostiene un {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} y un {THING:ItemJetpackBasic}. Cuando está alimentado y conectado a {GAS:Oxygen} y {GAS:Nitrogen}, recargará las baterías del traje, rellenará el {THING:ItemGasCanisterOxygen} y tu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. El tanque de desechos será bombeado hacia el tubo conectado al desagüe de desechos. Todos los tubos del rack deben estar conectados o la unidad mostrará un estado de error, pero aún cargará la batería.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureTankConnector</Key>
@@ -4875,17 +4875,17 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 <RecordThing>
       <Key>StructureInsulatedPipeStraight3</Key>
       <Value>Tubería Aislada (Recta 3)</Value>
-      <Description>Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
+      <Description>Variante larga de la tubería recta. Estas variantes no pueden fusionarse. Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight5</Key>
       <Value>Tubería Aislada (Recta 5)</Value>
-      <Description>Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
+      <Description>Variante larga de la tubería recta. Estas variantes no pueden fusionarse. Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight10</Key>
       <Value>Tubería Aislada (Recta 10)</Value>
-      <Description>Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
+      <Description>Variante larga de la tubería recta. Estas variantes no pueden fusionarse. Las tuberías aisladas reducen significativamente la pérdida de calor de los gases almacenados en ellas.</Description>
     </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeCorner</Key>
@@ -5595,17 +5595,17 @@ Aunque la turbina eólica está optimizada para producir energía (hasta 500W) i
 <RecordThing>
       <Key>StructurePipeLiquidStraight3</Key>
       <Value>Tubería Líquida (Recta 3)</Value>
-      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
+      <Description>Variante larga de la tubería líquida. Estas variantes no pueden fusionarse ni actualizarse con aislamiento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight5</Key>
       <Value>Tubería Líquida (Recta 5)</Value>
-      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
+      <Description>Variante larga de la tubería líquida. Estas variantes no pueden fusionarse ni actualizarse con aislamiento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight10</Key>
       <Value>Tubería Líquida (Recta 10)</Value>
-      <Description>Puedes actualizar esta tubería a una {THING:StructureInsulatedPipeLiquidStraight} usando un {THING:ItemKitInsulatedLiquidPipe} y una {THING:ItemWrench}.</Description>
+      <Description>Variante larga de la tubería líquida. Estas variantes no pueden fusionarse ni actualizarse con aislamiento.</Description>
     </RecordThing>
 <RecordThing>
   <Key>StructurePipeLiquidCorner</Key>
@@ -6382,17 +6382,17 @@ Nota: el envasador parpadeará un error en su interruptor de activación si inte
 <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight3</Key>
       <Value>Tubería Líquida Aislada (Recta 3)</Value>
-      <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
+      <Description>Variante larga de la tubería líquida con muy baja pérdida o ganancia de temperatura. Estas variantes no pueden fusionarse.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight5</Key>
       <Value>Tubería Líquida Aislada (Recta 5)</Value>
-      <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
+      <Description>Variante larga de la tubería líquida con muy baja pérdida o ganancia de temperatura. Estas variantes no pueden fusionarse.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight10</Key>
       <Value>Tubería Líquida Aislada (Recta 10)</Value>
-      <Description>Tubería líquida con muy baja pérdida o ganancia de temperatura.</Description>
+      <Description>Variante larga de la tubería líquida con muy baja pérdida o ganancia de temperatura. Estas variantes no pueden fusionarse.</Description>
     </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeLiquidTJunction</Key>
@@ -7037,7 +7037,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 </RecordThing>
 <RecordThing>
   <Key>Landingpad_GasCylinderTankPiece</Key>
-  <Value>Almacenamiento de Gas de Plataforma de Aterrizaje</Value>
+  <Value>Tanque de Plataforma de Aterrizaje (Pequeño)</Value>
   <Description>Aumenta el volumen de capacidad de almacenamiento de gas de la plataforma de aterrizaje. Este volumen se utiliza para comprar y vender gas a comerciantes.</Description>
 </RecordThing>
 <RecordThing>
@@ -9008,10 +9008,50 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
       <Value>Cartucho (Minador Profundo)</Value>
       <Description />
     </RecordThing>
-<RecordThing>
+	<RecordThing>
       <Key>StructureCircuitHousingCompact</Key>
       <Value>Carcasa de Circuito Integrado (Compacto)</Value>
       <Description>Se utiliza para alojar un {THING:ItemIntegratedCircuit10} para ejecutar código lógico complejo.</Description>
+    </RecordThing>
+	<RecordThing>
+      <Key>ItemKitShuttleMKII</Key>
+      <Value>Kit (Transbordador MKII)</Value>
+      <Description />
+    </RecordThing>
+	<RecordThing>
+      <Key>ItemHardHat</Key>
+      <Value>Casco de Seguridad</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicPidController</Key>
+      <Value>Controlador PID</Value>
+      <Description>Un controlador PID (Proporcional Integral Derivativo) que proporciona un mecanismo de retroalimentación en bucle cerrado que puede usarse para regular automáticamente una variable de proceso (como temperatura, velocidad, posición y similares) para que siga un punto de ajuste deseado. Esto lo logra calculando continuamente una señal de error e(t) =punto de ajuste – medición, y luego aplicando tres acciones correctivas: Proporcional, Integral y Derivativa.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLargeRocketLiquidFuelTank</Key>
+      <Value>Tanque de Cápsula Líquida Grande</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLargeRocketGasFuelTank</Key>
+      <Value>>Tanque de Cápsula de Gas Grande</Value>
+      <Description />
+    </RecordThing>
+	<RecordThing>
+      <Key>Landingpad_LargeTank</Key>
+      <Value>Tanque de Plataforma de Aterrizaje (Grande)</Value>
+      <Description>Aumenta la capacidad de almacenamiento de gas de las plataformas de aterrizaje. Este volumen se utiliza para comprar y vender gas a los comerciantes.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirlockWide</Key>
+      <Value>Esclusa de Aire Ancha</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardMap</Key>
+      <Value>Placa Base de Mapa</Value>
+      <Description />
     </RecordThing>
 	  </Things>
 	<Slots>
@@ -9019,6 +9059,14 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Key>SprayCan</Key>
     <Value>Spray Can</Value>
   </Record>
+  <Record>
+	<Key>GasMask</Key>
+      <Value>Máscara de Gas</Value>
+    </Record>
+    <Record>
+      <Key>FireExtinguisher</Key>
+      <Value>Extintor de Incendios</Value>
+    </Record>
   <Record>
     <Key>Output</Key>
     <Value>Salida</Value>
@@ -9895,53 +9943,85 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   </Record>
   </Interactables>
 	<Interface>	
-<Record>
-      <Key>EuropaPoiRegionCallanishPeakName</Key>
-      <Value>Pico Callanish</Value>
+	<Record>
+      <Key>EuropaPoiRegionBluePeakName</Key>
+      <Value>Pico Azul</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionCallanishPeakDescription</Key>
-      <Value>Punto más alto del sector</Value>
+      <Key>EuropaPoiRegionBluePeakDescription</Key>
+      <Value>Un pico de altura media que domina valles glaciales y dunas de nieve</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionFalgasDescentName</Key>
-      <Value>Descenso de Falga</Value>
+      <Key>EuropaPoiRegionAncientLakeName</Key>
+      <Value>Lago Antiguo</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionFalgasDescentDescription</Key>
-      <Value>Descenso pronunciado hacia la gran cuenca</Value>
+      <Key>EuropaPoiRegionAncientLakeDescription</Key>
+      <Value>Un gran lago glacial antiguo enclavado en lo alto de las tierras altas</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionBalgatanRidgeName</Key>
-      <Value>Cresta Balgatan</Value>
+      <Key>EuropaPoiRegionSnowDuneValleyName</Key>
+      <Value>Valle de Dunas de Nieve</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionBalgatanRidgeDescription</Key>
-      <Value>Con vistas a la cuenca norte</Value>
+      <Key>EuropaPoiRegionSnowDuneValleyDescription</Key>
+      <Value>Altas dunas de nieve enclavadas en un valle protegido</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSouthCallanishPassName</Key>
-      <Value>Paso Callanish Sur</Value>
+      <Key>EuropaPoiRegionHighMountainName</Key>
+      <Value>Montaña Alta</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSouthCallanishPassDescription</Key>
-      <Value>Ruta más segura hacia las tierras altas</Value>
+      <Key>EuropaPoiRegionHighMountainDescription</Key>
+      <Value>Un pico muy alto enclavado entre las cadenas montañosas</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSidonGullyName</Key>
-      <Value>Barranco Sidon</Value>
+      <Key>EuropaPoiRegionErodedChasmName</Key>
+      <Value>Abismo Erosionado</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSidonGullyDescription</Key>
-      <Value>Dedo protegido que se extiende desde la gran cuenca</Value>
+      <Key>EuropaPoiRegionErodedChasmDescription</Key>
+      <Value>Un valle erosionado estrecho que domina las grandes llanuras de nieve</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionMorensFellName</Key>
-      <Value>Colina de Moren</Value>
+      <Key>EuropaPoiRegionNeedlePeakName</Key>
+      <Value>Pico Aguja</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionMorensFellDescription</Key>
-      <Value>Desierto de hielo azotado por el viento</Value>
+      <Key>EuropaPoiRegionNeedlePeakDescription</Key>
+      <Value>Un pico de montaña extremadamente afilado que perfora el cielo</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionGlacialTrackName</Key>
+      <Value>Ruta Glacial</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionGlacialTrackDescription</Key>
+      <Value>Una vasta ruta glacial que se extiende hacia las llanuras de nieve</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionPlainsSentinelName</Key>
+      <Value>Centinela de las Llanuras</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionPlainsSentinelDescription</Key>
+      <Value>Un pico solitario que se erige en medio de las grandes llanuras</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSharpOverlookName</Key>
+      <Value>Mirador Afilado</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSharpOverlookDescription</Key>
+      <Value>Un pico afilado que domina la extensión glacial debajo</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionDuneFieldName</Key>
+      <Value>Campo de Dunas</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionDuneFieldDescription</Key>
+      <Value>Una zona rugosa cubierta de dunas de nieve ásperas y altas</Value>
     </Record>
     <Record>
       <Key>MimasPoiMarsdenCraterName</Key>
@@ -10607,6 +10687,18 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>LogicReadersCategory</Key>
   <Value>Lectores Lógicos</Value>
 </Record>
+	<Record>
+      <Key>LogicProcessorsCategory</Key>
+      <Value>Procesadores Lógicos</Value>
+    </Record>
+    <Record>
+      <Key>LogicIntegratedCircuitsCategory</Key>
+      <Value>Circuitos Integrados</Value>
+    </Record>
+    <Record>
+      <Key>LogicInputCategory</Key>
+      <Value>Entradas Lógicas</Value>
+    </Record>
 <Record>
   <Key>LogicWriterCategory</Key>
   <Value>Escritores Lógicos</Value>
@@ -10945,7 +11037,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
 </Record>
 <Record>
   <Key>NewWorldAreaEuropa2</Key>
-  <Value>Europa</Value>
+  <Value>Picos Galileo de Europa</Value>
 </Record>
 <Record>
   <Key>NewWorldAreaVulcan2</Key>
@@ -12182,15 +12274,7 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
     <Record>
       <Key>NewWorldMoon4kShortDesc</Key>
       <Value>4 km por 4 km</Value>
-    </Record>
-    <Record>
-      <Key>WorldLunar</Key>
-      <Value>Mar Lunar</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldLunarShortDesc</Key>
-      <Value>Este mapa está situado en el límite de un mar lunar, donde las llanuras de lava antiguas se encuentran con las tierras altas escarpadas. El terreno es una mezcla de llanuras abiertas y crestas fracturadas, moldeadas por impactos y la historia volcánica. Sin atmósfera y con luz solar constante, ofrece un entorno severo pero estable para operaciones lunares.</Value>
-    </Record>
+    </Record>	
 <Record>
   <Key>NewWorldMoonShortDesc</Key>
   <Value>Aunque la presencia de carbón no es típica de la Luna de la Tierra, el terreno relativamente plano lleno de varios cráteres de tamaño considerable y la falta de atmósfera pueden ser más familiares en este paisaje gris. Una gran ubicación para que el emergente Stationeer comience su viaje, con menos peligros y complejidades que ofrecen mundos más exóticos.</Value>
@@ -12208,9 +12292,9 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Value>Las temperaturas extremas invariables y las presiones ultra-altas hacen de Venus un lugar nada recomendable para los débiles de corazón. Solo los Stationeers más capacitados sobrevivirán en nuestro antiguo planeta hermano, ahora una roca estéril. Cava profundo o vuelve a casa.</Value>
 </Record>
 <Record>
-  <Key>NewWorldEuropaShortDesc</Key>
-  <Value>Fundir un poco del hielo en este mundo frío finalmente le ha dado una atmósfera, pero su entorno extremadamente helado presenta un desafío serio para los stationeers. El frío extremo hará que las baterías pierdan energía rápidamente, así que conseguir una fuente de energía estable y un lugar cálido son tus prioridades.</Value>
-</Record>
+      <Key>NewWorldEuropaShortDesc</Key>
+      <Value>El hielo derretido en este mundo frío le ha dado una atmósfera delgada, pero su entorno extremadamente helado presenta un desafío serio para los Stationeers. El frío extremo hará que las baterías pierdan energía rápidamente, por lo que conseguir una fuente de energía estable y un lugar cálido son tus prioridades.</Value>
+    </Record>
 <Record>
   <Key>NewWorldVulcanShortDesc</Key>
   <Value>El entorno volátil en Vulcan es sobrevivible para muy pocos organismos vivos, pero su superficie fracturada y ricos depósitos minerales hacen de este un riesgo pero rentable negocio para comerciantes emprendedores.</Value>
@@ -12219,10 +12303,10 @@ Al presionar el botón de activación mientras el brazo LArRE esté en su muelle
   <Key>NewWorldVulcan2ShortDesc</Key>
   <Value>Un mundo desgarrado debido a fuerzas de marea masivas del agujero negro supermasivo que orbita. Vulcan ofrece poca esperanza para cualquier organismo que termine aquí, pero su superficie fracturada y ricos depósitos minerales hacen de este un riesgo pero rentable negocio para comerciantes emprendedores. ¡Ten cuidado con las profundas grietas que conducen a flujos de magma mortales debajo de la superficie!</Value>
 </Record>
-<Record>
-  <Key>NewWorldMimasShortDesc</Key>
-  <Value>Una roca estéril situada bajo el ala de los espectaculares anillos de Saturno. La pequeña estatura de Mimas se refleja en su gravedad extremadamente baja, y la superficie mimanteana está saturada de cráteres de impacto de ocupantes errantes de los anillos. Su distancia del sol proporciona poca energía de dispositivos solares. Ten mucho cuidado al caminar o saltar, ya que puedes viajar una larga distancia y adquirir mucha velocidad debido a la extremadamente baja gravedad.</Value>
-</Record>
+    <Record>
+      <Key>NewWorldMimasShortDesc</Key>
+      <Value>Una roca estéril bajo los anillos de Saturno, Mimas tiene una gravedad extremadamente baja y una superficie llena de cráteres de impacto. Su distancia al Sol limita la energía solar. Incluso los movimientos pequeños pueden hacerte volar lejos y rápido.</Value>
+    </Record>
 <Record>
       <Key>RandomSpawnLocation</Key>
       <Value>Aleatorio</Value>
@@ -17960,7 +18044,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Key>BuyDataOxygenReplenishment</Key>
       <Value>Reposición de Oxígeno</Value>
     </Record>
-<Record>
+	<Record>
       <Key>BuyDataBoxOfMuffins</Key>
       <Value>Caja de Magdalenas</Value>
     </Record>
@@ -18664,17 +18748,9 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Key>RocketLocationPanelError</Key>
       <Value>NO HAY INFORMACIÓN ADICIONAL DISPONIBLE</Value>
     </Record>
-    <Record>
-      <Key>WorldMimasHerschel</Key>
-      <Value>Mimas Herschel</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>Localizado en el cráter Herschel en Mimas, este lugar cuenta con cráteres de impacto y las imponentes paredes del cráter que proporcionan un fondo espectacular</Value>
-    </Record>
-    <Record>
+<Record>
       <Key>WorldLunar</Key>
-      <Value>Mar Lunar</Value>
+      <Value>Lunar: Gran Mar</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
@@ -18682,11 +18758,43 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     </Record>
     <Record>
       <Key>WorldMimasHerschel</Key>
-      <Value>Mimas</Value>
+      <Value>Mimas: Cráter Herschel</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>Una roca árida situada bajo el ala de los espectaculares anillos de Saturno. La pequeña estatura de Mimas se refleja en su gravedad extremadamente baja, y la superficie mimanteana está saturada de cráteres de impacto de ocupantes errantes de los anillos. Su distancia al sol proporciona poca energía para dispositivos solares. Ten mucho cuidado al caminar o saltar, ya que puedes recorrer una gran distancia y ganar mucha velocidad debido a la gravedad extremadamente baja.</Value>
+      <Value>Una roca estéril situada bajo el ala de los espectaculares anillos de Saturno. La pequeña estatura de Mimas se refleja en su gravedad extremadamente baja, y la superficie mimanteana está saturada de cráteres de impacto de ocupantes errantes de los anillos. Su distancia del sol proporciona poca energía de dispositivos solares. Ten mucho cuidado al caminar o saltar, ya que puedes viajar una larga distancia y ganar mucha velocidad debido a la extremadamente baja gravedad.</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerCouldNotConnect</Key>
+      <Value>No se pudo establecer una conexión</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerCheckAddress</Key>
+      <Value>Verifica la dirección</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerRejected</Key>
+      <Value>Rechazado del servidor</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerBanned</Key>
+      <Value>Has sido baneado de este servidor</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerPassword</Key>
+      <Value>Contraseña incorrecta</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerIncorrectVersion</Key>
+      <Value>Versión incorrecta</Value>
+    </Record>
+    <Record>
+      <Key>SteamP2PWarningTitle</Key>
+      <Value>Steam P2P está en uso</Value>
+    </Record>
+    <Record>
+      <Key>SteamP2PWarningMessage</Key>
+      <Value>Steam P2P no manejará los requisitos de ancho de banda de bases grandes. Por favor, usa TCP si es posible para una experiencia mucho más fluida.</Value>
     </Record>
 	  </Interface>
 	<Colors>
@@ -23669,9 +23777,9 @@ Estado: {LOCAL:StatusValue}</Value>
   <Value>Altitud de Aterrizaje {LOCAL:Altitude}</Value>
 </Record>
 <Record>
-  <Key>AutoLandThrustRequired</Key>
-  <Value>Confianza {LOCAL:Confidence} (se requiere al menos {LOCAL:Thrust} de empuje del motor)</Value>
-</Record>
+      <Key>AutoLandThrustRequired</Key>
+      <Value>Fiabilidad {LOCAL:Confidence}. Se requiere {LOCAL:Thrust} de empuje. Empuje máximo estimado en {LOCAL:ExpectedThrust}</Value>
+	  </Record>
 <Record>
   <Key>NoDataLinkActive</Key>
   <Value>No conectado a un Enlace Ascendente</Value>
