@@ -7,12 +7,36 @@
   <Value>Retroceso</Value>
 </Record>
 <Record>
+  <Key>None</Key>
+  <Value>Ninguna</Value>
+</Record>
+<Record>
+  <Key>Menu</Key>
+  <Value>Menú</Value>
+</Record>
+<Record>
+  <Key>Help</Key>
+  <Value>Ayuda</Value>
+</Record>
+<Record>
+  <Key>Greater</Key>
+  <Value>Mayor</Value>
+</Record>
+<Record>
+  <Key>Less</Key>
+  <Value>Menor</Value>
+</Record>
+<Record>
+  <Key>Delete</Key>
+  <Value>Supr</Value>
+</Record>
+<Record>
   <Key>Tab</Key>
   <Value>Tabulador</Value>
 </Record>
 <Record>
   <Key>Clear</Key>
-  <Value>Suprimir</Value>
+  <Value>Borrar</Value>
 </Record>
 <Record>
   <Key>Return</Key>

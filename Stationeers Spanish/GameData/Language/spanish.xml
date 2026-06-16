@@ -596,272 +596,272 @@
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleArmL</Key>
-	  <Value>Parte del Cuerpo Astronauta Brazo Femenino Izquierdo</Value>
+	  <Value>Parte del Cuerpo: Brazo Izquierdo de Astronauta Mujer</Value>
 	  <Description>En cuanto a brazos izquierdos, este es un ejemplo aceptable, aunque algo olvidable. Ha visto días mejores.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleArmR</Key>
-	  <Value>Parte del Cuerpo Astronauta Brazo Femenino Derecho</Value>
+	  <Value>Parte del Cuerpo: Brazo Derecho de Astronauta Mujer</Value>
 	  <Description>Uno de un par. El otro probablemente está cerca.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleHead</Key>
-	  <Value>Parte del Cuerpo Astronauta Cabeza Femenina</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Astronauta Mujer</Value>
 	  <Description>Si los ojos son las ventanas del alma, ¿qué hace la cabeza?</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleLegL</Key>
-	  <Value>Parte del Cuerpo Astronauta Pierna Femenina Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pierna Izquierda de Astronauta Mujer</Value>
 	  <Description>Una pierna, es una pierna.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleLegR</Key>
-	  <Value>Parte del Cuerpo Astronauta Pierna Femenina Derecha</Value>
+	  <Value>Parte del Cuerpo: Pierna Derecha de Astronauta Mujer</Value>
 	  <Description>Esta es la pierna derecha de una mujer. A juzgar por su estado, ella estaba bastante saludable, de estatura media, con una tendencia a caminar sobre la punta de los pies.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautFemaleTorso</Key>
-	  <Value>Parte del Cuerpo Astronauta Torso Femenino</Value>
+	  <Value>Parte del Cuerpo: Torso de Astronauta Mujer</Value>
 	  <Description>Esto no irá a ninguna parte por sí mismo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleArmL</Key>
-	  <Value>Parte del Cuerpo Astronauta Brazo Masculino Izquierdo</Value>
+	  <Value>Parte del Cuerpo: Brazo Izquierdo de Astronauta Hombre</Value>
 	  <Description>Tu brazo es tu cuarto órgano más importante.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleArmR</Key>
-	  <Value>Parte del Cuerpo Astronauta Brazo Masculino Derecho</Value>
+	  <Value>Parte del Cuerpo: Brazo Derecho de Astronauta Hombre</Value>
 	  <Description>No hay nada gracioso en este húmero.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleHead</Key>
-	  <Value>Parte del Cuerpo Astronauta Cabeza Masculina</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Astronauta Hombre</Value>
 	  <Description>{LINK:Stationeers;Stationeer} deben mantener la cabeza en todo momento.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleLegL</Key>
-	  <Value>Parte del Cuerpo Astronauta Pierna Masculina Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pierna Izquierda de Astronauta Hombre</Value>
 	  <Description>Esta es una pierna. Alguien probablemente la extraña.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautMaleLegR</Key>
-	  <Value>Parte del Cuerpo Astronauta Pierna Masculina Derecha</Value>
+	  <Value>Parte del Cuerpo: Pierna Derecha de Astronauta Hombre</Value>
 	  <Description>Las piernas son cosas realmente útiles, pero las ruedas habrían estado bien.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartAstronautTorso</Key>
-	  <Value>Parte del Cuerpo Astronauta Torso</Value>
+	  <Value>Parte del Cuerpo: Torso de Astronauta</Value>
 	  <Description>Una vez, esto era la mayor parte de alguien.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickBody</Key>
-	  <Value>Parte del Cuerpo Polluelo</Value>
+	  <Value>Parte del Cuerpo: Cuerpo de Pollito</Value>
 	  <Description>El corazón esponjoso de una proto-gallina inofensiva.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownBody</Key>
-	  <Value>Parte del Cuerpo Pollo Marrón</Value>
+	  <Value>Parte del Cuerpo: Cuerpo de Gallina Marrón</Value>
 	  <Description>No compliquemos las cosas. Es un pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownHead</Key>
-	  <Value>Parte del Cuerpo Pollo Marrón Cabeza</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Gallina Marrón</Value>
 	  <Description>Una cabeza de pollo es útil para muchas cosas, pero principalmente para el vudú y las maldiciones espaciales.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownLegL</Key>
-	  <Value>Parte del Cuerpo Pollo Marrón Pierna Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pata Izquierda de Gallina Marrón</Value>
 	  <Description>Una pata de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownLegR</Key>
-	  <Value>Parte del Cuerpo Pollo Marrón Pierna Derecha</Value>
+	  <Value>Parte del Cuerpo: Pata Derecha de Gallina Marrón</Value>
 	  <Description>También una pierna de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownTail</Key>
-	  <Value>Parte del Cuerpo Pollo Marrón Cola</Value>
+	  <Value>Parte del Cuerpo: Cola de Gallina Marrón</Value>
 	  <Description>La cola de un pollo es, sin duda, su característica menos encantadora.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownWingL</Key>
-	  <Value>Alita de Pollo Marrón</Value>
+	  <Value>Parte del Cuerpo: Ala Izquierda de Gallina Marrón</Value>
 	  <Description>Una alita de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenBrownWingR</Key>
-	  <Value>Alita de Pollo Marrón Derecha</Value>
+	  <Value>Parte del Cuerpo: Ala Derecha de Gallina Marrón</Value>
 	  <Description>Una alita de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteBody</Key>
-	  <Value>Cuerpo de Pollo Blanco</Value>
+	  <Value>Parte del Cuerpo: Cuerpo de Gallina Blanca</Value>
 	  <Description>Parte de un pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteHead</Key>
-	  <Value>Cabeza de Pollo Blanco</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Gallina Blanca</Value>
 	  <Description>La cabeza de un pollo. Una vez se usó como moneda por razas alienígenas desaparecidas.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteLegL</Key>
-	  <Value>Pata de Pollo Blanco Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pata Izquierda de Gallina Blanca</Value>
 	  <Description>Una pata de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteLegR</Key>
-	  <Value>Pata de Pollo Blanco Derecha</Value>
+	  <Value>Parte del Cuerpo: Pata Derecha de Gallina Blanca</Value>
 	  <Description>Una pata de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteTail</Key>
-	  <Value>Cola de Pollo Blanco</Value>
+	  <Value>Parte del Cuerpo: Cola de Gallina Blanca</Value>
 	  <Description>Una cola de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteWingL</Key>
-	  <Value>Ala de Pollo Blanco Izquierda</Value>
+	  <Value>Parte del Cuerpo: Ala Izquierda de Gallina Blanca</Value>
 	  <Description>Es una alita de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickenWhiteWingR</Key>
-	  <Value>Ala de Pollo Blanco Derecha</Value>
+	  <Value>Parte del Cuerpo: Ala Derecha de Gallina Blanca</Value>
 	  <Description>Una alita de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickHead</Key>
-	  <Value>Cabeza de Pollito</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Pollito</Value>
 	  <Description>La cabeza de un pollo. Una vez, tenía el corazón de un tigre.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickLegL</Key>
-	  <Value>Pata de Pollito Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pata Izquierda de Pollito</Value>
 	  <Description>Una pata de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickLegR</Key>
-	  <Value>Pata de Pollito Derecha</Value>
+	  <Value>Parte del Cuerpo: Pata Derecha de Pollito</Value>
 	  <Description>Una pata de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickTail</Key>
-	  <Value>Cola de Pollito</Value>
+	  <Value>Parte del Cuerpo: Cola de Pollito</Value>
 	  <Description>Una cola de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickWingL</Key>
-	  <Value>Ala de Pollito Izquierda</Value>
+	  <Value>Parte del Cuerpo: Ala Izquierda de Pollito</Value>
 	  <Description>Una alita de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartChickWingR</Key>
-	  <Value>Ala de Pollito Derecha</Value>
+	  <Value>Parte del Cuerpo: Ala Derecha de Pollito</Value>
 	  <Description>Una alita de pollo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienArmL</Key>
-	  <Value>Brazo de Graylien Izquierdo</Value>
+	  <Value>Parte del Cuerpo: Brazo Izquierdo de Graylien</Value>
 	  <Description>Un brazo de alienígena.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienArmR</Key>
-	  <Value>Brazo de Graylien Derecho</Value>
+	  <Value>Parte del Cuerpo: Brazo Derecho de Graylien</Value>
 	  <Description>Un brazo de alienígena.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienBody</Key>
-	  <Value>Cuerpo de Graylien</Value>
+	  <Value>Parte del Cuerpo: Cuerpo de Graylien</Value>
 	  <Description>Un cuerpo de alienígena, o una imitación muy convincente.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienHead</Key>
-	  <Value>Cabeza de Graylien</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Graylien</Value>
 	  <Description>Una cabeza de alienígena.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienLegL</Key>
-	  <Value>Pata de Graylien Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pata Izquierda de Graylien</Value>
 	  <Description>Una pata de alienígena.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienLegR</Key>
-	  <Value>Pata de Graylien Derecha</Value>
+	  <Value>Parte del Cuerpo: Pata Derecha de Graylien</Value>
 	  <Description>La otra pata de alienígena.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartGraylienPelvis</Key>
-	  <Value>Pélvis de Graylien</Value>
+	  <Value>Parte del Cuerpo: Pelvis de Graylien</Value>
 	  <Description>Una pelvis de alienígena.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackBody</Key>
-	  <Value>Cuerpo de Gallo Negro</Value>
+	  <Value>Parte del Cuerpo: Cuerpo de Gallo Negro</Value>
 	  <Description>El cuerpo de un gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackHead</Key>
-	  <Value>Cabeza de Gallo Negro</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Gallo Negro</Value>
 	  <Description>La cabeza de un gallo. El regalo perfecto para el día de la madre.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackLegL</Key>
-	  <Value>Pata de Gallo Negro Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pata Izquierda de Gallo Negro</Value>
 	  <Description>Una pata de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackLegR</Key>
-	  <Value>Pata de Gallo Negro Derecha</Value>
+	  <Value>Parte del Cuerpo: Pata Derecha de Gallo Negro</Value>
 	  <Description>Una pata de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackTail</Key>
-	  <Value>Cola de Gallo Negro</Value>
+	  <Value>Parte del Cuerpo: Cola de Gallo Negro</Value>
 	  <Description>Una cola de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackWingL</Key>
-	  <Value>Parte del Cuerpo del Gallero Negro Ala Izquierda</Value>
+	  <Value>Parte del Cuerpo: Ala Izquierda de Gallo Negro</Value>
 	  <Description>Un ala de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBlackWingR</Key>
-	  <Value>Parte del Cuerpo del Gallero Negro Ala Derecha</Value>
+	  <Value>Parte del Cuerpo: Ala Derecha de Gallo Negro</Value>
 	  <Description>Un ala de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownBody</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón</Value>
+	  <Value>Parte del Cuerpo: Cuerpo de Gallo Marrón</Value>
 	  <Description>El cuerpo de un gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownHead</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón Cabeza</Value>
+	  <Value>Parte del Cuerpo: Cabeza de Gallo Marrón</Value>
 	  <Description>La cabeza de un gallo marrón.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownLegL</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón Pierna Izquierda</Value>
+	  <Value>Parte del Cuerpo: Pata Izquierda de Gallo Marrón</Value>
 	  <Description>Una pierna de gallo marrón.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownLegR</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón Pierna Derecha</Value>
+	  <Value>Parte del Cuerpo: Pata Derecha de Gallo Marrón</Value>
 	  <Description>Una pata de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownTail</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón Cola</Value>
+	  <Value>Parte del Cuerpo: Cola de Gallo Marrón</Value>
 	  <Description>Una cola de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownWingL</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón Ala Izquierda</Value>
+	  <Value>Parte del Cuerpo: Ala Izquierda de Gallo Marrón</Value>
 	  <Description>Un ala de gallo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>BodyPartRoosterBrownWingR</Key>
-	  <Value>Parte del Cuerpo del Gallero Marrón Ala Derecha</Value>
+	  <Value>Parte del Cuerpo: Ala Derecha de Gallo Marrón</Value>
 	  <Description>Un ala de gallo marrón. Bueno, marrón claro.</Description>
 	</RecordThing>
 	<RecordThing>
@@ -4237,7 +4237,7 @@ Salida = 1 exportando los artículos dentro y eventualmente el artículo princip
 </RecordThing>
 <RecordThing>
   <Key>ReagentCarbon</Key>
-  <Value>Pólvora de carbono</Value>
+  <Value>Polvo de Carbono</Value>
 </RecordThing>
 <RecordThing>
   <Key>ReagentColorGreen</Key>
@@ -4861,11 +4861,11 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>ApplianceDeskLampLeft</Key>
-  <Value>Lampara de Escritorio Izquierda</Value>
+  <Value>Lámpara de Escritorio Izquierda</Value>
 </RecordThing>
 <RecordThing>
   <Key>ApplianceDeskLampRight</Key>
-  <Value>Lampara de Escritorio Derecha</Value>
+  <Value>Lámpara de Escritorio Derecha</Value>
 </RecordThing>
 <RecordThing>
   <Key>QuarryDrillBitBasic</Key>
@@ -5786,12 +5786,12 @@ Un conjunto cuádruple de motores eléctricos montados en los cubos impulsa el m
 <RecordThing>
   <Key>StructureBackLiquidPressureRegulator</Key>
   <Value>Regulador de Volumen Líquido de Entrada</Value>
-  <Description>Regula la relación de volumen de líquido en la tubería de entrada. Esto se expresa como un porcentaje donde 100 es totalmente lleno y 0 está vacío.</Description>
+  <Description>Regula la proporción de volumen de líquido en la tubería de entrada. Esto se expresa como un porcentaje donde 100 es totalmente lleno y 0 está vacío.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureLiquidPressureRegulator</Key>
   <Value>Regulador de Volumen Líquido</Value>
-  <Description>Regula la relación de volumen de líquido en la tubería de salida. Esto se expresa como un porcentaje donde 100 es totalmente lleno y 0 está vacío.</Description>
+  <Description>Regula la proporción de volumen de líquido en la tubería de salida. Esto se expresa como un porcentaje donde 100 es totalmente lleno y 0 está vacío.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemLiquidCanisterSmart</Key>
@@ -6876,7 +6876,7 @@ Terminado - 4
 <RecordThing>
   <Key>StructureNitrolyzer</Key>
   <Value>Nitrolizador</Value>
-  <Description>Este dispositivo se utiliza para crear {GAS:NitrousOxide} a partir de {GAS:Oxygen}, {GAS:Nitrogen}, y una gran cantidad de energía. El proceso no transforma completamente todo el gas disponible a la vez, por lo que la salida es una mezcla de los tres gases, que puede necesitar un procesamiento adicional. Se generará más NOS si el gas dentro de la máquina está cerca de una relación 1/1 de Oxígeno a Nitrógeno. La segunda línea de entrada de gas es opcional y no se requiere si el gas ya está premezclado.</Description>
+  <Description>Este dispositivo se utiliza para crear {GAS:NitrousOxide} a partir de {GAS:Oxygen}, {GAS:Nitrogen}, y una gran cantidad de energía. El proceso no transforma completamente todo el gas disponible a la vez, por lo que la salida es una mezcla de los tres gases, que puede necesitar un procesamiento adicional. Se generará más NOS si el gas dentro de la máquina está cerca de una proporción 1/1 de Oxígeno a Nitrógeno. La segunda línea de entrada de gas es opcional y no se requiere si el gas ya está premezclado.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemMiningBackPack</Key>
@@ -7038,12 +7038,12 @@ Eyectar mineral de la Centrifugadora de Combustión mientras está a altas RPM r
 <RecordThing>
   <Key>StructureChuteDigitalFlipFlopSplitterLeft</Key>
   <Value>Divisor Digital de conducto Flip Flop Izquierdo</Value>
-  <Description>El flip flop digital alternará entre dos salidas usando una relación especificada (n:1). Por ejemplo, al ajustar el dial a 2, se permitiría que dos elementos pasen por la salida primaria antes de cambiar a la salida secundaria.</Description>
+  <Description>El flip flop digital alternará entre dos salidas usando una proporción especificada (n:1). Por ejemplo, al ajustar el dial a 2, se permitiría que dos elementos pasen por la salida primaria antes de cambiar a la salida secundaria.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureChuteDigitalFlipFlopSplitterRight</Key>
   <Value>Divisor Digital de conducto Flip Flop Derecho</Value>
-  <Description>El flip flop digital alternará entre dos salidas usando una relación especificada (n:1). Por ejemplo, al ajustar el dial a 2, se permitiría que dos elementos pasen por la salida primaria antes de cambiar a la salida secundaria.</Description>
+  <Description>El flip flop digital alternará entre dos salidas usando una proporción especificada (n:1). Por ejemplo, al ajustar el dial a 2, se permitiría que dos elementos pasen por la salida primaria antes de cambiar a la salida secundaria.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitStandardChute</Key>
@@ -8205,7 +8205,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 <RecordThing>
   <Key>StructurePumpedLiquidEngine</Key>
   <Value>Motor de Líquido Bombeado</Value>
-  <Description>Los propulsores líquidos traen mayores eficiencias con el Motor de Líquido Bombeado. Se proporcionan dos entradas para que los Stationeers puedan separar sus combustibles, la variable de Configuración controla la relación de mezcla de las entradas. El motor está diseñado para funcionar con {GAS:LiquidMethane} y {GAS:LiquidOxygen}, algunos Stationeers han informado valores de empuje excesivos al cambiar a {GAS:LiquidNitrousOxide}</Description>
+  <Description>Los propulsores líquidos traen mayores eficiencias con el Motor de Líquido Bombeado. Se proporcionan dos entradas para que los Stationeers puedan separar sus combustibles, la variable de Configuración controla la proporción de mezcla de las entradas. El motor está diseñado para funcionar con {GAS:LiquidMethane} y {GAS:LiquidOxygen}, algunos Stationeers han informado valores de empuje excesivos al cambiar a {GAS:LiquidNitrousOxide}</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPumpedLiquidEngine</Key>
@@ -8225,7 +8225,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 <RecordThing>
   <Key>StructurePressureFedGasEngine</Key>
   <Value>Motor de Gas Alimentado por Presión</Value>
-  <Description>Ineficiente pero muy poderoso, el Motor de Gas Alimentado por Presión mueve gas de cada una de sus dos entradas basándose en la presión de las tuberías de entrada. Controla la relación de mezcla de combustibles ajustando las presiones de entrada para apuntar a una mezcla de 2:1 de {GAS:Methane} a {GAS:Oxygen} gas. Enfriar los gases de propulsión o usar {GAS:NitrousOxide} como un oxidante resultará en salidas de empuje aún más altas.</Description>
+  <Description>Ineficiente pero muy poderoso, el Motor de Gas Alimentado por Presión mueve gas de cada una de sus dos entradas basándose en la presión de las tuberías de entrada. Controla la proporción de mezcla de combustibles ajustando las presiones de entrada para apuntar a una mezcla de 2:1 de {GAS:Methane} a {GAS:Oxygen} gas. Enfriar los gases de propulsión o usar {GAS:NitrousOxide} como un oxidante resultará en salidas de empuje aún más altas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8249,7 +8249,7 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
 <RecordThing>
   <Key>StructurePressureFedGasEngineHeavy</Key>
   <Value>Motor de Gas Pesado Alimentado por Presión</Value>
-  <Description>Una variante más grande y potente del {THING:StructurePressureFedGasEngine}. Sacrifica una pequeña cantidad de eficiencia a cambio de un empuje enormemente mayor. Los Motores de Gas Alimentados por Presión mueven gas de cada una de sus entradas basándose en la presión de las tuberías de entrada. Controla la relación de mezcla de combustibles ajustando las presiones de entrada para apuntar a una mezcla de 2:1 de {GAS:Methane} a {GAS:Oxygen} gas. Enfriar los gases de propulsión o usar {GAS:NitrousOxide} como oxidante resultará en salidas de empuje aún más altas.</Description>
+  <Description>Una variante más grande y potente del {THING:StructurePressureFedGasEngine}. Sacrifica una pequeña cantidad de eficiencia a cambio de un empuje enormemente mayor. Los Motores de Gas Alimentados por Presión mueven gas de cada una de sus entradas basándose en la presión de las tuberías de entrada. Controla la proporción de mezcla de combustibles ajustando las presiones de entrada para apuntar a una mezcla de 2:1 de {GAS:Methane} a {GAS:Oxygen} gas. Enfriar los gases de propulsión o usar {GAS:NitrousOxide} como oxidante resultará en salidas de empuje aún más altas.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitPressureFedGasEngineHeavy</Key>
@@ -13961,7 +13961,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
   </Record>
 <Record>
   <Key>Rpm</Key>
-  <Value>Rpm</Value>
+  <Value>RPM</Value>
 </Record>
 <Record>
   <Key>Stress</Key>
@@ -16261,7 +16261,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeInterrogationProgress</Key>
-		  <Value>Progreso de la interrogación de esta antena satelital de su objetivo actual, como una relación de 0-1</Value>
+		  <Value>Progreso de la interrogación de esta antena satelital de su objetivo actual, como una proporción de 0-1</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeSizeX</Key>
@@ -16325,39 +16325,39 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygen</Key>
-		  <Value>La relación de oxígeno en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de oxígeno en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxide</Key>
-		  <Value>La relación de {GAS:CarbonDioxide} en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de {GAS:CarbonDioxide} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogen</Key>
-		  <Value>La relación de nitrógeno en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de nitrógeno en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutant</Key>
-		  <Value>La relación de contaminante en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de contaminante en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioMethane</Key>
-		  <Value>La relación de {GAS:Methane} en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de {GAS:Methane} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWater</Key>
-		  <Value>La relación de agua en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de agua en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutedWater</Key>
-		  <Value>La relación de agua contaminada en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de agua contaminada en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxide</Key>
-		  <Value>La relación de {GAS:NitrousOxide} en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de {GAS:NitrousOxide} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogen</Key>
-		  <Value>La relación de {GAS:LiquidNitrogen} en la atmósfera del dispositivo</Value>
+		  <Value>La proporción de {GAS:LiquidNitrogen} en la atmósfera del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustion</Key>
@@ -16365,35 +16365,35 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenInput</Key>
-		  <Value>La relación de oxígeno en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de oxígeno en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideInput</Key>
-		  <Value>La relación de {GAS:CarbonDioxide} en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de {GAS:CarbonDioxide} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenInput</Key>
-		  <Value>La relación de nitrógeno en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de nitrógeno en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantInput</Key>
-		  <Value>La relación de contaminante en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de contaminante en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioMethaneInput</Key>
-		  <Value>La relación de {GAS:Methane} en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de {GAS:Methane} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterInput</Key>
-		  <Value>La relación de agua en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de agua en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideInput</Key>
-		  <Value>La relación de {GAS:NitrousOxide} en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de {GAS:NitrousOxide} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenInput</Key>
-		  <Value>La relación de {GAS:LiquidNitrogen} en la red de entrada del dispositivo</Value>
+		  <Value>La proporción de {GAS:LiquidNitrogen} en la red de entrada del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionInput</Key>
@@ -16401,35 +16401,35 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenInput2</Key>
-		  <Value>La relación de oxígeno en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de oxígeno en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideInput2</Key>
-		  <Value>La relación de {GAS:CarbonDioxide} en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:CarbonDioxide} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenInput2</Key>
-		  <Value>La relación de nitrógeno en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de nitrógeno en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantInput2</Key>
-		  <Value>La relación de contaminante en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de contaminante en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioMethaneInput2</Key>
-		  <Value>La relación de {GAS:Methane} en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:Methane} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterInput2</Key>
-		  <Value>La relación de agua en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de agua en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideInput2</Key>
-		  <Value>La relación de {GAS:NitrousOxide} en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:NitrousOxide} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenInput2</Key>
-		  <Value>La relación de {GAS:LiquidNitrogen} en la red Input2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:LiquidNitrogen} en la red Input2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionInput2</Key>
@@ -16437,35 +16437,35 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenOutput</Key>
-		  <Value>La relación de oxígeno en la red de salida del dispositivo</Value>
+		  <Value>La proporción de oxígeno en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideOutput</Key>
-		  <Value>La relación de {GAS:CarbonDioxide} en la red de salida del dispositivo</Value>
+		  <Value>La proporción de {GAS:CarbonDioxide} en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenOutput</Key>
-		  <Value>La relación de nitrógeno en la red de salida del dispositivo</Value>
+		  <Value>La proporción de nitrógeno en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantOutput</Key>
-		  <Value>La relación de contaminante en la red de salida del dispositivo</Value>
+		  <Value>La proporción de contaminante en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioMethaneOutput</Key>
-		  <Value>La relación de {GAS:Methane} en la red Output del dispositivo</Value>
+		  <Value>La proporción de {GAS:Methane} en la red Output del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterOutput</Key>
-		  <Value>La relación de agua en la red de salida del dispositivo</Value>
+		  <Value>La proporción de agua en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideOutput</Key>
-		  <Value>La relación de {GAS:NitrousOxide} en la red de salida del dispositivo</Value>
+		  <Value>La proporción de {GAS:NitrousOxide} en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenOutput</Key>
-		  <Value>La relación de {GAS:LiquidNitrogen} en la red de salida del dispositivo</Value>
+		  <Value>La proporción de {GAS:LiquidNitrogen} en la red de salida del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionOutput</Key>
@@ -16473,35 +16473,35 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioOxygenOutput2</Key>
-		  <Value>La relación de oxígeno en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de oxígeno en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioCarbonDioxideOutput2</Key>
-		  <Value>La relación de {GAS:CarbonDioxide} en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:CarbonDioxide} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrogenOutput2</Key>
-		  <Value>La relación de nitrógeno en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de nitrógeno en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioPollutantOutput2</Key>
-		  <Value>La relación de contaminante en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de contaminante en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioMethaneOutput2</Key>
-		  <Value>La relación de {GAS:Methane} en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:Methane} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioWaterOutput2</Key>
-		  <Value>La relación de agua en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de agua en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioNitrousOxideOutput2</Key>
-		  <Value>La relación de {GAS:NitrousOxide} en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:NitrousOxide} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatioLiquidNitrogenOutput2</Key>
-		  <Value>La relación de {GAS:LiquidNitrogen} en la red Output2 del dispositivo</Value>
+		  <Value>La proporción de {GAS:LiquidNitrogen} en la red Output2 del dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeCombustionOutput2</Key>
@@ -16529,7 +16529,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeRatio</Key>
-		  <Value>Valor específico del contexto según el dispositivo, relación basada en 0 a 1</Value>
+		  <Value>Valor específico del contexto según el dispositivo, proporción basada en 0 a 1</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePowerPotential</Key>
@@ -16569,11 +16569,11 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 		</Record>
 		<Record>
 		  <Key>LogicTypeHorizontalRatio</Key>
-		  <Value>Relación de configuración horizontal para el dispositivo</Value>
+		  <Value>Proporción de configuración horizontal para el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypeVerticalRatio</Key>
-		  <Value>Relación de configuración vertical para el dispositivo</Value>
+		  <Value>Proporción de configuración vertical para el dispositivo</Value>
 		</Record>
 		<Record>
 		  <Key>LogicTypePowerRequired</Key>
@@ -16906,7 +16906,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>LogicSlotTypeChargeRatio</Key>
-  <Value>devuelve la carga de energía actual que el ocupante de la ranura está sosteniendo como una relación entre 0 y 1 de su máximo</Value>
+  <Value>devuelve la carga de energía actual que el ocupante de la ranura está sosteniendo como una proporción entre 0 y 1 de su máximo</Value>
 </Record>
 <Record>
   <Key>LogicSlotTypeClass</Key>
@@ -16950,131 +16950,131 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOxygen</Key>
-  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOxygen} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOxygenInput</Key>
-  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOxygen} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOxygenInput2</Key>
-  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera de entrada2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOxygen} en la atmósfera de entrada2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOxygenOutput</Key>
-  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOxygen} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOxygenOutput2</Key>
-  <Value>La relación de {GAS:LiquidOxygen} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOxygen} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidMethaneOutput2</Key>
-  <Value>La relación de {GAS:LiquidMethane} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidMethane} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidMethaneOutput</Key>
-  <Value>La relación de {GAS:LiquidMethane} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidMethane} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidMethaneInput2</Key>
-  <Value>La relación de {GAS:LiquidMethane} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidMethane} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidMethaneInput</Key>
-  <Value>La relación de {GAS:LiquidMethane} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidMethane} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidMethane</Key>
-  <Value>La relación de {GAS:LiquidMethane} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidMethane} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSteam</Key>
-  <Value>La relación de {GAS:Steam} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:Steam} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSteamInput</Key>
-  <Value>La relación de {GAS:Steam} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:Steam} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSteamInput2</Key>
-  <Value>La relación de {GAS:Steam} en la atmósfera de entrada2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Steam} en la atmósfera de entrada2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSteamOutput</Key>
-  <Value>La relación de {GAS:Steam} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:Steam} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSteamOutput2</Key>
-  <Value>La relación de {GAS:Steam} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Steam} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidCarbonDioxide</Key>
-  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidCarbonDioxide} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidCarbonDioxideInput</Key>
-  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidCarbonDioxide} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidCarbonDioxideInput2</Key>
-  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera de entrada2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidCarbonDioxide} en la atmósfera de entrada2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidCarbonDioxideOutput</Key>
-  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidCarbonDioxide} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidCarbonDioxideOutput2</Key>
-  <Value>La relación de {GAS:LiquidCarbonDioxide} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidCarbonDioxide} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidPollutant</Key>
-  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidPollutant} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidPollutantInput</Key>
-  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidPollutant} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidPollutantInput2</Key>
-  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera de entrada2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidPollutant} en la atmósfera de entrada2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidPollutantOutput</Key>
-  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidPollutant} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidPollutantOutput2</Key>
-  <Value>La relación de {GAS:LiquidPollutant} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidPollutant} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidNitrousOxide</Key>
-  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidNitrousOxide} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidNitrousOxideInput</Key>
-  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidNitrousOxide} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidNitrousOxideInput2</Key>
-  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera de entrada2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidNitrousOxide} en la atmósfera de entrada2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidNitrousOxideOutput</Key>
-  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidNitrousOxide} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidNitrousOxideOutput2</Key>
-  <Value>La relación de {GAS:LiquidNitrousOxide} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidNitrousOxide} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrogen</Key>
-  <Value>La relación de {GAS:Hydrogen} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrogen} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrogen</Key>
-  <Value>La relación de {GAS:LiquidHydrogen} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrogen} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeContactTypeId</Key>
@@ -17106,7 +17106,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>LogicTypeThrustToWeight</Key>
-  <Value>Relación de empuje a peso del cohete. El peso se ve afectado por la gravedad corporal local. Un cohete con una baja relación de empuje a peso consumirá más combustible durante el lanzamiento y el aterrizaje.</Value>
+  <Value>Proporción de empuje a peso del cohete. El peso se ve afectado por la gravedad corporal local. Un cohete con una baja proporción de empuje a peso consumirá más combustible durante el lanzamiento y el aterrizaje.</Value>
 </Record>
 <Record>
   <Key>LogicTypeWeight</Key>
@@ -17138,271 +17138,271 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
-  <Value>La relación de {GAS:LiquidOzone} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOzone} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOzoneOutput</Key>
-  <Value>La relación de {GAS:LiquidOzone} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOzone} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOzoneInput2</Key>
-  <Value>La relación de {GAS:LiquidOzone} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOzone} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOzoneInput</Key>
-  <Value>La relación de {GAS:LiquidOzone} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOzone} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioOzoneOutput2</Key>
-  <Value>La relación de {GAS:Ozone} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Ozone} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioOzoneOutput</Key>
-  <Value>La relación de {GAS:Ozone} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:Ozone} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioOzoneInput2</Key>
-  <Value>La relación de {GAS:Ozone} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Ozone} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioOzoneInput</Key>
-  <Value>La relación de {GAS:Ozone} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:Ozone} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrochloricAcidOutput2</Key>
-  <Value>La relación de {GAS:LiquidHydrochloricAcid} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrochloricAcid} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrochloricAcidOutput</Key>
-  <Value>La relación de {GAS:LiquidHydrochloricAcid} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrochloricAcid} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrochloricAcidInput2</Key>
-  <Value>La relación de {GAS:LiquidHydrochloricAcid} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrochloricAcid} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrochloricAcidInput</Key>
-  <Value>La relación de {GAS:LiquidHydrochloricAcid} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrochloricAcid} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrochloricAcidOutput2</Key>
-  <Value>La relación de {GAS:HydrochloricAcid} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:HydrochloricAcid} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrochloricAcidOutput</Key>
-  <Value>La relación de {GAS:HydrochloricAcid} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:HydrochloricAcid} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrochloricAcidInput2</Key>
-  <Value>La relación de {GAS:HydrochloricAcid} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:HydrochloricAcid} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrochloricAcidInput</Key>
-  <Value>La relación de {GAS:HydrochloricAcid} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:HydrochloricAcid} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSilanolOutput2</Key>
-  <Value>La relación de {GAS:LiquidSilanol} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSilanol} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSilanolOutput</Key>
-  <Value>La relación de {GAS:LiquidSilanol} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSilanol} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSilanolInput2</Key>
-  <Value>La relación de {GAS:LiquidSilanol} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSilanol} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSilanolInput</Key>
-  <Value>La relación de {GAS:LiquidSilanol} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSilanol} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSilanolOutput2</Key>
-  <Value>La relación de {GAS:Silanol} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Silanol} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSilanolOutput</Key>
-  <Value>La relación de {GAS:Silanol} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:Silanol} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSilanolInput2</Key>
-  <Value>La relación de {GAS:Silanol} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Silanol} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSilanolInput</Key>
-  <Value>La relación de {GAS:Silanol} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:Silanol} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSodiumChlorideOutput2</Key>
-  <Value>La relación de {GAS:LiquidSodiumChloride} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSodiumChloride} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSodiumChlorideOutput</Key>
-  <Value>La relación de {GAS:LiquidSodiumChloride} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSodiumChloride} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSodiumChlorideInput2</Key>
-  <Value>La relación de {GAS:LiquidSodiumChloride} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSodiumChloride} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSodiumChlorideInput</Key>
-  <Value>La relación de {GAS:LiquidSodiumChloride} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSodiumChloride} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHeliumOutput2</Key>
-  <Value>La relación de {GAS:Helium} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Helium} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHeliumOutput</Key>
-  <Value>La relación de {GAS:Helium} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:Helium} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHeliumInput2</Key>
-  <Value>La relación de {GAS:Helium} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Helium} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHeliumInput</Key>
-  <Value>La relación de {GAS:Helium} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:Helium} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidAlcoholOutput2</Key>
-  <Value>La relación de {GAS:LiquidAlcohol} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidAlcohol} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidAlcoholOutput</Key>
-  <Value>La relación de {GAS:LiquidAlcohol} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidAlcohol} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidAlcoholInput2</Key>
-  <Value>La relación de {GAS:LiquidAlcohol} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidAlcohol} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidAlcoholInput</Key>
-  <Value>La relación de {GAS:LiquidAlcohol} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidAlcohol} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrazineOutput2</Key>
-  <Value>La relación de {GAS:LiquidHydrazine} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrazine} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrazineOutput</Key>
-  <Value>La relación de {GAS:LiquidHydrazine} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrazine} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrazineInput2</Key>
-  <Value>La relación de {GAS:LiquidHydrazine} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrazine} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrazineInput</Key>
-  <Value>La relación de {GAS:LiquidHydrazine} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrazine} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrazineOutput2</Key>
-  <Value>La relación de {GAS:Hydrazine} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrazine} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrazineOutput</Key>
-  <Value>La relación de {GAS:Hydrazine} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrazine} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrazineInput2</Key>
-  <Value>La relación de {GAS:Hydrazine} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrazine} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrazineInput</Key>
-  <Value>La relación de {GAS:Hydrazine} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrazine} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioPollutedWaterOutput2</Key>
-  <Value>La relación de {GAS:PollutedWater} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:PollutedWater} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioPollutedWaterOutput</Key>
-  <Value>La relación de {GAS:PollutedWater} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:PollutedWater} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioPollutedWaterInput2</Key>
-  <Value>La relación de {GAS:PollutedWater} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:PollutedWater} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioPollutedWaterInput</Key>
-  <Value>La relación de {GAS:PollutedWater} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:PollutedWater} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrogenOutput2</Key>
-  <Value>La relación de {GAS:LiquidHydrogen} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrogen} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrogenOutput</Key>
-  <Value>La relación de {GAS:LiquidHydrogen} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrogen} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrogenInput2</Key>
-  <Value>La relación de {GAS:LiquidHydrogen} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrogen} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrogenInput</Key>
-  <Value>La relación de {GAS:LiquidHydrogen} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrogen} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrogenOutput2</Key>
-  <Value>La relación de {GAS:Hydrogen} en la atmósfera Output2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrogen} en la atmósfera Output2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrogenOutput</Key>
-  <Value>La relación de {GAS:Hydrogen} en la atmósfera de salida del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrogen} en la atmósfera de salida del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrogenInput2</Key>
-  <Value>La relación de {GAS:Hydrogen} en la atmósfera Input2 del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrogen} en la atmósfera Input2 del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrogenInput</Key>
-  <Value>La relación de {GAS:Hydrogen} en la atmósfera de entrada del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrogen} en la atmósfera de entrada del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidOzone</Key>
-  <Value>La relación de {GAS:LiquidOzone} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidOzone} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioOzone</Key>
-  <Value>La relación de {GAS:Ozone} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:Ozone} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrochloricAcid</Key>
-  <Value>La relación de {GAS:LiquidHydrochloricAcid} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrochloricAcid} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrochloricAcid</Key>
-  <Value>La relación de {GAS:HydrochloricAcid} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:HydrochloricAcid} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSilanol</Key>
-  <Value>La relación de {GAS:LiquidSilanol} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSilanol} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioSilanol</Key>
-  <Value>La relación de {GAS:Silanol} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:Silanol} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidSodiumChloride</Key>
-  <Value>La relación de {GAS:LiquidSodiumChloride} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidSodiumChloride} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHelium</Key>
-  <Value>La relación de {GAS:Helium} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:Helium} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidAlcohol</Key>
-  <Value>La relación de {GAS:LiquidAlcohol} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidAlcohol} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioLiquidHydrazine</Key>
-  <Value>La relación de {GAS:LiquidHydrazine} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:LiquidHydrazine} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeRatioHydrazine</Key>
-  <Value>La relación de {GAS:Hydrazine} en la atmósfera del dispositivo</Value>
+  <Value>La proporción de {GAS:Hydrazine} en la atmósfera del dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicTypeContactSlotIndex</Key>
@@ -17574,7 +17574,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>BackupMenuFileListTitle</Key>
-  <Value>Guardados</Value>
+  <Value>Copias de Seguridad</Value>
 </Record>
 <Record>
   <Key>Experiments</Key>
@@ -22079,7 +22079,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     </Record>
     <Record>
       <Key>CelestialBodyGanymede</Key>
-      <Value>Ganimedes</Value>
+      <Value>Ganímedes</Value>
     </Record>
     <Record>
       <Key>CelestialBodyCallisto</Key>
@@ -24051,31 +24051,31 @@ Hay algunas herramientas de la comunidad que puedes usar para convertir partidas
 </Record>
 <Record>
   <Key>Mouse0</Key>
-  <Value>Mouse0</Value>
+  <Value>Ratón 1</Value>
 </Record>
 <Record>
   <Key>Mouse1</Key>
-  <Value>Mouse1</Value>
+  <Value>Ratón 2</Value>
 </Record>
 <Record>
   <Key>Mouse2</Key>
-  <Value>Mouse2</Value>
+  <Value>Ratón 3</Value>
 </Record>
 <Record>
   <Key>Mouse3</Key>
-  <Value>Mouse3</Value>
+  <Value>Ratón 4</Value>
 </Record>
 <Record>
   <Key>Mouse4</Key>
-  <Value>Mouse4</Value>
+  <Value>Ratón 5</Value>
 </Record>
 <Record>
   <Key>Mouse5</Key>
-  <Value>Mouse5</Value>
+  <Value>Ratón 6</Value>
 </Record>
 <Record>
   <Key>Mouse6</Key>
-  <Value>Mouse6</Value>
+  <Value>Ratón 7</Value>
 </Record>
 <Record>
   <Key>JoystickButton0</Key>
@@ -24944,7 +24944,7 @@ Esto eliminará &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt; solo el gua
 </Record>
 <Record>
   <Key>RatioTooltip</Key>
-  <Value>Ratio &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}&lt;/color&gt;</Value>
+  <Value>Proporción &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>QuantityAndRatioTooltip</Key>
@@ -24957,7 +24957,7 @@ Esto eliminará &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt; solo el gua
 </Record>
 <Record>
   <Key>Ratio</Key>
-  <Value>Ratio</Value>
+  <Value>Proporción</Value>
 </Record>
 <Record>
   <Key>CloseThreshold</Key>
@@ -26479,7 +26479,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>EnergyRatio</Key>
-  <Value>Relación de energía</Value>
+  <Value>Proporción de energía</Value>
 </Record>
 <Record>
   <Key>ChildItem</Key>
@@ -27435,7 +27435,7 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>LogicDescriptionDrillCondition</Key>
-  <Value>La condición actual de la cabeza del taladro en la ranura de taladro de este dispositivo. Expresado como una relación entre 0 y 1.</Value>
+  <Value>La condición actual de la cabeza del taladro en la ranura de taladro de este dispositivo. Expresado como una proporción entre 0 y 1.</Value>
 </Record>
 <Record>
   <Key>LogicDescriptionVelocityX</Key>
@@ -27763,11 +27763,11 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>TradeDecay</Key>
-  <Value>Decaimiento {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+  <Value>Descomposición {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
 </Record>
 <Record>
   <Key>TradeEnergyRatio</Key>
-  <Value>Relación de energía {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+  <Value>Proporción de energía {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
 </Record>
 <Record>
   <Key>TradeEnergyState</Key>
