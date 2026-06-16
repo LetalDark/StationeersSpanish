@@ -1,5 +1,6 @@
 Spanish for Stationeers.
-Traducción en proceso mediante ChatGPT/Grok. Cualquier error, por favor, comunicadlo en los comentarios.
+Traducción mejorada con Claude para subir la calidad. Cualquier error, por favor, comunicadlo en los comentarios.
+Compatible con la versión del juego: 0.2.6217.27046
 Proyecto en GitHub: https://github.com/LetalDark/StationeersSpanish
 
 Hay dos maneras de activarlo.

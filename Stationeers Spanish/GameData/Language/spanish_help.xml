@@ -261,9 +261,9 @@ Esta es la configuración básica. Para automatizarlo necesitarás un analizador
 <StationpediaPage>
   <Key>OrePage</Key>
   <Title>Minerales</Title>
-  <Text>Estos son artículos que pueden ser {LINK:MiningPage;minados} y a menudo pueden ser {LINK:SmeltingPage;fundidos}. También puedes obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolos por el {THING:StructureCentrifuge}, que lo descompondrá en {LINK:OrePage;mineral} para {LINK:SmeltingPage;fundir}.
+  <Text>Estos son artículos que pueden ser {LINK:MiningPage;minados} y a menudo pueden ser {LINK:SmeltingPage;fundidos}. También puedes obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolos por el {THING:StructureCentrifuge}, que lo descompondrá en {LINK:OrePage;mineral} para {LINK:SmeltingPage;fundir}. 
 Hay algunos minerales que se derriten cuando se exponen a la luz solar o al calor y producen {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se derrite en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantener estos fuera del calor o la luz solar hasta que realmente quieras que se derritan.{LIST_OF_ORES}
-  </Text>
+      </Text>
 </StationpediaPage>
 
 <StationpediaPage>
@@ -373,10 +373,24 @@ Cohetes más complejos pueden usar {THING:StructureRocketMiner} y {THING:Structu
   <Title>Clima</Title>
   <DisplayFilter>Guides</DisplayFilter>
   <Text>Los planetas del Sistema Solar no son tan tranquilos como parecen. Después de siete días en cualquier mundo con atmósfera, las fuerzas inescrutables de la naturaleza entran en acción – golpeando a los incautos Stationeers con tormentas de nieve, tormentas de polvo y eventos volcánicos.
+
 Como tal, el {LINK:ODA;ODA} recomienda que los Stationeers recién desplegados creen una base hermética dentro de los 7 días posteriores al aterrizaje.
+
 Cualquier objeto dinámico dejado afuera en una tormenta – en Marte, Loulan, Vulcan o Europa – corre el riesgo de ser arrastrado muy lejos, incluyendo tu módulo de aterrizaje.
+
 Igualmente, ten en cuenta que los paneles solares son frágiles y pueden tener su cristal roto o, ocasionalmente, incluso ser destruidos por una tormenta lo suficientemente feroz. Durante las tormentas, su salida también se reduce drásticamente.
-  </Text>
+      </Text>
+   </StationpediaPage>
+
+<StationpediaPage>
+  <Key>CableNetworkPage</Key>
+  <Title>Redes de Cable</Title>
+  <Text>Al colocar cables con {THING:ItemCableCoil} creas redes de cable. Estas contienen memoria volátil que puede leerse o escribirse usando un {THING:ItemIntegratedCircuit10}. Esto incluye una variedad de variables lógicas especiales como {LOGICTYPE:Channel0} hasta {LOGICTYPE:Channel7}. Las redes también tienen memoria legible, que contiene una lista de todos los dispositivos de datos de la red, y puede usarse con GET para encontrar el {LOGICTYPE:ReferenceId} de ese dispositivo. 
+	  
+Para averiguar la cantidad actual de dispositivos en la pila, usa la variable {LOGICTYPE:StackSize} en la red, ya que la red ajusta su tamaño de pila dinámicamente en función de los dispositivos que contiene. Las Redes de Cable son memoria volátil, y cambiarán tanto su orden como su contenido y sus datos cada vez que la red cambie, por lo que puede que necesites sondear y actualizar la información constantemente.  
+
+Para acceder a esto, usa una notación adicional en las referencias de tus dispositivos, como {COLORYELLOW:d0}:{COLORYELLOW:1} para acceder a la red 1 del dispositivo indicado. Para averiguar el número de conexión, consulta la página de la stationpedia de ese dispositivo y mira el número que aparece en la sección de conexiones.
+      </Text>
    </StationpediaPage>
     
     <!--
@@ -592,7 +606,7 @@ Tu tasa de hambre se puede ajustar en el menú de configuración principal ajust
   <Key>FarmingPage</Key>
   <Title>Cultivar Comida</Title>
   <DisplayFilter>Guides</DisplayFilter>
-  <Text>Para sobrevivir en mundos alienígenas, la {LINK:ODA;ODA} espera que todos los {LINK:Stationeers;Stationeers} establezcan sistemas de {LINK:OrganicPage;hidroponía} viables o contacten a comerciantes de recursos locales registrados.
+  <Text>Para sobrevivir en mundos alienígenas, la {LINK:ODA;ODA} espera que todos los {LINK:Stationeers;Stationeers} establezcan sistemas de {LINK:OrganicPage;hidroponía} viables o contacten a {LINK:TradingPage;comerciantes} de recursos locales registrados.
 
 {HEADER:CONFIGURACIÓN}
 
@@ -611,7 +625,7 @@ Tu sistema dependerá de los recursos y el tiempo disponibles, pero un sistema d
 
 {HEADER:COSECHA}
 
-La mayoría de las plantas tienen varias etapas de crecimiento. Las primeras etapas son el crecimiento de la planta a lo largo de su ciclo de vida. Durante la tercera fase, se pueden cosechar semillas de la planta. En la cuarta fase, la planta producirá frutas. Después de eso, a menos que se limpie, la planta morirá.
+La mayoría de las plantas tienen varias etapas de crecimiento. Las primeras etapas son el crecimiento de la planta a lo largo de su ciclo de vida. Durante la penúltima fase, la planta dará fruto pero no semillas. En la fase final, se pueden cosechar semillas y fruto de la planta. Después de eso, a menos que se limpie, la planta morirá.
 
 {HEADER:FERTILIZANTE}
 
@@ -623,7 +637,7 @@ Los efectos del fertilizante dependen de sus ingredientes:
 - {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta 3 veces
 - {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO para los que el fertilizante dura hasta un máximo de 5
 
-El efecto de estos ingredientes depende de sus proporciones respectivas en el compostador cuando se activa el procesamiento. El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Al procesar, se libera {GAS:Nitrogen} y {GAS:Volatiles}, así como una pequeña cantidad de calor.
+El efecto de estos ingredientes depende de sus proporciones respectivas en el compostador cuando se activa el procesamiento. El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Al procesar, se libera {GAS:Nitrogen} y {GAS:Methane}, así como una pequeña cantidad de calor.
 </Text>
 </StationpediaPage>
 
@@ -641,14 +655,14 @@ El efecto de estos ingredientes depende de sus proporciones respectivas en el co
 
 - ATMÓSFERA - Diferentes gases pueden ralentizar o acelerar el proceso de descomposición. El proceso tendrá en cuenta las proporciones de gases respectivas en atmósferas mezcladas para calcular el modificador de descomposición. Las siguientes tasas se aplican a todos los alimentos:
 
-> {GAS:Oxygen} x 1.3
-> {GAS:Nitrogen} x 0.6
-> {GAS:CarbonDioxide} x 0.8
-> {GAS:Volatiles} x 1
-> {GAS:Pollutant} x 3
-> {GAS:NitrousOxide} x 1.5
-> {GAS:Water} x 2
-> Vacío - ver PRESIÓN (arriba).
+&gt; {GAS:Oxygen} x 1.3
+&gt; {GAS:Nitrogen} x 0.6
+&gt; {GAS:CarbonDioxide} x 0.8
+&gt; {GAS:Methane} x 1
+&gt; {GAS:Pollutant} x 3
+&gt; {GAS:NitrousOxide} x 1.5
+&gt; {GAS:Water} x 2
+&gt; Vacío - ver PRESIÓN (arriba).
 </Text>
 </StationpediaPage>
 

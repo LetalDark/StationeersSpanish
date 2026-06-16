@@ -190,6 +190,22 @@
     <Record>
       <Key>StatusIconLeavingAreaDesc</Key>
       <Value>Fuera de los límites, da la vuelta</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>La temperatura del refrigerante es demasiado alta</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Temperatura del tanque de refrigerante</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>Afecta a la velocidad de las acciones</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>Estrés de Reaparición</Value>
     </Record>		
     </ScreenSpaceToolTips>
 </Language>
