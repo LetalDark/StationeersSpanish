@@ -2,10 +2,10 @@
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Stationeers Spanish</Name>
   <Author>Letal</Author>
-  <Version>0.2.6217.27046</Version>
+  <Version>0.2.6403.27689</Version>
   <Description>Translation in Spanish for Stationeers.
 Traducción mejorada con Claude para subir la calidad. Cualquier error, por favor, comunicadlo en los comentarios.
-Compatible con la versión del juego: 0.2.6217.27046
+Compatible con la versión del juego: 0.2.6403.27689
 Proyecto en GitHub: https://github.com/LetalDark/StationeersSpanish
 
 Hay dos maneras de activarlo.

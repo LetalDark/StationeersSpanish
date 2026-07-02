@@ -1000,7 +1000,6 @@ La placa de circuito tiene dos modos: 'Vincular' apaga o enciende todos los disp
 	<RecordThing>
 	  <Key>DynamicGasCanisterWater</Key>
 	  <Value>Tanque de Líquido Portátil (Agua)</Value>
-	  <Description>Este tanque portátil almacena líquido, y solo líquido. Solo tienes que llenarlo. Para hacerlo, atornílalo a un {THING:ItemTankConnector} usando una {THING:ItemWrench}, luego conéctalo a {THING:StructurePipeLiquidStraight} para suministrar líquido a una red. Intenta mantener la presión por debajo de los 10 MPa, o acabarás mojado, herido y arrepentido, sin ninguna de las diversiones. Puedes rellenar un {THING:ItemGasCanisterWater} al conectarlo a la sección rayada del tanque. O podrías usar una {THING:ItemWrench} para conectarlo a un cohete y llevarlo a un lugar lejano y seco, luego sentirte bien contigo mismo.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>DynamicLiquidCanisterEmpty</Key>
@@ -1432,7 +1431,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemKitConsole</Key>
-  <Value>Kit (Consolas)</Value>
+  <Value>Kit (Consola)</Value>
   <Description />
 </RecordThing>
 <RecordThing>
@@ -1572,7 +1571,7 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 </RecordThing>
 <RecordThing>
   <Key>ItemPillStun</Key>
-  <Value>Píldora (Parálisis)</Value>
+  <Value>Píldora (Aturdidor)</Value>
   <Description>Aunque raramente se publicita, la existencia de esta píldora es un secreto a voces. Para usar cuando todo lo demás ha fallado, el Supositorio Sayonara inmoviliza y termina rápidamente con el promedio de {LINK:Stationeers;Stationeer}. El modo de administración garantiza que si un Stationeer elige tomar esta píldora, realmente lo desea.</Description>
 </RecordThing>
 <RecordThing>
@@ -1713,62 +1712,82 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
 <RecordThing>
   <Key>ItemSprayCanBlack</Key>
   <Value>Spray Pintura (Negro)</Value>
-  <Description>Ve clásico, clandestino o simplemente gótico con pintura negra, que se puede aplicar a la mayoría de los objetos. Cada lata tiene 20 usos.</Description>
+  <Description>Pintura en spray negra. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>ItemSprayCanMetallicGold</Key>
+  <Value>Bote de Spray (Dorado)</Value>
+  <Description>Pintura en spray metalizada dorada. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>ItemSprayCanMetallicBronze</Key>
+  <Value>Bote de Spray (Bronce)</Value>
+  <Description>Pintura en spray metalizada bronce. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>ItemSprayCanMetallicSilver</Key>
+  <Value>Bote de Spray (Plateado)</Value>
+  <Description>Pintura en spray metalizada plateada. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>ItemSprayCanMetallicObsidian</Key>
+  <Value>Bote de Spray (Obsidiana)</Value>
+  <Description>Pintura en spray metalizada obsidiana. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanBlue</Key>
   <Value>Spray Pintura (Azul)</Value>
-  <Description>¿Qué tipo de color es el azul? El tipo de color que dice, 'Oye, ¿y yo?'</Description>
+  <Description>Pintura en spray azul. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanBrown</Key>
   <Value>Spray Pintura (Marrón)</Value>
-  <Description>En los círculos más artísticos de los {LINK:Stationeers;Stationeers}, la ausencia de marrón se lamenta a menudo, pero raramente se cambia.</Description>
+  <Description>Pintura en spray marrón. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanGreen</Key>
   <Value>Spray Pintura (Verde)</Value>
-  <Description>El verde es el color de la vida y del anhelo. Paradójicamente, también es el color de la envidia y de la tolerancia. Denota enfermedad, juventud y riqueza. Pero en realidad, es solo lo que hace la luz a alrededor de 500 milmillonésimas de metro.</Description>
+  <Description>Pintura en spray verde. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanGrey</Key>
   <Value>Spray Pintura (Gris)</Value>
-  <Description>Arbitrariamente el color más popular en el universo, el gris fue inventado para que los diseñadores tuvieran algo que hacer.</Description>
+  <Description>Pintura en spray gris. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanKhaki</Key>
   <Value>Spray Pintura (Caqui)</Value>
-  <Description>No tanto un solo color, como una categoría de aburrimiento, el caqui es el equivalente en pigmentación a un episodio depresivo leve.</Description>
+  <Description>Pintura en spray caqui. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanOrange</Key>
   <Value>Spray Pintura (Naranja)</Value>
-  <Description>El naranja es divertido, pero también sugiere peligros. Sentado orgullosamente en el medio del espectro visual, no tiene nada que probar.</Description>
+  <Description>Pintura en spray naranja. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanPink</Key>
   <Value>Spray Pintura (Rosa)</Value>
-  <Description>Con la invención de tintes químicos duraderos, el siglo XX otorgó asociaciones con inocencia y ternura a este tono pálido de rojo. Sin embargo, clásicamente, era el color de la seducción y el erotismo. Las cosas cambian.</Description>
+  <Description>Pintura en spray rosa. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanPurple</Key>
   <Value>Spray Pintura (Morado)</Value>
-  <Description>El morado es un color curioso. Debes tener cuidado con el morado. Puede ser muy bueno, o salir horriblemente mal.</Description>
+  <Description>Pintura en spray morada. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanRed</Key>
   <Value>Spray Pintura (Rojo)</Value>
-  <Description>El rey de los colores, el rojo es quizás el tono definitorio del universo. Vinculado a la sangre, la realeza, el fuego y la condenación, es la expresión cromática del poder.</Description>
+  <Description>Pintura en spray roja. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanWhite</Key>
   <Value>Spray Pintura (Blanco)</Value>
-  <Description>El blanco parece limpio, nítido y bonito. Pero {LINK:Stationeers;Stationeering} puede ser un trabajo sucio. El blanco tiende a mancharse.</Description>
+  <Description>Pintura en spray blanca. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSprayCanYellow</Key>
   <Value>Spray Pintura (Amarillo)</Value>
-  <Description>Una caricatura de la luz misma, el amarillo carece de la autoconfianza del rojo, o del estilo del morado. Es menos divertido que el naranja, pero menos emocionalmente flojo que el caqui. Es difícil saber cuándo el amarillo es apropiado, pero persiste como un color primario sin importar lo que piensen los demás.</Description>
+  <Description>Pintura en spray amarilla. Usarla con una pistola de spray extenderá enormemente su uso.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemSteelFrames</Key>
@@ -4930,8 +4949,8 @@ RobotMode.None = 6 = Estado asignado automático, se muestra cuando los espacios
 </RecordThing>
 <RecordThing>
   <Key>H2Combustor</Key>
-  <Value>Combustor</Value>
-  <Description>El Combustor permite la combustión controlada de gases volátiles. Cuando se alimenta con {GAS:Hydrogen} y {GAS:Oxygen}, producirá {GAS:Steam} que puede enfriarse para obtener agua potable o para hidroponía.</Description>
+  <Value>Combustor (Obsoleto)</Value>
+  <Description>Este dispositivo está obsoleto. Usa el {THING:StructureCombustor} en su lugar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureInsulatedPipeStraight</Key>
@@ -5385,6 +5404,11 @@ Con un {THING:ItemIntegratedCircuit10} en el {SLOT:ProgrammableChip}, puedes acc
   <Key>StructureLaunchMount</Key>
   <Value>Plataforma de Lanzamiento</Value>
   <Description>La primera pieza que se coloca al construir un cohete. Los cohetes pueden ser construidos o aterrizados aquí. Cada plataforma de lanzamiento tendrá un espacio asignado en el Mapa Espacial y se le asignará un Código de Ubicación.</Description>
+</RecordThing>
+<RecordThing>
+  <Key>StructureLaunchMountOrbital</Key>
+  <Value>Plataforma de Lanzamiento Orbital</Value>
+  <Description>Una plataforma de lanzamiento desplegada en órbita baja mediante una {THING:DynamicOrbitalLaunchMountPayload} transportada en una {THING:StructureRocketLargePayloadBay}. Los cohetes pueden construirse y/o aterrizar aquí. Cada Plataforma de Lanzamiento Orbital tendrá un espacio asignado en el Mapa Espacial y se le asignará un Código de Ubicación.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemKitAirlockGate</Key>
@@ -6605,22 +6629,22 @@ Terminado - 4
 <RecordThing>
   <Key>StructureReinforcedCompositeWindow</Key>
   <Value>Ventana Reforzada (Compuesta)</Value>
-  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a diferencias de presión de hasta 1 MPa.</Description>
+  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a altas diferencias de presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureReinforcedCompositeWindowSteel</Key>
   <Value>Ventana Reforzada (Compuesta de Acero)</Value>
-  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a diferencias de presión de hasta 1 MPa.</Description>
+  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a altas diferencias de presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureReinforcedWallPaddedWindow</Key>
   <Value>Ventana Reforzada (Acolchada)</Value>
-  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a diferencias de presión de hasta 1 MPa.</Description>
+  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a altas diferencias de presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructureReinforcedWallPaddedWindowThin</Key>
   <Value>Ventana Reforzada (Delgada)</Value>
-  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a diferencias de presión de hasta 1 MPa.</Description>
+  <Description>Disfruta de vistas incluso de los paisajes alienígenas más salvajes con estos marcos de ventana de alta resistencia, que son resistentes a altas diferencias de presión.</Description>
 </RecordThing>
 <RecordThing>
   <Key>ItemStelliteGlassSheets</Key>
@@ -6890,8 +6914,8 @@ Terminado - 4
 </RecordThing>
 <RecordThing>
   <Key>StructureH2Combustor</Key>
-  <Value>Combustor</Value>
-  <Description>El Combustor permite la combustión controlada de gases volátiles. Cuando se alimenta con {GAS:Hydrogen} y {GAS:Oxygen}, producirá {GAS:Steam} que puede enfriarse para obtener agua potable o para hidroponía.</Description>
+  <Value>Combustor (Obsoleto)</Value>
+  <Description>Este dispositivo está obsoleto. Usa el {THING:StructureCombustor} en su lugar.</Description>
 </RecordThing>
 <RecordThing>
   <Key>StructurePipeRadiatorFlat</Key>
@@ -8089,6 +8113,10 @@ Para comenzar la escisión, coloca una planta o bolsa de semillas en la ranura i
   <Description />
 </RecordThing>
 <RecordThing>
+  <Key>ItemKitLaunchMountOrbital</Key>
+  <Value>Kit (Plataforma de Lanzamiento Orbital)</Value>
+</RecordThing>
+<RecordThing>
   <Key>StructureRocketManufactory</Key>
   <Value>Fábrica de Cohetes</Value>
 </RecordThing>
@@ -9227,6 +9255,187 @@ Está refrigerado por líquido para un excelente rendimiento térmico y presume 
       <Value>Filtro Mediano (Silanol)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>Panel Solar (1x5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>Combustor</Value>
+      <Description>El Combustor realiza la combustión controlada de una mezcla tomada de una entrada de gas y una entrada de líquido. Una rueda de control establece la proporción tomada de cada una, de forma similar al {THING:StructureGasMixer}, y la mezcla combinada se quema antes de pasar a la salida.
+
+Lo que produce el Combustor depende enteramente de lo que se introduzca en él. Consulta la página de {LINK:GasPage;Gases} para saber en qué se convierte cada combinación al quemarse.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>Combustor de H2</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>Panel Solar (Reforzado 1x5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>Pantalla LED (Mediana Trasera)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>Pantalla LED (Mediana Lateral)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>Panel Solar (Reforzado Dual 1x5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>Panel Solar (Dual 1x5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ArrowPiece</Key>
+      <Value>Plataforma de Aterrizaje Flecha</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10Burnt</Key>
+      <Value>Cable Quemado (Recto 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10</Key>
+      <Value>Cable (Recto 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5Burnt</Key>
+      <Value>Cable Quemado (Recto 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5</Key>
+      <Value>Cable (Recto 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3Burnt</Key>
+      <Value>Cable Quemado (Recto 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3</Key>
+      <Value>Cable (Recto 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleLight</Key>
+      <Value>Luz de Tripulación</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleElectronics</Key>
+      <Value>Kit (Electrónica de Tripulación)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewBulkhead</Key>
+      <Value>Mamparo de Tripulación</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleScreen</Key>
+      <Value>Kit (Pantalla de Módulo de Tripulación)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleCableConnector</Key>
+      <Value>Kit (Conector de Cable de Módulo de Tripulación)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleChair</Key>
+      <Value>Kit (Silla de Módulo de Tripulación)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicRocketUplinkCompact</Key>
+      <Value>Enlace Lógico de Cohete (Compacto)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Paintable</Key>
+      <Value>Mono de Trabajo (Pintable)</Value>
+      <Description>Mono de trabajo que se puede colorear usando los botes de spray.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselageSimple</Key>
+      <Value>Fuselaje de Módulo de Tripulación (Tipo A)</Value>
+      <Description>Compartimento de tripulación compacto para cohetes. Embarca interactuando con el módulo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSurvivalBelt</Key>
+      <Value>Cinturón de Supervivencia</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleActiveVent</Key>
+      <Value>Salida Activa de Módulo de Tripulación</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModulePassiveVent</Key>
+      <Value>Salida Pasiva de Módulo de Tripulación</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganStomach</Key>
+      <Value>Estómago</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitToilet</Key>
+      <Value>Kit (Váter)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureToiletModern</Key>
+      <Value>Váter Moderno</Value>
+      <Description>Un dispositivo para reducir la necesidad de {LINK:SanitationPage;saneamiento}. Requiere {GAS:Water} y produce {GAS:PollutedWater} a partir de quienes lo usan.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Bolsa de Residuos (Llena)</Value>
+      <Description>Una bolsa desechable parcial o completamente usada que puede usarse para satisfacer la necesidad de {LINK:SanitationPage;saneamiento}, siempre que quede espacio disponible. No se puede usar mientras se lleva puesto el {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Bolsa de Residuos</Value>
+      <Description>Una bolsa desechable que puede usarse para satisfacer la necesidad de {LINK:SanitationPage;saneamiento}. No se puede usar mientras se lleva puesto el {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselage</Key>
+      <Value>Fuselaje de Módulo de Tripulación (Tipo C)</Value>
+      <Description>Compartimento de tripulación aerodinámico para cohetes. Embarca interactuando con el módulo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Paquete de Agua</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorDex</Key>
+      <Value>Inyector Dex</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorStun</Key>
+      <Value>Autoinyector (Aturdidor)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorHealth</Key>
+      <Value>Autoinyector (Salud)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorEpi</Key>
+      <Value>Autoinyector (Estimulante)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFuselageTypeE</Key>
+      <Value>Kit (Fuselaje Tipo E)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFuselageTypeE1</Key>
+      <Value>Fuselaje (Tipo E1)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFairingTypeE1</Key>
+      <Value>Carcasa (Tipo E1)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE2</Key>
+      <Value>Soporte de Motor (Tipo E2)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE1</Key>
+      <Value>Soporte de Motor (Tipo E1)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterSilanolL</Key>
       <Value>Filtro Pesado (Silanol)</Value>
     </RecordThing>
@@ -9388,12 +9597,26 @@ Está refrigerado por líquido para un excelente rendimiento térmico y presume 
       <Value>Conector de Cable de Módulo de Tripulación B</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitCrewParts</Key>
+      <Value>Kit (Piezas de Tripulación)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleScreen</Key>
+      <Value>Pantalla de Módulo de Tripulación</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleChair</Key>
+      <Value>Silla de Módulo de Tripulación</Value>
+      <Description>Asiento para tripular un cohete. Mientras el asiento esté ocupado, el cohete solo podrá viajar entre plataformas de lanzamiento, y solo se podrá abandonar el asiento mientras el cohete esté aterrizado en una de ellas.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCrewModuleCableConnectorA</Key>
       <Value>Conector de Cable de Módulo de Tripulación A</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModule</Key>
       <Value>Módulo de Tripulación</Value>
+      <Description>Compartimento de tripulación para cohetes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDefibrillator</Key>
@@ -9411,6 +9634,16 @@ Está refrigerado por líquido para un excelente rendimiento térmico y presume 
     <RecordThing>
       <Key>ItemKitPayloadDeliveryContainer</Key>
       <Value>Kit (Contenedor de Entrega de Carga)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Kit (Carga de Plataforma de Lanzamiento Orbital)</Value>
+      <Description>Construye una {THING:DynamicOrbitalLaunchMountPayload} que puede transportarse a Órbita Baja en una {THING:StructureRocketLargePayloadBay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Carga de Plataforma de Lanzamiento Orbital</Value>
+      <Description>Cuando se acopla a una {THING:StructureRocketLargePayloadBay}, la {THING:DynamicOrbitalLaunchMountPayload} puede desplegarse en Órbita Baja, donde se despliega convirtiéndose en una {THING:StructureLaunchMountOrbital}. Los cohetes pueden entonces construirse y aterrizar allí, y los cohetes tripulados pueden viajar entre esta y las plataformas de lanzamiento en la superficie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicPayloadDeliveryContainer</Key>
@@ -9956,6 +10189,14 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
     <Value>Chip Programable</Value>
   </Record>
   <Record>
+    <Key>Stomach</Key>
+    <Value>Estómago</Value>
+  </Record>
+  <Record>
+    <Key>AutoInjector</Key>
+    <Value>Autoinyector</Value>
+  </Record>
+  <Record>
     <Key>CreditCard</Key>
     <Value>Tarjeta de Crédito</Value>
   </Record>
@@ -10110,12 +10351,28 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
     <Value>Construcción bloqueada por {LOCAL:Thing}</Value>
   </Record>
   <Record>
+    <Key>Waste</Key>
+    <Value>Residuos</Value>
+  </Record>
+  <Record>
     <Key>RocketDeployFailNoPayload</Key>
     <Value>No hay carga que desplegar</Value>
   </Record>
   <Record>
     <Key>RocketDeployFailNotInLowOrbit</Key>
     <Value>{LOCAL:Payload} solo puede desplegarse en Órbita Baja</Value>
+  </Record>
+  <Record>
+    <Key>RocketCrewModuleMannedTravel</Key>
+    <Value>No se puede viajar aquí mientras el módulo de tripulación esté tripulado</Value>
+  </Record>
+  <Record>
+    <Key>RocketCannotExitSeatInFlight</Key>
+    <Value>No se puede abandonar el asiento a menos que el cohete esté aterrizado en una plataforma de lanzamiento</Value>
+  </Record>
+  <Record>
+    <Key>RocketDeployFailNoFreePosition</Key>
+    <Value>{LOCAL:Payload} Todas las posiciones de despliegue en Órbita Baja están ocupadas</Value>
   </Record>
   <Record>
     <Key>RocketLogDeploy</Key>
@@ -10796,6 +11053,150 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
   <Record>
     <Key>Use</Key>
     <Value>Usar</Value>
+  </Record>
+  <Record>
+    <Key>ActionTarget</Key>
+    <Value>Destino</Value>
+  </Record>
+  <Record>
+    <Key>ActionSource</Key>
+    <Value>Origen</Value>
+  </Record>
+  <Record>
+    <Key>GasTransferActionInfo</Key>
+    <Value>Transfiriendo Gases y Líquidos.</Value>
+  </Record>
+  <Record>
+    <Key>NoUmbilicalForTransfer</Key>
+    <Value>No hay ningún umbilical desde el que transferir</Value>
+  </Record>
+  <Record>
+    <Key>PowerTransferActionInfo</Key>
+    <Value>Transfiriendo Energía. Origen {LOCAL:SourcePercent}. Destino {LOCAL:TargetPercent}</Value>
+  </Record>
+  <Record>
+    <Key>NoAvailableBattery</Key>
+    <Value>No hay ninguna batería disponible. La batería debe estar encendida y tener carga</Value>
+  </Record>
+  <Record>
+    <Key>RocketNoAvailableSeat</Key>
+    <Value>No hay ningún asiento disponible en el módulo de tripulación</Value>
+  </Record>
+  <Record>
+    <Key>FermenterInputIsEmpty</Key>
+    <Value>No hay ningún objeto Fermentable en la Entrada.</Value>
+  </Record>
+  <Record>
+    <Key>FermenterWillProduce</Key>
+    <Value>Producirá &lt;color=purple&gt;{LOCAL:Value}&lt;/color&gt;.</Value>
+  </Record>
+  <Record>
+    <Key>FermenterItemsLeftToFerment</Key>
+    <Value>Fermentando &lt;color=yellow&gt;{LOCAL:Amount}&lt;/color&gt; × &lt;color=green&gt;{LOCAL:Value} {LOCAL:Percentage}%&lt;/color&gt;</Value>
+  </Record>
+  <Record>
+    <Key>DifficultyStatisticSanitation</Key>
+    <Value>Saneamiento</Value>
+  </Record>
+  <Record>
+    <Key>DeviceMinimumPressure</Key>
+    <Value>La atmósfera exterior debe ser de al menos {LOCAL:PRESSURE}</Value>
+  </Record>
+  <Record>
+    <Key>DeviceOutputFull</Key>
+    <Value>La red de &lt;color=yellow&gt;Salida&lt;/color&gt; está llena</Value>
+  </Record>
+  <Record>
+    <Key>DeviceWaterPolluted</Key>
+    <Value>El agua está contaminada</Value>
+  </Record>
+  <Record>
+    <Key>DeviceWaterTooCold</Key>
+    <Value>El agua está demasiado fría</Value>
+  </Record>
+  <Record>
+    <Key>DeviceWaterTooHot</Key>
+    <Value>El agua está demasiado caliente</Value>
+  </Record>
+  <Record>
+    <Key>DeviceNotEnoughWater</Key>
+    <Value>No hay suficiente agua</Value>
+  </Record>
+  <Record>
+    <Key>RocketActionTransfer</Key>
+    <Value>Transfiriendo Recursos</Value>
+  </Record>
+  <Record>
+    <Key>RocketActionSurfaceScan</Key>
+    <Value>Escaneando Superficie</Value>
+  </Record>
+  <Record>
+    <Key>RocketSurfaceScanActionInfo</Key>
+    <Value>Enviando datos de escaneo a las placas base de mapa conectadas. Escáner: {LOCAL:OnOff}</Value>
+  </Record>
+  <Record>
+    <Key>RocketScannerWrongHeadType</Key>
+    <Value>El cabezal de escaneo de {LOCAL:Thing} no es del tipo adecuado para la acción que intentas realizar</Value>
+  </Record>
+  <Record>
+    <Key>NoPartnerUmbilical</Key>
+    <Value>No hay umbilical asociado conectado</Value>
+  </Record>
+  <Record>
+    <Key>DefibrillatorNotOperable</Key>
+    <Value>El desfibrilador no puede usarse para esta acción.</Value>
+  </Record>
+  <Record>
+    <Key>Defibrillate</Key>
+    <Value>Desfibrilar</Value>
+  </Record>
+  <Record>
+    <Key>DistanceToBedRock</Key>
+    <Value>Distancia al Lecho de Roca</Value>
+  </Record>
+  <Record>
+    <Key>Progress</Key>
+    <Value>Progreso</Value>
+  </Record>
+  <Record>
+    <Key>TrackablePlayerBodyBag</Key>
+    <Value>Bolsa para Cadáveres de {LOCAL:UserName}</Value>
+  </Record>
+  <Record>
+    <Key>ScriptDescriptionRor</Key>
+    <Value>Realiza una rotación a la derecha a nivel de bit sobre la representación binaria de a en b posiciones, reintroduciendo los bits desplazados fuera de la posición menos significativa en la posición más significativa.</Value>
+  </Record>
+  <Record>
+    <Key>ScriptDescriptionRol</Key>
+    <Value>Realiza una rotación a la izquierda a nivel de bit sobre la representación binaria de a en b posiciones, reintroduciendo los bits desplazados fuera de la posición más significativa en la posición menos significativa.</Value>
+  </Record>
+  <Record>
+    <Key>ScriptDescriptionClamp</Key>
+    <Value>Almacena a limitado al rango inclusivo [min, max] en el registro indicado.</Value>
+  </Record>
+  <Record>
+    <Key>ScriptDescriptionSgn</Key>
+    <Value>Almacena en el registro el signo de a: -1 si a es negativo, 1 si es positivo, y 0 si a es cero (o no es un número).</Value>
+  </Record>
+  <Record>
+    <Key>NoSanitationNeed</Key>
+    <Value>{LOCAL:Human} no tiene necesidad de saneamiento ahora mismo</Value>
+  </Record>
+  <Record>
+    <Key>DeviceCannotWhenWearing</Key>
+    <Value>No se puede usar llevando puesto {LOCAL:Thing}</Value>
+  </Record>
+  <Record>
+    <Key>DeviceNotInPosition</Key>
+    <Value>{LOCAL:Occupant} no está lo bastante cerca para usarlo</Value>
+  </Record>
+  <Record>
+    <Key>SanitationNeed</Key>
+    <Value>Necesidad de Saneamiento</Value>
+  </Record>
+  <Record>
+    <Key>Healing</Key>
+    <Value>Curación</Value>
   </Record>
   <Record>
     <Key>Export</Key>
@@ -13996,6 +14397,10 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
   <Value>Umbilicales</Value>
 </Record>
 <Record>
+  <Key>Sanitation</Key>
+  <Value>Saneamiento</Value>
+</Record>
+<Record>
   <Key>RocketPayloadCategory</Key>
   <Value>Cargas de Cohete</Value>
 </Record>
@@ -14840,6 +15245,10 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
   <Value>De acuerdo</Value>
 </Record>
 <Record>
+  <Key>ServerAnnouncement</Key>
+  <Value>Anuncio</Value>
+</Record>
+<Record>
   <Key>InputPassword</Key>
   <Value>Contraseña</Value>
 </Record>
@@ -15653,11 +16062,11 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>LogicNoDevice</Key>
-  <Value>No hay dispositivo</Value>
+  <Value>No Hay Dispositivo</Value>
 </Record>
 <Record>
   <Key>LogicNoSetting</Key>
-  <Value>No hay ajustes</Value>
+  <Value>No Hay Ajustes</Value>
 </Record>
 <Record>
   <Key>LogicNoAdditionalSettingsFor</Key>
@@ -15665,11 +16074,11 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>LogicNoSlot</Key>
-  <Value>&lt;color=red&gt;No hay ranura</Value>
+  <Value>&lt;color=red&gt;No Hay Ranura</Value>
 </Record>
 <Record>
   <Key>LogicNoAvailableSlots</Key>
-  <Value>&lt;color=red&gt;No hay ranuras disponibles</Value>
+  <Value>&lt;color=red&gt;No Hay Ranuras Disponibles</Value>
 </Record>
 <Record>
   <Key>LogicNoAdditionalSlotsFor</Key>
@@ -19845,6 +20254,18 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
   <Value>Hidratación Crítica</Value>
 </Record>
 <Record>
+  <Key>SoiledCritical</Key>
+  <Value>Sucio</Value>
+</Record>
+<Record>
+  <Key>SanitationCritical</Key>
+  <Value>Saneamiento Crítico</Value>
+</Record>
+<Record>
+  <Key>SanitationCaution</Key>
+  <Value>Precaución de Saneamiento</Value>
+</Record>
+<Record>
   <Key>MoodLow</Key>
   <Value>Ánimo Bajo</Value>
 </Record>
@@ -19914,7 +20335,7 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
 </Record>
 <Record>
   <Key>NoAudioReceiverDevices</Key>
-  <Value>No hay dispositivos de recepción de audio</Value>
+  <Value>No Hay Dispositivos Receptores de Audio</Value>
 </Record>
 <Record>
   <Key>Speed</Key>
@@ -20281,11 +20702,11 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>StateChangePopup</Key>
-  <Value>Cambio de estado: ¿Te gustaría que Stationeers intentara modificar el contenido de las redes atmosféricas en el juego cargado para prevenir explosiones inmediatas y eventos de sobrepresión debido al cambio de estado líquido-gas-sólido?</Value>
+  <Value>Cambio de Estado: ¿Te gustaría que Stationeers intentara modificar el contenido de las redes atmosféricas en el juego cargado para prevenir explosiones inmediatas y eventos de sobrepresión debido al cambio de estado líquido-gas-sólido?</Value>
 </Record>
 <Record>
   <Key>PipeVolumeChangePopup</Key>
-  <Value>Cambio de volumen de tubería: ¿Te gustaría que Stationeers intentara modificar el contenido de todas las redes de tuberías para evitar que las tuberías revienten?</Value>
+  <Value>Cambio de Volumen de Tubería: ¿Te gustaría que Stationeers intentara modificar el contenido de todas las redes de tuberías para prevenir que las tuberías revienten?</Value>
 </Record>
 <Record>
   <Key>AttemptToFix</Key>
@@ -20443,6 +20864,14 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Key>RemoveNodeCancel</Key>
       <Value>Cancelar</Value>
     </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>Esto eliminará todos los nodos de esta ubicación del tipo seleccionado. ¿Estás seguro?</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>Eliminar Nodos del Tipo</Value>
+    </Record>
 <Record>
   <Key>ClearDestinationButton</Key>
   <Value>Limpiar Destino</Value>
@@ -20482,6 +20911,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 <Record>
   <Key>StationpediaInstructions</Key>
   <Value>Instrucciones</Value>
+</Record>
+<Record>
+  <Key>StationpediaBindings</Key>
+  <Value>Vínculos</Value>
 </Record>
 <Record>
   <Key>StationpediaInternalMemory</Key>
@@ -20597,7 +21030,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>BrutalStartConditionDescription</Key>
-  <Value>Tendrás muy poco con lo que sobrevivir. No te diré cuáles son tus posibilidades... pero... tienes mis condolencias.</Value>
+  <Value>Tendrás muy poco con lo que sobrevivir. No te diré tus probabilidades... pero... tienes mi más sentido pésame.</Value>
 </Record>
 <Record>
   <Key>WorldObjectiveBuildPower</Key>
@@ -21942,6 +22375,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Gravedad Cero</Value>
     </Record>
     <Record>
+      <Key>StatusWarningAcceleration</Key>
+      <Value>Aceleración</Value>
+    </Record>
+    <Record>
       <Key>StatusNoticeActiveHandOff</Key>
       <Value>Mano Activa Apagada</Value>
     </Record>
@@ -21960,6 +22397,14 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     <Record>
       <Key>StatusNoticeJetpackOn</Key>
       <Value>Jetpack Encendido</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHealingNotice</Key>
+      <Value>Curación</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedSlot</Key>
+      <Value>Conexión de Pantalla</Value>
     </Record>
     <Record>
       <Key>StatusNoticeLightOff</Key>
@@ -22230,6 +22675,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Suministros para Esclusa</Value>
     </Record>
     <Record>
+      <Key>SpawnDataNavigationPackage</Key>
+      <Value>Paquete de Navegación</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataAdvancedAirlockSupplies</Key>
       <Value>Suministros para Esclusa Avanzada</Value>
     </Record>
@@ -22418,6 +22867,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Tormenta de Cenizas</Value>
     </Record>
     <Record>
+      <Key>FireStorm</Key>
+      <Value>Tormenta de Fuego</Value>
+    </Record>
+    <Record>
       <Key>RainWeather</Key>
       <Value>Lluvia</Value>
     </Record>
@@ -22598,6 +23051,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Paquete de Reparación de Nave</Value>
     </Record>
     <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Caja de Suministros de Criogenia</Value>
+    </Record>
+    <Record>
       <Key>BuyDataHardsuitPackage</Key>
       <Value>Paquete de Traje Endurecido</Value>
     </Record>
@@ -22766,8 +23223,16 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Óxido Nitroso a Granel</Value>
     </Record>
     <Record>
+      <Key>SellDataBulkOzone</Key>
+      <Value>Ozono a Granel</Value>
+    </Record>
+    <Record>
       <Key>SellDataBulkDirtyVolatiles</Key>
       <Value>Volátiles Sucios a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrazine</Key>
+      <Value>Hidracina a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataSteam</Key>
@@ -22776,6 +23241,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     <Record>
       <Key>SellDataOxygenCanister</Key>
       <Value>Cartucho de Oxígeno</Value>
+    </Record>
+    <Record>
+      <Key>SellDataHydrazineCanister</Key>
+      <Value>Bombona de Hidracina</Value>
     </Record>
     <Record>
       <Key>SellDataFuelCanister</Key>
@@ -23002,6 +23471,38 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Productos Planetarios</Value>
     </Record>
     <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Gasas Galácticas</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Enfermería Interestelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Estación de Auxilio de Asteroides</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Enfermería de Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Vitales del Vacío</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Botica Orbital</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Suministros Médicos Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cuidado Cósmico</Value>
+    </Record>
+    <Record>
       <Key>TraderGreenFutures</Key>
       <Value>Futuros Verdes</Value>
     </Record>
@@ -23011,7 +23512,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     </Record>
     <Record>
       <Key>TraderStellarSprouts</Key>
-      <Value>Brotos Estelares</Value>
+      <Value>Brotes Estelares</Value>
     </Record>
     <Record>
       <Key>TraderHydroHarvestHaven</Key>
@@ -23019,7 +23520,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     </Record>
     <Record>
       <Key>TraderOrbitingOrchards</Key>
-      <Value>Hertos Orbitales</Value>
+      <Value>Huertos Orbitales</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGrowers</Key>
@@ -23031,7 +23532,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     </Record>
     <Record>
       <Key>TraderSpaceSproutSuppliers</Key>
-      <Value>Proveedores de Brotos Espaciales</Value>
+      <Value>Proveedores de Brotes Espaciales</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNurturers</Key>
@@ -23362,6 +23863,18 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
       <Value>Fermentable:</Value>
     </Record>
     <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Eliminar Tipo de Nodo</Value>
+    </Record>
+    <Record>
+      <Key>ButtonTransfer</Key>
+      <Value>Transferir</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSurfaceScan</Key>
+      <Value>Escaneo de Superficie</Value>
+    </Record>
+    <Record>
       <Key>StationpediaFermentation</Key>
       <Value>Fermenta en:</Value>
     </Record>
@@ -23490,6 +24003,22 @@ Hay algunas herramientas de la comunidad que puedes usar para convertir partidas
 <Record>
   <Key>ColorPurple</Key>
   <Value>Púrpura</Value>
+</Record>
+<Record>
+  <Key>ColorGold</Key>
+  <Value>Dorado</Value>
+</Record>
+<Record>
+  <Key>ColorBronze</Key>
+  <Value>Bronce</Value>
+</Record>
+<Record>
+  <Key>ColorSilver</Key>
+  <Value>Plateado</Value>
+</Record>
+<Record>
+  <Key>ColorObsidian</Key>
+  <Value>Obsidiana</Value>
 </Record>
 	  </Colors>
 	<Keys>
@@ -28559,19 +29088,19 @@ Estado: {LOCAL:StatusValue}</Value>
 </Record>
 <Record>
   <Key>StationpediaLowFoodQuality</Key>
-  <Value>Baja (-25% hidratación)</Value>
+  <Value>&lt;color=red&gt;Baja&lt;/color&gt; (-25% hidratación)</Value>
 </Record>
 <Record>
   <Key>StationpediaOkFoodQuality</Key>
-  <Value>Aceptable</Value>
+  <Value>&lt;color=orange&gt;Aceptable&lt;/color&gt;</Value>
 </Record>
 <Record>
   <Key>StationpediaGoodFoodQuality</Key>
-  <Value>Buena (+25% hidratación)</Value>
+  <Value>&lt;color=yellow&gt;Buena&lt;/color&gt; (+25% hidratación)</Value>
 </Record>
 <Record>
   <Key>StationpediaSuperiorFoodQuality</Key>
-  <Value>La Mejor (+75% hidratación)</Value>
+  <Value>&lt;color=green&gt;Excelente&lt;/color&gt; (+75% hidratación)</Value>
 </Record>
 <Record>
   <Key>TooltipLowFoodQuality</Key>
@@ -28588,6 +29117,26 @@ Estado: {LOCAL:StatusValue}</Value>
 <Record>
   <Key>TooltipSuperiorFoodQuality</Key>
   <Value>Excelente &lt;color=green&gt;+75% hidratación&lt;/color&gt;</Value>
+</Record>
+<Record>
+  <Key>TooltipFoodQuality</Key>
+  <Value>Calidad de la Comida {LOCAL:Quality}</Value>
+</Record>
+<Record>
+  <Key>FoodQualityBest</Key>
+  <Value>Excelente</Value>
+</Record>
+<Record>
+  <Key>FoodQualityGood</Key>
+  <Value>Buena</Value>
+</Record>
+<Record>
+  <Key>FoodQualityOk</Key>
+  <Value>Aceptable</Value>
+</Record>
+<Record>
+  <Key>FoodQualityLow</Key>
+  <Value>Baja</Value>
 </Record>
 <Record>
   <Key>WaterPurifierCharcoalErrorMsg</Key>

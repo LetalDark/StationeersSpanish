@@ -681,6 +681,14 @@ Tu tasa de sed se puede ajustar en el menú de configuración principal ajustand
 </StationpediaPage>
 
 <StationpediaPage>
+  <Key>SanitationPage</Key>
+  <Title>Saneamiento</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>Con el tiempo, satisfacer la {LINK:HydrationPage;sed} y el {LINK:FoodPage;hambre} de los Stationeers hará que necesiten aliviarse. El {LINK:ODA;ODA} recomienda que los Stationeers instalen un {THING:StructureToiletModern} en su base tras aterrizar, que requiere una atmósfera y {GAS:Water} para funcionar. Esto producirá {GAS:PollutedWater}, que puede reciclarse usando un {THING:StructureWaterPurifier} y luego usarse para otros fines, como la {LINK:FarmingPage;agricultura} o para {LINK:HydrationPage;beber}. La {THING:ItemWasteBagEmpty} puede usarse como alternativa portátil al váter, pero su contenido no es recuperable.
+{LIST_OF_SANITATION}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
   <Key>EVAPage</Key>
   <Title>Trajes EVA</Title>
   <DisplayFilter>Guides</DisplayFilter>

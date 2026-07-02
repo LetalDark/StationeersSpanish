@@ -100,6 +100,18 @@
             <Value>Gravedad Cero</Value>
         </Record>
         <Record>
+            <Key>StatusIconGravityDesc</Key>
+            <Value>Actualmente experimentando ingravidez</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconAccelerationName</Key>
+            <Value>Aceleración</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconAccelerationDesc</Key>
+            <Value>Sometido a fuerzas G excesivas</Value>
+        </Record>
+        <Record>
             <Key>StatusIconJetpackName</Key>
             <Value>Jetpack Activo</Value>
         </Record>
@@ -178,6 +190,26 @@
         <Record>
             <Key>StatusIconHygieneName</Key>
             <Value>Higiene Actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconSanitationName</Key>
+            <Value>Necesidad de Saneamiento</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconSoiledName</Key>
+            <Value>Sucio</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHealingName</Key>
+            <Value>Curación</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconStimulantName</Key>
+            <Value>Estimulante</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconStunNotice</Key>
+            <Value>Aturdimiento</Value>
         </Record>
         <Record>
             <Key>DeconstructCanisterFull</Key>
