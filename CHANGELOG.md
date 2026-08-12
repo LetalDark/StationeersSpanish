@@ -3,6 +3,21 @@
 Cambios de la traducción al español, en lenguaje de usuario. Una entrada por versión publicada
 (el número coincide con la versión del juego). Lo más reciente arriba.
 
+## 0.2.6420.27780
+
+- Traducción actualizada a la versión **6420** del juego (**The Power Line Update**), con todo el
+  contenido nuevo en español:
+  - **Torres Eléctricas**: la torre, su kit, la entrada, la salida y el terminal, para llevar
+    energía y datos a larga distancia entre bases.
+  - **Pistola de Cable**: la nueva herramienta para tender tramos largos de cable, con su
+    munición y descripción completa.
+  - **Cinturón Eléctrico**: el cinturón con seis ranuras para bobinas de cable que recarga la
+    Pistola de Cable y recoge el cable desmontado.
+  - Cables Pesados rectos de 3, 5 y 10 (y sus variantes quemadas) y el Cartucho de Metano del
+    equipo inicial de Zrilian.
+- Actualizada la descripción del Vapor: ahora indica que se crea quemando Hidrógeno y Oxígeno
+  en el Combustor.
+
 ## 0.2.6403.27689
 
 - Traducción actualizada a la versión **6403** del juego (**The Sanitation Update**), con todo el

@@ -1830,6 +1830,13 @@ Para usarla en ti mismo: coloca la cinta adhesiva en tu mano activa, mantén PRE
   <Description>Si hay una pieza de equipo que encarna la vida de un {LINK:Stationeers;Stationeer} por encima de todo, es el humilde cinturón de herramientas (Nota del editor: una reciente encuesta de {LINK:ODA;ODA} sobre el equipo icónico de Stationeer también clasificó muy alto el fumar, las ruinas tóxicas de un horno de {THING:StructureFurnace} sobrepresurizado en medio de los restos carbonizados de tu última base). Diseñado para cumplir con los estándares de seguridad ODA más estrictos, los ocho compartimentos del cinturón sostienen una cosa: herramientas, y {THING:ItemCableCoil}. No debe confundirse con el {THING:ItemMiningBelt}.</Description>
 </RecordThing>
 <RecordThing>
+  <Key>ItemCableToolBelt</Key>
+  <Value>Cinturón Eléctrico</Value>
+  <Description>Un cinturón con dos ranuras para herramientas y seis ranuras restringidas a {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} y {THING:ItemCableCoilSuperHeavy}.
+
+Cuando se lleva puesto, el cinturón recarga la {THING:ItemCableGun} con una bobina compatible en cuanto se agota la propia bobina de la pistola, y recoge el cable desmontado que no quepa en tus manos.</Description>
+</RecordThing>
+<RecordThing>
   <Key>ItemUraniumOre</Key>
   <Value>Mineral (Uranio)</Value>
   <Description>En 1934 Enrico Fermi notó que bombardear uranio con neutrones producía un estallido de rayos beta y un nuevo material. Este proceso fue llamado 'fisión nuclear', y resultó en energía barata, la Guerra Fría y miles de muertes. Aunque es razonablemente común en todo el Sistema Solar, los {LINK:Stationeers;Stationeers} son cautelosos con el material.</Description>
@@ -9259,6 +9266,61 @@ Está refrigerado por líquido para un excelente rendimiento térmico y presume 
       <Value>Panel Solar (1x5)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructurePowerPylonTerminus</Key>
+      <Value>Torre Eléctrica (Terminal)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10Burnt</Key>
+      <Value>Cable Quemado (Recto 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10</Key>
+      <Value>Cable Pesado (Recto 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5Burnt</Key>
+      <Value>Cable Quemado (Recto 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5</Key>
+      <Value>Cable Pesado (Recto 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3Burnt</Key>
+      <Value>Cable Quemado (Recto 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3</Key>
+      <Value>Cable Pesado (Recto 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableGun</Key>
+      <Value>Pistola de Cable</Value>
+      <Description>Crea fácilmente tramos largos de cable recto.
+
+Funciona con {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} y {THING:ItemCableCoilSuperHeavy}. La Pistola de Cable usará las piezas de cable de variante larga siempre que sea posible.
+
+La Pistola de Cable no puede fusionar sus cables con cables que ya estén colocados.
+
+Un tramo solo puede ser tan largo como lo permita la bobina cargada en la pistola; las bobinas de un {THING:ItemCableToolBelt} no lo amplían. Cuando la bobina cargada se agota, se carga automáticamente en la pistola una bobina compatible del cinturón.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonOutput</Key>
+      <Value>Torre Eléctrica (Salida)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonInput</Key>
+      <Value>Torre Eléctrica (Entrada)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylon</Key>
+      <Value>Torre Eléctrica</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerPylon</Key>
+      <Value>Kit (Torre Eléctrica)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCombustor</Key>
       <Value>Combustor</Value>
       <Description>El Combustor realiza la combustión controlada de una mezcla tomada de una entrada de gas y una entrada de líquido. Una rueda de control establece la proporción tomada de cada una, de forma similar al {THING:StructureGasMixer}, y la mezcla combinada se quema antes de pasar a la salida.
@@ -9983,6 +10045,10 @@ Todas las tuberías del bastidor deben estar conectadas o la unidad mostrará un
   <Record>
     <Key>Battery</Key>
     <Value>Batería</Value>
+  </Record>
+  <Record>
+    <Key>CableAmmo</Key>
+    <Value>Munición de Cable</Value>
   </Record>
   <Record>
     <Key>GasCanister</Key>
@@ -20470,7 +20536,7 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
 </Record>
 <Record>
   <Key>MoleSteamDescription</Key>
-  <Value>{GAS:Water} evaporado. Se puede crear elevando la temperatura del {GAS:Water} hasta su punto de ebullición. Cuando se introduce en un tubo, {GAS:Steam} se condensará de nuevo en {GAS:Water} si su temperatura está por debajo de su punto de ebullición. El vapor se puede crear combustiendo {GAS:Methane} y oxígeno utilizando el {THING:H2Combustor}</Value>
+  <Value>{GAS:Water} evaporado. Se puede crear elevando la temperatura del {GAS:Water} hasta su punto de ebullición. Cuando se introduce en un tubo, {GAS:Steam} se condensará de nuevo en {GAS:Water} si su temperatura está por debajo de su punto de ebullición. El vapor se puede crear quemando {GAS:Hydrogen} y {GAS:Oxygen} utilizando el {THING:StructureCombustor}</Value>
 </Record>
 <Record>
   <Key>MoleLiquidOzoneDescription</Key>
@@ -22697,6 +22763,10 @@ Un {THING:StructureWaterPurifier} se puede usar para convertirla de nuevo en {GA
     <Record>
       <Key>SpawnDataVolatilesCanister</Key>
       <Value>Cartucho de Volátiles</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>Cartucho de Metano</Value>
     </Record>
     <Record>
       <Key>SpawnDataHydroponicsSupplies</Key>
