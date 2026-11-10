@@ -3,6 +3,13 @@
 Cambios de la traducción al español, en lenguaje de usuario. Una entrada por versión publicada
 (el número coincide con la versión del juego). Lo más reciente arriba.
 
+## 0.2.6429.27802
+
+- Traducción actualizada a la versión **6429** del juego (**The Terrain Performance Update**):
+  - Nuevas descripciones en la Stationpedia de la **Torre Eléctrica**, su **kit** y la **Torre
+    Eléctrica (Terminal)**: cómo se tienden los tramos con cable súper pesado, su alcance y coste,
+    y cómo se conectan a la red de tu base.
+
 ## 0.2.6420.27780
 
 - Traducción actualizada a la versión **6420** del juego (**The Power Line Update**), con todo el

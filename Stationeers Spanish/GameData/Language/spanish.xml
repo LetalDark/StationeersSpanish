@@ -9268,6 +9268,11 @@ Está refrigerado por líquido para un excelente rendimiento térmico y presume 
     <RecordThing>
       <Key>StructurePowerPylonTerminus</Key>
       <Value>Torre Eléctrica (Terminal)</Value>
+      <Description>Conecta una línea de torres a una red de cable ordinaria.
+
+La torre terminal cuenta como un tramo de cable súper pesado, de modo que todo lo accesible a través de la línea pasa a formar una única red con todo lo cableado a la torre terminal.
+
+Tiene un único nodo, que admite un tramo de {THING:ItemCableCoilSuperHeavy}. Una torre terminal no puede enlazar directamente con otra torre terminal; el tramo tiene que pasar por al menos una {THING:StructurePowerPylon}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightH10Burnt</Key>
@@ -9315,10 +9320,20 @@ Un tramo solo puede ser tan largo como lo permita la bobina cargada en la pistol
     <RecordThing>
       <Key>StructurePowerPylon</Key>
       <Value>Torre Eléctrica</Value>
+      <Description>Transporta energía por terreno donde tender cable resulta poco práctico.
+
+Las torres se tienden con {THING:ItemCableCoilSuperHeavy}. Sostén una bobina, haz clic en un nodo para iniciar un tramo y en otro nodo para terminarlo. Un solo tramo alcanza 40 m y cuesta entre 5 y 30 unidades de bobina según la distancia que cubra, y el cable debe tener un camino despejado, así que el terreno, las paredes y las estructuras entre los dos nodos rechazarán el enlace.
+
+Una torre tiene dos nodos y cada nodo admite un tramo, por lo que una torre prolonga una línea en lugar de ramificarla. Corta un tramo con el {THING:ItemWireCutters} para recuperar su cable; al desmontar una torre se devuelve el cable de todos los tramos que sigan conectados.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerPylon</Key>
       <Value>Kit (Torre Eléctrica)</Value>
+      <Description>Construye todas las piezas de una línea de torres eléctricas.
+
+Dos kits levantan una {THING:StructurePowerPylon}, y un kit coloca una {THING:StructurePowerPylonTerminus}.
+
+La línea en sí se tiende por separado, usando {THING:ItemCableCoilSuperHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCombustor</Key>
